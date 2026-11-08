@@ -170,11 +170,11 @@ function verGruposCoches(id) {
   }
 
   cont.innerHTML = listaGruposFiltrada.map((h, i) =>
-    '<button class="boton-grupo" onclick="abrirGrupo(' + i + ')">' +
+    '<div class="fila-grupo"><button class="boton-grupo" onclick="abrirGrupo(' + i + ')">' +
       '<div class="grupo-titulo">' + (h.nombre || 'Grupo') + '</div>' +
       '<div class="grupo-sub">' + (h.tipoDia || '') + '</div>' +
       '<div class="grupo-accion">Elegir horario ▶</div>' +
-    '</button>'
+    '</button><button class="estrella-grupo" title="Guardar en favoritos" onclick="guardarGrupoDesdeLista(' + i + ')">⭐</button></div>'
   ).join('');
   
   irA('pantalla-horarios');
@@ -302,10 +302,7 @@ function guardarGrupoFavorito() {
   
   document.getElementById('modalFavorito').classList.remove('oculto');
   document.getElementById('nombreGrupo').value = '';
-  const cont = document.getElementById('gruposExistentes');
-  cont.innerHTML = favoritos.grupos.map((g, i) =>
-    '<span class="grupo-opcion" onclick="document.getElementById(\'nombreGrupo\').value=\'' + g.nombre + '\'; this.classList.add(\'seleccionado\')">' + g.nombre + '</span>'
-  ).join('');
+  pintarGruposExistentes();
 }
 
 // ---------- LÓGICA DEL MANUAL ----------
@@ -362,37 +359,91 @@ function abrirModalFavorito() {
   };
   document.getElementById('modalFavorito').classList.remove('oculto');
   document.getElementById('nombreGrupo').value = '';
-  const cont = document.getElementById('gruposExistentes');
-  cont.innerHTML = favoritos.grupos.map((g, i) =>
-    '<span class="grupo-opcion" onclick="document.getElementById(\'nombreGrupo\').value=\'' + g.nombre + '\'; this.classList.add(\'seleccionado\')">' + g.nombre + '</span>'
-  ).join('');
+  pintarGruposExistentes();
 }
 
 function cerrarModal() { document.getElementById('modalFavorito').classList.add('oculto'); }
 
+function pintarGruposExistentes() {
+  const f = favoritoPendiente || {};
+  const info = document.getElementById('favInfo');
+  if (info) info.textContent = 'L' + f.lineaId + ' · ' + (f.grupo || '') + (f.coche ? ' · ' + f.coche : ' · grupo completo');
+  const cont = document.getElementById('gruposExistentes');
+  cont.innerHTML = '';
+  favoritos.grupos.forEach(g => {
+    const s = document.createElement('span');
+    s.className = 'grupo-opcion';
+    s.textContent = g.nombre;
+    s.onclick = () => {
+      document.getElementById('nombreGrupo').value = g.nombre;
+      cont.querySelectorAll('.grupo-opcion').forEach(x => x.classList.remove('seleccionado'));
+      s.classList.add('seleccionado');
+    };
+    cont.appendChild(s);
+  });
+}
+
+function guardarGrupoDesdeLista(i) {
+  grupoActual = listaGruposFiltrada[i];
+  guardarGrupoFavorito();
+}
+
+function guardarFavs() { localStorage.setItem('auvasa_favoritos', JSON.stringify(favoritos)); }
+
 function guardarFavorito() {
   const nombre = document.getElementById('nombreGrupo').value.trim();
-  if (!nombre) return;
-  let grupo = favoritos.grupos.find(g => g.nombre.toLowerCase() === nombre.toLowerCase());
-  if (!grupo) { grupo = { nombre: nombre, horarios: [] }; favoritos.grupos.push(grupo); }
-  grupo.horarios.push(favoritoPendiente);
-  localStorage.setItem('auvasa_favoritos', JSON.stringify(favoritos));
+  if (!nombre) { document.getElementById('nombreGrupo').focus(); return; }
+  let carpeta = favoritos.grupos.find(g => g.nombre.toLowerCase() === nombre.toLowerCase());
+  if (!carpeta) { carpeta = { nombre: nombre, horarios: [] }; favoritos.grupos.push(carpeta); }
+  const f = favoritoPendiente;
+  const repetido = carpeta.horarios.some(h => h.lineaId === f.lineaId && h.grupo === f.grupo && (h.coche || null) === (f.coche || null));
   cerrarModal();
-  alert('Guardado en ' + nombre);
+  if (repetido) { alert('Ya estaba guardado en ' + carpeta.nombre); return; }
+  carpeta.horarios.push(f);
+  guardarFavs();
+  alert('Guardado en ' + carpeta.nombre);
 }
 
 function renderFavoritos() {
   const cont = document.getElementById('contenido-favoritos');
+  cont.innerHTML = '';
   if (!favoritos.grupos.length) {
-    cont.innerHTML = '<p style="text-align:center;padding:40px;">No hay favoritos.</p>'; return;
+    cont.innerHTML = '<p style="text-align:center;padding:40px;">Aún no hay favoritos.<br>Pulsa ⭐ junto a un horario para guardarlo.</p>';
+    return;
   }
-  cont.innerHTML = favoritos.grupos.map((g, gi) =>
-    '<div class="grupo-favoritos"><h3>📁 ' + g.nombre + '</h3>' +
-    g.horarios.map((f, fi) =>
-      '<div class="favorito-item"><div><b>L' + f.lineaId + ' · ' + (f.coche || f.grupo) + '</b><br><small>' + f.tipoDia + '</small></div>' +
-      '<button onclick="favoritos.grupos[' + gi + '].horarios.splice(' + fi + ',1); renderFavoritos();">🗑️</button></div>'
-    ).join('') + '</div>'
-  ).join('');
+  favoritos.grupos.forEach((g, gi) => {
+    const caja = document.createElement('div'); caja.className = 'grupo-favoritos';
+    const cab = document.createElement('div'); cab.className = 'fav-cab';
+    const h3 = document.createElement('h3'); h3.textContent = '📁 ' + g.nombre; cab.appendChild(h3);
+    const del = document.createElement('button'); del.className = 'fav-borrar'; del.textContent = '🗑️ Carpeta';
+    del.onclick = () => { if (confirm('¿Borrar la carpeta "' + g.nombre + '" y todo lo que contiene?')) { favoritos.grupos.splice(gi, 1); guardarFavs(); renderFavoritos(); } };
+    cab.appendChild(del); caja.appendChild(cab);
+    g.horarios.forEach((f, fi) => {
+      const fila = document.createElement('div'); fila.className = 'favorito-item';
+      const ir = document.createElement('button'); ir.className = 'fav-ir';
+      const b = document.createElement('b'); b.textContent = 'L' + f.lineaId + ' · ' + (f.grupo || '') + (f.coche ? ' · ' + f.coche : '');
+      const sm = document.createElement('small'); sm.textContent = f.tipoDia || '';
+      ir.appendChild(b); ir.appendChild(sm);
+      ir.onclick = () => abrirFavorito(f);
+      const x = document.createElement('button'); x.textContent = '🗑️'; x.title = 'Quitar';
+      x.onclick = () => { g.horarios.splice(fi, 1); if (!g.horarios.length) favoritos.grupos.splice(gi, 1); guardarFavs(); renderFavoritos(); };
+      fila.appendChild(ir); fila.appendChild(x); caja.appendChild(fila);
+    });
+    cont.appendChild(caja);
+  });
+}
+
+function abrirFavorito(f) {
+  const linea = DATOS.lineas.find(l => l && l.id === f.lineaId);
+  const idx = linea ? (linea.horarios || []).findIndex(h => h.nombre === f.grupo && (!f.tipoDia || h.tipoDia === f.tipoDia)) : -1;
+  if (idx < 0) { alert('Este horario ya no existe en los datos. Bórralo y vuelve a guardarlo.'); return; }
+  lineaActual = linea;
+  listaGruposFiltrada = linea.horarios;
+  abrirGrupo(idx);
+  if (f.coche) {
+    const c = grupoActual.cochesDetalle.findIndex(x => x.nombre === f.coche);
+    if (c >= 0) verDetalleCoche(c);
+  }
 }
 
 function buscar(t) {

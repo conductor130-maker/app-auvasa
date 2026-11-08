@@ -223,3 +223,18 @@ body.dark .grupo-favoritos h3 { color: #6BB6E8; }
   color: var(--texto);
 }
 .btn-manual:active { background: var(--fondo); }
+
+/* ===== FAVORITOS: accesos directos ===== */
+.fila-grupo { display: flex; gap: 8px; align-items: stretch; }
+.fila-grupo .boton-grupo { flex: 1; }
+.estrella-grupo { flex: 0 0 56px; border: 2px solid var(--amarillo); background: var(--tarjeta); border-radius: 14px; font-size: 1.5rem; cursor: pointer; }
+.estrella-grupo:active { background: var(--amarillo); }
+.fav-info { margin-bottom: 12px; font-weight: 700; color: var(--azul); }
+body.dark .fav-info { color: #6BB6E8; }
+.fav-cab { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 6px; }
+.fav-cab h3 { margin: 0 !important; }
+.fav-borrar { background: transparent; border: 1px solid var(--borde); border-radius: 8px; color: var(--rojo); padding: 6px 10px; font-size: 0.8rem; cursor: pointer; font-family: inherit; }
+.favorito-item { gap: 8px; }
+.favorito-item .fav-ir { flex: 1; text-align: left; color: var(--texto); font-family: inherit; font-size: 0.95rem; padding: 6px 0; }
+.fav-ir b { display: block; }
+.fav-ir small { color: var(--texto-secundario); }
