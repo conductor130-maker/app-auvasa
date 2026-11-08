@@ -1,0 +1,221 @@
+{
+  "lineas": [
+      {
+      "id": "F1",
+      "nombre": "Fútbol 1: El Peral – Rubia – Arturo Eyries – Estadio",
+      "tipo": "futbol",
+      "paginaRecorridoPDF": 167,
+      "recorridos": [
+        {
+          "sentido": "Ida: El Peral → Estadio",
+          "paradas": ["C/ Maracuyá esq. Mango", "C/ Aguacate 20", "C/ Melón 1 esq. Cañada Real", "C/ Miguel Delibes 14", "C/ Miguel Delibes 40 esq. Miguel de Unamuno", "Pza. Castilla y León 1", "Ctra. Rueda 131 Centro Deportivo", "Pº Zorrilla 203 esq. Vinos de Cigales", "Pº Zorrilla 187 esq. Vinos Vega Sicilia", "Pº Zorrilla 153 fte. Centro Comercial", "Pº Zorrilla 133 Bº La Rubia", "Pº Zorrilla 101 LAVA", "Pza. Dr. Quemada Ig. Santo Domingo Guzmán", "Avda. Medina del Campo fte. Barlovento", "Avda. Medina del Campo fte. 19 Centro Salud Arturo Eyries", "Avda. Mundial 82 Estadio José Zorrilla"]
+        },
+        {
+          "sentido": "Vuelta: Estadio → El Peral",
+          "paradas": ["Avda. Mundial 82 Estadio José Zorrilla", "Avda. Medina del Campo 15 fte. Centro Salud Arturo Eyries", "Avda. Medina del Campo esq. Barlovento", "Pº Zorrilla 166 fte. LAVA", "Pº Zorrilla 198 Bº La Rubia", "Pº Zorrilla 238 Centro Comercial", "Pº Zorrilla 346 esq. Vinos Ribera de Duero", "Pº Zorrilla 364 esq. Vinos de Rueda", "Ctra. Rueda 204 fte. Centro Deportivo", "Pza. Castilla y León 4 esq. Miguel Delibes", "C/ Miguel Delibes 1", "C/ Melón esq. Cañada Real", "C/ Alcaparra 21 esq. Pomelo", "C/ Maracuyá esq. Mango"]
+        }
+      ],
+      "letreros": ["F1 ESTAD.FUTBOL", "F1 EL PERAL"],
+      "notas": ["Los autobuses parten del inicio del trayecto una hora antes del comienzo oficial del partido.", "Subirá por Avda. Salamanca, Padre José Acosta, Avda. Mundial 82 y Estadio. Bajará por Avda. del Real Valladolid, Avda. Salamanca..."],
+      "horarios": [
+        {
+          "nombre": "Servicio Fútbol",
+          "tipoDia": "Días de partido",
+          "coches": null,
+          "paginaPDF": 167,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Horario 1",
+              "primeraSalida": "1 hora antes del partido",
+              "retirada": "—",
+              "salidas": [
+                {"cabecera": "EL PERAL", "hora": "1 hora antes"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "id": "F2",
+      "nombre": "Fútbol 2: La Cistérniga – Delicias – Estadio",
+      "tipo": "futbol",
+      "paginaRecorridoPDF": 168,
+      "recorridos": [
+        {
+          "sentido": "Ida: La Cistérniga → Estadio",
+          "paradas": ["Camino de Las Yeseras Polideportivo Municipal", "C/ Cuesta Redonda piscinas Municipales", "Pza. Mayor fte. 29 (La Cistérniga)", "C/ Lucio Zumel esq. Avda. Soria", "Avda. Soria 32 (La Cistérniga)", "Avda. Mundial 82 Estadio José Zorrilla", "Pza. Juan de Austria Centro Comercial", "C/ Puente Colgante 47", "C/ Recondo 4 fte. Estación de Autobuses", "C/ Estación del Norte RENFE", "C/ General Ruiz 4", "Pza. Cruz Verde 5", "Pza. Circular 11 lg. Corazón de María", "C/ Cádiz 4 esq. Bilbao", "Pª San Vicente 16 esq. Álava", "Avda. Segovia fte. 57", "C/ Embajadores 4 esq. Pª Farnesio", "Avda. Segovia fte. lg. del Carmen", "C/ Embajadores 60 fte. Esc. Oficial de Idiomas", "C/ Embajadores 74 esq. Hornija", "C/ Embajadores 92 esq. La Transición", "C/ Embajadores esq. Padre Benito Menni", "C/ Miguel Ruiz de Temiño esq. Pª Juan Carlos I", "C/ Armonio 26 esq. Castañuelas", "C/ Dulzaina 2 Hospital Río Hortega", "C/ Dulzaina esq. Arribes del Duero"]
+        },
+        {
+          "sentido": "Vuelta: Estadio → La Cistérniga",
+          "paradas": ["Avda. Mundial 82 Estadio José Zorrilla", "C/ Dulzaina esq. Palillos (PARADA DE CONTROL)", "C/ Castañuelas esq. Carraca", "C/ Armonio esq. Laúd", "C/ Miguel Ruiz de Temiño esq. Pª Juan Carlos I sentido centro", "C/ Embajadores 71", "C/ Embajadores 57 esq. La Transición", "C/ Embajadores fte. 72 esq. Hornija", "C/ Embajadores fte. 58 Esc. Oficial de Idiomas", "Avda. Segovia lg. del Carmen", "Avda. Segovia 99 esq. Olmedo", "Avda. Segovia 57 esq. Pª San Vicente", "Pª San Vicente 35 esq. Sevilla", "C/ Cádiz 15", "C/ Málaga esq. Bilbao", "Pza. Circular 7 esq. Industrias", "C/ Nicolás Salmerón 19 esq. Labradores", "C/ Recondo 23 esq. Acera Recoletos", "C/ Puente Colgante 2 Estación de Autobuses", "C/ Puente Colgante 18 esq. Gabilondo", "Pª Zorrilla 88 fte. Pza. de Toros", "Pza. Juan de Austria fte. Centro Comercial (***)", "Avda. Mundial 82 Estadio José Zorrilla", "Avda. Soria fte. 32 (La Cistérniga)", "C/ San Cristóbal 15 esq. Avda. Soria", "Pza. Mayor 29 (La Cistérniga)", "Avda. Julián Merino Lápice piscinas Municipales", "Camino de Las Yeseras Polideportivo Municipal"]
+        }
+      ],
+      "letreros": ["F2 ESTAD.FUTBOL", "F2 DELICIAS", "F2 DELICIAS-CISTERNIGA"],
+      "notas": ["Los autobuses parten del inicio del trayecto una hora antes del comienzo oficial del partido.", "(*) El autobús con salida desde LA CISTÉRNIGA parte del inicio del trayecto una hora y quince minutos antes del comienzo oficial del partido.", "(**) Desde La Cistérniga hasta la VA-20 (Ronda Este) irá como línea 18 (haciendo las paradas indicadas), izquierda VA-20 (Ronda Este) y derecha Dulzaina.", "(***) Subirá por Avda. Salamanca, Padre José Acosta, Avda. Mundial 82 y Estadio. Bajará por Avda. del Real Valladolid, Avda. Salamanca, puente Juan de Austria...", "(****) Desde Dulzaina hará izquierda hacia VA-20 (Ronda Este), derecha avda. Soria continuando como línea 18 (haciendo las paradas indicadas)."],
+      "horarios": [
+        {
+          "nombre": "Servicio Fútbol",
+          "tipoDia": "Días de partido",
+          "coches": null,
+          "paginaPDF": 168,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Horario 1",
+              "primeraSalida": "1 hora antes del partido",
+              "retirada": "—",
+              "salidas": [
+                {"cabecera": "LA CISTÉRNIGA", "hora": "1h 15min antes"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "id": "F3",
+      "nombre": "Fútbol 3: Las Flores – Pajarillos – Doctrinos – Estadio",
+      "tipo": "futbol",
+      "paginaRecorridoPDF": 169,
+      "recorridos": [
+        {
+          "sentido": "Ida: Las Flores → Estadio",
+          "paradas": ["C/ Azucena 18 esq. Dalia", "C/ Azalea fte. 6", "C/ Santa María de la Cabeza fte. 9", "C/ Santa María de la Cabeza fte. 39", "C/ Villabáñez 131 esq. Cº Viejo del Polvorín", "C/ Villabáñez 55 esq. Golondrina", "Pº Juan Carlos I esq. Abejaruco", "C/ Puente La Reina 67", "C/ Templarios 6 esq. Puente La Reina", "C/ Cigüeña 41 esq. Villabáñez", "C/ Cigüeña 21", "C/ Cigüeña 1 esq. San Isidro", "Pza. Circular 7 esq. Industrias", "C/ Nicolás Salmerón 19 esq. Labradores", "Pza. Caño Argales", "Pza. Madrid 2", "C/ Doctrinos 12 esq. María de Molina", "Avda. Miguel Ángel Blanco 2 fte. Pza. del Milenio", "C/ Joaquín Velasco Martín 20 esq. Francesco Scrimieri", "C/ Joaquín Velasco Martín 54 fte. Polid. Huerta del Rey (*)", "Avda. Mundial 82 Estadio José Zorrilla"]
+        },
+        {
+          "sentido": "Vuelta: Estadio → Las Flores",
+          "paradas": ["Avda. Mundial 82 Estadio José Zorrilla", "C/ Joaquín Velasco Martín 9 Polid. Huerta del Rey", "C/ Joaquín Velasco Martín 3 Col. La Inmaculada", "C/ Joaquín Velasco Martín 1 esq. Avda. Gloria Fuertes", "Pza. Poniente fte. Jorge Guillén", "Pza. Fuente Dorada", "C/ López Gómez 13 esq. Fray Luis de León", "C/ Panaderos 2 esq. Pza. España", "Pza. Cruz Verde 5", "Pza. Circular 11 Ig. Corazón de María", "C/ Cigüeña 4 Ig. San Isidro", "C/ Cigüeña 14", "C/ Cigüeña 40 esq. Villabáñez", "C/ Templarios 3 esq. Puente La Reina", "C/ Puente La Reina 30", "Cº Viejo del Polvorín 12", "Cº Viejo del Polvorín esq. Villabáñez", "C/ Santa María de la Cabeza 39", "C/ Santa María de la Cabeza 9", "C/ Azalea esq. Alhelí", "C/ Azucena 18 esq. Dalia"]
+        }
+      ],
+      "letreros": ["F3 ESTAD.FUTBOL", "F3 LAS FLORES"],
+      "notas": ["Los autobuses parten del inicio del trayecto una hora antes del comienzo oficial del partido.", "(*) Subirá por Padre José Acosta, Avda. Mundial 82 y Estadio.", "Bajará por Avda. del Real Valladolid, Avda. Salamanca, Avda. Sánchez Arjona..."],
+      "horarios": [
+        {
+          "nombre": "Servicio Fútbol",
+          "tipoDia": "Días de partido",
+          "coches": null,
+          "paginaPDF": 169,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Horario 1",
+              "primeraSalida": "1 hora antes del partido",
+              "retirada": "—",
+              "salidas": [
+                {"cabecera": "LAS FLORES", "hora": "1 hora antes"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "id": "F4",
+      "nombre": "Fútbol 4: Los Santos Pilarica – Pilarica – Pza. San Juan – Pza. España – Doctrinos – Estadio",
+      "tipo": "futbol",
+      "paginaRecorridoPDF": 170,
+      "recorridos": [
+        {
+          "sentido": "Ida: Los Santos Pilarica → Estadio",
+          "paradas": ["C/ Cometa esq. Cosmología", "C/ Cometa esq. Pº Juan Carlos I", "C/ Andrómeda fte. Orden de Malta", "Pº del Cauce fte. Ing. Industriales", "Pº del Cauce fte. Centro Salud Pilarica", "C/ Renedo 29", "Pza. San Juan", "C/ Fidel Recio 1 esq. Alonso Pesquera", "C/ Santuario 5 esq. López Gómez", "Pza. España Bola del Mundo", "C/ Doctrinos 12 esq. María de Molina", "Avda. Miguel Ángel Blanco 2 fte. Pza. del Milenio (*)", "Avda. Mundial 82 Estadio José Zorrilla"]
+        },
+        {
+          "sentido": "Vuelta: Estadio → Los Santos Pilarica",
+          "paradas": ["Avda. Mundial 82 Estadio José Zorrilla", "C/ Joaquín Velasco Martín 3 Col. La Inmaculada", "C/ Joaquín Velasco Martín 1 esq. Avda. Gloria Fuertes", "Pza. Poniente fte. Jorge Guillén", "Pza. Fuente Dorada", "C/ López Gómez 13 esq. Fray Luis de León", "C/ Panaderos 2 esq. Pza. España", "C/ Labradores 1 esq. Pza. Cruz Verde", "C/ Alonso Pesquera 5 esq. Fidel Recio", "Pza. Colegio Santa Cruz 9", "C/ Verbena esq. Nicasio Pérez", "C/ Santa Lucía 62 esq. Pza. Luis Braille", "Pº del Cauce Centro Salud Pilarica", "Pº del Cauce Ing. Industriales", "C/ Andrómeda esq. Orden de Malta", "C/ Cometa 4", "C/ Cometa esq. Astrofísica", "C/ Cometa esq. Cosmología"]
+        }
+      ],
+      "letreros": ["F4 ESTAD.FUTBOL", "F4 LOS SANTOS P"],
+      "notas": ["Los autobuses parten del inicio del trayecto una hora antes del comienzo oficial del partido.", "(*) Subirá por Avda. Salamanca, Padre José Acosta, Avda. Mundial 82 y Estadio.", "Bajará por Avda. del Real Valladolid, Avda. Salamanca, Avda. Miguel Ángel Blanco..."],
+      "horarios": [
+        {
+          "nombre": "Servicio Fútbol",
+          "tipoDia": "Días de partido",
+          "coches": null,
+          "paginaPDF": 170,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Horario 1",
+              "primeraSalida": "1 hora antes del partido",
+              "retirada": "—",
+              "salidas": [
+                {"cabecera": "LOS SANTOS PILARICA", "hora": "1 hora antes"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "id": "F5",
+      "nombre": "Fútbol 5: Bº Belén – Angustias – Doctrinos – Huerta del Rey – Estadio",
+      "tipo": "futbol",
+      "paginaRecorridoPDF": 171,
+      "recorridos": [
+        {
+          "sentido": "Ida: Bº Belén → Estadio",
+          "paradas": ["Avda. Valle Esgueva 87 esq. Pº Belén", "Avda. Valle Esgueva 41 fte. Económicas", "C/ Madre de Dios 29 fte. Facultad de Comercio", "C/ Madre de Dios 15", "C/ Chancillería 5", "C/ Angustias 5 Teatro Calderón", "Pza. Universidad esq. López Gómez", "Pza. España Bola del Mundo", "C/ Doctrinos 12 esq. María de Molina", "Avda. Miguel Ángel Blanco 2 fte. Pza. del Milenio", "C/ Joaquín Velasco Martín 20 esq. Francesco Scrimieri", "C/ Joaquín Velasco Martín 54 fte. Polid. Huerta del Rey (*)", "Avda. Mundial 82 Estadio José Zorrilla"]
+        },
+        {
+          "sentido": "Vuelta: Estadio → Bº Belén",
+          "paradas": ["Avda. Mundial 82 Estadio José Zorrilla", "C/ Joaquín Velasco Martín 9 Polid. Huerta del Rey", "C/ Joaquín Velasco Martín 3 Col. La Inmaculada", "C/ Joaquín Velasco Martín 1 esq. Avda. Gloria Fuertes", "Pza. Poniente fte. Jorge Guillén", "Pza. Fuente Dorada", "C/ Bajada de La Libertad 10 fte. Teatro Calderón", "Avda. Ramón y Cajal 3 Hosp. Clínico", "C/ Chancillería 4 Biblioteca Reina Sofía", "C/ Madre de Dios 20 Facultad de Comercio", "Avda. Valle Esgueva 6 Económicas", "Avda. Valle Esgueva fte. 81 esq. Incienso"]
+        }
+      ],
+      "letreros": ["F5 ESTAD.FUTBOL", "F5 Bº BELÉN"],
+      "notas": ["Los autobuses parten del inicio del trayecto una hora antes del comienzo oficial del partido.", "(*) Subirá por Padre José Acosta, Avda. Mundial 82 y Estadio.", "Bajará por Avda. del Real Valladolid, Avda. Salamanca, Francisco Mendizábal..."],
+      "horarios": [
+        {
+          "nombre": "Servicio Fútbol",
+          "tipoDia": "Días de partido",
+          "coches": null,
+          "paginaPDF": 171,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Horario 1",
+              "primeraSalida": "1 hora antes del partido",
+              "retirada": "—",
+              "salidas": [
+                {"cabecera": "Bº BELÉN", "hora": "1 hora antes"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "id": "F6",
+      "nombre": "Fútbol 6: San Pedro Regalado – Estadio",
+      "tipo": "futbol",
+      "paginaRecorridoPDF": 172,
+      "recorridos": [
+        {
+          "sentido": "Ida: San Pedro Regalado → Estadio",
+          "paradas": ["Pza. Carmen Ferreiro Bº San Pedro Regalado", "Avda. Santander Centro Comercial", "Avda. Santander 49 Bº España", "Avda. Santander Poblado Endasa (1)", "Avda. Palencia 41 Policía Municipal", "C/ Moradas 31 esq. Nebrija", "C/ Moradas 21 esq. Cardenal Cisneros", "C/ Cardenal Torquemada fte. 16", "C/ Rondilla de Santa Teresa fte. antiguo Hosp. Río Hortega", "Pza. San Nicolás 13", "C/ Fuente El Sol 2 esq. Pza. San Bartolomé", "C/ Júpiter fte. 12 esq. Comuneros de Castilla", "Avda. Gijón 26 Canal", "Avda. Ramón Pradera 15-17", "Avda. Ramón Pradera fte. 10", "Avda. Ramón Pradera Feria de Valladolid", "Avda. Miguel Ángel Blanco 5 esq. Avda. Salamanca (*)", "Avda. Mundial 82 Estadio José Zorrilla"]
+        },
+        {
+          "sentido": "Vuelta: Estadio → San Pedro Regalado",
+          "paradas": ["Avda. Mundial 82 Estadio José Zorrilla", "C/ Pío del Río Hortega 9", "Avda. Ramón Pradera fte. Feria de Valladolid", "C/ Bálago esq. Avda. Ramón Pradera", "C/ Sementera esq. Mieses", "C/ Mieses fte. 8", "Avda. Gijón 3 fte. Canal", "Avda. Gijón 1 esq. Pza. San Bartolomé", "C/ La Victoria fte. 31 esq. San Sebastián", "C/ Tirso de Molina fte. Seminario", "C/ Card. Torquemada esq. Tirso de Molina", "C/ Card. Cisneros esq. San Juan de Ávila", "C/ Cerrada 1 esq. Santa Clara", "Avda. Palencia fte. 41 esq. Amor de Dios", "Avda. Santander fte. Poblado Endasa", "Avda. Santander 8 fte. Bº España", "Pza. Carmen Ferreiro Bº San Pedro Regalado"]
+        }
+      ],
+      "letreros": ["F6 ESTAD.FUTBOL", "F6 SAN PEDRO R."],
+      "notas": ["(1) Parada de AVDA. SANTANDER POBLADO DE ENDASA: Es obligatorio ENTRAR SIEMPRE en la vía de servicio de esta parada, haya o no viajeros.", "Los autobuses parten del inicio del trayecto una hora antes del comienzo oficial del partido.", "(*) Subirá por Avda. Salamanca, Padre José Acosta, Avda. Mundial 82 y Estadio.", "Bajará por Avda. del Real Valladolid, Avda. Salamanca, Avda. Miguel Ángel Blanco..."],
+      "horarios": [
+        {
+          "nombre": "Servicio Fútbol",
+          "tipoDia": "Días de partido",
+          "coches": null,
+          "paginaPDF": 172,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Horario 1",
+              "primeraSalida": "1 hora antes del partido",
+              "retirada": "—",
+              "salidas": [
+                {"cabecera": "SAN PEDRO REGALADO", "hora": "1 hora antes"}
+                
+                ]}
+        ]}]}]}

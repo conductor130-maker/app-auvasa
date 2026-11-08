@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#005AA0">
+  <title>Horarios AUVASA</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="gtfs.css">
+</head>
+<body>
+
+<!-- BOTÓN FLOTANTE PARA VOLVER -->
+<button id="btn-volver-flotante" class="btn-flotante oculto" onclick="volverAtras()">← Atrás</button>
+
+<header class="cabecera">
+  <div class="cabecera-top">
+    <h1>🚌 AUVASA Horarios</h1>
+    <div class="acciones">
+      <button id="btnBuscar" title="Buscar">🔍</button>
+      <button id="btnOscuro" title="Modo oscuro">🌓</button>
+      <button id="btnFavoritos" title="Mis turnos">⭐</button>
+    </div>
+  </div>
+  <div id="barraBusqueda" class="barra-busqueda oculto">
+    <input type="search" id="inputBusqueda" placeholder="Buscar línea, parada, barrio, código...">
+    <div id="resultadosBusqueda"></div>
+  </div>
+</header>
+
+<main id="app">
+  <section id="pantalla-tipos" class="pantalla activa">
+    <div class="grid-tipos" id="grid-tipos"></div>
+  </section>
+
+  <section id="pantalla-lineas" class="pantalla">
+    <h2 id="titulo-tipo"></h2>
+    <div class="grid-lineas" id="grid-lineas"></div>
+  </section>
+
+  <section id="pantalla-recorrido" class="pantalla">
+    <h2 id="titulo-recorrido"></h2>
+    <div id="contenido-recorrido"></div>
+  </section>
+
+  <section id="pantalla-horarios" class="pantalla">
+    <h2 id="titulo-horarios"></h2>
+    <div id="filtros-dia"></div>
+    <div id="lista-horarios"></div>
+  </section>
+
+  <section id="pantalla-coches" class="pantalla">
+    <h2 id="titulo-coches"></h2>
+    <div id="lista-coches"></div>
+  </section>
+
+  <section id="pantalla-detalle" class="pantalla">
+    <div id="detalle-horario"></div>
+  </section>
+
+  <!-- NUEVA PANTALLA PARA EL MANUAL -->
+  <section id="pantalla-manual" class="pantalla">
+    <h2 id="titulo-manual">Manual y Normativa</h2>
+    <div id="lista-manual" class="grid-tipos" style="grid-template-columns: 1fr; gap: 10px;"></div>
+    <div id="contenido-manual" class="bloque-recorrido" style="margin-top: 20px;"></div>
+  </section>
+
+  <section id="pantalla-gtfs" class="pantalla">
+    <div class="gx">
+      <h2>📡 Red pública y tiempo real</h2>
+      <div class="gx-bar"><span id="meta">Sin datos cargados</span><label class="btn">Cargar GTFS (.zip)<input id="file" type="file" hidden></label><button id="rtb" class="ghost">Tiempo real</button></div>
+      <main id="gx-app" class="gx-main"></main>
+    </div>
+  </section>
+
+  <section id="pantalla-favoritos" class="pantalla">
+    <h2>⭐ Mis Turnos Favoritos</h2>
+    <div id="contenido-favoritos"></div>
+  </section>
+</main>
+
+<div id="modalFavorito" class="modal oculto">
+  <div class="modal-contenido">
+    <h3>Añadir a favoritos</h3>
+    <label for="nombreGrupo">Nombre del grupo:</label>
+    <input type="text" id="nombreGrupo" placeholder="Ej: Diario invierno, Sábados...">
+    <div id="gruposExistentes"></div>
+    <div class="modal-botones">
+      <button class="btn-secundario" onclick="cerrarModal()">Cancelar</button>
+      <button class="btn-primario" onclick="guardarFavorito()">Guardar</button>
+    </div>
+  </div>
+</div>
+
+<script src="gtfs.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

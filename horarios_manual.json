@@ -1,0 +1,39 @@
+{
+  "lineas": [
+    {
+      "id": "MANUAL",
+      "nombre": "Manual y Normativa",
+      "tipo": "manual",
+      "paginaRecorridoPDF": 2,
+      "recorridos": [
+        {
+          "sentido": "Mas datos 1",
+          "paradas": [
+            "Aquí va el texto de la sección 1.",
+            "Puedes poner tantas líneas como quieras.",
+            "Por ejemplo: 1.1 Inicio del servicio..."
+          ]
+        },
+        {
+          "sentido": "Mas datos 2",
+          "paradas": [
+            "Texto de la sección 2.",
+            "Más información de la sección 2."
+          ]
+        },
+        {
+          "sentido": "Mas datos 3",
+          "paradas": [
+            "Texto de la sección 3."
+          ]
+        },
+        {
+          "sentido": "Mas datos 4",
+          "paradas": [
+            "Texto de la sección 4."
+          ]
+        }
+      ]
+    }
+  ]
+}

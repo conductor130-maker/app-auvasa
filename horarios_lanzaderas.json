@@ -1,0 +1,184 @@
+{
+  "lineas": [
+      {
+      "id": "LC",
+      "nombre": "Lanzadera LC: Covaresa – Estaciones – Centro Ciudad",
+      "tipo": "lanzadera",
+      "paginaRecorridoPDF": 136,
+      "recorridos": [
+        {
+          "sentido": "Ida: Covaresa → Duque de la Victoria",
+          "paradas": ["Pza. Castilla y León 1", "Ctra. Rueda 131 Centro Deportivo", "Pº Zorrilla 203 esq. Vinos de Cigales", "Pº Zorrilla 187 esq. Vinos Vega Sicilia", "Pº Zorrilla 153 fte. Centro Comercial", "Pº Zorrilla 101 LAVA", "Pº Zorrilla 65 fte. Centro Comercial", "C/ Recondo 4 fte. Estación de Autobuses", "C/ Estación del Norte RENFE", "C/ Duque de La Victoria 23 esq. Pza. España"]
+        },
+        {
+          "sentido": "Vuelta: Plaza España → Covaresa",
+          "paradas": ["Pza. España Bola del Mundo", "Pza. Zorrilla 3 esq. Santiago", "Pº Zorrilla 130 Centro Comercial", "Pº Zorrilla 166 fte. LAVA", "Pº Zorrilla 236 Centro Comercial", "Pº Zorrilla 346 esq. Vinos Ribera de Duero", "Pº Zorrilla 364 esq. Vinos de Rueda", "Ctra. Rueda 204 fte. Centro Deportivo", "Pza. Castilla y León 4 esq. Miguel Delibes"]
+        }
+      ],
+      "letreros": ["LC DUQ. VICTORIA", "LC COVARESA"],
+      "notas": ["SÁBADOS, FESTIVOS Y MES DE AGOSTO SIN SERVICIO"],
+      "horarios": [
+        {
+          "nombre": "Lanzadera",
+          "tipoDia": "Lunes a Viernes Laborables",
+          "coches": 1,
+          "paginaPDF": 136,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Horario 1",
+              "primeraSalida": "7:15",
+              "retirada": "Salida de Covaresa",
+              "salidas": [
+                {"cabecera": "COVARESA", "hora": "7:15"},
+                {"cabecera": "COVARESA", "hora": "8:10"},
+                {"cabecera": "PZA. ESPAÑA", "hora": "14:10"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "id": "LD",
+      "nombre": "Lanzadera LD: Delicias – Estaciones – Centro Ciudad",
+      "tipo": "lanzadera",
+      "paginaRecorridoPDF": 137,
+      "recorridos": [
+        {
+          "sentido": "Ida: Delicias → Duque de la Victoria",
+          "paradas": ["C/ Víctimas del Terrorismo fte. Hospital Río Hortega", "C/ Embajadores 57 esq. La Transición", "C/ Embajadores fte. 58 Esc. Oficial de idiomas", "Avda. Segovia Iglesia del Carmen", "Avda. Segovia 99 esq. Olmedo", "Pº Farnesio fte. 19 fte. Arca Real", "Pº Arco Ladrillo 31 esq. Pº Farnesio", "C/ Recondo 4 fte. Estación de Autobuses", "C/ Estación del Norte RENFE", "C/ Duque de La Victoria 23 esq. Pza. España"]
+        },
+        {
+          "sentido": "Vuelta: Plaza Fuente Dorada → Delicias",
+          "paradas": ["Pza. Fuente Dorada", "C/ Panaderos 2 esq. Pza. España", "Avda. Segovia fte. 57", "Avda. Segovia fte. Iglesia del Carmen", "C/ Embajadores 60 fte. Esc. Oficial de idiomas", "C/ Embajadores 74 esq. Hornija", "C/ Embajadores 92 esq. La Transición", "C/ Víctimas del Terrorismo Hospital Río Hortega"]
+        }
+      ],
+      "letreros": ["LD DUQ. VICTORIA", "LD DELICIAS"],
+      "notas": ["SÁBADOS, FESTIVOS Y MES DE AGOSTO SIN SERVICIO"],
+      "horarios": [
+        {
+          "nombre": "Lanzadera",
+          "tipoDia": "Lunes a Viernes Laborables",
+          "coches": 1,
+          "paginaPDF": 137,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Horario 1",
+              "primeraSalida": "7:15",
+              "retirada": "Salida de Delicias",
+              "salidas": [
+                {"cabecera": "DELICIAS", "hora": "7:15"},
+                {"cabecera": "DELICIAS", "hora": "8:10"},
+                {"cabecera": "PZA. FUENTE DORADA", "hora": "14:10"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "id": "LP",
+      "nombre": "Lanzadera LP: Parquesol – Estaciones – Centro Ciudad",
+      "tipo": "lanzadera",
+      "paginaRecorridoPDF": 138,
+      "recorridos": [
+        {
+          "sentido": "Ida: Parquesol → Duque de la Victoria",
+          "paradas": ["C/ José Garrote Febar 4 esq. Amadeo Arias", "C/ José Garrote Febar 20 esq. Manuel Silvela", "C/ Manuel Azaña 37", "C/ Manuel Azaña esq. Juan García Hortelano", "C/ Hernando de Acuña 45 bis", "C/ Hernando de Acuña 1 esq. Mateo Seoane Sobral", "C/ Dr. Villacán 5 esq. Mariano de los Cobos", "C/ Recondo 4 fte. Estación de Autobuses", "C/ Estación del Norte RENFE", "C/ Duque de La Victoria 23 esq. Pza. España"]
+        },
+        {
+          "sentido": "Vuelta: Plaza España → Parquesol",
+          "paradas": ["Pza. España Bola del Mundo", "Pza. Zorrilla 3 esq. Santiago", "C/ Dr. Villacán fte. 5 fte. Mariano de los Cobos", "C/ Hernando de Acuña parc. 21 esq. Juan de Valladolid", "C/ Hernando de Acuña 18 esq. Manuel Silvela", "C/ Hernando de Acuña 42", "C/ Manuel Azaña 24 fte. Juan García Hortelano", "C/ Manuel Azaña 56", "C/ José Garrote Febar 21"]
+        }
+      ],
+      "letreros": ["LP DUQ. VICTORIA", "LP PARQUESOL"],
+      "notas": ["SÁBADOS, FESTIVOS Y MES DE AGOSTO SIN SERVICIO"],
+      "horarios": [
+        {
+          "nombre": "Lanzadera",
+          "tipoDia": "Lunes a Viernes Laborables",
+          "coches": 1,
+          "paginaPDF": 138,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Horario 1",
+              "primeraSalida": "7:10",
+              "retirada": "Salida de Parquesol",
+              "salidas": [
+                {"cabecera": "PARQUESOL", "hora": "7:10"},
+                {"cabecera": "PARQUESOL", "hora": "8:10"},
+                {"cabecera": "PZA. ESPAÑA", "hora": "14:10"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "id": "U1",
+      "nombre": "Universidad U1: Covaresa – Universidad",
+      "tipo": "lanzadera",
+      "paginaRecorridoPDF": 139,
+      "recorridos": [
+        {
+          "sentido": "Trayecto: Covaresa → Campus M. Delibes",
+          "paradas": ["Pza. Castilla y León 1", "Pº Zorrilla 187 esq. Vinos Vega Sicilia", "Pº Zorrilla 133 Bº La Rubia", "Pº Zorrilla 65 fte. Centro Comercial", "C/ Recondo 4 fte. Estación de Autobuses", "Pza. Circular 7 esq. Industrias", "Pza. Colegio Santa Cruz 9", "Pº Prado de la Magdalena 6 fte. Residencia Alfonso VIII", "Pº Prado de la Magdalena 18 Filosofía y Letras", "Avda. Valle Esgueva 6 Económicas", "Pº Belén Campus Miguel Delibes"]
+        }
+      ],
+      "letreros": ["U1 UNIVERSIDAD"],
+      "notas": ["Solamente se presta servicio los días lectivos del Calendario Académico de la Universidad de Valladolid.", "En el final del trayecto se debe realizar la parada en la vía principal, en paralelo con la parada de Pº Belén Campus Miguel Delibes.", "Es obligatorio hacer todas las paradas del recorrido, incluso si se lleva refuerzo."],
+      "horarios": [
+        {
+          "nombre": "1 coche A",
+          "tipoDia": "Lunes a Viernes Lectivos",
+          "coches": 1,
+          "paginaPDF": 140,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Horario 1",
+              "primeraSalida": "7:20",
+              "retirada": "Covaresa 7:20 -> Universidad 8:20",
+              "salidas": [
+                {"cabecera": "COVARESA", "hora": "7:20"},
+                {"cabecera": "UNIVERSIDAD", "hora": "8:20"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "id": "U8",
+      "nombre": "Universidad U8: Parquesol – Universidad",
+      "tipo": "lanzadera",
+      "paginaRecorridoPDF": 141,
+      "recorridos": [
+        {
+          "sentido": "Trayecto: Parquesol → Campus M. Delibes",
+          "paradas": ["C/ José Garrote Tebar 20 esq. Manuel Silvela", "C/ Hernando de Acuña 1 esq. Mateo Seoane Sobral", "C/ Monasterio de San Lorenzo de El Escorial esq. Monasterio de Yuste", "C/ Pío del Río Hortega 9", "Pº Isabel La Católica IES Núñez de Arce", "C/ Madre de Dios 6", "C/ Madre de Dios 20 Facultad de Comercio", "Avda. Valle Esgueva 6 Económicas", "Pº Belén Campus Miguel Delibes"]
+        }
+      ],
+      "letreros": ["U8 UNIVERSIDAD"],
+      "notas": ["Solamente se presta servicio los días lectivos del Calendario Académico de la Universidad de Valladolid.", "En el final del trayecto se debe realizar la parada en la vía principal, en paralelo con la parada de Pº Belén Campus Miguel Delibes.", "Es obligatorio hacer todas las paradas del recorrido, incluso si se lleva refuerzo."],
+      "horarios": [
+        {
+          "nombre": "1 coche A",
+          "tipoDia": "Lunes a Viernes Lectivos",
+          "coches": 1,
+          "paginaPDF": 142,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Horario 1",
+              "primeraSalida": "7:20",
+              "retirada": "Parquesol 7:20 -> Universidad 8:20",
+              "salidas": [
+                {"cabecera": "PARQUESOL", "hora": "7:20"},
+                {"cabecera": "UNIVERSIDAD", "hora": "8:20"}
+                
+                ]}
+        ]}]}]}

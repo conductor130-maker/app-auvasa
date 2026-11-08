@@ -1,0 +1,26 @@
+{
+  "name": "AUVASA App",
+  "short_name": "AUVASA",
+  "description": "Horarios de trabajo, red pública y tiempo real de AUVASA",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#005AA0",
+  "theme_color": "#005AA0",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
