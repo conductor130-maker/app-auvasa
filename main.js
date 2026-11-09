@@ -222,7 +222,7 @@ function abrirGrupo(grupoIndex) {
 
   html += `
     <button class="btn-fav" style="margin-top: 20px; padding: 16px; font-size: 1.1rem; width: 100%; border-radius: 12px; border: none; cursor: pointer; background: var(--amarillo); color: #1A1A1A; font-weight: bold;" onclick="guardarGrupoFavorito()">
-      ⭐ Guardar este grupo entero en Mis Turnos
+      ✨ Guardar este grupo entero en Mis Turnos
     </button>
   `;
 
@@ -282,7 +282,7 @@ function verDetalleCoche(cocheIndex) {
   }
 
   html += '<div class="acciones-detalle">' +
-    '<button class="btn-fav" onclick="abrirModalFavorito()">⭐ Guardar este turno específico</button>' +
+    '<button class="btn-fav" onclick="abrirModalFavorito()">✨ Guardar este turno específico</button>' +
     (grupoActual.paginaPDF ? '<a class="btn-pdf-detalle" href="libro_horarios.pdf#page=' + grupoActual.paginaPDF + '" target="_blank">📄 Ver PDF</a>' : '') +
   '</div>';
 
@@ -408,7 +408,7 @@ function renderFavoritos() {
   const cont = document.getElementById('contenido-favoritos');
   cont.innerHTML = '';
   if (!favoritos.grupos.length) {
-    cont.innerHTML = '<p style="text-align:center;padding:40px;">Aún no hay favoritos.<br>Pulsa ⭐ junto a un horario para guardarlo.</p>';
+    cont.innerHTML = '<p style="text-align:center;padding:40px;">Aún no hay favoritos.<br>Pulsa ✨ junto a un horario para guardarlo.</p>';
     return;
   }
   favoritos.grupos.forEach((g, gi) => {
