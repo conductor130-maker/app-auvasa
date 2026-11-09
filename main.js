@@ -51,7 +51,7 @@ const TIPOS = [
   { id: 'laboral', emoji: '🏭', nombre: 'Pruebas' },
   { id: 'buho', emoji: '🦉', nombre: 'Líneas Búho' },
   { id: 'futbol', emoji: '⚽', nombre: 'Fútbol' },
-  { id: 'lanzadera', emoji: '🎓', nombre: 'Lanzaderas' },
+  { id: 'lanzadera', emoji: '🚀', nombre: 'Lanzaderas' },
   { id: 'personal', emoji: '🚐', nombre: 'Personal' },
   { id: 'manual', emoji: '📖', nombre: 'Manual y Normativa' },
   { id: 'gtfs', emoji: '📡', nombre: 'Red pública y tiempo real' }
