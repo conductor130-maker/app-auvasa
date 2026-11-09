@@ -47,7 +47,7 @@ async function cargarDatos() {
 // ---------- CONFIGURACIÓN DE LOS BOTONES ----------
 const TIPOS = [
   { id: 'ordinaria', emoji: '🚌', nombre: 'Líneas Ordinarias' },
-  { id: 'matinal', emoji: '🌙', nombre: 'Madrugada' },
+  { id: 'matinal', emoji: '🌙', nombre: 'Matinales y Polígonos' },
   { id: 'laboral', emoji: '🏭', nombre: 'Pruebas' },
   { id: 'buho', emoji: '🦉', nombre: 'Líneas Búho' },
   { id: 'futbol', emoji: '⚽', nombre: 'Fútbol' },
@@ -117,7 +117,7 @@ function mostrarLineas(tipoId) {
       '<div class="tarjeta-linea">' +
         '<div><span class="num">' + (l.id || '?') + '</span><div class="nombre">' + (l.nombre || 'Sin nombre') + '</div></div>' +
         '<div class="botones-linea">' +
-          '<button class="btn-recorrido" onclick="verRecorrido(\'' + l.id + '\')">🗺️ Recorrido</button>' +
+          '<button class="btn-recorrido" onclick="verRecorrido(\'' + l.id + '\')">🔁 Recorrido</button>' +
           '<button class="btn-horario" onclick="verGruposCoches(\'' + l.id + '\')">⏱️ Horarios</button>' +
         '</div>' +
       '</div>'
