@@ -1,0 +1,27 @@
+/* ===== BUSES EN DIRECTO (mapa y lineales) ===== */
+.tipo-buses { background: linear-gradient(135deg, #e07a00, #b35c00); }
+.bx-bar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 10px; }
+.bx-bar .tabs { flex: 1; min-width: 170px; border: 1px solid var(--ln); border-radius: 8px; overflow: hidden; }
+.bx-bar select { max-width: 100%; }
+.bx-live { margin-bottom: 10px; border: 1px solid var(--ln); border-radius: 8px; padding: 6px 10px; background: var(--sf); }
+.bx-live summary { cursor: pointer; font-size: 0.85rem; color: var(--mu); }
+.bx-live > div { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 8px; }
+.bx-live input[type=text] { flex: 1; min-width: 200px; }
+#bx-map { height: 68vh; min-height: 360px; border: 1px solid var(--ln); border-radius: 10px; position: relative; z-index: 0; }
+.bx-ico { background: none; border: 0; }
+.bx-b { position: absolute; transform: translate(-50%, -50%); filter: drop-shadow(0 1px 3px rgba(0,0,0,.5)); }
+.bx-b .badge, .bx-bus .badge { border: 2px solid #fff; font-size: 15px; padding: 3px 6px; min-width: 34px; }
+.leaflet-popup-content { color: #12202c; margin: 10px 12px; }
+.bx-pi { font-size: 0.85rem; line-height: 1.55; min-width: 190px; }
+.bx-occ { display: inline-block; width: 70px; height: 10px; border: 1px solid #888; border-radius: 2px; vertical-align: middle; overflow: hidden; background: #fff; }
+.bx-occ i { display: block; height: 100%; }
+.bx-lin { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: start; }
+.bx-col h3 { font-size: 0.9rem; margin: 0 0 6px; line-height: 1.2; }
+.bx-rail { position: relative; }
+.bx-rail::before { content: ''; position: absolute; left: 30px; top: 17px; bottom: 17px; width: 6px; margin-left: -3px; background: var(--c); border-radius: 3px; }
+.bx-st { position: absolute; left: 0; right: 0; height: 34px; display: flex; align-items: center; }
+.bx-st i { position: absolute; left: 30px; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; background: #fff; border: 3px solid var(--c); box-sizing: border-box; }
+.bx-st span { margin-left: 56px; font-size: 0.72rem; line-height: 1.1; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.gx .bx-bus { position: absolute; left: 30px; transform: translate(-50%, -50%); background: none; border: 0; padding: 0; cursor: pointer; z-index: 2; filter: drop-shadow(0 1px 3px rgba(0,0,0,.5)); }
+.bx-pop { position: fixed; left: 12px; right: 12px; bottom: 76px; max-width: 380px; margin: auto; background: var(--sf); color: var(--ink); border: 1px solid var(--ln); border-radius: 12px; padding: 12px; box-shadow: 0 6px 24px rgba(0,0,0,.35); z-index: 900; }
+.bx-pop .ghost { margin-top: 8px; }

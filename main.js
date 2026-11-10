@@ -47,19 +47,20 @@ async function cargarDatos() {
 // ---------- CONFIGURACIÓN DE LOS BOTONES ----------
 const TIPOS = [
   { id: 'ordinaria', emoji: '🚌', nombre: 'Líneas Ordinarias' },
-  { id: 'matinal', emoji: '🌙', nombre: 'Matinales y Polígonos' },
+  { id: 'matinal', emoji: '🌙', nombre: 'Madrugada' },
   { id: 'laboral', emoji: '🏭', nombre: 'Pruebas' },
   { id: 'buho', emoji: '🦉', nombre: 'Líneas Búho' },
   { id: 'futbol', emoji: '⚽', nombre: 'Fútbol' },
-  { id: 'lanzadera', emoji: '🚀', nombre: 'Lanzaderas' },
+  { id: 'lanzadera', emoji: '🎓', nombre: 'Lanzaderas' },
   { id: 'personal', emoji: '🚐', nombre: 'Personal' },
   { id: 'manual', emoji: '📖', nombre: 'Manual y Normativa' },
-  { id: 'gtfs', emoji: '📡', nombre: 'Red pública y tiempo real' }
+  { id: 'gtfs', emoji: '📡', nombre: 'Red pública y tiempo real' },
+  { id: 'buses', emoji: '🚍', nombre: 'Buses en directo' }
 ];
 
 function renderTipos() {
   const grid = document.getElementById('grid-tipos');
-  grid.innerHTML = TIPOS.filter(t => ['manual','gtfs'].includes(t.id) || DATOS.lineas.some(l => l && l.tipo === t.id)).map(t =>
+  grid.innerHTML = TIPOS.filter(t => ['manual','gtfs','buses'].includes(t.id) || DATOS.lineas.some(l => l && l.tipo === t.id)).map(t =>
     '<button class="boton-tipo tipo-' + t.id + '" onclick="mostrarLineas(\'' + t.id + '\')">' +
       '<span class="emoji">' + t.emoji + '</span><span>' + t.nombre + '</span>' +
     '</button>'
@@ -72,6 +73,7 @@ function irA(id, pushHistory = true) {
   document.getElementById(id).classList.add('activa');
   window.scrollTo(0, 0);
   if (id === 'pantalla-gtfs' && window.gxInit) window.gxInit();
+  if (id === 'pantalla-buses' && window.bxInit) window.bxInit();
   
   const btnFlotante = document.getElementById('btn-volver-flotante');
   if (id === 'pantalla-tipos') {
@@ -100,6 +102,7 @@ window.addEventListener('popstate', (event) => {
 // ---------- FUNCIONES DE LÍNEAS Y HORARIOS ----------
 function mostrarLineas(tipoId) {
   if (tipoId === 'gtfs') { irA('pantalla-gtfs'); return; }
+  if (tipoId === 'buses') { irA('pantalla-buses'); return; }
   if (tipoId === 'manual') {
     mostrarManual();
     return;
@@ -117,7 +120,7 @@ function mostrarLineas(tipoId) {
       '<div class="tarjeta-linea">' +
         '<div><span class="num">' + (l.id || '?') + '</span><div class="nombre">' + (l.nombre || 'Sin nombre') + '</div></div>' +
         '<div class="botones-linea">' +
-          '<button class="btn-recorrido" onclick="verRecorrido(\'' + l.id + '\')">🔁 Recorrido</button>' +
+          '<button class="btn-recorrido" onclick="verRecorrido(\'' + l.id + '\')">🗺️ Recorrido</button>' +
           '<button class="btn-horario" onclick="verGruposCoches(\'' + l.id + '\')">⏱️ Horarios</button>' +
         '</div>' +
       '</div>'
@@ -222,12 +225,25 @@ function abrirGrupo(grupoIndex) {
 
   html += `
     <button class="btn-fav" style="margin-top: 20px; padding: 16px; font-size: 1.1rem; width: 100%; border-radius: 12px; border: none; cursor: pointer; background: var(--amarillo); color: #1A1A1A; font-weight: bold;" onclick="guardarGrupoFavorito()">
-      ✨ Guardar este grupo entero en Mis Turnos
+      ⭐ Guardar este grupo entero en Mis Turnos
     </button>
   `;
 
   lista.innerHTML = html;
   irA('pantalla-coches');
+}
+
+function escHtml(t) {
+  return String(t).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+}
+
+// Hora con sus marcas: descanso (negrita y subrayado), asterisco y nota de la celda
+function fmtHora(s) {
+  if (!s) return '';
+  let h = escHtml((s.asterisco ? '*' : '') + (s.hora || '') + (s.asterisco ? '*' : ''));
+  if (s.descanso) h = '<span class="hora-descanso">' + h + '</span>';
+  if (s.nota) h += '<small class="nota-hora">' + escHtml(s.nota) + '</small>';
+  return h;
 }
 
 function verDetalleCoche(cocheIndex) {
@@ -272,17 +288,29 @@ function verDetalleCoche(cocheIndex) {
       const maxFilas = Math.max(filas1.length, filas2.length);
       html += '<table class="tabla-pdf"><thead><tr><th>' + col1 + '</th><th>' + col2 + '</th></tr></thead><tbody>';
       for (let i = 0; i < maxFilas; i++) {
-        html += '<tr><td>' + (filas1[i] ? filas1[i].hora : '') + '</td><td>' + (filas2[i] ? filas2[i].hora : '') + '</td></tr>';
+        html += '<tr><td>' + (fmtHora(filas1[i])) + '</td><td>' + (fmtHora(filas2[i])) + '</td></tr>';
       }
       html += '</tbody></table>';
     } else {
       html += '<table class="tabla-pdf"><thead><tr><th>Cabecera</th><th>Hora</th></tr></thead><tbody>' +
-        coche.salidas.map(s => '<tr><td>' + (s.cabecera || '') + '</td><td>' + (s.hora || '') + '</td></tr>').join('') + '</tbody></table>';
+        coche.salidas.map(s => '<tr><td>' + (s.cabecera || '') + '</td><td>' + fmtHora(s) + '</td></tr>').join('') + '</tbody></table>';
     }
   }
 
+  const todas = coche.salidas || [];
+  if (todas.some(s => s.descanso) && grupoActual.descanso && grupoActual.descanso !== '—') {
+    html += '<p class="leyenda">Negrita y subrayado: tiempo de descanso en cabecera incluido (' + escHtml(grupoActual.descanso) + ').</p>';
+  }
+  if (todas.some(s => s.asterisco)) {
+    html += '<p class="leyenda">* Las horas con asterisco se explican en las notas.</p>';
+  }
+  if (grupoActual.notas && grupoActual.notas.length) {
+    html += '<div class="bloque-recorrido"><h3>📝 Notas</h3><ul class="lista-notas">' +
+      grupoActual.notas.map(n => '<li>' + escHtml(n) + '</li>').join('') + '</ul></div>';
+  }
+
   html += '<div class="acciones-detalle">' +
-    '<button class="btn-fav" onclick="abrirModalFavorito()">✨ Guardar este turno específico</button>' +
+    '<button class="btn-fav" onclick="abrirModalFavorito()">⭐ Guardar este turno específico</button>' +
     (grupoActual.paginaPDF ? '<a class="btn-pdf-detalle" href="libro_horarios.pdf#page=' + grupoActual.paginaPDF + '" target="_blank">📄 Ver PDF</a>' : '') +
   '</div>';
 
@@ -408,7 +436,7 @@ function renderFavoritos() {
   const cont = document.getElementById('contenido-favoritos');
   cont.innerHTML = '';
   if (!favoritos.grupos.length) {
-    cont.innerHTML = '<p style="text-align:center;padding:40px;">Aún no hay favoritos.<br>Pulsa ✨ junto a un horario para guardarlo.</p>';
+    cont.innerHTML = '<p style="text-align:center;padding:40px;">Aún no hay favoritos.<br>Pulsa ⭐ junto a un horario para guardarlo.</p>';
     return;
   }
   favoritos.grupos.forEach((g, gi) => {
@@ -435,7 +463,8 @@ function renderFavoritos() {
 
 function abrirFavorito(f) {
   const linea = DATOS.lineas.find(l => l && l.id === f.lineaId);
-  const idx = linea ? (linea.horarios || []).findIndex(h => h.nombre === f.grupo && (!f.tipoDia || h.tipoDia === f.tipoDia)) : -1;
+  let idx = linea ? (linea.horarios || []).findIndex(h => h.nombre === f.grupo && (!f.tipoDia || h.tipoDia === f.tipoDia)) : -1;
+  if (idx < 0 && linea && f.paginaPDF) idx = (linea.horarios || []).findIndex(h => h.paginaPDF === f.paginaPDF);
   if (idx < 0) { alert('Este horario ya no existe en los datos. Bórralo y vuelve a guardarlo.'); return; }
   lineaActual = linea;
   listaGruposFiltrada = linea.horarios;

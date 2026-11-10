@@ -21,15 +21,15 @@ const zipLib=()=>window.JSZip?Promise.resolve():new Promise((ok,ko)=>{const s=do
 async function build(buf){
  await zipLib();const zip=await JSZip.loadAsync(buf);
  const rd=async n=>{const f=zip.file(new RegExp('(^|/)'+n+'$'))[0];return f?f.async('string'):''};
- const [s,r,t,st,c,cd]=await Promise.all(['stops.txt','routes.txt','trips.txt','stop_times.txt','calendar.txt','calendar_dates.txt'].map(rd));
+ const [s,r,t,st,c,cd,sh]=await Promise.all(['stops.txt','routes.txt','trips.txt','stop_times.txt','calendar.txt','calendar_dates.txt','shapes.txt'].map(rd));
  if(!r||!t||!st)throw new Error('El archivo no contiene routes.txt, trips.txt y stop_times.txt.');
  const g={stops:new Map(),routes:[],trips:new Map(),st:new Map(),cal:new Map(),exc:new Map(),bySt:null};
- let T=tbl(s);T.r.forEach(x=>g.stops.set(x[T.i.stop_id],{n:x[T.i.stop_name]||x[T.i.stop_id],c:x[T.i.stop_code]||''}));
+ let T=tbl(s);T.r.forEach(x=>g.stops.set(x[T.i.stop_id],{n:x[T.i.stop_name]||x[T.i.stop_id],c:x[T.i.stop_code]||'',lat:parseFloat(x[T.i.stop_lat]),lon:parseFloat(x[T.i.stop_lon])}));
  T=tbl(r);const ri=T.i;
  T.r.forEach(x=>g.routes.push({id:x[ri.route_id],s:x[ri.route_short_name]||'',l:x[ri.route_long_name]||'',bg:x[ri.route_color]||'',fg:x[ri.route_text_color]||''}));
  g.routes.sort((a,b)=>(a.s||a.l).localeCompare(b.s||b.l,'es',{numeric:true}));
  T=tbl(t);const ti=T.i;
- T.r.forEach(x=>{const o={id:x[ti.trip_id],rt:x[ti.route_id],svc:x[ti.service_id],dir:ti.direction_id!=null?x[ti.direction_id]:'',h:(ti.trip_headsign!=null?x[ti.trip_headsign]:'')||''};
+ T.r.forEach(x=>{const o={id:x[ti.trip_id],rt:x[ti.route_id],svc:x[ti.service_id],dir:ti.direction_id!=null?x[ti.direction_id]:'',h:(ti.trip_headsign!=null?x[ti.trip_headsign]:'')||'',shp:ti.shape_id!=null?x[ti.shape_id]:''};
   if(!g.trips.has(o.rt))g.trips.set(o.rt,[]);g.trips.get(o.rt).push(o)});
  T=tbl(st);const si=T.i;
  T.r.forEach(x=>{const id=x[si.trip_id];let a=g.st.get(id);if(!a)g.st.set(id,a=[]);
@@ -39,6 +39,7 @@ async function build(buf){
  T.r.forEach(x=>g.cal.set(x[ci.service_id],{d:['monday','tuesday','wednesday','thursday','friday','saturday','sunday'].map(k=>x[ci[k]]=='1'),s:x[ci.start_date],e:x[ci.end_date]}));
  T=tbl(cd);const di=T.i;
  T.r.forEach(x=>{const k=x[di.service_id];if(!g.exc.has(k))g.exc.set(k,new Map());g.exc.get(k).set(x[di.date],x[di.exception_type])});
+ g.shp=new Map();T=tbl(sh);if(T.r.length){const a=new Map(),i=T.i;T.r.forEach(x=>{const id=x[i.shape_id];let l=a.get(id);if(!l)a.set(id,l=[]);l.push([+x[i.shape_pt_sequence],+x[i.shape_pt_lat],+x[i.shape_pt_lon]])});a.forEach((l,id)=>g.shp.set(id,l.sort((p,q)=>p[0]-q[0]).map(p=>[p[1],p[2]])))}
  return g}
 
 function active(svc){
@@ -127,7 +128,7 @@ const tr=m=>{const p=sub(m,1);return{trip:gs(p,1),date:gs(p,3),route:gs(p,5)}};
 function feed(buf,r){const m=pb(buf);r.ts=Math.max(r.ts,g1(sub(m,1),3)||0);
  ga(m,2).forEach(e=>{const E=pb(e),tu=sub(E,3),ve=sub(E,4),al=sub(E,5);
   if(tu.length)r.tu.push({...tr(tu),sts:ga(tu,2).map(s=>{const S2=pb(s),a=sub(S2,2),d=sub(S2,3);return{seq:g1(S2,1),stop:gs(S2,4),t:g1(a,2)||g1(d,2)||0,dl:gi(a,1)!==undefined?gi(a,1):gi(d,1)}})});
-  if(ve.length){const p=sub(ve,2),vd=sub(ve,8);r.veh.push({...tr(ve),lat:fl(g1(p,1)),lon:fl(g1(p,2)),v:gs(vd,2)||gs(vd,3)||gs(vd,1),ts:g1(ve,5)||0})}
+  if(ve.length){const p=sub(ve,2),vd=sub(ve,8);r.veh.push({...tr(ve),lat:fl(g1(p,1)),lon:fl(g1(p,2)),v:gs(vd,2)||gs(vd,3)||gs(vd,1),num:gs(vd,1),plate:gs(vd,3).trim(),occ:g1(ve,9),ts:g1(ve,5)||0})}
   if(al.length){const tx=f=>{const t=ga(sub(al,f),1)[0];return t?gs(pb(t),1):''};r.al.push({h:tx(10),d:tx(11),en:ga(al,5).map(x=>{const q=pb(x);return{r:gs(q,2),s:gs(q,5)}})})}})}
 const hm=u=>u?new Date(u*1000).toLocaleTimeString('es',{hour:'2-digit',minute:'2-digit'}):'–';
 const sn=id=>G&&G.stops.get(id)?G.stops.get(id).n:id;
@@ -147,7 +148,7 @@ function rtRender(){
   const T=[['v','Vehículos ('+R.veh.length+')'],['l','Llegadas'],['a','Alertas ('+R.al.length+')']];
   h+=`<p class=mu>Foto de las ${hm(R.ts)} ${R.err?esc(R.err):''}</p><div class='tabs' style='margin-bottom:14px'>${T.map(t=>`<button data-s='${t[0]}' aria-selected='${S.rs==t[0]}'>${t[1]}</button>`).join('')}</div>`;
   if(S.rs=='v'){const v=[...R.veh].sort((a,b)=>rid(a).localeCompare(rid(b),'es',{numeric:true}));
-   h+=`<div class='wrap'><table><thead><tr><th>Línea</th><th>Vehículo</th><th>Viaje</th><th>Posición</th><th>Hora</th></tr></thead><tbody>${v.map(x=>`<tr><th>${rb(rid(x))}</th><td>${esc(x.v)}</td><td>${esc(x.trip)}</td><td>${x.lat==null?'–':`<a href='https://www.openstreetmap.org/?mlat=${x.lat}&amp;mlon=${x.lon}#map=17/${x.lat}/${x.lon}' target='_blank' rel='noopener'>${x.lat.toFixed(5)}, ${x.lon.toFixed(5)}</a>`}</td><td>${hm(x.ts)}</td></tr>`).join('')}</tbody></table></div>`}
+   h+=`<div class='wrap'><table><thead><tr><th>Línea</th><th>Vehículo</th><th>Viaje</th><th>Posición</th><th>Hora</th></tr></thead><tbody>${v.map(x=>`<tr><th>${rb(rid(x))}</th><td>${esc((x.num?x.num+' · ':'')+(x.plate||x.v))}</td><td>${esc(x.trip)}</td><td>${x.lat==null?'–':`<a href='https://www.openstreetmap.org/?mlat=${x.lat}&amp;mlon=${x.lon}#map=17/${x.lat}/${x.lon}' target='_blank' rel='noopener'>${x.lat.toFixed(5)}, ${x.lon.toFixed(5)}</a>`}</td><td>${hm(x.ts)}</td></tr>`).join('')}</tbody></table></div>`}
   else if(S.rs=='l'&&!G)h+='<p>Para ver llegadas por parada hace falta cargar antes el GTFS estático: el feed solo indica el número de parada dentro de cada viaje.</p>';
   else if(S.rs=='l'){const ix=rtArr(),q=(S.rq||'').toLowerCase();
    S.ids=[...ix.keys()].filter(id=>!q||(sn(id)+' '+id).toLowerCase().includes(q)).sort((a,b)=>sn(a).localeCompare(sn(b),'es',{numeric:true})).slice(0,60);
@@ -161,7 +162,7 @@ function rtRender(){
  document.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>{S.rs=b.dataset.s;rtRender()});
  document.querySelectorAll('#gx-app .it').forEach(b=>b.onclick=()=>{S.rstop=S.ids[+b.dataset.i];rtRender()});
  const i=$('#rq');if(i){i.value=S.rq||'';i.oninput=e=>{S.rq=e.target.value;S.rf=1;rtRender()};if(S.rf){S.rf=0;i.focus();i.setSelectionRange(i.value.length,i.value.length)}}}
-async function rtLoad(fs){const r={veh:[],tu:[],al:[],ts:0,err:''};for(const f of fs){try{feed(new Uint8Array(await f.arrayBuffer()),r)}catch(e){r.err+=f.name+': '+e.message+' '}}R=r;S.rs=S.rs||'v';rtRender()}
+async function rtLoad(fs){const r={veh:[],tu:[],al:[],ts:0,err:''};for(const f of fs){try{feed(new Uint8Array(await f.arrayBuffer()),r)}catch(e){r.err+=f.name+': '+e.message+' '}}R=r;S.rs=S.rs||'v';emit('rt');rtRender()}
 $('#rtb').onclick=()=>{S.rt=!S.rt;$('#rtb').textContent=S.rt?'Horarios':'Tiempo real';render()};
 
 /* ---------- Load & persist ---------- */
@@ -172,12 +173,15 @@ async function use(buf,name,ts){
  $('#meta').textContent='Procesando…';
  try{G=await build(buf);S.route=null;S.stop=null;
   $('#meta').textContent=`${name} · ${G.routes.length} líneas · ${G.stops.size} paradas · cargado el ${new Date(ts).toLocaleDateString('es')}`;
-  render();return true}
+  render();emit('static');return true}
  catch(e){G=null;$('#meta').textContent='Sin datos cargados';render();const x=$('#err');if(x)x.textContent='No se pudo leer el archivo (¿es un .zip con extensión distinta?): '+e.message;return false}}
 $('#file').onchange=async e=>{const f=e.target.files[0];if(!f)return;
  const buf=await f.arrayBuffer(),ts=Date.now();
  if(await use(buf,f.name,ts)){try{await idb('readwrite',s=>s.put({buf,name:f.name,ts},'zip'))}catch(_){}}
  e.target.value=''};
+const subs=[];const emit=k=>subs.forEach(f=>{try{f(k)}catch(_){}});
+async function rtBuffers(bs){const r={veh:[],tu:[],al:[],ts:0,err:''};for(const b of bs){try{feed(new Uint8Array(b),r)}catch(e){r.err+=e.message+' '}}R=r;emit('rt');if(S.rt)rtRender()}
+window.gx={get G(){return G},get R(){return R},badge,esc,sub:f=>subs.push(f),rt:rtBuffers};
 window.gxInit=(()=>{let d=0;return async()=>{if(d)return;d=1;render();try{const z=await idb('readonly',s=>s.get('zip'));if(z)await use(z.buf,z.name,z.ts)}catch(_){}}})();
 
 })();
