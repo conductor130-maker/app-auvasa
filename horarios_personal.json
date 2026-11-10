@@ -1,6 +1,6 @@
 {
   "lineas": [
-       {
+    {
       "id": "E1",
       "nombre": "Coche de Personal E1: San Pedro Regalado – AUVASA",
       "tipo": "personal",
@@ -8,11 +8,38 @@
       "recorridos": [
         {
           "sentido": "Entrada: San Pedro Regalado → AUVASA",
-          "paradas": ["Avda. Santander Centro Comercial (06:20 h.)", "Avda. de Santander 49 Bº España", "Avda. de Santander Pob. Endasa", "Avda. Palencia 41 Policía Municipal (06:22 h.)", "C/ Moradas 31 esq. Nebrija", "C/ Cerrada 1 esq. Santa Clara", "C/ Real de Burgos fte. I. S. Pedro Apóstol (06:26 h.)", "C/ Alamillos 11", "Pza. San Juan", "C/ Don Sancho 7", "Pza. Circular 11 lg. Corazón de María (06:30 h.)", "C/ Cádiz 4 esq. Bilbao", "Pº San Vicente 16 esq. Álava", "Avda. Segovia fte. 57", "C/ Embajadores 4 esq. Pº Farnesio", "Avda. Segovia fte. Iglesia del Carmen (06:35 h.)", "C/ Embajadores 60 fte. Esc. Oficial de Idiomas", "C/ Embajadores 74 esq. Hornija", "C/ La Transición 3", "C/ Arca Real fte. Centro Madrid", "AUVASA"]
+          "paradas": [
+            "Avda. Santander Centro Comercial (06:20 h.)",
+            "Avda. de Santander 49 Bº España",
+            "Avda. de Santander Pob. Endasa",
+            "Avda. Palencia 41 Policía Municipal (06:22 h.)",
+            "C/ Moradas 31 esq. Nebrija",
+            "C/ Cerrada 1 esq. Santa Clara",
+            "C/ Real de Burgos fte. I. S. Pedro Apóstol (06:26 h.)",
+            "C/ Alamillos 11",
+            "Pza. San Juan",
+            "C/ Don Sancho 7",
+            "Pza. Circular 11 Ig. Corazón de María (06:30 h.)",
+            "C/ Cádiz 4 esq. Bilbao",
+            "Pº San Vicente 16 esq. Álava",
+            "Avda. Segovia fte. 57",
+            "C/ Embajadores 4 esq. Pº Farnesio",
+            "Avda. Segovia fte. Iglesia del Carmen (06:35 h.)",
+            "C/ Embajadores 60 fte. Esc. Oficial de Idiomas",
+            "C/ Embajadores 74 esq. Hornija",
+            "C/ La Transición 3",
+            "C/ Arca Real fte. Centro Madrid",
+            "AUVASA"
+          ]
         }
       ],
-      "letreros": ["E1 PERSONAL E1"],
-      "notas": ["No se debe pasar por las paradas antes de la hora indicada.", "LUNES A VIERNES LABORABLES, EXCEPTO AGOSTO"],
+      "letreros": [
+        "E1 PERSONAL E1"
+      ],
+      "notas": [
+        "No se debe pasar por las paradas antes de la hora indicada.",
+        "LUNES A VIERNES LABORABLES, EXCEPTO AGOSTO"
+      ],
       "horarios": [
         {
           "nombre": "Coche de Personal",
@@ -26,59 +53,79 @@
               "primeraSalida": "06:20",
               "retirada": "—",
               "salidas": [
-                {"cabecera": "AVDA. SANTANDER", "hora": "06:20"}
+                {
+                  "cabecera": "Avda. Santander Centro Comercial",
+                  "hora": "06:20"
+                },
+                {
+                  "cabecera": "Avda. Palencia 41 Policía Municipal",
+                  "hora": "06:22"
+                },
+                {
+                  "cabecera": "C/ Real de Burgos fte. I. S. Pedro Apóstol",
+                  "hora": "06:26"
+                },
+                {
+                  "cabecera": "Pza. Circular 11 Ig. Corazón de María",
+                  "hora": "06:30"
+                },
+                {
+                  "cabecera": "Avda. Segovia fte. Iglesia del Carmen",
+                  "hora": "06:35"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "E2",
       "nombre": "Coche de Personal E2: Puente Jardín – AUVASA",
-      "tipo": "personal",
-      "paginaRecorridoPDF": 173,
-      "recorridos": [
-        {
-          "sentido": "Entrada: Puente Jardín → AUVASA",
-          "paradas": ["Pº Jardín Botánico esq. Brezo (06:20 h.)", "Pº Jardín Botánico fte. Jara", "Pº Jardín Botánico fte. 6", "Pº Jardín Botánico parc. 8 Centro Salud La Victoria", "C/ Fuente El Sol 31", "C/ Júpiter fte. 12 esq. Comuneros de Castilla", "Avda. Gijón 26 Canal (06:24 h.)", "C/ Morena edificio Antares", "C/ Morena 3 bloque 2", "C/ Mieses 40 (06:29 h.)", "C/ Mieses esq. Mª Santa María Retuerta", "C/ Mª S. Lorenzo de El Escorial esq. Mª San Esteban de Gormaz", "C/ Mª S. Lorenzo de El Escorial C.C. Miguel Delibes", "C/ Adolfo Miaja de la Muela esq. Jorge Vidal (pintor)", "C/ Adolfo Miaja de la Muela 6 esq. Hernan. de Acuña", "C/ José Garrote Tebar 4 esq. Amad. Arias (06:35 h.)", "C/ José Garrote Tebar 20 esq. Manuel Silvela", "C/ Ciudad de La Habana 1 esq. Amadeo Arias", "C/ Hernando de Acuña 13 esq. Manuel Silvela", "C/ Hernando de Acuña 1 esq. Mateo S. S. (06:39 h.)", "C/ Dr. Villación 5 esq. Mariano de los Cobos", "C/ Dr. Villación 3 fte. Monasterio de Prado", "Avda. Medina del Campo 15 fte. Centro Salud Arturo Eyries", "Avda. Medina del Campo esq. Barlovento", "Pº Zorrilla 166 fte. LAVA (06:45 h.)", "Pº Zorrilla 198 Bª La Rubia", "Pº Zorrilla 238 Centro Comercial", "AUVASA"]
-        }
-      ],
-      "letreros": ["E2 PERSONAL E2"],
-      "notas": ["No se debe pasar por las paradas antes de la hora indicada.", "LUNES A VIERNES LABORABLES, EXCEPTO AGOSTO"],
-      "horarios": [
-        {
-          "nombre": "Coche de Personal",
-          "tipoDia": "Lunes a Viernes Laborables (excepto agosto)",
-          "coches": 1,
-          "paginaPDF": 173,
-          "descanso": "—",
-          "cochesDetalle": [
-            {
-              "nombre": "Horario 1",
-              "primeraSalida": "06:20",
-              "retirada": "—",
-              "salidas": [
-                {"cabecera": "Pº JARDÍN BOTÁNICO", "hora": "06:20"}
-              ]
-            }
-          ]
-        }
-      ]
-    },
-        {
-      "id": "E3",
-      "nombre": "Coche de Personal E3: C/ San Quirce – AUVASA",
       "tipo": "personal",
       "paginaRecorridoPDF": 174,
       "recorridos": [
         {
-          "sentido": "Entrada: C/ San Quirce → AUVASA",
-          "paradas": ["C/ San Quirce 5 fte. Biblioteca pública (06:20 h.)", "C/ Angustias 5 Teatro Calderón", "Pza. Universidad esq. López Gómez", "Pza. España Bola del Mundo (06:25 h.)", "C/ Acera Recoletos fte.2 esq. Pza. Zorrilla", "C/ Estación del Norte esq. Recondo", "C/ Puente Colgante 2 Est. de Autobuses", "C/ Puente Colgante 18 esq. Gabilondo", "Pº Zorrilla 88 fte. Pza. de Toros", "Pº Zorrilla 130 Centro Comercial (06:32 h.)", "Pº Zorrilla 166 fte. LAVA", "Ctra. Rueda 36 esq. Mota", "Ctra. Rueda fte. 41", "Ctra. Rueda fte. 53 Imserso", "Ctra. Rueda esq. Vega Sicilia", "Ctra. Rueda esq. Vinos de Cigales", "Ctra. Rueda fte. Centro Deportivo", "Pza. Castilla y León 4 (06:41 h.)", "C/ Miguel Delibes 19B esq. Miguel de Unamuno", "C/ Miguel Delibes 1", "C/ Vinos de Rueda esq. Cañada Real", "Pº Zorrilla 203 esq. Vinos de Cigales", "Pº Zorrilla 187 esq. Vinos Vega Sicilia", "AUVASA"]
+          "sentido": "Entrada: Puente Jardín → AUVASA",
+          "paradas": [
+            "Pº Jardín Botánico esq. Brezo (06:20 h.)",
+            "Pº Jardín Botánico fte. Jara",
+            "Pº Jardín Botánico fte. 6",
+            "Pº Jardín Botánico parc. 8 Centro Salud La Victoria",
+            "C/ Fuente El Sol 31",
+            "C/ Júpiter fte. 12 esq. Comuneros de Castilla",
+            "Avda. Gijón 26 Canal (06:24 h.)",
+            "C/ Morena edificio Antares",
+            "C/ Morena 3 bloque 2",
+            "C/ Mieses 40 (06:29 h.)",
+            "C/ Mieses esq. Mº Santa María Retuerta",
+            "C/ Mº S. Lorenzo de El Escorial esq. Mº San Esteban de Gormaz",
+            "C/ Mº S. Lorenzo de El Escorial C.C. Miguel Delibes",
+            "C/ Adolfo Miaja de la Muela esq. Jorge Vidal (pintor)",
+            "C/ Adolfo Miaja de la Muela 6 esq. Hernan. de Acuña",
+            "C/ José Garrote Tebar 4 esq. Amad. Arias (06:35 h.)",
+            "C/ José Garrote Tebar 20 esq. Manuel Silvela",
+            "C/ Ciudad de La Habana 1 esq. Amadeo Arias",
+            "C/ Hernando de Acuña 13 esq. Manuel Silvela",
+            "C/ Hernando de Acuña 1 esq. Mateo S. S. (06:39 h.)",
+            "C/ Dr. Villacián 5 esq. Mariano de los Cobos",
+            "C/ Dr. Villacián 3 fte. Monasterio de Prado",
+            "Avda. Medina del Campo 15 fte. Centro Salud Arturo Eyries",
+            "Avda. Medina del Campo esq. Barlovento",
+            "Pº Zorrilla 166 fte. LAVA (06:45 h.)",
+            "Pº Zorrilla 198 Bº La Rubia",
+            "Pº Zorrilla 238 Centro Comercial",
+            "AUVASA"
+          ]
         }
       ],
-      "letreros": ["E3 PERSONAL E3"],
-      "notas": ["No se debe pasar por las paradas antes de la hora indicada.", "LUNES A VIERNES LABORABLES, EXCEPTO AGOSTO"],
+      "letreros": [
+        "E2 PERSONAL E2"
+      ],
+      "notas": [
+        "No se debe pasar por las paradas antes de la hora indicada.",
+        "LUNES A VIERNES LABORABLES, EXCEPTO AGOSTO"
+      ],
       "horarios": [
         {
           "nombre": "Coche de Personal",
@@ -92,26 +139,79 @@
               "primeraSalida": "06:20",
               "retirada": "—",
               "salidas": [
-                {"cabecera": "C/ SAN QUIRCE", "hora": "06:20"}
+                {
+                  "cabecera": "Pº Jardín Botánico esq. Brezo",
+                  "hora": "06:20"
+                },
+                {
+                  "cabecera": "Avda. Gijón 26 Canal",
+                  "hora": "06:24"
+                },
+                {
+                  "cabecera": "C/ Mieses 40",
+                  "hora": "06:29"
+                },
+                {
+                  "cabecera": "C/ José Garrote Tebar 4 esq. Amad. Arias",
+                  "hora": "06:35"
+                },
+                {
+                  "cabecera": "C/ Hernando de Acuña 1 esq. Mateo S. S.",
+                  "hora": "06:39"
+                },
+                {
+                  "cabecera": "Pº Zorrilla 166 fte. LAVA",
+                  "hora": "06:45"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
-      "id": "E4",
-      "nombre": "Coche de Personal E4: Pajarillos – Pilarica – Delicias – AUVASA",
+    {
+      "id": "E3",
+      "nombre": "Coche de Personal E3: C/ San Quirce – AUVASA",
       "tipo": "personal",
       "paginaRecorridoPDF": 175,
       "recorridos": [
         {
-          "sentido": "Entrada: Pajarillos → AUVASA",
-          "paradas": ["C/ Santa María de la Cabeza fte. 9 (06:15 h.)", "C/ Santa María de la Cabeza fte. 39", "C/ Aguanieves esq. Autillo", "C/ Astrofísico Carlos Sánchez Magro (06:19 h.)", "C/ Puente La Reina 67", "C/ Templarios 6 esq. Puente La Reina", "C/ Villabáñez 19 IgI. S. Ignacio de Loyola", "Pza Vadillos 7 esq. Palacio Valdés (06:23 h.)", "Pº del Caucce Centro Salud Pilarica", "Pº del Caucce Ing. Industriales", "C/ Madre de Dios 29 fte. Facultad de Comercio", "C/ Madre de Dios 15", "C/ Real de Burgos fte. IgI. S. Pedro Apóstol (06:26 h.)", "C/ Alamillos 11", "Pza. San Juan", "C/ Don Sancho 7", "Pza. Circular 11 IgI. Corazón de María (06:30 h.)", "C/ Cádiz 4 esq. Bilbao", "Pº San Vicente 16 esq. Álava", "Avda. Segovia fte. 57", "C/ Embajadores 4 esq. Pº Farnesio", "Avda. Segovia fte. Iglesia del Carmen (06:35 h.)", "C/ Embajadores 60 fte. Esc. Oficial de Idiomas", "C/ Embajadores 74 esq. Hornija", "C/ Embajadores 92 esq. La Transición", "C/ Embajadores esq. Padre Benito Menni", "Ctra. Segovia fte. Víctimas del Terrorismo (06:40 h.)", "Ctra. Segovia fte. Col. Hijas de Jesús", "Avda. Zamora raqueta Pinar de Jalón (LIDL)", "AUVASA"]
+          "sentido": "Entrada: C/ San Quirce → AUVASA",
+          "paradas": [
+            "C/ San Quirce 5 fte. Biblioteca pública (06:20 h.)",
+            "C/ Angustias 5 Teatro Calderón",
+            "Pza. Universidad esq. López Gómez",
+            "Pza. España Bola del Mundo (06:25 h.)",
+            "C/ Acera Recoletos fte.2 esq. Pza. Zorrilla",
+            "C/ Estación del Norte esq. Recondo",
+            "C/ Puente Colgante 2 Est. de Autobuses",
+            "C/ Puente Colgante 18 esq. Gabilondo",
+            "Pº Zorrilla 88 fte. Pza. de Toros",
+            "Pº Zorrilla 130 Centro Comercial (06:32 h.)",
+            "Pº Zorrilla 166 fte. LAVA",
+            "Ctra. Rueda 36 esq. Mota",
+            "Ctra. Rueda fte. 41",
+            "Ctra. Rueda fte. 53 Imserso",
+            "Ctra. Rueda esq. Vega Sicilia",
+            "Ctra. Rueda esq. Vinos de Cigales",
+            "Ctra. Rueda fte. Centro Deportivo",
+            "Pza. Castilla y León 4 (06:41 h.)",
+            "C/ Miguel Delibes 19B esq. Miguel de Unamuno",
+            "C/ Miguel Delibes 1",
+            "C/ Vinos de Rueda esq. Cañada Real",
+            "Pº Zorrilla 203 esq. Vinos de Cigales",
+            "Pº Zorrilla 187 esq. Vinos Vega Sicilia",
+            "AUVASA"
+          ]
         }
       ],
-      "letreros": ["E4 PERSONAL E4"],
-      "notas": ["No se debe pasar por las paradas antes de la hora indicada.", "LUNES A VIERNES LABORABLES, EXCEPTO AGOSTO"],
+      "letreros": [
+        "E3 PERSONAL E3"
+      ],
+      "notas": [
+        "No se debe pasar por las paradas antes de la hora indicada.",
+        "LUNES A VIERNES LABORABLES, EXCEPTO AGOSTO"
+      ],
       "horarios": [
         {
           "nombre": "Coche de Personal",
@@ -122,134 +222,79 @@
           "cochesDetalle": [
             {
               "nombre": "Horario 1",
-              "primeraSalida": "06:15",
+              "primeraSalida": "06:20",
               "retirada": "—",
               "salidas": [
-                {"cabecera": "C/ SANTA MARÍA DE LA CABEZA", "hora": "06:15"}
+                {
+                  "cabecera": "C/ San Quirce 5 fte. Biblioteca pública",
+                  "hora": "06:20"
+                },
+                {
+                  "cabecera": "Pza. España Bola del Mundo",
+                  "hora": "06:25"
+                },
+                {
+                  "cabecera": "Pº Zorrilla 130 Centro Comercial",
+                  "hora": "06:32"
+                },
+                {
+                  "cabecera": "Pza. Castilla y León 4",
+                  "hora": "06:41"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
-      "id": "E5",
-      "nombre": "Coche de Personal E5: San Pedro Regalado – Rondilla – Centro – AUVASA",
+    {
+      "id": "E4",
+      "nombre": "Coche de Personal E4: Bº Belén – AUVASA",
       "tipo": "personal",
       "paginaRecorridoPDF": 176,
       "recorridos": [
         {
-          "sentido": "Entrada: San Pedro Regalado → AUVASA",
-          "paradas": ["Avda. Santander Centro Comercial (06:15 h.)", "C/ Costa Brava Centro Comercial", "C/ Costa Brava 1 esq. Costa Dorada", "C/ Valle de Arán fte. 40", "C/ Portillo de Balboa fte. 60 esq. A. de Dios (06:19 h.)", "C/ Moradas 31 esq. Nebrija", "C/ Moradas 21 esq. Cardenal Cisneros", "C/ Cardenal Torquemada fte. 16", "Pza. San Pablo 2 esq. San Quirce (06:23 h.)", "C/ Angustias 5 Teatro Calderón", "Pza. Universidad esq. López Gómez", "Pza. España Bola del Mundo (06:28 h.)", "Acera Recoletos fte. 2 esq. Pza. Zorrilla", "Estación del Norte esq. Recondo", "Puente Colgante 2 Est. de Autobuses", "Puente Colgante 18 esq. Gabilondo", "Pº Zorrilla 88 fte. Pza. de Toros", "Pº Zorrilla 130 Centro Comercial (06:36 h.)", "Pº Zorrilla 166 fte. LAVA", "Ctra. Rueda 36 esq. Mota", "Ctra. Rueda fte. 41", "Ctra. Rueda fte. 53 Imserso", "AUVASA"]
-        }
-      ],
-      "letreros": ["E5 PERSONAL E5"],
-      "notas": ["No se debe pasar por las paradas antes de la hora indicada.", "SÁBADOS, FESTIVOS Y TODO AGOSTO"],
-      "horarios": [
-        {
-          "nombre": "Coche de Personal",
-          "tipoDia": "Sábados, Festivos y todo Agosto",
-          "coches": 1,
-          "paginaPDF": 176,
-          "descanso": "—",
-          "cochesDetalle": [
-            {
-              "nombre": "Horario 1",
-              "primeraSalida": "06:15",
-              "retirada": "—",
-              "salidas": [
-                {"cabecera": "AVDA. SANTANDER", "hora": "06:15"}
-              ]
-            }
-          ]
-        }
-      ]
-    },
-        {
-      "id": "E6",
-      "nombre": "Coche de Personal E6: Puente Jardín – Parquesol – AUVASA",
-      "tipo": "personal",
-      "paginaRecorridoPDF": 177,
-      "recorridos": [
-        {
-          "sentido": "Entrada: Puente Jardín → AUVASA",
-          "paradas": ["Pº Jardín Botánico esq. Brezo (06:15 h.)", "Pº Jardín Botánico fte. Jara", "Pº Jardín Botánico fte. 6", "Pº Jardín Botánico parc. 8 Centro Salud La Victoria", "C/ Fuente El Sol 31", "C/ Júpiter fte. 12 esq. Comuneros de Castilla", "Avda. Gijón 26 Canal (06:19 h.)", "C/ Morena edificio Antares", "C/ Morena 3 bloque 2", "C/ Mieses 40 (06:24 h.)", "C/ Mieses esq. Mª Santa María Retuerta", "C/ Mª S. Lorenzo de El Escorial esq. S. E. Gormaz", "C/ Mª S. Lorenzo de El Escorial C.C. Miguel Delibes", "C/ Adolfo Miaja de la Muela esq. Jorge Vidal (pintor)", "C/ Adolfo Miaja de la Muela 6 esq. Hernando de Acuña", "C/ José Garrote Tebar 4 esq. Amadeo Arias (06:30 h.)", "C/ José Garrote Tebar 20 esq. Manuel Silvela", "C/ Ciudad de La Habana Mercadona", "C/ Ciudad de La Habana esq. Martín Santos Romero", "Ctra. Rueda esq. Vega Sicilia", "Ctra. Rueda esq. Vinos de Cigales", "Ctra. Rueda fte. Centro Deportivo", "Pza. Castilla y León 4 (06:41 h.)", "C/ Miguel Delibes 19B esq. Miguel de Unamuno", "C/ Miguel Delibes 1", "C/ Vinos de Rueda esq. Cañada Real", "Pº Zorrilla 203 esq. Vinos de Cigales", "Pº Zorrilla 187 esq. Vinos Vega Sicilia", "AUVASA"]
-        }
-      ],
-      "letreros": ["E6 PERSONAL E6"],
-      "notas": ["No se debe pasar por las paradas antes de la hora indicada.", "SÁBADOS, FESTIVOS Y TODO AGOSTO"],
-      "horarios": [
-        {
-          "nombre": "Coche de Personal",
-          "tipoDia": "Sábados, Festivos y todo Agosto",
-          "coches": 1,
-          "paginaPDF": 177,
-          "descanso": "—",
-          "cochesDetalle": [
-            {
-              "nombre": "Horario 1",
-              "primeraSalida": "06:15",
-              "retirada": "—",
-              "salidas": [
-                {"cabecera": "Pº JARDÍN BOTÁNICO", "hora": "06:15"}
-              ]
-            }
-          ]
-        }
-      ]
-    },
-        {
-      "id": "E7",
-      "nombre": "Coche de Personal E7: Pajarillos – Pilarica – Delicias – AUVASA",
-      "tipo": "personal",
-      "paginaRecorridoPDF": 178,
-      "recorridos": [
-        {
-          "sentido": "Entrada: Pajarillos → AUVASA",
-          "paradas": ["C/ Santa María de la Cabeza fte. 9 (06:15 h.)", "C/ Santa María de la Cabeza fte. 39", "C/ Aguanieves esq. Autillo", "C/ Astrofísico Carlos Sánchez Magro (06:19 h.)", "C/ Puente La Reina 67", "C/ Templarios 6 esq. Puente La Reina", "C/ Villabáñez 19 IgI. S. Ignacio de Loyola", "Pza Vadillos 7 esq. Palacio Valdés (06:23 h.)", "Pº del Caucce Centro Salud Pilarica", "Pº del Caucce Ing. Industriales", "C/ Madre de Dios 29 fte. Facultad de Comercio", "C/ Madre de Dios 15", "C/ Real de Burgos fte. IgI. S. Pedro Apóstol (06:26 h.)", "C/ Alamillos 11", "Pza. San Juan", "C/ Don Sancho 7", "Pza. Circular 11 IgI. Corazón de María (06:30 h.)", "C/ Cádiz 4 esq. Bilbao", "Pº San Vicente 16 esq. Álava", "Avda. Segovia fte. 57", "C/ Embajadores 4 esq. Pº Farnesio", "Avda. Segovia fte. Iglesia del Carmen (06:35 h.)", "C/ Embajadores 60 fte. Esc. Oficial de Idiomas", "C/ Embajadores 74 esq. Hornija", "C/ Embajadores 92 esq. La Transición", "C/ Embajadores esq. Padre Benito Menni", "Ctra. Segovia fte. Víctimas del Terrorismo (06:40 h.)", "Ctra. Segovia fte. Col. Hijas de Jesús", "Avda. Zamora raqueta Pinar de Jalón (LIDL)", "AUVASA"]
-        }
-      ],
-      "letreros": ["E7 PERSONAL E7"],
-      "notas": ["No se debe pasar por las paradas antes de la hora indicada.", "SÁBADOS, FESTIVOS Y TODO AGOSTO"],
-      "horarios": [
-        {
-          "nombre": "Coche de Personal",
-          "tipoDia": "Sábados, Festivos y todo Agosto",
-          "coches": 1,
-          "paginaPDF": 178,
-          "descanso": "—",
-          "cochesDetalle": [
-            {
-              "nombre": "Horario 1",
-              "primeraSalida": "06:15",
-              "retirada": "—",
-              "salidas": [
-                {"cabecera": "C/ SANTA MARÍA DE LA CABEZA", "hora": "06:15"}
-              ]
-            }
-          ]
-        }
-      ]
-    },
-        {
-      "id": "E9",
-      "nombre": "Coche de Personal E9: Bº Belén – AUVASA",
-      "tipo": "personal",
-      "paginaRecorridoPDF": 179,
-      "recorridos": [
-        {
           "sentido": "Entrada: Bº Belén → AUVASA",
-          "paradas": ["Avda. Valle Esgueva 87 esq. Pº Belén (06:20 h.)", "Avda. Valle Esgueva 41 fte. Económicas", "Pº del Caue fte. Ing. Industriales", "Pº del Caue fte. Centro Salud Pilarica", "C/ Palacio Valdés esq. Pza. Vadillos", "C/ Cigüeña 41 esq. Villabáñez (06:25 h.)", "C/ Tórtola esq. Cigüeña", "C/ Santa María de la Cabeza fte. 9", "C/ Santa María de la Cabeza fte. 39 (06:30 h.)", "C/ Villabáñez ALDI", "C/ Dulzaina esq. Pailllos", "C/ Víctimas del Terrorismo fte. H.R.H. (06:38 h.)", "Ctra. Segovia fte. Víctimas del Terrorismo", "Ctra. Segovia fte. Col. Hijas de Jesús", "Avda. Zamora raqueta Pinar de Jalón (LIDL)", "AUVASA"]
+          "paradas": [
+            "Avda. Valle Esgueva 87 esq. Pº Belén (06:20 h.)",
+            "Avda. Valle Esgueva 41 fte. Económicas",
+            "Pº del Cauce fte. Ing. Industriales",
+            "Pº del Cauce fte. Centro Salud Pilarica",
+            "C/ Palacio Valdés esq. Pza. Vadillos",
+            "C/ Cigüeña 41 esq. Villabáñez (06:25 h.)",
+            "C/ Tórtola esq. Cigüeña",
+            "C/ Santa María de la Cabeza fte. 9",
+            "C/ Santa María de la Cabeza fte. 39 (06:30 h.)",
+            "C/ Villabáñez ALDI",
+            "C/ Dulzaina esq. Palillos",
+            "C/ Víctimas del Terrorismo fte. H.R.H. (06:38 h.)",
+            "Ctra. Segovia fte. Víctimas del Terrorismo",
+            "Ctra. Segovia fte. Col. Hijas de Jesús",
+            "Avda. Zamora raqueta Pinar de Jalón (LIDL)",
+            "AUVASA"
+          ]
         }
       ],
-      "letreros": ["E9 PERSONAL E9"],
-      "notas": ["No se debe pasar por las paradas antes de la hora indicada.", "LUNES A VIERNES LABORABLES, EXCEPTO AGOSTO"],
+      "letreros": [
+        "E4 PERSONAL E4"
+      ],
+      "notas": [
+        "No se debe pasar por las paradas antes de la hora indicada.",
+        "LUNES A VIERNES LABORABLES, EXCEPTO AGOSTO",
+        "Notas: Cuando tengan que utilizar la SALIDA (10:30 h.) y ENTRADA (12:20 h.) de personal DEBERÁN AVISAR A PRIMERA HORA DE LA MAÑANA a CENTRAL. De no ser así, NO SE REALIZARÁN los servicios. La salida de cocheras se efectuará en el momento en que esté todo el personal, sin tener que esperar a la hora marcada. Estos recorridos se efectuarán por el recorrido más corto cuando no haya personal para el itinerario oficial marcado.",
+        "Conductores con entrada a las 04:45 h. y 06:30 h.: A los que haya que ir a recoger con el coche de personal, se apuntarán en la hoja que a tal efecto se encuentra junto al Cuarto de Lavacoches.",
+        "Conductores con entrada a las 06:00 h.: De LUNES A VIERNES laborables (excepto en agosto), se acoplarán a los servicios y recorridos de las LÍNEAS de los POLÍGONOS P1, P2, P6 o PSC3. Solo se les podrá ir a recoger con el coche de personal, si la distancia de su domicilio oficial a las paradas de dichas líneas es superior a 800 metros aproximadamente (para ello, se apuntarán en la hoja que a tal efecto se encuentra junto al Cuarto de Lavacoches).",
+        "Los SÁBADOS, FESTIVOS Y TODO AGOSTO, a los que haya que ir a recoger con el coche de personal, se apuntarán en la hoja que a tal efecto se encuentra junto al Cuarto de Lavacoches.",
+        "Conductores con entrada a las 06:45 h.: De LUNES A VIERNES laborables (excepto en agosto), se acoplarán a los servicios y recorridos de las LÍNEAS de los POLÍGONOS P7 o PSC1. Solo se les podrá ir a recoger con el coche de personal, si la distancia de su domicilio oficial a las paradas de dichas líneas es superior a 800 metros aproximadamente (para ello, se apuntarán en la hoja que a tal efecto se encuentra junto al Cuarto de Lavacoches).",
+        "Los SÁBADOS, FESTIVOS Y TODO AGOSTO, a los que haya que ir a recoger con el coche de personal, se apuntarán en la hoja que a tal efecto se encuentra junto al Cuarto de Lavacoches.",
+        "Servicio Festivos: Habrá servicio de personal para la entrada a cocheras de las 8:00 y de las 9.00 h. (previa petición telefónica en el mismo día, y saliendo a las 07:45 y/o 08:45 h. de la parada de Pº Zorrilla 130 Centro Comercial) y salida de cocheras a las 14:05 h. (con el recorrido estipulado hasta Pza. España)."
+      ],
       "horarios": [
         {
           "nombre": "Coche de Personal",
           "tipoDia": "Lunes a Viernes Laborables (excepto agosto)",
           "coches": 1,
-          "paginaPDF": 179,
+          "paginaPDF": 176,
           "descanso": "—",
           "cochesDetalle": [
             {
@@ -257,131 +302,995 @@
               "primeraSalida": "06:20",
               "retirada": "—",
               "salidas": [
-                {"cabecera": "AVDA. VALLE ESQUEVA", "hora": "06:20"}
+                {
+                  "cabecera": "Avda. Valle Esgueva 87 esq. Pº Belén",
+                  "hora": "06:20"
+                },
+                {
+                  "cabecera": "C/ Cigüeña 41 esq. Villabáñez",
+                  "hora": "06:25"
+                },
+                {
+                  "cabecera": "C/ Santa María de la Cabeza fte. 39",
+                  "hora": "06:30"
+                },
+                {
+                  "cabecera": "C/ Víctimas del Terrorismo fte. H.R.H.",
+                  "hora": "06:38"
+                }
               ]
             }
           ]
         }
       ]
     },
+    {
+      "id": "E5",
+      "nombre": "Coche de Personal E5: San Pedro Regalado – Rondilla – Centro – AUVASA",
+      "tipo": "personal",
+      "paginaRecorridoPDF": 173,
+      "recorridos": [
         {
+          "sentido": "Entrada: San Pedro Regalado → AUVASA",
+          "paradas": [
+            "Avda. Santander Centro Comercial (06:15 h.)",
+            "C/ Costa Brava Centro Comercial",
+            "C/ Costa Brava 1 esq. Costa Dorada",
+            "C/ Valle de Arán fte. 40",
+            "C/ Portillo de Balboa fte. 60 esq. A. de Dios (06:19 h.)",
+            "C/ Moradas 31 esq. Nebrija",
+            "C/ Moradas 21 esq. Cardenal Cisneros",
+            "C/ Cardenal Torquemada fte. 16",
+            "Pza. San Pablo 2 esq. San Quirce (06:23 h.)",
+            "C/ Angustias 5 Teatro Calderón",
+            "Pza. Universidad esq. López Gómez",
+            "Pza. España Bola del Mundo (06:28 h.)",
+            "Acera Recoletos fte. 2 esq. Pza. Zorrilla",
+            "Estación del Norte esq. Recondo",
+            "Puente Colgante 2 Est. de Autobuses",
+            "Puente Colgante 18 esq. Gabilondo",
+            "Pº Zorrilla 88 fte. Pza. de Toros",
+            "Pº Zorrilla 130 Centro Comercial (06:36 h.)",
+            "Pº Zorrilla 166 fte. LAVA",
+            "Ctra. Rueda 36 esq. Mota",
+            "Ctra. Rueda fte. 41",
+            "Ctra. Rueda fte. 53 Imserso",
+            "AUVASA"
+          ]
+        }
+      ],
+      "letreros": [
+        "E5 PERSONAL E5"
+      ],
+      "notas": [
+        "No se debe pasar por las paradas antes de la hora indicada.",
+        "SÁBADOS, FESTIVOS Y TODO AGOSTO"
+      ],
+      "horarios": [
+        {
+          "nombre": "Coche de Personal",
+          "tipoDia": "Sábados, Festivos y todo Agosto",
+          "coches": 1,
+          "paginaPDF": 173,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Horario 1",
+              "primeraSalida": "06:15",
+              "retirada": "—",
+              "salidas": [
+                {
+                  "cabecera": "Avda. Santander Centro Comercial",
+                  "hora": "06:15"
+                },
+                {
+                  "cabecera": "C/ Portillo de Balboa fte. 60 esq. A. de Dios",
+                  "hora": "06:19"
+                },
+                {
+                  "cabecera": "Pza. San Pablo 2 esq. San Quirce",
+                  "hora": "06:23"
+                },
+                {
+                  "cabecera": "Pza. España Bola del Mundo",
+                  "hora": "06:28"
+                },
+                {
+                  "cabecera": "Pº Zorrilla 130 Centro Comercial",
+                  "hora": "06:36"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E6",
+      "nombre": "Coche de Personal E6: Puente Jardín – Parquesol – AUVASA",
+      "tipo": "personal",
+      "paginaRecorridoPDF": 174,
+      "recorridos": [
+        {
+          "sentido": "Entrada: Puente Jardín → AUVASA",
+          "paradas": [
+            "Pº Jardín Botánico esq. Brezo (06:15 h.)",
+            "Pº Jardín Botánico fte. Jara",
+            "Pº Jardín Botánico fte. 6",
+            "Pº Jardín Botánico parc. 8 Centro Salud La Victoria",
+            "C/ Fuente El Sol 31",
+            "C/ Júpiter fte 12 esq. Comuneros de Castilla",
+            "Avda. Gijón 26 Canal (06:19 h.)",
+            "C/ Morena edificio Antares",
+            "C/ Morena 3 bloque 2",
+            "C/ Mieses 40 (06:24 h.)",
+            "C/ Mieses esq. Mº Santa María Retuerta",
+            "C/ Mº S. Lorenzo de El Escorial esq. S. E. Gormaz",
+            "C/ Mº S. Lorenzo de El Escorial C.C. Miguel Delibes",
+            "C/ Adolfo Miaja de la Muela esq. Jorge Vidal (pintor)",
+            "C/ Adolfo Miaja de la Muela 6 esq. Hernando de Acuña",
+            "C/ José Garrote Tebar 4 esq. Amadeo Arias (06:30 h.)",
+            "C/ José Garrote Tebar 20 esq. Manuel Silvela",
+            "C/ Ciudad de La Habana Mercadona",
+            "C/ Ciudad de La Habana esq. Martín Santos Romero",
+            "Ctra. Rueda esq. Vega Sicilia",
+            "Ctra. Rueda esq. Vinos de Cigales",
+            "Ctra. Rueda fte. Centro Deportivo",
+            "Pza. Castilla y León 4 (06:41 h.)",
+            "C/ Miguel Delibes 19B esq. Miguel de Unamuno",
+            "C/ Miguel Delibes 1",
+            "C/ Vinos de Rueda esq. Cañada Real",
+            "Pº Zorrilla 203 esq. Vinos de Cigales",
+            "Pº Zorrilla 187 esq. Vinos Vega Sicilia",
+            "AUVASA"
+          ]
+        }
+      ],
+      "letreros": [
+        "E6 PERSONAL E6"
+      ],
+      "notas": [
+        "No se debe pasar por las paradas antes de la hora indicada.",
+        "SÁBADOS, FESTIVOS Y TODO AGOSTO"
+      ],
+      "horarios": [
+        {
+          "nombre": "Coche de Personal",
+          "tipoDia": "Sábados, Festivos y todo Agosto",
+          "coches": 1,
+          "paginaPDF": 174,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Horario 1",
+              "primeraSalida": "06:15",
+              "retirada": "—",
+              "salidas": [
+                {
+                  "cabecera": "Pº Jardín Botánico esq. Brezo",
+                  "hora": "06:15"
+                },
+                {
+                  "cabecera": "Avda. Gijón 26 Canal",
+                  "hora": "06:19"
+                },
+                {
+                  "cabecera": "C/ Mieses 40",
+                  "hora": "06:24"
+                },
+                {
+                  "cabecera": "C/ José Garrote Tebar 4 esq. Amadeo Arias",
+                  "hora": "06:30"
+                },
+                {
+                  "cabecera": "Pza. Castilla y León 4",
+                  "hora": "06:41"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E7",
+      "nombre": "Coche de Personal E7: Pajarillos – Pilarica – Delicias – AUVASA",
+      "tipo": "personal",
+      "paginaRecorridoPDF": 175,
+      "recorridos": [
+        {
+          "sentido": "Entrada: Pajarillos → AUVASA",
+          "paradas": [
+            "C/ Santa María de la Cabeza fte. 9 (06:15 h.)",
+            "C/ Santa María de la Cabeza fte. 39",
+            "C/ Aguanieves esq. Autillo",
+            "C/ Astrofísico Carlos Sánchez Magro (06:19 h.)",
+            "C/ Puente La Reina 67",
+            "C/ Templarios 6 esq. Puente La Reina",
+            "C/ Villabáñez 19 Igl. S. Ignacio de Loyola",
+            "Pza Vadillos 7 esq. Palacio Valdés (06:23 h.)",
+            "Pº del Cauce Centro Salud Pilarica",
+            "Pº del Cauce Ing. Industriales",
+            "C/ Madre de Dios 29 fte. Facultad de Comercio",
+            "C/ Madre de Dios 15",
+            "C/ Real de Burgos fte. Igl. S. Pedro Apóstol (06:26 h.)",
+            "C/ Alamillos 11",
+            "Pza. San Juan",
+            "C/ Don Sancho 7",
+            "Pza. Circular 11 Igl. Corazón de María (06:30 h.)",
+            "C/ Cádiz 4 esq. Bilbao",
+            "Pº San Vicente 16 esq. Álava",
+            "Avda. Segovia fte. 57",
+            "C/ Embajadores 4 esq. Pº Farnesio",
+            "Avda. Segovia fte. Iglesia del Carmen (06:35 h.)",
+            "C/ Embajadores 60 fte. Esc. Oficial de Idiomas",
+            "C/ Embajadores 74 esq. Hornija",
+            "C/ Embajadores 92 esq. La Transición",
+            "C/ Embajadores esq. Padre Benito Menni",
+            "Ctra. Segovia fte. Víctimas del Terrorismo (06:40 h.)",
+            "Ctra. Segovia fte. Col. Hijas de Jesús",
+            "Avda. Zamora raqueta Pinar de Jalón (LIDL)",
+            "AUVASA"
+          ]
+        }
+      ],
+      "letreros": [
+        "E7 PERSONAL E7"
+      ],
+      "notas": [
+        "No se debe pasar por las paradas antes de la hora indicada.",
+        "SÁBADOS, FESTIVOS Y TODO AGOSTO"
+      ],
+      "horarios": [
+        {
+          "nombre": "Coche de Personal",
+          "tipoDia": "Sábados, Festivos y todo Agosto",
+          "coches": 1,
+          "paginaPDF": 175,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Horario 1",
+              "primeraSalida": "06:15",
+              "retirada": "—",
+              "salidas": [
+                {
+                  "cabecera": "C/ Santa María de la Cabeza fte. 9",
+                  "hora": "06:15"
+                },
+                {
+                  "cabecera": "C/ Astrofísico Carlos Sánchez Magro",
+                  "hora": "06:19"
+                },
+                {
+                  "cabecera": "Pza Vadillos 7 esq. Palacio Valdés",
+                  "hora": "06:23"
+                },
+                {
+                  "cabecera": "C/ Real de Burgos fte. Igl. S. Pedro Apóstol",
+                  "hora": "06:26"
+                },
+                {
+                  "cabecera": "Pza. Circular 11 Igl. Corazón de María",
+                  "hora": "06:30"
+                },
+                {
+                  "cabecera": "Avda. Segovia fte. Iglesia del Carmen",
+                  "hora": "06:35"
+                },
+                {
+                  "cabecera": "Ctra. Segovia fte. Víctimas del Terrorismo",
+                  "hora": "06:40"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E8",
+      "nombre": "Coche de Personal E8 (Navidad y Año Nuevo)",
+      "tipo": "personal",
+      "paginaRecorridoPDF": 177,
+      "recorridos": [
+        {
+          "sentido": "Entrada: trayecto único especial → AUVASA",
+          "paradas": [
+            "C/ Padre Benito Menni esq. Caamaño (08:50 h.)",
+            "C/ Embajadores",
+            "C/ General Shelly",
+            "Avda. Segovia Igl. del Carmen (08:55 h.)",
+            "Pº San Vicente",
+            "C/ Andalucía",
+            "C/ Cádiz",
+            "C/ Cigüeña 4 (09:00 h.)",
+            "C/ Villabáñez",
+            "Pza. Vadillos 7 (09:04 h.)",
+            "C/ Santiago Rusiñol",
+            "Pza. Luis Braille",
+            "C/ Gabriel y Galán",
+            "Pº del Cauce",
+            "Pº Prado de La Magdalena",
+            "Pza. Dr. Jiménez Díaz (09:10 h.)",
+            "C/ Soto",
+            "C/ Moradas",
+            "C/ Tirso de Molina",
+            "C/ Cardenal Torquemada",
+            "Avda. Rondilla de Santa Teresa (09:17 h.)",
+            "Pza. San Nicolás",
+            "Pza. San Bartolomé",
+            "C/ Eras",
+            "Avda. Ramón Pradera",
+            "Avda. Gloria Fuertes 1 (09:23 h.)",
+            "Pº Isabel La Católica fte. Pza. Poniente",
+            "C/ San Ildefonso",
+            "Pº Zorrilla 10 (09:26 h.)",
+            "Pza. Juan de Austria",
+            "C/ Doctor Villacián",
+            "C/ Hernando de Acuña parc. 21 (09:33 h.)",
+            "C/ Ciudad de La Habana",
+            "C/ José Garrote Tebar",
+            "C/ Adolfo Miaja de la Muela esq. Remigio Cabello Toral (09:37 h.)",
+            "C/ Doctor Villacián",
+            "Avda. Salamanca",
+            "Avda. Medina del Campo 15 fte. C. Salud Arturo Eyries (09:42 h.)",
+            "Pº Zorrilla 166 fte. LAVA",
+            "Ctra. Rueda 36 esq. Mota",
+            "Glorieta Puertas de Valladolid (09:48 h.)",
+            "Pº Zorrilla",
+            "Avda. Zamora",
+            "AUVASA"
+          ]
+        }
+      ],
+      "letreros": [
+        "PERSONAL E8"
+      ],
+      "notas": [
+        "No se debe pasar por las paradas antes de la hora indicada.",
+        "Trayecto único especial 08:50 h."
+      ],
+      "horarios": [
+        {
+          "nombre": "Coche de Personal",
+          "tipoDia": "Navidad (25/12) y Año Nuevo (01/01)",
+          "coches": 1,
+          "paginaPDF": 177,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Horario 1",
+              "primeraSalida": "08:50",
+              "retirada": "—",
+              "salidas": [
+                {
+                  "cabecera": "C/ Padre Benito Menni esq. Caamaño",
+                  "hora": "08:50"
+                },
+                {
+                  "cabecera": "Avda. Segovia Igl. del Carmen",
+                  "hora": "08:55"
+                },
+                {
+                  "cabecera": "C/ Cigüeña 4",
+                  "hora": "09:00"
+                },
+                {
+                  "cabecera": "Pza. Vadillos 7",
+                  "hora": "09:04"
+                },
+                {
+                  "cabecera": "Pza. Dr. Jiménez Díaz",
+                  "hora": "09:10"
+                },
+                {
+                  "cabecera": "Avda. Rondilla de Santa Teresa",
+                  "hora": "09:17"
+                },
+                {
+                  "cabecera": "Avda. Gloria Fuertes 1",
+                  "hora": "09:23"
+                },
+                {
+                  "cabecera": "Pº Zorrilla 10",
+                  "hora": "09:26"
+                },
+                {
+                  "cabecera": "C/ Hernando de Acuña parc. 21",
+                  "hora": "09:33"
+                },
+                {
+                  "cabecera": "C/ Adolfo Miaja de la Muela esq. Remigio Cabello Toral",
+                  "hora": "09:37"
+                },
+                {
+                  "cabecera": "Avda. Medina del Campo 15 fte. C. Salud Arturo Eyries",
+                  "hora": "09:42"
+                },
+                {
+                  "cabecera": "Glorieta Puertas de Valladolid",
+                  "hora": "09:48"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E9",
+      "nombre": "Coche de Personal E9: Servicios especiales TP",
+      "tipo": "personal",
+      "paginaRecorridoPDF": 176,
+      "recorridos": [
+        {
+          "sentido": "Entradas: recorrido único",
+          "paradas": [
+            "Avda. Segovia Iglesia del Carmen",
+            "Pza. Vadillos",
+            "C/ C. Torquemada “Bar Plaza”",
+            "C/ Jara",
+            "Pza. San Bartolomé",
+            "Avda. Salamanca Feria de Valladolid",
+            "C/ Hernando de Acuña 23",
+            "Pº Zorrilla 130 C. Com.",
+            "Ctra. Rueda 36 esq. Mota",
+            "Avda. Zamora raqueta Vallsur",
+            "AUVASA"
+          ]
+        },
+        {
+          "sentido": "Turnos partidos: Salida 10:30",
+          "paradas": [
+            "AUVASA (10:30 h.)",
+            "Pº Zorrilla 153 fte. Centro Com.",
+            "Pº Zorrilla 133 Bº La Rubia",
+            "Pº Zorrilla 101 LAVA",
+            "Pº Zorrilla 71 esq. Arzob. García",
+            "Goldáraz"
+          ]
+        },
+        {
+          "sentido": "Turnos partidos: Entrada 12:45",
+          "paradas": [
+            "Pº Isabel La Católica Pza. Poniente (12:20 h.)",
+            "Pº Zorrilla 52 esq. Pº Hospital Militar",
+            "Pº Zorrilla 130 Centro Comercial (12:30 h.)",
+            "Pº Zorrilla 198 Bº La Rubia",
+            "Pº Zorrilla 238 Centro Comercial",
+            "AUVASA"
+          ]
+        }
+      ],
+      "letreros": [
+        "PERSONAL E9"
+      ],
+      "notas": [
+        "Notas: Cuando tengan que utilizar la SALIDA (10:30 h.) y ENTRADA (12:20 h.) de personal DEBERÁN AVISAR A PRIMERA HORA DE LA MAÑANA a CENTRAL. De no ser así, NO SE REALIZARÁN los servicios. La salida de cocheras se efectuará en el momento en que esté todo el personal, sin tener que esperar a la hora marcada. Estos recorridos se efectuarán por el recorrido más corto cuando no haya personal para el itinerario oficial marcado.",
+        "Conductores con entrada a las 04:45 h. y 06:30 h.: A los que haya que ir a recoger con el coche de personal, se apuntarán en la hoja que a tal efecto se encuentra junto al Cuarto de Lavacoches.",
+        "Conductores con entrada a las 06:00 h.: De LUNES A VIERNES laborables (excepto en agosto), se acoplarán a los servicios y recorridos de las LÍNEAS de los POLÍGONOS P1, P2, P6 o PSC3. Solo se les podrá ir a recoger con el coche de personal, si la distancia de su domicilio oficial a las paradas de dichas líneas es superior a 800 metros aproximadamente (para ello, se apuntarán en la hoja que a tal efecto se encuentra junto al Cuarto de Lavacoches).",
+        "Los SÁBADOS, FESTIVOS Y TODO AGOSTO, a los que haya que ir a recoger con el coche de personal, se apuntarán en la hoja que a tal efecto se encuentra junto al Cuarto de Lavacoches.",
+        "Conductores con entrada a las 06:45 h.: De LUNES A VIERNES laborables (excepto en agosto), se acoplarán a los servicios y recorridos de las LÍNEAS de los POLÍGONOS P7 o PSC1. Solo se les podrá ir a recoger con el coche de personal, si la distancia de su domicilio oficial a las paradas de dichas líneas es superior a 800 metros aproximadamente (para ello, se apuntarán en la hoja que a tal efecto se encuentra junto al Cuarto de Lavacoches).",
+        "Los SÁBADOS, FESTIVOS Y TODO AGOSTO, a los que haya que ir a recoger con el coche de personal, se apuntarán en la hoja que a tal efecto se encuentra junto al Cuarto de Lavacoches.",
+        "Servicio Festivos: Habrá servicio de personal para la entrada a cocheras de las 8:00 y de las 9.00 h. (previa petición telefónica en el mismo día, y saliendo a las 07:45 y/o 08:45 h. de la parada de Pº Zorrilla 130 Centro Comercial) y salida de cocheras a las 14:05 h. (con el recorrido estipulado hasta Pza. España)."
+      ],
+      "horarios": [
+        {
+          "nombre": "Servicios especiales TP",
+          "tipoDia": "Lunes a Viernes Laborables",
+          "coches": 4,
+          "paginaPDF": 176,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Entrada 04:45",
+              "primeraSalida": "04:05",
+              "retirada": "—",
+              "salidas": [
+                {
+                  "cabecera": "Avda. Segovia Iglesia del Carmen",
+                  "hora": "04:05"
+                },
+                {
+                  "cabecera": "Pza. Vadillos",
+                  "hora": "04:10"
+                },
+                {
+                  "cabecera": "C/ C. Torquemada “Bar Plaza”",
+                  "hora": "04:15"
+                },
+                {
+                  "cabecera": "C/ Jara",
+                  "hora": "04:20"
+                },
+                {
+                  "cabecera": "Pza. San Bartolomé",
+                  "hora": "04:23"
+                },
+                {
+                  "cabecera": "Avda. Salamanca Feria de Valladolid",
+                  "hora": "04:25"
+                },
+                {
+                  "cabecera": "C/ Hernando de Acuña 23",
+                  "hora": "04:30"
+                },
+                {
+                  "cabecera": "Pº Zorrilla 130 C. Com.",
+                  "hora": "04:34"
+                },
+                {
+                  "cabecera": "Ctra. Rueda 36 esq. Mota",
+                  "hora": "04:37"
+                },
+                {
+                  "cabecera": "Avda. Zamora raqueta Vallsur",
+                  "hora": "04:40"
+                },
+                {
+                  "cabecera": "AUVASA",
+                  "hora": "04:45"
+                }
+              ]
+            },
+            {
+              "nombre": "Entrada 06:00",
+              "primeraSalida": "05:20",
+              "retirada": "—",
+              "salidas": [
+                {
+                  "cabecera": "Avda. Segovia Iglesia del Carmen",
+                  "hora": "05:20"
+                },
+                {
+                  "cabecera": "Pza. Vadillos",
+                  "hora": "05:25"
+                },
+                {
+                  "cabecera": "C/ C. Torquemada “Bar Plaza”",
+                  "hora": "05:30"
+                },
+                {
+                  "cabecera": "C/ Jara",
+                  "hora": "05:35"
+                },
+                {
+                  "cabecera": "Pza. San Bartolomé",
+                  "hora": "05:38"
+                },
+                {
+                  "cabecera": "Avda. Salamanca Feria de Valladolid",
+                  "hora": "05:40"
+                },
+                {
+                  "cabecera": "C/ Hernando de Acuña 23",
+                  "hora": "05:45"
+                },
+                {
+                  "cabecera": "Pº Zorrilla 130 C. Com.",
+                  "hora": "05:49"
+                },
+                {
+                  "cabecera": "Ctra. Rueda 36 esq. Mota",
+                  "hora": "05:52"
+                },
+                {
+                  "cabecera": "Avda. Zamora raqueta Vallsur",
+                  "hora": "05:55"
+                },
+                {
+                  "cabecera": "AUVASA",
+                  "hora": "06:00"
+                }
+              ]
+            },
+            {
+              "nombre": "Entrada 06:30",
+              "primeraSalida": "05:50",
+              "retirada": "—",
+              "salidas": [
+                {
+                  "cabecera": "Avda. Segovia Iglesia del Carmen",
+                  "hora": "05:50"
+                },
+                {
+                  "cabecera": "Pza. Vadillos",
+                  "hora": "05:55"
+                },
+                {
+                  "cabecera": "C/ C. Torquemada “Bar Plaza”",
+                  "hora": "06:00"
+                },
+                {
+                  "cabecera": "C/ Jara",
+                  "hora": "06:05"
+                },
+                {
+                  "cabecera": "Pza. San Bartolomé",
+                  "hora": "06:08"
+                },
+                {
+                  "cabecera": "Avda. Salamanca Feria de Valladolid",
+                  "hora": "06:10"
+                },
+                {
+                  "cabecera": "C/ Hernando de Acuña 23",
+                  "hora": "06:15"
+                },
+                {
+                  "cabecera": "Pº Zorrilla 130 C. Com.",
+                  "hora": "06:19"
+                },
+                {
+                  "cabecera": "Ctra. Rueda 36 esq. Mota",
+                  "hora": "06:22"
+                },
+                {
+                  "cabecera": "Avda. Zamora raqueta Vallsur",
+                  "hora": "06:25"
+                },
+                {
+                  "cabecera": "AUVASA",
+                  "hora": "06:30"
+                }
+              ]
+            },
+            {
+              "nombre": "Entrada 06:45",
+              "primeraSalida": "06:10",
+              "retirada": "—",
+              "salidas": [
+                {
+                  "cabecera": "Avda. Segovia Iglesia del Carmen",
+                  "hora": "06:10"
+                },
+                {
+                  "cabecera": "Pza. Vadillos",
+                  "hora": "06:15"
+                },
+                {
+                  "cabecera": "C/ C. Torquemada “Bar Plaza”",
+                  "hora": "06:20"
+                },
+                {
+                  "cabecera": "Pza. San Bartolomé",
+                  "hora": "06:23"
+                },
+                {
+                  "cabecera": "Avda. Salamanca Feria de Valladolid",
+                  "hora": "06:25"
+                },
+                {
+                  "cabecera": "C/ Hernando de Acuña 23",
+                  "hora": "06:30"
+                },
+                {
+                  "cabecera": "Pº Zorrilla 130 C. Com.",
+                  "hora": "06:34"
+                },
+                {
+                  "cabecera": "Ctra. Rueda 36 esq. Mota",
+                  "hora": "06:37"
+                },
+                {
+                  "cabecera": "Avda. Zamora raqueta Vallsur",
+                  "hora": "06:40"
+                },
+                {
+                  "cabecera": "AUVASA",
+                  "hora": "06:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Turnos partidos",
+          "tipoDia": "Lunes a Viernes Laborables",
+          "coches": 2,
+          "paginaPDF": 176,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Salida 10:30",
+              "primeraSalida": "10:30",
+              "retirada": "—",
+              "salidas": [
+                {
+                  "cabecera": "AUVASA",
+                  "hora": "10:30"
+                }
+              ]
+            },
+            {
+              "nombre": "Entrada 12:45",
+              "primeraSalida": "12:20",
+              "retirada": "—",
+              "salidas": [
+                {
+                  "cabecera": "Pº Isabel La Católica Pza. Poniente",
+                  "hora": "12:20"
+                },
+                {
+                  "cabecera": "Pº Zorrilla 130 Centro Comercial",
+                  "hora": "12:30"
+                },
+                {
+                  "cabecera": "AUVASA",
+                  "hora": "12:45"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "S1",
-      "nombre": "Coche de Personal S1 (Salida)",
+      "nombre": "Coche de Personal S1: AUVASA – Centro – Rondilla – S. Pedro Regalado (Salida)",
       "tipo": "personal",
-      "paginaRecorridoPDF": 180,
+      "paginaRecorridoPDF": 178,
       "recorridos": [
         {
-          "sentido": "Salida: AUVASA → todas las zonas",
-          "paradas": ["AUVASA (23:35 h.)", "Pº Zorrilla 153 fte. Centro Comercial", "Ctra. Rueda 36 esq. Mota", "Ctra. Rueda fte. 41", "Ctra. Rueda fte. 53 Imserso", "Ctra. Rueda esq. Vega Sicilia", "Ctra. Rueda esq. Vinos de Cigales", "C/ Miguel Delibes 19B esq. Miguel de Unamuno", "Cañada Real 131 esq. Vinos de Rueda", "Cañada Real 67 esq. Vinos Ribera Duero", "Pº Zorrilla 101 LAVA", "Pza. Dr. Quemada Ig. Santo Domingo de Guzmán", "Avda. Medina del Campo fte. Barlovento", "Avda. Medina del Campo fte. 19 Centro Salud A. Eyries", "C/ Ciudad de La Habana fte. gasolinera", "C/ Ciudad de La Habana fte. Mercadona", "C/ José Garrote Tobar 21", "C/ Adolfo Miaja de la Muela esq. Remigio Cabello Toral", "C/ Adolfo Miaja de la Muela Hospital Psiquiátrico", "C/ Adolfo Miaja de la Muela fte. Padre Llanos", "C/ Mº San Lorenzo de El Escorial fte. C.C. Miguel Delibes", "Mº de Yuste fte. 28 esq. Mº San Lorenzo de El Escorial", "Mº Santo Domingo Silos 3", "Avda. Salamanca esq. puente Juan de Austria", "Pza. Juan de Austria Centro Comercial", "C/ Puente Colgante 47", "Pº Arco de Ladrillo esq. Recondo", "Pº Hospital Militar esq. Pº Zorrilla", "Avda. Sánchez Arjona esq. Joaquín Velasco Martín", "C/ Mieses esq. Barbecho", "C/ Mieses fte. 40", "C/ Mieses fte. 8", "Avda. Gijón 3 fte. Canal", "Avda. Gijón 1 esq. Pza. San Bartolomé", "C/ Fuente El Sol 2 esq. Pza. San Bartolomé", "C/ Fuente El Sol 50 esq. San Sebastián", "Pº Jardín Botánico parc. 7 fte. Centro Salud La Victoria", "Pº Jardín Botánico 6", "C/ Jara esq. Hierbabuena"]
+          "sentido": "Salida: AUVASA – Centro – Rondilla – S. Pedro Regalado",
+          "paradas": [
+            "AUVASA (23:05 h.)",
+            "Ctra. Rueda 47 fte. Imserso",
+            "Ctra. Rueda 37 esq. Corta",
+            "Ctra. Rueda 19 esq. Mota",
+            "Pº Zorrilla 101 LAVA",
+            "Pº Zorrilla 65 fte. Centro Comercial",
+            "C/ Puente Colgante 47",
+            "C/ Recondo 4 fte. Est. Autobuses",
+            "C/ Estación del Norte RENFE",
+            "C/ Gamazo 17 esq. Bailén",
+            "C/ Miguel Íscar 21 esq. Pza. Madrid",
+            "Pza. Zorrilla 3 esq. Santiago",
+            "Pº Isabel La Católica 1 esq. Veinte de Febrero",
+            "Pº Isabel La Católica Pza. Poniente",
+            "C/ San Quirce 5 fte. Biblioteca Pública",
+            "C/ Cardenal Torquemada esq. R. Santa Teresa",
+            "C/ Cardenal Torquemada esq. Tirso de Molina",
+            "C/ Cardenal Torquemada 50 esq. Soto",
+            "C/ Cardenal Torquemada 54 Centro Salud",
+            "C/ Cardenal Torquemada. fte. Polid. Rondilla",
+            "C/ Valle de Arán 48",
+            "C/ Valle de Arán 76 esq. Costa Brava",
+            "C/ Costa Brava fte. Centro Comercial",
+            "Avda. Santander fte. Centro Comercial"
+          ]
         }
       ],
-      "letreros": ["S1 PERSONAL S1"],
-      "notas": ["TODO EL AÑO: 23:35 h.", "Durante el trayecto de reparto del personal, cuando no haya trabajadores que se bajen en algún punto del itinerario señalado, el conductor de dicho coche podrá variar su recorrido, con el fin de realizar el reparto lo antes posible."],
+      "letreros": [
+        "S1 PERSONAL S1"
+      ],
+      "notas": [
+        "TODO EL AÑO: 23:35 h.",
+        "Durante el trayecto de reparto del personal, cuando no haya trabajadores que se bajen en algún punto del itinerario señalado, el conductor de dicho coche podrá variar su recorrido, con el fin de realizar el reparto lo antes posible."
+      ],
       "horarios": [
         {
           "nombre": "Coche de Personal Salida",
           "tipoDia": "Todo el año",
           "coches": 1,
-          "paginaPDF": 180,
+          "paginaPDF": 178,
           "descanso": "—",
           "cochesDetalle": [
             {
               "nombre": "Horario 1",
-              "primeraSalida": "23:35",
+              "primeraSalida": "23:05",
               "retirada": "—",
               "salidas": [
-                {"cabecera": "AUVASA", "hora": "23:35"}
+                {
+                  "cabecera": "AUVASA",
+                  "hora": "23:05"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "S2",
-      "nombre": "Coche de Personal S2 (Salida)",
+      "nombre": "Coche de Personal S2: AUVASA – Parquesol – Puente Jardín (Salida)",
       "tipo": "personal",
-      "paginaRecorridoPDF": 180,
+      "paginaRecorridoPDF": 178,
       "recorridos": [
         {
-          "sentido": "Salida: AUVASA → Rondilla",
-          "paradas": ["AUVASA (23:35 h.)", "Pº Zorrilla 153 fte. Centro Comercial", "Ctra. Rueda 36 esq. Mota", "Ctra. Rueda fte. 41", "Ctra. Rueda fte. 53 Imserso", "Ctra. Rueda esq. Vega Sicilia", "Ctra. Rueda esq. Vinos de Cigales", "C/ Miguel Delibes 19B esq. Miguel de Unamuno", "Cañada Real 131 esq. Vinos de Rueda", "Cañada Real 67 esq. Vinos Ribera Duero", "Pº Zorrilla 101 LAVA", "Pza. Dr. Quemada Ig. Santo Domingo de Guzmán", "Avda. Medina del Campo fte. Barlovento", "Avda. Medina del Campo fte. 19 Centro Salud A. Eyries", "C/ Ciudad de La Habana fte. gasolinera", "C/ Ciudad de La Habana fte. Mercadona", "C/ José Garrote Tobar 21", "C/ Adolfo Miaja de la Muela esq. Remigio Cabello Toral", "C/ Adolfo Miaja de la Muela Hospital Psiquiátrico", "C/ Adolfo Miaja de la Muela fte. Padre Llanos", "C/ Mº San Lorenzo de El Escorial fte. C.C. Miguel Delibes", "Mº de Yuste fte. 28 esq. Mº San Lorenzo de El Escorial", "Mº Santo Domingo Silos 3", "Avda. Salamanca esq. puente Juan de Austria", "Pza. Juan de Austria Centro Comercial", "C/ Puente Colgante 47", "Pº Arco de Ladrillo esq. Recondo", "Pº Hospital Militar esq. Pº Zorrilla", "Avda. Sánchez Arjona esq. Joaquín Velasco Martín", "C/ Mieses esq. Barbecho", "C/ Mieses fte. 40", "C/ Mieses fte. 8", "Avda. Gijón 3 fte. Canal", "Avda. Gijón 1 esq. Pza. San Bartolomé", "C/ Fuente El Sol 2 esq. Pza. San Bartolomé", "C/ Fuente El Sol 50 esq. San Sebastián", "Pº Jardín Botánico parc. 7 fte. Centro Salud La Victoria", "Pº Jardín Botánico 6", "C/ Jara esq. Hierbabuena"]
+          "sentido": "Salida: AUVASA – Parquesol – Puente Jardín",
+          "paradas": [
+            "AUVASA (23:05 h.)",
+            "Pº Zorrilla 346 esq. Vinos Ribera de Duero",
+            "Pº Zorrilla 364 esq. Vinos de Rueda",
+            "C/ Vinos de Rueda 12 esq. Cañada Real",
+            "C/ Miguel Delibes 40 esq. Miguel de Unamuno",
+            "Pza. Castilla y León 1",
+            "Ctra. Rueda 131 Centro Deportivo",
+            "Ctra. Rueda fte. Vinos de Cigales",
+            "Ctra. Rueda 81 esq. Tierras de Sepúlveda",
+            "C/ Ciudad de La Habana fte. gasolinera",
+            "C/ Ciudad de La Habana fte. Mercadona",
+            "C/ José Garrote Tebar 21",
+            "C/ Adolfo Miaja de la Muela esq. Remigio Cabello Toral",
+            "C/ Adolfo Miaja de la Muela Hosp. Psiquiátrico",
+            "C/ Adolfo Miaja de la Muela fte. Padre Llanos",
+            "C/ Mº San Lorenzo de El Escorial fte. C.C. Miguel Delibes",
+            "C/ Mº San Lorenzo de El Escorial esq. Mº Yuste",
+            "C/ Mieses esq. Barbecho",
+            "C/ Mieses fte. 40",
+            "C/ Mieses fte. 8",
+            "Avda. Gijón 3 fte. Canal",
+            "Avda. Gijón 1 esq. Pza San Bartolomé",
+            "C/ Fuente El Sol 2 esq. Pza. San Bartolomé",
+            "C/ Fuente El Sol 50 esq. San Sebastián",
+            "Pº Jardín Botánico parc. 7 fte. Centro Salud La Victoria",
+            "Pº Jardín Botánico 6",
+            "C/ Jara esq. Hierbabuena"
+          ]
         }
       ],
-      "letreros": ["S2 PERSONAL S2"],
-      "notas": ["TODO EL AÑO: 23:35 h.", "Durante el trayecto de reparto del personal, cuando no haya trabajadores que se bajen en algún punto del itinerario señalado, el conductor de dicho coche podrá variar su recorrido, con el fin de realizar el reparto lo antes posible."],
+      "letreros": [
+        "S2 PERSONAL S2"
+      ],
+      "notas": [
+        "TODO EL AÑO: 23:35 h.",
+        "Durante el trayecto de reparto del personal, cuando no haya trabajadores que se bajen en algún punto del itinerario señalado, el conductor de dicho coche podrá variar su recorrido, con el fin de realizar el reparto lo antes posible."
+      ],
       "horarios": [
         {
           "nombre": "Coche de Personal Salida",
           "tipoDia": "Todo el año",
           "coches": 1,
-          "paginaPDF": 180,
+          "paginaPDF": 178,
           "descanso": "—",
           "cochesDetalle": [
             {
               "nombre": "Horario 1",
-              "primeraSalida": "23:35",
+              "primeraSalida": "23:05",
               "retirada": "—",
               "salidas": [
-                {"cabecera": "AUVASA", "hora": "23:35"}
+                {
+                  "cabecera": "AUVASA",
+                  "hora": "23:05"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "S3",
-      "nombre": "Coche de Personal S3 (Salida)",
+      "nombre": "Coche de Personal S3: AUVASA – Delicias – Pilarica – Pajarillos (Salida)",
       "tipo": "personal",
-      "paginaRecorridoPDF": 180,
+      "paginaRecorridoPDF": 179,
       "recorridos": [
         {
-          "sentido": "Salida: AUVASA → Las Flores",
-          "paradas": ["AUVASA (23:35 h.)", "Pº Zorrilla 153 fte. Centro Comercial", "Ctra. Rueda 36 esq. Mota", "Ctra. Rueda fte. 41", "Ctra. Rueda fte. 53 Imserso", "Ctra. Rueda esq. Vega Sicilia", "Ctra. Rueda esq. Vinos de Cigales", "C/ Miguel Delibes 19B esq. Miguel de Unamuno", "Cañada Real 131 esq. Vinos de Rueda", "Cañada Real 67 esq. Vinos Ribera Duero", "Pº Zorrilla 101 LAVA", "Pza. Dr. Quemada Ig. Santo Domingo de Guzmán", "Avda. Medina del Campo fte. Barlovento", "Avda. Medina del Campo fte. 19 Centro Salud A. Eyries", "C/ Ciudad de La Habana fte. gasolinera", "C/ Ciudad de La Habana fte. Mercadona", "C/ José Garrote Tobar 21", "C/ Adolfo Miaja de la Muela esq. Remigio Cabello Toral", "C/ Adolfo Miaja de la Muela Hospital Psiquiátrico", "C/ Adolfo Miaja de la Muela fte. Padre Llanos", "C/ Mº San Lorenzo de El Escorial fte. C.C. Miguel Delibes", "Mº de Yuste fte. 28 esq. Mº San Lorenzo de El Escorial", "Mº Santo Domingo Silos 3", "Avda. Salamanca esq. puente Juan de Austria", "Pza. Juan de Austria Centro Comercial", "C/ Puente Colgante 47", "Pº Arco de Ladrillo esq. Recondo", "Pº Hospital Militar esq. Pº Zorrilla", "Avda. Sánchez Arjona esq. Joaquín Velasco Martín", "C/ Mieses esq. Barbecho", "C/ Mieses fte. 40", "C/ Mieses fte. 8", "Avda. Gijón 3 fte. Canal", "Avda. Gijón 1 esq. Pza. San Bartolomé", "C/ Fuente El Sol 2 esq. Pza. San Bartolomé", "C/ Fuente El Sol 50 esq. San Sebastián", "Pº Jardín Botánico parc. 7 fte. Centro Salud La Victoria", "Pº Jardín Botánico 6", "C/ Jara esq. Hierbabuena"]
+          "sentido": "Salida: AUVASA – Delicias – Pilarica – Pajarillos",
+          "paradas": [
+            "AUVASA (23:05 h.)",
+            "Avda. Zamora raqueta esq. Kilimanjaro",
+            "Ctra. Segovia Col. Hijas de Jesús",
+            "Ctra. Segovia esq. Víctimas del Terrorismo",
+            "C/ Embajadores 71",
+            "C/ Embajadores 57 esq. La Transición",
+            "C/ Embajadores 72 esq. Hornija",
+            "C/ Embajadores fte. 58 Esc. Oficial de idiomas",
+            "Avda. Segovia Ig. del Carmen",
+            "Avda. Segovia 99 esq. Olmedo",
+            "Avda. Segovia 57 esq. Pº San Vicente",
+            "Pº San Vicente 35 esq. Sevilla",
+            "C/ Cádiz 21",
+            "C/ Málaga esq. Bilbao",
+            "Pza. Circular 7 esq. Industrias",
+            "Pza. Colegio Santa Cruz 9",
+            "C/ Colón 14",
+            "Avda. Ramón y Cajal 3 Hospital Clínico",
+            "C/ Chancillería 4 Biblioteca Reina Sofía",
+            "C/ Madre de Dios 20 Facultad de Comercio",
+            "Pº del Cauce fte. Ing. Industriales",
+            "Pº del Cauce fte. Centro Salud Pilarica",
+            "Pza. Vadillos fte. 5",
+            "C/ Cigüeña 40 esq. Villabáñez",
+            "C/ Templarios 3 esq. Puente La Reina",
+            "C/ Astrofísico Carlos Sánchez Magro (entrada)",
+            "C/ Aguanieves fte. Autillo",
+            "C/ Santa María de la Cabeza 39",
+            "C/ Santa María de la Cabeza 9"
+          ]
         }
       ],
-      "letreros": ["S3 PERSONAL S3"],
-      "notas": ["TODO EL AÑO: 23:35 h.", "Durante el trayecto de reparto del personal, cuando no haya trabajadores que se bajen en algún punto del itinerario señalado, el conductor de dicho coche podrá variar su recorrido, con el fin de realizar el reparto lo antes posible."],
+      "letreros": [
+        "S3 PERSONAL S3"
+      ],
+      "notas": [
+        "TODO EL AÑO: 23:35 h.",
+        "Durante el trayecto de reparto del personal, cuando no haya trabajadores que se bajen en algún punto del itinerario señalado, el conductor de dicho coche podrá variar su recorrido, con el fin de realizar el reparto lo antes posible."
+      ],
       "horarios": [
         {
           "nombre": "Coche de Personal Salida",
           "tipoDia": "Todo el año",
           "coches": 1,
-          "paginaPDF": 180,
+          "paginaPDF": 179,
           "descanso": "—",
           "cochesDetalle": [
             {
               "nombre": "Horario 1",
-              "primeraSalida": "23:35",
+              "primeraSalida": "23:05",
               "retirada": "—",
               "salidas": [
-                {"cabecera": "AUVASA", "hora": "23:35"}
+                {
+                  "cabecera": "AUVASA",
+                  "hora": "23:05"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "S4",
-      "nombre": "Coche de Personal S4 (Salida)",
+      "nombre": "Coche de Personal S4: AUVASA – Delicias – Pajarillos – Pilarica – Rondilla – San Pedro Regalado (Salida)",
       "tipo": "personal",
-      "paginaRecorridoPDF": 180,
+      "paginaRecorridoPDF": 179,
       "recorridos": [
         {
-          "sentido": "Salida: AUVASA → Parquesol",
-          "paradas": ["AUVASA (23:35 h.)", "Pº Zorrilla 153 fte. Centro Comercial", "Ctra. Rueda 36 esq. Mota", "Ctra. Rueda fte. 41", "Ctra. Rueda fte. 53 Imserso", "Ctra. Rueda esq. Vega Sicilia", "Ctra. Rueda esq. Vinos de Cigales", "C/ Miguel Delibes 19B esq. Miguel de Unamuno", "Cañada Real 131 esq. Vinos de Rueda", "Cañada Real 67 esq. Vinos Ribera Duero", "Pº Zorrilla 101 LAVA", "Pza. Dr. Quemada Ig. Santo Domingo de Guzmán", "Avda. Medina del Campo fte. Barlovento", "Avda. Medina del Campo fte. 19 Centro Salud A. Eyries", "C/ Ciudad de La Habana fte. gasolinera", "C/ Ciudad de La Habana fte. Mercadona", "C/ José Garrote Tobar 21", "C/ Adolfo Miaja de la Muela esq. Remigio Cabello Toral", "C/ Adolfo Miaja de la Muela Hospital Psiquiátrico", "C/ Adolfo Miaja de la Muela fte. Padre Llanos", "C/ Mº San Lorenzo de El Escorial fte. C.C. Miguel Delibes", "Mº de Yuste fte. 28 esq. Mº San Lorenzo de El Escorial", "Mº Santo Domingo Silos 3", "Avda. Salamanca esq. puente Juan de Austria", "Pza. Juan de Austria Centro Comercial", "C/ Puente Colgante 47", "Pº Arco de Ladrillo esq. Recondo", "Pº Hospital Militar esq. Pº Zorrilla", "Avda. Sánchez Arjona esq. Joaquín Velasco Martín", "C/ Mieses esq. Barbecho", "C/ Mieses fte. 40", "C/ Mieses fte. 8", "Avda. Gijón 3 fte. Canal", "Avda. Gijón 1 esq. Pza. San Bartolomé", "C/ Fuente El Sol 2 esq. Pza. San Bartolomé", "C/ Fuente El Sol 50 esq. San Sebastián", "Pº Jardín Botánico parc. 7 fte. Centro Salud La Victoria", "Pº Jardín Botánico 6", "C/ Jara esq. Hierbabuena"]
+          "sentido": "Salida: AUVASA – Delicias – Pajarillos – Pilarica – Rondilla – San Pedro Regalado",
+          "paradas": [
+            "AUVASA (23:35 h.)",
+            "Avda. Zamora raqueta esq. Kilimanjaro",
+            "Ronda Este VA-20 raqueta Hospital Río Hortega",
+            "C/ Víctimas del Terrorismo fte. Hospital Río Hortega",
+            "Avda. Segovia 161 fte. Hornija",
+            "Avda. Segovia Ig. del Carmen",
+            "Avda. Segovia 99 esq. Olmedo",
+            "Avda. Segovia esq. Trabajo",
+            "C/ Labradores 41",
+            "Pza. Cruz Verde 5",
+            "Pza. Circular 11 Ig. Corazón de María",
+            "C/ Cigüeña 4 Iglesia San Isidro",
+            "C/ Cigüeña 14",
+            "C/ Santa María de la Cabeza fte. 9",
+            "C/ Santa María de la Cabeza fte. 39",
+            "C/ Aguanieves esq. Autillo",
+            "C/ Astrofísico Carlos Sánchez Magro",
+            "C/ Puente La Reina 67",
+            "C/ Templarios 6 esq. Puente La Reina",
+            "C/ Villabáñez 19 Ig. San Ignacio de Loyola",
+            "Pº del Cauce Centro Salud Pilarica",
+            "Pº del Cauce Ing. Industriales",
+            "C/ Madre de Dios 29 fte. Facultad de Comercio",
+            "C/ Madre de Dios 15",
+            "C/ Gondomar 2 esq. Relatores",
+            "C/ Cardenal Torquemada esq. Rondilla de Sta. Teresa",
+            "C/ Cardenal Torquemada esq. Tirso de Molina",
+            "C/ Cardenal Torquemada 50 esq. Soto",
+            "C/ Cardenal Torquemada 54 Centro Salud Rondilla",
+            "C/ Cardenal Torquemada fte. Polideportivo Rondilla",
+            "C/ Valle de Arán 48",
+            "C/ Valle de Arán 76 esq. Costa Brava",
+            "C/ Costa Brava fte. Centro Comercial",
+            "Avda. Santander fte. Centro Comercial"
+          ]
         }
       ],
-      "letreros": ["S4 PERSONAL S4"],
-      "notas": ["TODO EL AÑO: 23:35 h.", "Durante el trayecto de reparto del personal, cuando no haya trabajadores que se bajen en algún punto del itinerario señalado, el conductor de dicho coche podrá variar su recorrido, con el fin de realizar el reparto lo antes posible."],
+      "letreros": [
+        "S4 PERSONAL S4"
+      ],
+      "notas": [
+        "TODO EL AÑO: 23:35 h.",
+        "Durante el trayecto de reparto del personal, cuando no haya trabajadores que se bajen en algún punto del itinerario señalado, el conductor de dicho coche podrá variar su recorrido, con el fin de realizar el reparto lo antes posible."
+      ],
       "horarios": [
         {
           "nombre": "Coche de Personal Salida",
           "tipoDia": "Todo el año",
           "coches": 1,
-          "paginaPDF": 180,
+          "paginaPDF": 179,
           "descanso": "—",
           "cochesDetalle": [
             {
@@ -389,26 +1298,74 @@
               "primeraSalida": "23:35",
               "retirada": "—",
               "salidas": [
-                {"cabecera": "AUVASA", "hora": "23:35"}
+                {
+                  "cabecera": "AUVASA",
+                  "hora": "23:35"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "S5",
-      "nombre": "Coche de Personal S5 (Salida)",
+      "nombre": "Coche de Personal S5: AUVASA – Covaresa – Arturo Eyries – Parquesol – Centro – Huerta del Rey – Girón – La Victoria (Salida)",
       "tipo": "personal",
       "paginaRecorridoPDF": 180,
       "recorridos": [
         {
-          "sentido": "Salida: AUVASA → Todas las zonas",
-          "paradas": ["AUVASA (23:35 h.)", "Pº Zorrilla 153 fte. Centro Comercial", "Ctra. Rueda 36 esq. Mota", "Ctra. Rueda fte. 41", "Ctra. Rueda fte. 53 Imserso", "Ctra. Rueda esq. Vega Sicilia", "Ctra. Rueda esq. Vinos de Cigales", "C/ Miguel Delibes 19B esq. Miguel de Unamuno", "Cañada Real 131 esq. Vinos de Rueda", "Cañada Real 67 esq. Vinos Ribera Duero", "Pº Zorrilla 101 LAVA", "Pza. Dr. Quemada Ig. Santo Domingo de Guzmán", "Avda. Medina del Campo fte. Barlovento", "Avda. Medina del Campo fte. 19 Centro Salud A. Eyries", "C/ Ciudad de La Habana fte. gasolinera", "C/ Ciudad de La Habana fte. Mercadona", "C/ José Garrote Tobar 21", "C/ Adolfo Miaja de la Muela esq. Remigio Cabello Toral", "C/ Adolfo Miaja de la Muela Hospital Psiquiátrico", "C/ Adolfo Miaja de la Muela fte. Padre Llanos", "C/ Mº San Lorenzo de El Escorial fte. C.C. Miguel Delibes", "Mº de Yuste fte. 28 esq. Mº San Lorenzo de El Escorial", "Mº Santo Domingo Silos 3", "Avda. Salamanca esq. puente Juan de Austria", "Pza. Juan de Austria Centro Comercial", "C/ Puente Colgante 47", "Pº Arco de Ladrillo esq. Recondo", "Pº Hospital Militar esq. Pº Zorrilla", "Avda. Sánchez Arjona esq. Joaquín Velasco Martín", "C/ Mieses esq. Barbecho", "C/ Mieses fte. 40", "C/ Mieses fte. 8", "Avda. Gijón 3 fte. Canal", "Avda. Gijón 1 esq. Pza. San Bartolomé", "C/ Fuente El Sol 2 esq. Pza. San Bartolomé", "C/ Fuente El Sol 50 esq. San Sebastián", "Pº Jardín Botánico parc. 7 fte. Centro Salud La Victoria", "Pº Jardín Botánico 6", "C/ Jara esq. Hierbabuena"]
+          "sentido": "Salida: AUVASA – Covaresa – Arturo Eyries – Parquesol – Centro – Huerta del Rey – Girón – La Victoria",
+          "paradas": [
+            "AUVASA (23:35 h.)",
+            "Pº Zorrilla 153 fte. Centro Comercial",
+            "Ctra. Rueda 36 esq. Mota",
+            "Ctra. Rueda fte. 41",
+            "Ctra. Rueda fte. 53 Imserso",
+            "Ctra. Rueda esq. Vega Sicilia",
+            "Ctra. Rueda esq. Vinos de Cigales",
+            "C/ Miguel Delibes 19B esq. Miguel de Unamuno",
+            "Cañada Real 131 esq. Vinos de Rueda",
+            "Cañada Real 67 esq. Vinos Ribera Duero",
+            "Pº Zorrilla 101 LAVA",
+            "Pza. Dr. Quemada Ig. Santo Domingo de Guzmán",
+            "Avda. Medina del Campo fte. Barlovento",
+            "Avda. Medina del Campo fte. 19 Centro Saludo A. Eyries",
+            "C/ Ciudad de La Habana fte. gasolinera",
+            "C/ Ciudad de La Habana fte. Mercadona",
+            "C/ José Garrote Tebar 21",
+            "C/ Adolfo Miaja de la Muela esq. Remigio Cabello Toral",
+            "C/ Adolfo Miaja de la Muela Hospital Psiquiátrico",
+            "C/ Adolfo Miaja de la Muela fte. Padre Llanos",
+            "C/ Mº San Lorenzo de El Escorial fte. C.C. Miguel Delibes",
+            "Mº de Yuste fte. 28 esq. Mº San Lorenzo de El Escorial",
+            "Mº Santo Domingo Silos 3",
+            "Avda. Salamanca esq. puente Juan de Austria",
+            "Pza. Juan de Austria Centro Comercial",
+            "C/ Puente Colgante 47",
+            "Pº Arco de Ladrillo esq. Recondo",
+            "Pº Hospital Militar esq. Pº Zorrilla",
+            "Avda. Sánchez Arjona esq. Joaquín Velasco Martín",
+            "C/ Mieses esq. Barbecho",
+            "C/ Mieses fte. 40",
+            "C/ Mieses fte. 8",
+            "Avda. Gijón 3 fte. Canal",
+            "Avda. Gijón 1 esq. Pza. San Bartolomé",
+            "C/ Fuente El Sol 2 esq. Pza. San Bartolomé",
+            "C/ Fuente El Sol 50 esq. San Sebastián",
+            "Pº Jardín Botánico parc. 7 fte. Centro Salud La Victoria",
+            "Pº Jardín Botánico 6",
+            "C/ Jara esq. Hierbabuena"
+          ]
         }
       ],
-      "letreros": ["S5 PERSONAL S5"],
-      "notas": ["TODO EL AÑO: 23:35 h.", "Durante el trayecto de reparto del personal, cuando no haya trabajadores que se bajen en algún punto del itinerario señalado, el conductor de dicho coche podrá variar su recorrido, con el fin de realizar el reparto lo antes posible."],
+      "letreros": [
+        "S5 PERSONAL S5"
+      ],
+      "notas": [
+        "TODO EL AÑO: 23:35 h.",
+        "Durante el trayecto de reparto del personal, cuando no haya trabajadores que se bajen en algún punto del itinerario señalado, el conductor de dicho coche podrá variar su recorrido, con el fin de realizar el reparto lo antes posible."
+      ],
       "horarios": [
         {
           "nombre": "Coche de Personal Salida",
@@ -422,26 +1379,38 @@
               "primeraSalida": "23:35",
               "retirada": "—",
               "salidas": [
-                {"cabecera": "AUVASA", "hora": "23:35"}
+                {
+                  "cabecera": "AUVASA",
+                  "hora": "23:35"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "S6",
-      "nombre": "Coche de Personal S6 (Salida)",
+      "nombre": "Coche de Personal S6: AUVASA – Todas las zonas (Salida)",
       "tipo": "personal",
       "paginaRecorridoPDF": 180,
       "recorridos": [
         {
-          "sentido": "Salida: AUVASA → Rondilla",
-          "paradas": ["AUVASA (23:35 h.)", "Pº Zorrilla 153 fte. Centro Comercial", "Ctra. Rueda 36 esq. Mota", "Ctra. Rueda fte. 41", "Ctra. Rueda fte. 53 Imserso", "Ctra. Rueda esq. Vega Sicilia", "Ctra. Rueda esq. Vinos de Cigales", "C/ Miguel Delibes 19B esq. Miguel de Unamuno", "Cañada Real 131 esq. Vinos de Rueda", "Cañada Real 67 esq. Vinos Ribera Duero", "Pº Zorrilla 101 LAVA", "Pza. Dr. Quemada Ig. Santo Domingo de Guzmán", "Avda. Medina del Campo fte. Barlovento", "Avda. Medina del Campo fte. 19 Centro Salud A. Eyries", "C/ Ciudad de La Habana fte. gasolinera", "C/ Ciudad de La Habana fte. Mercadona", "C/ José Garrote Tobar 21", "C/ Adolfo Miaja de la Muela esq. Remigio Cabello Toral", "C/ Adolfo Miaja de la Muela Hospital Psiquiátrico", "C/ Adolfo Miaja de la Muela fte. Padre Llanos", "C/ Mº San Lorenzo de El Escorial fte. C.C. Miguel Delibes", "Mº de Yuste fte. 28 esq. Mº San Lorenzo de El Escorial", "Mº Santo Domingo Silos 3", "Avda. Salamanca esq. puente Juan de Austria", "Pza. Juan de Austria Centro Comercial", "C/ Puente Colgante 47", "Pº Arco de Ladrillo esq. Recondo", "Pº Hospital Militar esq. Pº Zorrilla", "Avda. Sánchez Arjona esq. Joaquín Velasco Martín", "C/ Mieses esq. Barbecho", "C/ Mieses fte. 40", "C/ Mieses fte. 8", "Avda. Gijón 3 fte. Canal", "Avda. Gijón 1 esq. Pza. San Bartolomé", "C/ Fuente El Sol 2 esq. Pza. San Bartolomé", "C/ Fuente El Sol 50 esq. San Sebastián", "Pº Jardín Botánico parc. 7 fte. Centro Salud La Victoria", "Pº Jardín Botánico 6", "C/ Jara esq. Hierbabuena"]
+          "sentido": "Salida: AUVASA – Todas las zonas",
+          "paradas": [
+            "AUVASA (00:05 h. aprox.)",
+            "TODAS LAS ZONAS"
+          ]
         }
       ],
-      "letreros": ["S6 PERSONAL S6"],
-      "notas": ["TODO EL AÑO: 23:35 h.", "Durante el trayecto de reparto del personal, cuando no haya trabajadores que se bajen en algún punto del itinerario señalado, el conductor de dicho coche podrá variar su recorrido, con el fin de realizar el reparto lo antes posible."],
+      "letreros": [
+        "S6 PERSONAL S6"
+      ],
+      "notas": [
+        "TODO EL AÑO: 23:35 h.",
+        "Durante el trayecto de reparto del personal, cuando no haya trabajadores que se bajen en algún punto del itinerario señalado, el conductor de dicho coche podrá variar su recorrido, con el fin de realizar el reparto lo antes posible.",
+        " Esta salida de cocheras se realizará cuando todos los conductores hayan terminado su servicio (a las 00:05 h. aproximadamente). A criterio del Encargado de Noche se realizarán 1 o 2 rutas, dependiendo del número de conductores y del destino de los mismos."
+      ],
       "horarios": [
         {
           "nombre": "Coche de Personal Salida",
@@ -452,10 +1421,19 @@
           "cochesDetalle": [
             {
               "nombre": "Horario 1",
-              "primeraSalida": "23:35",
+              "primeraSalida": "00:05",
               "retirada": "—",
               "salidas": [
-                {"cabecera": "AUVASA", "hora": "23:35"}
-                
-                ]}
-        ]}]}]}
+                {
+                  "cabecera": "AUVASA",
+                  "hora": "00:05",
+                  "nota": "aprox."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "lineas": [
-     {
+    {
       "id": "M1",
       "nombre": "El Peral – Fuente Dorada (Matinal)",
       "tipo": "matinal",
@@ -8,11 +8,36 @@
       "recorridos": [
         {
           "sentido": "Trayecto: El Peral → Fuente Dorada",
-          "paradas": ["C/ Maracuyá esq. Mango", "C/ Aguacate 20", "C/ Melón 1 esq. Cañada Real", "C/ Miguel Delibes 14", "C/ Miguel Delibes 40 esq. Miguel de Unamuno", "Pza. Castilla y León 1", "Ctra. Rueda 131 Centro Deportivo", "Ctra. Rueda fte. Vinos de Cigales", "Ctra. Rueda 81 esq. Tierra de Sepúlveda", "Ctra. Rueda 47 fte. Imserso", "Ctra. Rueda 37 esq. Corta", "Ctra. Rueda 19 esq. Mota", "Pº Zorrilla 101 LAVA", "Pº Zorrilla 65 fte. Centro Comercial", "C/ Puente Colgante 47", "C/ Recondo 4 fte. Estación de Autobuses", "C/ Estación del Norte RENFE", "C/ Gamazo 17 esq. Bailén", "C/ Duque de La Victoria 23 esq. Pza. España", "Pza. Fuente Dorada"]
+          "paradas": [
+            "C/ Maracuyá esq. Mango",
+            "C/ Aguacate 20",
+            "C/ Melón 1 esq. Cañada Real",
+            "C/ Miguel Delibes 14",
+            "C/ Miguel Delibes 40 esq. Miguel de Unamuno",
+            "Pza. Castilla y León 1",
+            "Ctra. Rueda 131 Centro Deportivo",
+            "Ctra. Rueda fte. Vinos de Cigales",
+            "Ctra. Rueda 81 esq. Tierra de Sepúlveda",
+            "Ctra. Rueda 47 fte. Imserso",
+            "Ctra. Rueda 37 esq. Corta",
+            "Ctra. Rueda 19 esq. Mota",
+            "Pº Zorrilla 101 LAVA",
+            "Pº Zorrilla 65 fte. Centro Comercial",
+            "C/ Puente Colgante 47",
+            "C/ Recondo 4 fte. Estación de Autobuses",
+            "C/ Estación del Norte RENFE",
+            "C/ Gamazo 17 esq. Bailén",
+            "C/ Duque de La Victoria 23 esq. Pza. España",
+            "Pza. Fuente Dorada"
+          ]
         }
       ],
-      "letreros": ["M1 FTE. DORADA"],
-      "notas": ["SÁBADOS Y FESTIVOS SIN SERVICIO"],
+      "letreros": [
+        "M1 FTE. DORADA"
+      ],
+      "notas": [
+        "SÁBADOS Y FESTIVOS SIN SERVICIO"
+      ],
       "horarios": [
         {
           "nombre": "1 coche",
@@ -26,14 +51,17 @@
               "primeraSalida": "6:50",
               "retirada": "Salida de El Peral",
               "salidas": [
-                {"cabecera": "EL PERAL", "hora": "6:50"}
+                {
+                  "cabecera": "EL PERAL",
+                  "hora": "6:50"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "M2",
       "nombre": "San Pedro Regalado – Fuente Dorada (Matinal)",
       "tipo": "matinal",
@@ -41,11 +69,29 @@
       "recorridos": [
         {
           "sentido": "Trayecto: San Pedro Regalado → Fuente Dorada",
-          "paradas": ["Pza. Carmen Ferreiro Bº San Pedro Regalado", "Avda. Santander Centro Comercial", "Avda. Santander 49 Bº España", "Avda. Santander Poblado Endasa", "Avda. Palencia 41 Policía Municipal", "C/ Moradas 31 esq. Nebrija", "C/ Cerrada 1 esq. Santa Clara", "C/ Chancillería 5", "C/ Angustias 5 Teatro Calderón", "Pza. Universidad esq. López Gómez", "Pza. España Bola del Mundo", "Pza. Fuente Dorada"]
+          "paradas": [
+            "Pza. Carmen Ferreiro Bº San Pedro Regalado",
+            "Avda. Santander Centro Comercial",
+            "Avda. Santander 49 Bº España",
+            "Avda. Santander Poblado Endasa",
+            "Avda. Palencia 41 Policía Municipal",
+            "C/ Moradas 31 esq. Nebrija",
+            "C/ Cerrada 1 esq. Santa Clara",
+            "C/ Chancillería 5",
+            "C/ Angustias 5 Teatro Calderón",
+            "Pza. Universidad esq. López Gómez",
+            "Pza. España Bola del Mundo",
+            "Pza. Fuente Dorada"
+          ]
         }
       ],
-      "letreros": ["M2 FTE. DORADA"],
-      "notas": ["Parada de AVDA. SANTANDER POBLADO DE ENDASA: Es obligatorio ENTRAR SIEMPRE en la vía de servicio de esta parada.", "SÁBADOS Y FESTIVOS SIN SERVICIO"],
+      "letreros": [
+        "M2 FTE. DORADA"
+      ],
+      "notas": [
+        "Parada de AVDA. SANTANDER POBLADO DE ENDASA: Es obligatorio ENTRAR SIEMPRE en la vía de servicio de esta parada.",
+        "SÁBADOS Y FESTIVOS SIN SERVICIO"
+      ],
       "horarios": [
         {
           "nombre": "1 coche",
@@ -59,14 +105,17 @@
               "primeraSalida": "6:50",
               "retirada": "Salida de San Pedro Regalado",
               "salidas": [
-                {"cabecera": "S. PEDRO", "hora": "6:50"}
+                {
+                  "cabecera": "S. PEDRO",
+                  "hora": "6:50"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "M3",
       "nombre": "Delicias – Fuente Dorada (Matinal)",
       "tipo": "matinal",
@@ -74,11 +123,34 @@
       "recorridos": [
         {
           "sentido": "Trayecto: Delicias → Fuente Dorada",
-          "paradas": ["C/ Castañuelas esq. Carraca", "C/ Armonio esq. Laúd", "C/ Miguel Ruiz de Temiño esq. Pº Juan Carlos I sentido centro", "C/ Embajadores 71", "C/ Embajadores 57 esq. La Transición", "C/ Embajadores fte. 72 esq. Hornija", "C/ Embajadores fte. 58 Esc. Ofic. de Idiomas", "Avda. Segovia Ig. del Carmen", "Avda. Segovia 99 esq. Olmedo", "Avda. Segovia 57 esq. Pº San Vicente", "Pº San Vicente 35 esq. Sevilla", "C/ Cádiz 15", "C/ Málaga esq. Bilbao", "Pza. Circular 7 esq. Industrias", "C/ Nicolás Salmerón 19 esq. Labradores", "Pza. Caño Argales", "Pza. Madrid 2", "Pza. Fuente Dorada"]
+          "paradas": [
+            "C/ Castañuelas esq. Carraca",
+            "C/ Armonio esq. Laúd",
+            "C/ Miguel Ruiz de Temiño esq. Pº Juan Carlos I sentido centro",
+            "C/ Embajadores 71",
+            "C/ Embajadores 57 esq. La Transición",
+            "C/ Embajadores fte. 72 esq. Hornija",
+            "C/ Embajadores fte. 58 Esc. Ofic. de Idiomas",
+            "Avda. Segovia Ig. del Carmen",
+            "Avda. Segovia 99 esq. Olmedo",
+            "Avda. Segovia 57 esq. Pº San Vicente",
+            "Pº San Vicente 35 esq. Sevilla",
+            "C/ Cádiz 15",
+            "C/ Málaga esq. Bilbao",
+            "Pza. Circular 7 esq. Industrias",
+            "C/ Nicolás Salmerón 19 esq. Labradores",
+            "Pza. Caño Argales",
+            "Pza. Madrid 2",
+            "Pza. Fuente Dorada"
+          ]
         }
       ],
-      "letreros": ["M3 FTE. DORADA"],
-      "notas": ["SÁBADOS Y FESTIVOS SIN SERVICIO"],
+      "letreros": [
+        "M3 FTE. DORADA"
+      ],
+      "notas": [
+        "SÁBADOS Y FESTIVOS SIN SERVICIO"
+      ],
       "horarios": [
         {
           "nombre": "1 coche",
@@ -92,14 +164,17 @@
               "primeraSalida": "6:50",
               "retirada": "Salida de Delicias",
               "salidas": [
-                {"cabecera": "DELICIAS", "hora": "6:50"}
+                {
+                  "cabecera": "DELICIAS",
+                  "hora": "6:50"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "M4",
       "nombre": "La Victoria – Pza. España (Matinal)",
       "tipo": "matinal",
@@ -107,11 +182,35 @@
       "recorridos": [
         {
           "sentido": "Trayecto: La Victoria → Pza. España",
-          "paradas": ["Pº Jardín Botánico esq. Brezo", "Pº Jardín Botánico fte. Jara", "Pº Jardín Botánico fte. 6", "Pº Jardín Botánico parc. 8 Centro Salud La Victoria", "C/ Fuente El Sol 31", "C/ Júpiter fte. 12 esq. Comuneros de Castilla", "Avda. Gijón 26 Canal", "Avda. Gijón fte. Cristo Rey", "C/ Enseñanza esq. Avda. Gijón", "Avda. Las Contiendas 97", "Avda. Los Cerros Pza. Cine Castilla", "C/ Bálago esq. Sementera", "Avda. Ramón Pradera fte. 10", "Avda. Ramón Pradera Feria de Valladolid", "Avda. Gloria Fuertes 1 esq. Joaquín Velasco Martín", "Pza. Poniente fte. Jorge Guillén", "Pza. Fuente Dorada", "C/ López Gómez 13 esq. Fray Luis de León", "Pza. España Bola del Mundo"]
+          "paradas": [
+            "Pº Jardín Botánico esq. Brezo",
+            "Pº Jardín Botánico fte. Jara",
+            "Pº Jardín Botánico fte. 6",
+            "Pº Jardín Botánico parc. 8 Centro Salud La Victoria",
+            "C/ Fuente El Sol 31",
+            "C/ Júpiter fte. 12 esq. Comuneros de Castilla",
+            "Avda. Gijón 26 Canal",
+            "Avda. Gijón fte. Cristo Rey",
+            "C/ Enseñanza esq. Avda. Gijón",
+            "Avda. Las Contiendas 97",
+            "Avda. Los Cerros Pza. Cine Castilla",
+            "C/ Bálago esq. Sementera",
+            "Avda. Ramón Pradera fte. 10",
+            "Avda. Ramón Pradera Feria de Valladolid",
+            "Avda. Gloria Fuertes 1 esq. Joaquín Velasco Martín",
+            "Pza. Poniente fte. Jorge Guillén",
+            "Pza. Fuente Dorada",
+            "C/ López Gómez 13 esq. Fray Luis de León",
+            "Pza. España Bola del Mundo"
+          ]
         }
       ],
-      "letreros": ["M4 PZA. ESPAÑA"],
-      "notas": ["SÁBADOS Y FESTIVOS SIN SERVICIO"],
+      "letreros": [
+        "M4 PZA. ESPAÑA"
+      ],
+      "notas": [
+        "SÁBADOS Y FESTIVOS SIN SERVICIO"
+      ],
       "horarios": [
         {
           "nombre": "1 coche",
@@ -125,14 +224,17 @@
               "primeraSalida": "6:50",
               "retirada": "Salida de La Victoria",
               "salidas": [
-                {"cabecera": "LA VICTORIA", "hora": "6:50"}
+                {
+                  "cabecera": "LA VICTORIA",
+                  "hora": "6:50"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "M5",
       "nombre": "Parquesol – Pza. España (Matinal)",
       "tipo": "matinal",
@@ -140,11 +242,38 @@
       "recorridos": [
         {
           "sentido": "Trayecto: Parquesol → Pza. España",
-          "paradas": ["C/ Eusebio González Suárez fte. Federico Landrove Moiño", "C/ José Garrote Tebar 4 esq. Amadeo Arias", "C/ José Garrote Tebar 20 esq. Manuel Silvela", "C/ Manuel Azaña 37", "C/ Manuel Azaña esq. Juan García Hortelano", "C/ Hernando de Acuña esq. Manuel Azaña", "C/ Hernando de Acuña 45 Bis", "C/ Hernando de Acuña 13 esq. Manuel Silvela", "C/ Hernando de Acuña 1 esq. Mateo Seoane Sobral", "C/ Adolfo Miaja de la Muela Hosp. Psiquiátrico", "C/ Adolfo Miaja de la Muela fte. Padre Llanos", "C/ Monasterio San Lorenzo de El Escorial fte. C.C. Miguel Delibes", "C/ Monasterio de Yuste fte. 28 esq. Monast. San Lorenzo de El Escorial", "C/ Monasterio Santo Domingo de Silos 3", "C/ Joaquín Velasco Martín 17 Col. María de Molina", "C/ Joaquín Velasco Martín 9 Polideportivo Huerta del Rey", "C/ Joaquín Velasco Martín 3 Col. La Inmaculada", "C/ Joaquín Velasco Martín 1 esq. Avda. Gloria Fuertes", "Pza. Poniente fte. Jorge Guillén", "Pza. Fuente Dorada", "C/ López Gómez 13 esq. Fray Luis de León", "Pza. España Bola del Mundo"]
+          "paradas": [
+            "C/ Eusebio González Suárez fte. Federico Landrove Moiño",
+            "C/ José Garrote Tebar 4 esq. Amadeo Arias",
+            "C/ José Garrote Tebar 20 esq. Manuel Silvela",
+            "C/ Manuel Azaña 37",
+            "C/ Manuel Azaña esq. Juan García Hortelano",
+            "C/ Hernando de Acuña esq. Manuel Azaña",
+            "C/ Hernando de Acuña 45 Bis",
+            "C/ Hernando de Acuña 13 esq. Manuel Silvela",
+            "C/ Hernando de Acuña 1 esq. Mateo Seoane Sobral",
+            "C/ Adolfo Miaja de la Muela Hosp. Psiquiátrico",
+            "C/ Adolfo Miaja de la Muela fte. Padre Llanos",
+            "C/ Monasterio San Lorenzo de El Escorial fte. C.C. Miguel Delibes",
+            "C/ Monasterio de Yuste fte. 28 esq. Monast. San Lorenzo de El Escorial",
+            "C/ Monasterio Santo Domingo de Silos 3",
+            "C/ Joaquín Velasco Martín 17 Col. María de Molina",
+            "C/ Joaquín Velasco Martín 9 Polideportivo Huerta del Rey",
+            "C/ Joaquín Velasco Martín 3 Col. La Inmaculada",
+            "C/ Joaquín Velasco Martín 1 esq. Avda. Gloria Fuertes",
+            "Pza. Poniente fte. Jorge Guillén",
+            "Pza. Fuente Dorada",
+            "C/ López Gómez 13 esq. Fray Luis de León",
+            "Pza. España Bola del Mundo"
+          ]
         }
       ],
-      "letreros": ["M5 PZA. ESPAÑA"],
-      "notas": ["SÁBADOS Y FESTIVOS SIN SERVICIO"],
+      "letreros": [
+        "M5 PZA. ESPAÑA"
+      ],
+      "notas": [
+        "SÁBADOS Y FESTIVOS SIN SERVICIO"
+      ],
       "horarios": [
         {
           "nombre": "1 coche",
@@ -158,14 +287,17 @@
               "primeraSalida": "6:50",
               "retirada": "Salida de Parquesol",
               "salidas": [
-                {"cabecera": "PARQUESOL", "hora": "6:50"}
+                {
+                  "cabecera": "PARQUESOL",
+                  "hora": "6:50"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "M6",
       "nombre": "Las Flores – Fuente Dorada (Matinal)",
       "tipo": "matinal",
@@ -173,11 +305,33 @@
       "recorridos": [
         {
           "sentido": "Trayecto: Las Flores → Fuente Dorada",
-          "paradas": ["C/ Azucena 18 esq. Dalia", "C/ Azalea fte. 6", "C/ Santa María de la Cabeza 39", "C/ Santa María de la Cabeza 9", "C/ Villabáñez 19 Ig. San Ignacio de Loyola", "Pza. Vadillos 7 esq. Palacio Valdés", "Pº del Cauce Centro Salud Pilarica", "Pº del Cauce Ing. Industriales", "Pº Prado de La Magdalena 18 Filosofía y Letras", "C/ Madre de Dios 15", "C/ Real de Burgos fte. Ig. San Pedro Apóstol", "C/ Alamillos 11", "Pza. San Juan", "C/ Fidel Recio 1 esq. Alonso Pesquera", "C/ Santuario 5 esq. López Gómez", "Pza. España Bola del Mundo", "Pza. Fuente Dorada"]
+          "paradas": [
+            "C/ Azucena 18 esq. Dalia",
+            "C/ Azalea fte. 6",
+            "C/ Santa María de la Cabeza 39",
+            "C/ Santa María de la Cabeza 9",
+            "C/ Villabáñez 19 Ig. San Ignacio de Loyola",
+            "Pza. Vadillos 7 esq. Palacio Valdés",
+            "Pº del Cauce Centro Salud Pilarica",
+            "Pº del Cauce Ing. Industriales",
+            "Pº Prado de La Magdalena 18 Filosofía y Letras",
+            "C/ Madre de Dios 15",
+            "C/ Real de Burgos fte. Ig. San Pedro Apóstol",
+            "C/ Alamillos 11",
+            "Pza. San Juan",
+            "C/ Fidel Recio 1 esq. Alonso Pesquera",
+            "C/ Santuario 5 esq. López Gómez",
+            "Pza. España Bola del Mundo",
+            "Pza. Fuente Dorada"
+          ]
         }
       ],
-      "letreros": ["M6 FTE. DORADA"],
-      "notas": ["SÁBADOS Y FESTIVOS SIN SERVICIO"],
+      "letreros": [
+        "M6 FTE. DORADA"
+      ],
+      "notas": [
+        "SÁBADOS Y FESTIVOS SIN SERVICIO"
+      ],
       "horarios": [
         {
           "nombre": "1 coche",
@@ -191,14 +345,73 @@
               "primeraSalida": "6:50",
               "retirada": "Salida de Las Flores",
               "salidas": [
-                {"cabecera": "LAS FLORES", "hora": "6:50"}
+                {
+                  "cabecera": "LAS FLORES",
+                  "hora": "6:50"
+                }
               ]
             }
           ]
         }
       ]
     },
+    {
+      "id": "M7",
+      "nombre": "La Cistérniga – Fuente Dorada (Matinal)",
+      "tipo": "matinal",
+      "paginaRecorridoPDF": 150,
+      "recorridos": [
         {
+          "sentido": "Trayecto: La Cistérniga → Fuente Dorada",
+          "paradas": [
+            "Camino de Las Yeseras Polideportivo Municipal",
+            "C/ Cuesta Redonda piscinas Municipales",
+            "C/ Castillejo fte. 4-6",
+            "Pza. Mayor fte. 29 (La Cistérniga)",
+            "C/ Lucio Zumel esq. Avda. Soria",
+            "Avda. Soria 32 (La Cistérniga)",
+            "Ctra. Soria fte. Polígono San Cristóbal",
+            "Ctra. Soria esq. Páramo de San Isidro",
+            "Ctra. Soria raqueta Cuartel",
+            "C/ San Isidro 43 entrada túnel",
+            "Pza. Circular 7 esq. Industrias",
+            "C/ Nicolás Salmerón 19 esq. Labradores",
+            "Pza. Caño Argales",
+            "Pza. Madrid 2",
+            "Pza. Fuente Dorada SÁBADOS Y FESTIVOS SIN SERVICIO SALIDA DE: La Cistérniga 6:50"
+          ]
+        }
+      ],
+      "letreros": [
+        "M7 FTE. DORADA"
+      ],
+      "notas": [
+        "SÁBADOS Y FESTIVOS SIN SERVICIO"
+      ],
+      "horarios": [
+        {
+          "nombre": "1 coche",
+          "tipoDia": "Lunes a Viernes Laborables",
+          "coches": 1,
+          "paginaPDF": 150,
+          "descanso": "—",
+          "cochesDetalle": [
+            {
+              "nombre": "Horario 1",
+              "primeraSalida": "6:50",
+              "retirada": "Salida de La Cistérniga",
+              "salidas": [
+                {
+                  "cabecera": "LA CISTÉRNIGA",
+                  "hora": "6:50"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "P1",
       "nombre": "Polígono San Cristóbal (Laboral)",
       "tipo": "matinal",
@@ -206,11 +419,43 @@
       "recorridos": [
         {
           "sentido": "Trayecto: San Pedro Regalado → Pol. San Cristóbal",
-          "paradas": ["Pza. Carmen Ferreiro Bº San Pedro Regalado", "Avda. Santander Centro Comercial", "Avda. Santander 49 Bº España", "Avda. Santander Poblado Endasa", "Avda. Palencia 41 Policía Municipal", "C/ Santa Clara 34 esq. Real de Burgos", "C/ Chancillería 5", "C/ Angustias 5 Teatro Calderón", "Pza. Universidad esq. López Gómez", "Pza. España Bola del Mundo", "Pza. Zorrilla 3 esq. Santiago", "Pº Zorrilla 52 esq. Pº Hospital Militar", "Pº Zorrilla 88 fte. Pza. de Toros", "Pº Zorrilla 130 Centro Comercial", "Pº Zorrilla 166 fte. LAVA", "Pº Zorrilla 198 Bº La Rubia", "Pº Zorrilla 238 Centro Comercial", "C/ Vázquez de Menchaca 40 esq. Avda. Zamora", "C/ Vázquez de Menchaca 33", "C/ Vázquez de Menchaca 19", "C/ Vázquez de Menchaca 9", "C/ Vázquez de Menchaca 5", "C/ Daniel del Olmo fte. 20 ITV", "Avda. El Norte de Castilla 14", "Avda. El Norte de Castilla 22D esq. Forja", "Avda. El Norte de Castilla 48"]
+          "paradas": [
+            "Pza. Carmen Ferreiro Bº San Pedro Regalado",
+            "Avda. Santander Centro Comercial",
+            "Avda. Santander 49 Bº España",
+            "Avda. Santander Poblado Endasa",
+            "Avda. Palencia 41 Policía Municipal",
+            "C/ Santa Clara 34 esq. Real de Burgos",
+            "C/ Chancillería 5",
+            "C/ Angustias 5 Teatro Calderón",
+            "Pza. Universidad esq. López Gómez",
+            "Pza. España Bola del Mundo",
+            "Pza. Zorrilla 3 esq. Santiago",
+            "Pº Zorrilla 52 esq. Pº Hospital Militar",
+            "Pº Zorrilla 88 fte. Pza. de Toros",
+            "Pº Zorrilla 130 Centro Comercial",
+            "Pº Zorrilla 166 fte. LAVA",
+            "Pº Zorrilla 198 Bº La Rubia",
+            "Pº Zorrilla 238 Centro Comercial",
+            "C/ Vázquez de Menchaca 40 esq. Avda. Zamora",
+            "C/ Vázquez de Menchaca 33",
+            "C/ Vázquez de Menchaca 19",
+            "C/ Vázquez de Menchaca 9",
+            "C/ Vázquez de Menchaca 5",
+            "C/ Daniel del Olmo fte. 20 ITV",
+            "Avda. El Norte de Castilla 14",
+            "Avda. El Norte de Castilla 22D esq. Forja",
+            "Avda. El Norte de Castilla 48"
+          ]
         }
       ],
-      "letreros": ["P1 PGNO.S.CRIST"],
-      "notas": ["Parada de AVDA. SANTANDER POBLADO DE ENDASA: Es obligatorio ENTRAR SIEMPRE en la vía de servicio de esta parada, haya o no viajeros."],
+      "letreros": [
+        "P1 PGNO.S.CRIST"
+      ],
+      "notas": [
+        "Parada de AVDA. SANTANDER POBLADO DE ENDASA: Es obligatorio ENTRAR SIEMPRE en la vía de servicio de esta parada, haya o no viajeros.",
+        "Sábados y festivos SIN SERVICIO."
+      ],
       "horarios": [
         {
           "nombre": "1 coche",
@@ -224,14 +469,28 @@
               "primeraSalida": "5:15",
               "retirada": "Salida de San Pedro Regalado",
               "salidas": [
-                {"cabecera": "SAN PEDRO", "hora": "5:15"}
+                {
+                  "cabecera": "SAN PEDRO REGALADO",
+                  "hora": "5:15"
+                }
+              ]
+            },
+            {
+              "nombre": "Horario 2",
+              "primeraSalida": "6:15",
+              "retirada": "Salida de San Pedro Regalado",
+              "salidas": [
+                {
+                  "cabecera": "SAN PEDRO REGALADO",
+                  "hora": "6:15"
+                }
               ]
             }
           ]
         }
       ]
     },
-           {
+    {
       "id": "P2",
       "nombre": "Polígono San Cristóbal (Laboral)",
       "tipo": "matinal",
@@ -239,11 +498,44 @@
       "recorridos": [
         {
           "sentido": "Trayecto: San Pedro Regalado → Pol. San Cristóbal",
-          "paradas": ["Pza. Carmen Ferreiro Bº San Pedro Regalado", "Avda. Santander Centro Comercial", "Avda. Santander 49 Bº España", "Avda. Santander Poblado Endasa", "Avda. Palencia 41 Policía Municipal", "C/ Santa Clara 34 esq. Real de Burgos", "C/ Chancillería 5", "C/ Angustias 5 Teatro Calderón", "Pza. Universidad esq. López Gómez", "Pza. España Bola del Mundo", "Pza. Zorrilla 3 esq. Santiago", "Pº Zorrilla 52 esq. Pº Hospital Militar", "Pº Zorrilla 88 fte. Pza. de Toros", "Pº Zorrilla 130 Centro Comercial", "Pº Zorrilla 166 fte. LAVA", "Pº Zorrilla 198 Bº La Rubia", "Pº Zorrilla 238 Centro Comercial", "C/ Vázquez de Menchaca 40 esq. Avda. Zamora", "C/ Vázquez de Menchaca 33", "C/ Vázquez de Menchaca 19", "C/ Vázquez de Menchaca 9", "C/ Vázquez de Menchaca 5", "C/ Daniel del Olmo fte. 20 ITV", "Avda. El Norte de Castilla 14", "Avda. El Norte de Castilla 22D esq. Forja", "Avda. El Norte de Castilla 48"]
+          "paradas": [
+            "Pza. Carmen Ferreiro Bº San Pedro Regalado",
+            "Avda. Santander Centro Comercial",
+            "Avda. Santander 49 Bº España",
+            "Avda. Santander Poblado Endasa",
+            "Avda. Palencia 41 Policía Municipal",
+            "C/ Santa Clara 34 esq. Real de Burgos",
+            "C/ Chancillería 5",
+            "C/ Angustias 5 Teatro Calderón",
+            "Pza. Universidad esq. López Gómez",
+            "Pza. España Bola del Mundo",
+            "Pza. Zorrilla 3 esq. Santiago",
+            "Pº Zorrilla 52 esq. Pº Hospital Militar",
+            "Pº Zorrilla 88 fte. Pza. de Toros",
+            "Pº Zorrilla 130 Centro Comercial",
+            "Pº Zorrilla 166 fte. LAVA",
+            "Pº Zorrilla 198 Bº La Rubia",
+            "Pº Zorrilla 238 Centro Comercial",
+            "C/ Vázquez de Menchaca 40 esq. Avda. Zamora",
+            "C/ Vázquez de Menchaca 33",
+            "C/ Vázquez de Menchaca 19",
+            "C/ Vázquez de Menchaca 9",
+            "C/ Vázquez de Menchaca 5",
+            "C/ Daniel del Olmo fte. 20 ITV",
+            "Avda. El Norte de Castilla 14",
+            "Avda. El Norte de Castilla 22D esq. Forja",
+            "Avda. El Norte de Castilla 48"
+          ]
         }
       ],
-      "letreros": ["P2 PGNO.S.CRIST"],
-      "notas": ["No se debe pasar por las paradas antes de la hora indicada."],
+      "letreros": [
+        "P2 PGNO.S.CRIST"
+      ],
+      "notas": [
+        "No se debe pasar por las paradas antes de la hora indicada.",
+        "El servicio de las 5:15 finaliza en el Polígono Argales.",
+        "Sábados y festivos SIN SERVICIO."
+      ],
       "horarios": [
         {
           "nombre": "1 coche",
@@ -254,25 +546,31 @@
           "cochesDetalle": [
             {
               "nombre": "Horario 1",
-              "primeraSalida": "05:15",
-              "retirada": "Salida de San Pedro Regalado",
+              "primeraSalida": "5:15",
+              "retirada": "Salida de Bº España",
               "salidas": [
-                {"cabecera": "SAN PEDRO", "hora": "05:15"}
+                {
+                  "cabecera": "Bº ESPAÑA",
+                  "hora": "5:15"
+                }
               ]
             },
             {
               "nombre": "Horario 2",
-              "primeraSalida": "06:15",
-              "retirada": "Salida de San Pedro Regalado",
+              "primeraSalida": "6:15",
+              "retirada": "Salida de Bº España",
               "salidas": [
-                {"cabecera": "SAN PEDRO", "hora": "06:15"}
+                {
+                  "cabecera": "Bº ESPAÑA",
+                  "hora": "6:15"
+                }
               ]
             }
           ]
         }
       ]
     },
-           {
+    {
       "id": "P3",
       "nombre": "La Victoria – Pol. San Cristóbal",
       "tipo": "matinal",
@@ -280,11 +578,57 @@
       "recorridos": [
         {
           "sentido": "Trayecto: La Victoria → Pol. San Cristóbal",
-          "paradas": ["Pº Jardín Botánico esq. Brezo", "Pº Jardín Botánico fte. Jara", "Pº Jardín Botánico fte. 6", "Pº Jardín Botánico parc. 8 Centro Salud La Victoria", "C/ Fuente El Sol 31", "C/ Júpiter fte. 12 esq. Comuneros de Castilla", "Avda. Gijón 26 Canal", "Avda. Gijón fte. Cristo Rey", "C/ Enseñanza esq. Avda. Gijón", "Avda. Las Contiendas 97", "Avda. Los Cerros Pza. Cine Castilla", "C/ Mieses 40", "C/ Barbecho esq. Arado", "C/ Rastrojo 6 Col. Giner de los Ríos", "Avda. Miguel Ángel Blanco 5 esq. Avda. Salamanca", "C/ Joaquín Velasco Martín 3 Col. La Inmaculada", "C/ Joaquín Velasco Martín 1 esq. Avda. Gloria Fuertes", "Pza. Poniente fte. Jorge Guillén", "Pza. Fuente Dorada", "C/ López Gómez 13 esq. Fray Luis de León", "C/ Panaderos 2 esq. Pza. España", "Pza. Cruz Verde 5", "Pza. Circular 11 Ig. Corazón de María", "C/ San Isidro 30 esq. Cádiz", "Ctra. Soria esq. Pº Juan Carlos I", "Ctra. Soria Iveco", "C/ Carraca fte. 41 esq. Ctra. Soria", "C/ Dulzaina 2 Hospital Río Hortega", "C/ Pirita esq. Esmeralda", "C/ Pirita 10", "C/ Cobalto 28 esq. Pirita", "C/ Cobalto 42 esq. Galena", "C/ Cobalto fte. 69 esq. Topacio", "C/ Topacio fte. 33", "C/ Topacio 2", "C/ Topacio 42 fte. Plomo", "C/ Plomo 1", "C/ Helio 4 esq. Acetileno", "C/ Helio 20 esq. Oxígeno", "C/ Helio esq. Nitrógeno"]
+          "paradas": [
+            "Pº Jardín Botánico esq. Brezo",
+            "Pº Jardín Botánico fte. Jara",
+            "Pº Jardín Botánico fte. 6",
+            "Pº Jardín Botánico parc. 8 Centro Salud La Victoria",
+            "C/ Fuente El Sol 31",
+            "C/ Júpiter fte. 12 esq. Comuneros de Castilla",
+            "Avda. Gijón 26 Canal",
+            "Avda. Gijón fte. Cristo Rey",
+            "C/ Enseñanza esq. Avda. Gijón",
+            "Avda. Las Contiendas 97",
+            "Avda. Los Cerros Pza. Cine Castilla",
+            "C/ Mieses 40",
+            "C/ Barbecho esq. Arado",
+            "C/ Rastrojo 6 Col. Giner de los Ríos",
+            "Avda. Miguel Ángel Blanco 5 esq. Avda. Salamanca",
+            "C/ Joaquín Velasco Martín 3 Col. La Inmaculada",
+            "C/ Joaquín Velasco Martín 1 esq. Avda. Gloria Fuertes",
+            "Pza. Poniente fte. Jorge Guillén",
+            "Pza. Fuente Dorada",
+            "C/ López Gómez 13 esq. Fray Luis de León",
+            "C/ Panaderos 2 esq. Pza. España",
+            "Pza. Cruz Verde 5",
+            "Pza. Circular 11 Ig. Corazón de María",
+            "C/ San Isidro 30 esq. Cádiz",
+            "Ctra. Soria esq. Pº Juan Carlos I",
+            "Ctra. Soria Iveco",
+            "C/ Carraca fte. 41 esq. Ctra. Soria",
+            "C/ Dulzaina 2 Hospital Río Hortega",
+            "C/ Pirita esq. Esmeralda",
+            "C/ Pirita 10",
+            "C/ Cobalto 28 esq. Pirita",
+            "C/ Cobalto 42 esq. Galena",
+            "C/ Cobalto fte. 69 esq. Topacio",
+            "C/ Topacio fte. 33",
+            "C/ Topacio 2",
+            "C/ Topacio 42 fte. Plomo",
+            "C/ Plomo 1",
+            "C/ Helio 4 esq. Acetileno",
+            "C/ Helio 20 esq. Oxígeno",
+            "C/ Helio esq. Nitrógeno"
+          ]
         }
       ],
-      "letreros": ["P3 PGNO.S.CRIST"],
-      "notas": ["No se debe pasar por las paradas antes de la hora indicada.", "SÁBADOS Y FESTIVOS SIN SERVICIO."],
+      "letreros": [
+        "P3 PGNO.S.CRIST"
+      ],
+      "notas": [
+        "No se debe pasar por las paradas antes de la hora indicada.",
+        "SÁBADOS Y FESTIVOS SIN SERVICIO."
+      ],
       "horarios": [
         {
           "nombre": "1 coche",
@@ -295,25 +639,31 @@
           "cochesDetalle": [
             {
               "nombre": "Horario 1",
-              "primeraSalida": "05:15",
+              "primeraSalida": "5:15",
               "retirada": "Salida de La Victoria",
               "salidas": [
-                {"cabecera": "LA VICTORIA", "hora": "05:15"}
+                {
+                  "cabecera": "LA VICTORIA",
+                  "hora": "5:15"
+                }
               ]
             },
             {
               "nombre": "Horario 2",
-              "primeraSalida": "06:15",
+              "primeraSalida": "6:15",
               "retirada": "Salida de La Victoria",
               "salidas": [
-                {"cabecera": "LA VICTORIA", "hora": "06:15"}
+                {
+                  "cabecera": "LA VICTORIA",
+                  "hora": "6:15"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "P6",
       "nombre": "La Victoria – Pol. Argales",
       "tipo": "matinal",
@@ -321,11 +671,51 @@
       "recorridos": [
         {
           "sentido": "Trayecto: La Victoria → Pol. Argales",
-          "paradas": ["Pº Jardín Botánico esq. Brezo", "Pº Jardín Botánico fte. Jara", "Pº Jardín Botánico fte. 6", "Pº Jardín Botánico parc. 8 Centro Salud La Victoria", "C/ Fuente El Sol 31", "C/ Júpiter fte. 12 esq. Comuneros de Castilla", "Avda. Gijón 26 Canal", "C/ Morena ed. Antares", "C/ Morena 3 bloque 2", "C/ Bálago esq. Sementera", "Avda. Ramón Pradera fte. 10", "Avda. Ramón Pradera Feria de Valladolid", "Avda. Gloria Fuertes 1 esq. Joaquín Velasco Martín", "Pza. Poniente fte. Jorge Guillén", "Pza. Fuente Dorada", "C/ López Gómez 13 esq. Fray Luis de León", "C/ Panaderos 2 esq. Pza. España", "C/ Panaderos 42 esq. Pza. Caño Argales", "Avda. Segovia fte. 57", "C/ Embajadores 4 esq. Pº Farnesio", "Avda. Segovia fte. Ig. del Carmen", "C/ Embajadores 60 fte. Escuela Oficial de Idiomas", "C/ Embajadores 74 esq. Hornija", "C/ La Transición 3", "C/ Arca Real fte. Centro Madrid", "C/ Daniel del Olmo fte. 20 ITV", "Avda. El Norte de Castilla 14", "Avda. El Norte de Castilla 22D esq. Forja", "Avda. El Norte de Castilla 48", "C/ Vázquez de Menchaca 40 esq. Avda. Zamora", "C/ Vázquez de Menchaca 33", "C/ Vázquez de Menchaca 19", "C/ Vázquez de Menchaca 9", "C/ Vázquez de Menchaca 5"]
+          "paradas": [
+            "Pº Jardín Botánico esq. Brezo",
+            "Pº Jardín Botánico fte. Jara",
+            "Pº Jardín Botánico fte. 6",
+            "Pº Jardín Botánico parc. 8 Centro Salud La Victoria",
+            "C/ Fuente El Sol 31",
+            "C/ Júpiter fte. 12 esq. Comuneros de Castilla",
+            "Avda. Gijón 26 Canal",
+            "C/ Morena ed. Antares",
+            "C/ Morena 3 bloque 2",
+            "C/ Bálago esq. Sementera",
+            "Avda. Ramón Pradera fte. 10",
+            "Avda. Ramón Pradera Feria de Valladolid",
+            "Avda. Gloria Fuertes 1 esq. Joaquín Velasco Martín",
+            "Pza. Poniente fte. Jorge Guillén",
+            "Pza. Fuente Dorada",
+            "C/ López Gómez 13 esq. Fray Luis de León",
+            "C/ Panaderos 2 esq. Pza. España",
+            "C/ Panaderos 42 esq. Pza. Caño Argales",
+            "Avda. Segovia fte. 57",
+            "C/ Embajadores 4 esq. Pº Farnesio",
+            "Avda. Segovia fte. Ig. del Carmen",
+            "C/ Embajadores 60 fte. Escuela Oficial de Idiomas",
+            "C/ Embajadores 74 esq. Hornija",
+            "C/ La Transición 3",
+            "C/ Arca Real fte. Centro Madrid",
+            "C/ Daniel del Olmo fte. 20 ITV",
+            "Avda. El Norte de Castilla 14",
+            "Avda. El Norte de Castilla 22D esq. Forja",
+            "Avda. El Norte de Castilla 48",
+            "C/ Vázquez de Menchaca 40 esq. Avda. Zamora",
+            "C/ Vázquez de Menchaca 33",
+            "C/ Vázquez de Menchaca 19",
+            "C/ Vázquez de Menchaca 9",
+            "C/ Vázquez de Menchaca 5"
+          ]
         }
       ],
-      "letreros": ["P6 PGNO.ARGALES"],
-      "notas": ["No se debe pasar por las paradas antes de la hora indicada.", "SÁBADOS Y FESTIVOS SIN SERVICIO."],
+      "letreros": [
+        "P6 PGNO.ARGALES"
+      ],
+      "notas": [
+        "No se debe pasar por las paradas antes de la hora indicada.",
+        "SÁBADOS Y FESTIVOS SIN SERVICIO."
+      ],
       "horarios": [
         {
           "nombre": "1 coche",
@@ -336,25 +726,31 @@
           "cochesDetalle": [
             {
               "nombre": "Horario 1",
-              "primeraSalida": "05:10",
+              "primeraSalida": "5:10",
               "retirada": "Salida de La Victoria",
               "salidas": [
-                {"cabecera": "LA VICTORIA", "hora": "05:10"}
+                {
+                  "cabecera": "LA VICTORIA",
+                  "hora": "5:10"
+                }
               ]
             },
             {
               "nombre": "Horario 2",
-              "primeraSalida": "06:10",
+              "primeraSalida": "6:10",
               "retirada": "Salida de La Victoria",
               "salidas": [
-                {"cabecera": "LA VICTORIA", "hora": "06:10"}
+                {
+                  "cabecera": "LA VICTORIA",
+                  "hora": "6:10"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "P7",
       "nombre": "La Victoria – Pol. Argales",
       "tipo": "matinal",
@@ -362,11 +758,43 @@
       "recorridos": [
         {
           "sentido": "Trayecto: La Victoria → Pol. Argales",
-          "paradas": ["C/ Cometa esq. Cosmología", "C/ Cometa esq. Pº Juan Carlos I", "C/ Andrómeda fte. Orden de Malta", "Pº del Cauce fte. Ing. Industriales", "Pº del Cauce fte. Centro Salud Pilarica", "C/ Renedo 29", "Pza. San Juan", "C/ Fidel Recio 1 esq. Alonso Pesquera", "C/ Santuario 5 esq. López Gómez", "Pza. España Bola del Mundo", "Pza. Zorrilla 3 esq. Santiago", "Pº Zorrilla 52 esq. Pº Hospital Militar", "Pº Zorrilla 88 fte. Pza. de Toros", "Pº Zorrilla 130 Centro Comercial", "Pº Zorrilla 166 fte. LAVA", "Pº Zorrilla 198 Bº La Rubia", "Pº Zorrilla 238 Centro Comercial", "C/ Vázquez de Menchaca 40 esq. Avda. Zamora", "C/ Vázquez de Menchaca 33", "C/ Vázquez de Menchaca 19", "C/ Vázquez de Menchaca 9", "C/ Vázquez de Menchaca 5", "C/ Daniel del Olmo fte. 20 ITV", "Avda. El Norte de Castilla 14", "Avda. El Norte de Castilla 22D esq. Forja", "Avda. El Norte de Castilla 48"]
+          "paradas": [
+            "C/ Cometa esq. Cosmología",
+            "C/ Cometa esq. Pº Juan Carlos I",
+            "C/ Andrómeda fte. Orden de Malta",
+            "Pº del Cauce fte. Ing. Industriales",
+            "Pº del Cauce fte. Centro Salud Pilarica",
+            "C/ Renedo 29",
+            "Pza. San Juan",
+            "C/ Fidel Recio 1 esq. Alonso Pesquera",
+            "C/ Santuario 5 esq. López Gómez",
+            "Pza. España Bola del Mundo",
+            "Pza. Zorrilla 3 esq. Santiago",
+            "Pº Zorrilla 52 esq. Pº Hospital Militar",
+            "Pº Zorrilla 88 fte. Pza. de Toros",
+            "Pº Zorrilla 130 Centro Comercial",
+            "Pº Zorrilla 166 fte. LAVA",
+            "Pº Zorrilla 198 Bº La Rubia",
+            "Pº Zorrilla 238 Centro Comercial",
+            "C/ Vázquez de Menchaca 40 esq. Avda. Zamora",
+            "C/ Vázquez de Menchaca 33",
+            "C/ Vázquez de Menchaca 19",
+            "C/ Vázquez de Menchaca 9",
+            "C/ Vázquez de Menchaca 5",
+            "C/ Daniel del Olmo fte. 20 ITV",
+            "Avda. El Norte de Castilla 14",
+            "Avda. El Norte de Castilla 22D esq. Forja",
+            "Avda. El Norte de Castilla 48"
+          ]
         }
       ],
-      "letreros": ["P7 PGNO. ARGALES"],
-      "notas": ["No se debe pasar por las paradas antes de la hora indicada.", "SÁBADOS Y FESTIVOS SIN SERVICIO."],
+      "letreros": [
+        "P7 PGNO. ARGALES"
+      ],
+      "notas": [
+        "No se debe pasar por las paradas antes de la hora indicada.",
+        "SÁBADOS Y FESTIVOS SIN SERVICIO."
+      ],
       "horarios": [
         {
           "nombre": "1 coche",
@@ -377,25 +805,31 @@
           "cochesDetalle": [
             {
               "nombre": "Horario 1",
-              "primeraSalida": "05:15",
-              "retirada": "Salida de Pº Jardín Botánico",
+              "primeraSalida": "5:10",
+              "retirada": "Salida de Los Santos Pilarica",
               "salidas": [
-                {"cabecera": "Pº JARDÍN BOTÁNICO", "hora": "05:15"}
+                {
+                  "cabecera": "LOS SANTOS PILARICA",
+                  "hora": "5:10"
+                }
               ]
             },
             {
               "nombre": "Horario 2",
-              "primeraSalida": "06:15",
-              "retirada": "Salida de Pº Jardín Botánico",
+              "primeraSalida": "6:10",
+              "retirada": "Salida de Los Santos Pilarica",
               "salidas": [
-                {"cabecera": "Pº JARDÍN BOTÁNICO", "hora": "06:15"}
+                {
+                  "cabecera": "LOS SANTOS PILARICA",
+                  "hora": "6:10"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "P13",
       "nombre": "Covaresa – Pol. San Cristóbal",
       "tipo": "matinal",
@@ -403,11 +837,42 @@
       "recorridos": [
         {
           "sentido": "Trayecto: Covaresa → Pol. San Cristóbal",
-          "paradas": ["Pza. Castilla y León 1", "Ctra. Rueda 131 Centro Deportivo", "Pº Zorrilla 203 esq. Vinos de Cigales", "Pº Zorrilla 187 esq. Vinos Vega Sicilia", "Pº Zorrilla 153 fte. Centro Comercial", "Pº Zorrilla 133 Bº La Rubia", "Pº Zorrilla 101 LAVA", "Pº Zorrilla 65 fte. Centro Comercial", "C/ Puente Colgante 47", "C/ Recondo 4 fte. Estación de Autobuses", "C/ Estación del Norte RENFE", "C/ Gamazo 17 esq. Bailén", "Pza. España 12 Ig. Capuchinos", "C/ Panaderos 42 esq. Pza. Caño Argales", "Avda. Segovia fte. 57", "C/ Embajadores 4 esq. Pº Farnesio", "Avda. Segovia fte. Ig. del Carmen", "Avda. Segovia 88 esq. Hornija", "Ctra. Segovia fte. Col. Hijas de Jesús", "C/ Topacio esq. Aluminio", "C/ Cobalto 69 esq. Topacio", "C/ Cobalto 49 esq. Galena", "C/ Cobalto 21 esq. Pirita", "C/ Pirita fte. 10 esq. Aluminio", "C/ Aluminio 7 esq. Turquesa"]
+          "paradas": [
+            "Pza. Castilla y León 1",
+            "Ctra. Rueda 131 Centro Deportivo",
+            "Pº Zorrilla 203 esq. Vinos de Cigales",
+            "Pº Zorrilla 187 esq. Vinos Vega Sicilia",
+            "Pº Zorrilla 153 fte. Centro Comercial",
+            "Pº Zorrilla 133 Bº La Rubia",
+            "Pº Zorrilla 101 LAVA",
+            "Pº Zorrilla 65 fte. Centro Comercial",
+            "C/ Puente Colgante 47",
+            "C/ Recondo 4 fte. Estación de Autobuses",
+            "C/ Estación del Norte RENFE",
+            "C/ Gamazo 17 esq. Bailén",
+            "Pza. España 12 Ig. Capuchinos",
+            "C/ Panaderos 42 esq. Pza. Caño Argales",
+            "Avda. Segovia fte. 57",
+            "C/ Embajadores 4 esq. Pº Farnesio",
+            "Avda. Segovia fte. Ig. del Carmen",
+            "Avda. Segovia 88 esq. Hornija",
+            "Ctra. Segovia fte. Col. Hijas de Jesús",
+            "C/ Topacio esq. Aluminio",
+            "C/ Cobalto 69 esq. Topacio",
+            "C/ Cobalto 49 esq. Galena",
+            "C/ Cobalto 21 esq. Pirita",
+            "C/ Pirita fte. 10 esq. Aluminio",
+            "C/ Aluminio 7 esq. Turquesa"
+          ]
         }
       ],
-      "letreros": ["P13 PGNO.S.CRIST"],
-      "notas": ["No se debe pasar por las paradas antes de la hora indicada.", "SÁBADOS Y FESTIVOS SIN SERVICIO."],
+      "letreros": [
+        "P13 PGNO.S.CRIST"
+      ],
+      "notas": [
+        "No se debe pasar por las paradas antes de la hora indicada.",
+        "SÁBADOS Y FESTIVOS SIN SERVICIO."
+      ],
       "horarios": [
         {
           "nombre": "1 coche",
@@ -418,25 +883,31 @@
           "cochesDetalle": [
             {
               "nombre": "Horario 1",
-              "primeraSalida": "05:15",
+              "primeraSalida": "5:15",
               "retirada": "Salida de Covaresa",
               "salidas": [
-                {"cabecera": "COVARESA", "hora": "05:15"}
+                {
+                  "cabecera": "COVARESA",
+                  "hora": "5:15"
+                }
               ]
             },
             {
               "nombre": "Horario 2",
-              "primeraSalida": "06:15",
+              "primeraSalida": "6:15",
               "retirada": "Salida de Covaresa",
               "salidas": [
-                {"cabecera": "COVARESA", "hora": "06:15"}
+                {
+                  "cabecera": "COVARESA",
+                  "hora": "6:15"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "PSC1",
       "nombre": "PSC1: Polígono San Cristóbal",
       "tipo": "matinal",
@@ -444,11 +915,46 @@
       "recorridos": [
         {
           "sentido": "Trayecto: Rondilla → Pol. San Cristóbal",
-          "paradas": ["C/ Card. Torquemada fte. antiguo Hosp. Río Hortega", "C/ Card. Torquemada esq. Tirso de Molina", "C/ Card. Cisneros esq. San Juan de Ávila", "C/ Cerrada 1 esq. Santa Clara", "C/ Real de Burgos fte. Ig. San Pedro Apóstol", "Pº Prado de La Magdalena 6 fte. Res. Alfonso VIII", "Pº del Cauce fte. Ing. Industriales", "Pº del Cauce fte. Centro Salud Pilarica", "Pza. Vadillos fte. 5", "C/ Cigüeña 41 esq. Villabáñez", "C/ Cigüeña 21", "C/ Cigüeña 1 esq. San Isidro", "C/ Málaga esq. Bilbao", "Ctra. Soria esq. Pº Juan Carlos I", "Ctra. Soria Iveco", "C/ Carraca fte. 41 esq. Ctra. Soria", "C/ Dulzaina 2 Hospital Río Hortega", "C/ Pirita esq. Esmeralda", "C/ Pirita 10", "C/ Cobalto 28 esq. Pirita", "C/ Cobalto 42 esq. Galena", "C/ Cobalto fte. 69 esq. Topacio", "C/ Topacio fte. 33", "C/ Topacio 2", "C/ Topacio 42 fte. Plomo", "C/ Plomo 1", "C/ Helio 4 esq. Acetileno", "C/ Helio 20 esq. Oxígeno", "C/ Helio esq. Nitrógeno"]
+          "paradas": [
+            "C/ Card. Torquemada fte. antiguo Hosp. Río Hortega",
+            "C/ Card. Torquemada esq. Tirso de Molina",
+            "C/ Card. Cisneros esq. San Juan de Ávila",
+            "C/ Cerrada 1 esq. Santa Clara",
+            "C/ Real de Burgos fte. Ig. San Pedro Apóstol",
+            "Pº Prado de La Magdalena 6 fte. Res. Alfonso VIII",
+            "Pº del Cauce fte. Ing. Industriales",
+            "Pº del Cauce fte. Centro Salud Pilarica",
+            "Pza. Vadillos fte. 5",
+            "C/ Cigüeña 41 esq. Villabáñez",
+            "C/ Cigüeña 21",
+            "C/ Cigüeña 1 esq. San Isidro",
+            "C/ Málaga esq. Bilbao",
+            "Ctra. Soria esq. Pº Juan Carlos I",
+            "Ctra. Soria Iveco",
+            "C/ Carraca fte. 41 esq. Ctra. Soria",
+            "C/ Dulzaina 2 Hospital Río Hortega",
+            "C/ Pirita esq. Esmeralda",
+            "C/ Pirita 10",
+            "C/ Cobalto 28 esq. Pirita",
+            "C/ Cobalto 42 esq. Galena",
+            "C/ Cobalto fte. 69 esq. Topacio",
+            "C/ Topacio fte. 33",
+            "C/ Topacio 2",
+            "C/ Topacio 42 fte. Plomo",
+            "C/ Plomo 1",
+            "C/ Helio 4 esq. Acetileno",
+            "C/ Helio 20 esq. Oxígeno",
+            "C/ Helio esq. Nitrógeno"
+          ]
         }
       ],
-      "letreros": ["PSC1 PGNO.S.CRIST"],
-      "notas": ["No se debe pasar por las paradas antes de la hora indicada.", "SÁBADOS Y FESTIVOS SIN SERVICIO."],
+      "letreros": [
+        "PSC1 PGNO.S.CRIST"
+      ],
+      "notas": [
+        "No se debe pasar por las paradas antes de la hora indicada.",
+        "SÁBADOS Y FESTIVOS SIN SERVICIO."
+      ],
       "horarios": [
         {
           "nombre": "1 coche",
@@ -459,25 +965,31 @@
           "cochesDetalle": [
             {
               "nombre": "Horario 1",
-              "primeraSalida": "05:15",
-              "retirada": "Leer en PDF",
+              "primeraSalida": "5:10",
+              "retirada": "Salida de Parquesol",
               "salidas": [
-                {"cabecera": "RONDILLA", "hora": "05:15"}
+                {
+                  "cabecera": "PARQUESOL",
+                  "hora": "5:10"
+                }
               ]
             },
             {
               "nombre": "Horario 2",
-              "primeraSalida": "06:15",
-              "retirada": "Leer en PDF",
+              "primeraSalida": "6:10",
+              "retirada": "Salida de Parquesol",
               "salidas": [
-                {"cabecera": "RONDILLA", "hora": "06:15"}
+                {
+                  "cabecera": "PARQUESOL",
+                  "hora": "6:10"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "PSC2",
       "nombre": "PSC2: Polígono San Cristóbal",
       "tipo": "matinal",
@@ -485,11 +997,46 @@
       "recorridos": [
         {
           "sentido": "Trayecto: Rondilla → Pol. San Cristóbal",
-          "paradas": ["C/ Card. Torquemada fte. antiguo Hosp. Río Hortega", "C/ Card. Torquemada esq. Tirso de Molina", "C/ Card. Cisneros esq. San Juan de Ávila", "C/ Cerrada 1 esq. Santa Clara", "C/ Real de Burgos fte. Ig. San Pedro Apóstol", "Pº Prado de La Magdalena 6 fte. Res. Alfonso VIII", "Pº del Cauce fte. Ing. Industriales", "Pº del Cauce fte. Centro Salud Pilarica", "Pza. Vadillos fte. 5", "C/ Cigüeña 41 esq. Villabáñez", "C/ Cigüeña 21", "C/ Cigüeña 1 esq. San Isidro", "C/ Málaga esq. Bilbao", "Ctra. Soria esq. Pº Juan Carlos I", "Ctra. Soria Iveco", "C/ Carraca fte. 41 esq. Ctra. Soria", "C/ Dulzaina 2 Hospital Río Hortega", "C/ Pirita esq. Esmeralda", "C/ Pirita 10", "C/ Cobalto 28 esq. Pirita", "C/ Cobalto 42 esq. Galena", "C/ Cobalto fte. 69 esq. Topacio", "C/ Topacio fte. 33", "C/ Topacio 2", "C/ Topacio 42 fte. Plomo", "C/ Plomo 1", "C/ Helio 4 esq. Acetileno", "C/ Helio 20 esq. Oxígeno", "C/ Helio esq. Nitrógeno"]
+          "paradas": [
+            "C/ Card. Torquemada fte. antiguo Hosp. Río Hortega",
+            "C/ Card. Torquemada esq. Tirso de Molina",
+            "C/ Card. Cisneros esq. San Juan de Ávila",
+            "C/ Cerrada 1 esq. Santa Clara",
+            "C/ Real de Burgos fte. Ig. San Pedro Apóstol",
+            "Pº Prado de La Magdalena 6 fte. Res. Alfonso VIII",
+            "Pº del Cauce fte. Ing. Industriales",
+            "Pº del Cauce fte. Centro Salud Pilarica",
+            "Pza. Vadillos fte. 5",
+            "C/ Cigüeña 41 esq. Villabáñez",
+            "C/ Cigüeña 21",
+            "C/ Cigüeña 1 esq. San Isidro",
+            "C/ Málaga esq. Bilbao",
+            "Ctra. Soria esq. Pº Juan Carlos I",
+            "Ctra. Soria Iveco",
+            "C/ Carraca fte. 41 esq. Ctra. Soria",
+            "C/ Dulzaina 2 Hospital Río Hortega",
+            "C/ Pirita esq. Esmeralda",
+            "C/ Pirita 10",
+            "C/ Cobalto 28 esq. Pirita",
+            "C/ Cobalto 42 esq. Galena",
+            "C/ Cobalto fte. 69 esq. Topacio",
+            "C/ Topacio fte. 33",
+            "C/ Topacio 2",
+            "C/ Topacio 42 fte. Plomo",
+            "C/ Plomo 1",
+            "C/ Helio 4 esq. Acetileno",
+            "C/ Helio 20 esq. Oxígeno",
+            "C/ Helio esq. Nitrógeno"
+          ]
         }
       ],
-      "letreros": ["PSC2 PGNO.S.CRIST"],
-      "notas": ["No se debe pasar por las paradas antes de la hora indicada.", "SÁBADOS Y FESTIVOS SIN SERVICIO."],
+      "letreros": [
+        "PSC2 PGNO.S.CRIST"
+      ],
+      "notas": [
+        "No se debe pasar por las paradas antes de la hora indicada.",
+        "SÁBADOS Y FESTIVOS SIN SERVICIO."
+      ],
       "horarios": [
         {
           "nombre": "1 coche",
@@ -500,25 +1047,31 @@
           "cochesDetalle": [
             {
               "nombre": "Horario 1",
-              "primeraSalida": "05:15",
-              "retirada": "Leer en PDF",
+              "primeraSalida": "5:15",
+              "retirada": "Salida de Rondilla",
               "salidas": [
-                {"cabecera": "RONDILLA", "hora": "05:15"}
+                {
+                  "cabecera": "RONDILLA",
+                  "hora": "5:15"
+                }
               ]
             },
             {
               "nombre": "Horario 2",
-              "primeraSalida": "06:15",
-              "retirada": "Leer en PDF",
+              "primeraSalida": "6:15",
+              "retirada": "Salida de Rondilla",
               "salidas": [
-                {"cabecera": "RONDILLA", "hora": "06:15"}
+                {
+                  "cabecera": "RONDILLA",
+                  "hora": "6:15"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "PSC3",
       "nombre": "PSC3: Las Flores – Pol. Argales",
       "tipo": "matinal",
@@ -526,11 +1079,61 @@
       "recorridos": [
         {
           "sentido": "Trayecto: Las Flores → Pol. Argales",
-          "paradas": ["C/ Azucena 18 esq. Dalia", "C/ Azalea fte. 6", "C/ Santa María de la Cabeza fte. 9", "C/ Santa María de la Cabeza fte. 39", "C/ Villabáñez 131 esq. Cº Viejo del Polvorín", "C/ Villabáñez 55 esq. Golondrina", "Pº Juan Carlos I esq. Abejaruco", "C/ Puente La Reina 67", "C/ Templarios 6 esq. Puente La Reina", "C/ Cigüeña 41 esq. Villabáñez", "C/ Cigüeña 21", "C/ Cigüeña 1 esq. San Isidro", "Pº San Vicente 16 esq. Álava", "Avda. Segovia fte. 57", "C/ Embajadores 4 esq. Pº Farnesio", "Avda. Segovia fte. Ig. del Carmen", "C/ Embajadores 60 fte. Esc. Ofic. de Idiomas", "C/ Embajadores 74 esq. Hornija", "C/ La Transición 3", "C/ Arca Real fte. Centro Madrid", "C/ Daniel del Olmo fte. 20 ITV", "Avda. El Norte de Castilla 14", "Avda. El Norte de Castilla 22D esq. Forja", "Avda. El Norte de Castilla 48", "C/ Vázquez de Menchaca 40 esq. Avda. Zamora", "C/ Vázquez de Menchaca 33", "Pº Zorrilla 153 fte. Centro Comercial", "Pº Zorrilla 133 Bº La Rubia", "Pº Zorrilla 101 LAVA", "Pº Zorrilla 65 fte. Centro Comercial", "Pza. Juan de Austria fte. Centro Comercial", "C/ Dr. Villacán Monasterio de Prado", "C/ Dr. Villacán fte. 5 fte. Mariano de los Cobos", "C/ Hernando de Acuña parc. 21 esq. Juan de Valladolid", "C/ Hernando de Acuña 18 esq. Manuel Silvela", "C/ Hernando de Acuña 42", "C/ Hernando de Acuña esq. Padre Llanos", "C/ Manuel Azaña 24 fte. Juan García Hortelano", "C/ Manuel Azaña 56", "C/ Federico Landrove Moiño 11", "C/ Eusebio González Suárez fte. Federico Landrove Moiño", "C/ Adolfo Miaja de la Muela fte. Padre Llanos"]
+          "paradas": [
+            "C/ Azucena 18 esq. Dalia",
+            "C/ Azalea fte. 6",
+            "C/ Santa María de la Cabeza fte. 9",
+            "C/ Santa María de la Cabeza fte. 39",
+            "C/ Villabáñez 131 esq. Cº Viejo del Polvorín",
+            "C/ Villabáñez 55 esq. Golondrina",
+            "Pº Juan Carlos I esq. Abejaruco",
+            "C/ Puente La Reina 67",
+            "C/ Templarios 6 esq. Puente La Reina",
+            "C/ Cigüeña 41 esq. Villabáñez",
+            "C/ Cigüeña 21",
+            "C/ Cigüeña 1 esq. San Isidro",
+            "Pº San Vicente 16 esq. Álava",
+            "Avda. Segovia fte. 57",
+            "C/ Embajadores 4 esq. Pº Farnesio",
+            "Avda. Segovia fte. Ig. del Carmen",
+            "C/ Embajadores 60 fte. Esc. Ofic. de Idiomas",
+            "C/ Embajadores 74 esq. Hornija",
+            "C/ La Transición 3",
+            "C/ Arca Real fte. Centro Madrid",
+            "C/ Daniel del Olmo fte. 20 ITV",
+            "Avda. El Norte de Castilla 14",
+            "Avda. El Norte de Castilla 22D esq. Forja",
+            "Avda. El Norte de Castilla 48",
+            "C/ Vázquez de Menchaca 40 esq. Avda. Zamora",
+            "C/ Vázquez de Menchaca 33",
+            "Pº Zorrilla 153 fte. Centro Comercial",
+            "Pº Zorrilla 133 Bº La Rubia",
+            "Pº Zorrilla 101 LAVA",
+            "Pº Zorrilla 65 fte. Centro Comercial",
+            "Pza. Juan de Austria fte. Centro Comercial",
+            "C/ Dr. Villacán Monasterio de Prado",
+            "C/ Dr. Villacán fte. 5 fte. Mariano de los Cobos",
+            "C/ Hernando de Acuña parc. 21 esq. Juan de Valladolid",
+            "C/ Hernando de Acuña 18 esq. Manuel Silvela",
+            "C/ Hernando de Acuña 42",
+            "C/ Hernando de Acuña esq. Padre Llanos",
+            "C/ Manuel Azaña 24 fte. Juan García Hortelano",
+            "C/ Manuel Azaña 56",
+            "C/ Federico Landrove Moiño 11",
+            "C/ Eusebio González Suárez fte. Federico Landrove Moiño",
+            "C/ Adolfo Miaja de la Muela fte. Padre Llanos"
+          ]
         }
       ],
-      "letreros": ["PSC3 PGNO. ARGALES", "PSC3 P.ARG.-PARQ."],
-      "notas": ["No se debe pasar por las paradas antes de la hora indicada.", "SÁBADOS Y FESTIVOS SIN SERVICIO.", "*El servicio de las 5:15 finaliza en el Polígono Argales."],
+      "letreros": [
+        "PSC3 PGNO. ARGALES",
+        "PSC3 P.ARG.-PARQ."
+      ],
+      "notas": [
+        "No se debe pasar por las paradas antes de la hora indicada.",
+        "SÁBADOS Y FESTIVOS SIN SERVICIO.",
+        "*El servicio de las 5:15 finaliza en el Polígono Argales."
+      ],
       "horarios": [
         {
           "nombre": "1 coche",
@@ -541,18 +1144,29 @@
           "cochesDetalle": [
             {
               "nombre": "Horario 1",
-              "primeraSalida": "05:15",
-              "retirada": "Finaliza en Pol. Argales",
+              "primeraSalida": "5:15",
+              "retirada": "Salida de Las Flores",
               "salidas": [
-                {"cabecera": "LAS FLORES", "hora": "05:15"}
+                {
+                  "cabecera": "LAS FLORES",
+                  "hora": "5:15"
+                }
               ]
             },
             {
               "nombre": "Horario 2",
-              "primeraSalida": "06:15",
+              "primeraSalida": "6:15",
               "retirada": "Salida de Las Flores",
               "salidas": [
-                {"cabecera": "LAS FLORES", "hora": "06:15"}
-                
-                ]}
-        ]}]}]}
+                {
+                  "cabecera": "LAS FLORES",
+                  "hora": "6:15"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

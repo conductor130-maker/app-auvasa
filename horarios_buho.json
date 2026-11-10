@@ -1,6 +1,6 @@
 {
   "lineas": [
-      {
+    {
       "id": "B1",
       "nombre": "El Peral – San Pedro Regalado (Búho)",
       "tipo": "buho",
@@ -8,15 +8,85 @@
       "recorridos": [
         {
           "sentido": "Ida: El Peral → San Pedro Regalado",
-          "paradas": ["C/ Maracuyá esq. Mango", "C/ Aguacate 20", "C/ Melón 1 esq. Cañada Real", "C/ Miguel Delibes 14", "C/ Miguel Delibes 40 esq. Miguel de Unamuno", "Pza. Castilla y León 1", "Ctra. Rueda 131 Centro Deportivo", "Ctra. Rueda fte. Vinos de Cigales", "Ctra. Rueda 81 esq. Tierra de Sepúlveda", "Ctra. Rueda 47 fte. Imserso", "Ctra. Rueda 37 esq. Corta", "Ctra. Rueda 19 esq. Mota", "Pº Zorrilla 101 LAVA", "Pº Zorrilla 65 fte. Centro Comercial", "C/ Puente Colgante 47", "C/ Recondo 4 fte. Estación de Autobuses", "C/ Estación del Norte RENFE", "C/ Gamazo 17 esq. Bailén", "C/ Duque de La Victoria 23 esq. Pza. España", "Pza. Fuente Dorada", "C/ Bajada de La Libertad 10 fte. Teatro Calderón", "Avda. Ramón y Cajal 3 Hosp. Clínico", "C/ Gondomar 12 esq. Santa Clara", "C/ Card. Torquemada esq. Rondilla Santa Teresa", "C/ Card. Torquemada esq. Tirso de Molina", "C/ Card. Cisneros esq. San Juan de Ávila", "Avda. Palencia 2", "Avda. Palencia fte. 41 esq. Amor de Dios", "Avda. Santander fte. Poblado Endasa", "Avda. Santander 8 fte. Bº España", "Pza. Carmen Ferreiro Bº San Pedro Regalado"]
+          "paradas": [
+            "C/ Maracuyá esq. Mango",
+            "C/ Aguacate 20",
+            "C/ Melón 1 esq. Cañada Real",
+            "C/ Miguel Delibes 14",
+            "C/ Miguel Delibes 40 esq. Miguel de Unamuno",
+            "Pza. Castilla y León 1",
+            "Ctra. Rueda 131 Centro Deportivo",
+            "Ctra. Rueda fte. Vinos de Cigales",
+            "Ctra. Rueda 81 esq. Tierra de Sepúlveda",
+            "Ctra. Rueda 47 fte. Imserso",
+            "Ctra. Rueda 37 esq. Corta",
+            "Ctra. Rueda 19 esq. Mota",
+            "Pº Zorrilla 101 LAVA",
+            "Pº Zorrilla 65 fte. Centro Comercial",
+            "C/ Puente Colgante 47",
+            "C/ Recondo 4 fte. Estación de Autobuses",
+            "C/ Estación del Norte RENFE",
+            "C/ Gamazo 17 esq. Bailén",
+            "C/ Duque de La Victoria 23 esq. Pza. España",
+            "Pza. Fuente Dorada",
+            "C/ Bajada de La Libertad 10 fte. Teatro Calderón",
+            "Avda. Ramón y Cajal 3 Hosp. Clínico",
+            "C/ Gondomar 12 esq. Santa Clara",
+            "C/ Card. Torquemada esq. Rondilla Santa Teresa",
+            "C/ Card. Torquemada esq. Tirso de Molina",
+            "C/ Card. Cisneros esq. San Juan de Ávila",
+            "Avda. Palencia 2",
+            "Avda. Palencia fte. 41 esq. Amor de Dios",
+            "Avda. Santander fte. Poblado Endasa",
+            "Avda. Santander 8 fte. Bº España",
+            "Pza. Carmen Ferreiro Bº San Pedro Regalado"
+          ]
         },
         {
           "sentido": "Vuelta: San Pedro Regalado → El Peral",
-          "paradas": ["Pza. Carmen Ferreiro Bº San Pedro Regalado", "Avda. Santander Centro Comercial", "Avda. Santander 49 Bº España", "Avda. Santander Poblado Endasa", "Avda. Palencia 41 Policía Municipal", "C/ Moradas 31 esq. Nebrija", "C/ Cerrada 1 esq. Santa Clara", "C/ Chancillería 5", "C/ Angustias 5 Teatro Calderón", "Pza. Universidad esq. López Gómez", "Pza. España Bola del Mundo", "C/ Acera Recoletos fte. 2 esq. Pza. Zorrilla", "C/ Estación del Norte esq. Recondo", "C/ Puente Colgante 2 Estación de Autobuses", "C/ Puente Colgante 18 esq. Gabilondo", "Pº Zorrilla 88 fte. Pza. de Toros", "Pº Zorrilla 130 Centro Comercial", "Pº Zorrilla 166 fte. LAVA", "Ctra. Rueda 36 esq. Mota", "Ctra. Rueda fte. 41", "Ctra. Rueda fte. 53 Imserso", "Ctra. Rueda esq. Vega Sicilia", "Ctra. Rueda esq. Vinos de Cigales", "Ctra. Rueda 204 fte. Centro Deportivo", "Pza. Castilla y León 4 esq. Miguel Delibes", "C/ Miguel Delibes 1", "C/ Melón esq. Cañada Real", "C/ Alcaparra 21 esq. Pomelo", "C/ Maracuyá esq. Mango"]
+          "paradas": [
+            "Pza. Carmen Ferreiro Bº San Pedro Regalado",
+            "Avda. Santander Centro Comercial",
+            "Avda. Santander 49 Bº España",
+            "Avda. Santander Poblado Endasa",
+            "Avda. Palencia 41 Policía Municipal",
+            "C/ Moradas 31 esq. Nebrija",
+            "C/ Cerrada 1 esq. Santa Clara",
+            "C/ Chancillería 5",
+            "C/ Angustias 5 Teatro Calderón",
+            "Pza. Universidad esq. López Gómez",
+            "Pza. España Bola del Mundo",
+            "C/ Acera Recoletos fte. 2 esq. Pza. Zorrilla",
+            "C/ Estación del Norte esq. Recondo",
+            "C/ Puente Colgante 2 Estación de Autobuses",
+            "C/ Puente Colgante 18 esq. Gabilondo",
+            "Pº Zorrilla 88 fte. Pza. de Toros",
+            "Pº Zorrilla 130 Centro Comercial",
+            "Pº Zorrilla 166 fte. LAVA",
+            "Ctra. Rueda 36 esq. Mota",
+            "Ctra. Rueda fte. 41",
+            "Ctra. Rueda fte. 53 Imserso",
+            "Ctra. Rueda esq. Vega Sicilia",
+            "Ctra. Rueda esq. Vinos de Cigales",
+            "Ctra. Rueda 204 fte. Centro Deportivo",
+            "Pza. Castilla y León 4 esq. Miguel Delibes",
+            "C/ Miguel Delibes 1",
+            "C/ Melón esq. Cañada Real",
+            "C/ Alcaparra 21 esq. Pomelo",
+            "C/ Maracuyá esq. Mango"
+          ]
         }
       ],
-      "letreros": ["B1 SAN PEDRO R.", "B1 LA OVERUELA", "B1 EL PERAL"],
-      "notas": ["EL TRANSBORDO NO es gratuito entre las diferentes líneas búho.", "Las paradas de Plaza Fuente Dorada, Acera de Recoletos fte. 2 y Doctrinos 12 son de HORARIO DE CONTROL INTERMEDIO.", "BÚHO 1: Parada de AVDA. SANTANDER POBLADO DE ENDASA: Es obligatorio ENTRAR SIEMPRE en la vía de servicio de esta parada."],
+      "letreros": [
+        "B1 SAN PEDRO R.",
+        "B1 LA OVERUELA",
+        "B1 EL PERAL"
+      ],
+      "notas": [
+        "EL TRANSBORDO NO es gratuito entre las diferentes líneas búho.",
+        "Las paradas de Plaza Fuente Dorada, Acera de Recoletos fte. 2 y Doctrinos 12 son de HORARIO DE CONTROL INTERMEDIO.",
+        "BÚHO 1: Parada de AVDA. SANTANDER POBLADO DE ENDASA: Es obligatorio ENTRAR SIEMPRE en la vía de servicio de esta parada."
+      ],
       "horarios": [
         {
           "nombre": "2 coches",
@@ -27,33 +97,92 @@
           "cochesDetalle": [
             {
               "nombre": "Horario 1",
-              "primeraSalida": "23:15",
+              "primeraSalida": "23:30",
               "retirada": "Se retira de EL PERAL",
               "salidas": [
-                {"cabecera": "LA OVERUELA", "hora": "23:15"},
-                {"cabecera": "EL PERAL", "hora": "23:30"},
-                {"cabecera": "S. PEDRO", "hora": "00:00"},
-                {"cabecera": "ACERA RECOLETOS", "hora": "00:30"},
-                {"cabecera": "PZA. FUENTE DORADA", "hora": "01:00"}
+                {
+                  "cabecera": "EL PERAL",
+                  "hora": "23:30"
+                },
+                {
+                  "cabecera": "Pza. Fuente Dorada",
+                  "hora": "00:00"
+                },
+                {
+                  "cabecera": "S. PEDRO",
+                  "hora": "00:30"
+                },
+                {
+                  "cabecera": "Acera Recoletos",
+                  "hora": "01:00"
+                },
+                {
+                  "cabecera": "EL PERAL",
+                  "hora": "01:30"
+                },
+                {
+                  "cabecera": "Pza. Fuente Dorada",
+                  "hora": "02:00"
+                },
+                {
+                  "cabecera": "S. PEDRO",
+                  "hora": "02:30"
+                },
+                {
+                  "cabecera": "Acera Recoletos",
+                  "hora": "03:00"
+                }
               ]
             },
             {
               "nombre": "Horario 2",
-              "primeraSalida": "23:30",
+              "primeraSalida": "23:15",
               "retirada": "Se retira de LA OVERUELA",
               "salidas": [
-                {"cabecera": "LA OVERUELA", "hora": "23:30"},
-                {"cabecera": "EL PERAL", "hora": "00:00"},
-                {"cabecera": "S. PEDRO", "hora": "01:30"},
-                {"cabecera": "ACERA RECOLETOS", "hora": "02:00"},
-                {"cabecera": "PZA. FUENTE DORADA", "hora": "02:30"}
+                {
+                  "cabecera": "Pza. Fuente Dorada",
+                  "hora": "23:15",
+                  "nota": "La Overuela"
+                },
+                {
+                  "cabecera": "S. PEDRO",
+                  "hora": "23:30"
+                },
+                {
+                  "cabecera": "Acera Recoletos",
+                  "hora": "00:00"
+                },
+                {
+                  "cabecera": "EL PERAL",
+                  "hora": "00:30"
+                },
+                {
+                  "cabecera": "Pza. Fuente Dorada",
+                  "hora": "01:00"
+                },
+                {
+                  "cabecera": "S. PEDRO",
+                  "hora": "01:30"
+                },
+                {
+                  "cabecera": "Acera Recoletos",
+                  "hora": "02:00"
+                },
+                {
+                  "cabecera": "EL PERAL",
+                  "hora": "02:30"
+                },
+                {
+                  "cabecera": "Pza. Fuente Dorada",
+                  "hora": "03:00"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "B2",
       "nombre": "Delicias – La Victoria (Búho)",
       "tipo": "buho",
@@ -61,15 +190,94 @@
       "recorridos": [
         {
           "sentido": "Ida: Delicias → La Victoria",
-          "paradas": ["C/ Kilimanjaro fte. Pza. del Everest", "C/ Kilimanjaro 1 esq. Peñalara", "C/ Dulzaina esq. Palillos", "C/ Castañuelas esq. Carraca", "C/ Armonio esq. Laúd", "C/ Miguel Ruiz de Temiño esq. Pº Juan Carlos I sentido Centro", "C/ Embajadores 71", "C/ Embajadores 57 esq. La Transición", "C/ Embajadores fte. 72 esq. Hornija", "C/ Embajadores fte. 58 Escuela Oficial de Idiomas", "Avda. Segovia Ig. del Carmen", "Avda. Segovia 99 esq. Olmedo", "Avda. Segovia 57 esq. Pº San Vicente", "Pº San Vicente 35 esq. Sevilla", "C/ Cádiz 15", "C/ Málaga esq. Bilbao", "Pza. Circular 7 esq. Industrias", "C/ Nicolás Salmerón 19 esq. Labradores", "Pza. Caño Argales", "Pza. Madrid 2", "C/ Doctrinos 12 esq. María de Molina", "Avda. Miguel Ángel Blanco 2 fte. Pza. del Milenio", "C/ Pío del Río Hortega 9", "Avda. Ramón Pradera fte. Feria de Valladolid", "C/ Bálago esq. Avda. Ramón Pradera", "C/ Sementera esq. Mieses", "Avda. Los Cerros fte. Pza. Cine Castilla", "Avda. Las Contiendas fte. 109", "C/ Enseñanza Centro Ed. Especial", "Avda. Gijón Cristo Rey", "Avda. Gijón 3 fte. Canal", "Avda. Gijón 1 esq. Pza. San Bartolomé", "C/ Fuente El Sol 2 esq. Pza. San Bartolomé", "C/ Fuente El Sol 50 esq. San Sebastián", "Pº Jardín Botánico par. 7 fte. Centro Salud La Victoria", "Pº Jardín Botánico 6", "C/ Jara esq. Hierbabuena", "Pº Obregón esq. Brezo"]
+          "paradas": [
+            "C/ Kilimanjaro fte. Pza. del Everest",
+            "C/ Kilimanjaro 1 esq. Peñalara",
+            "C/ Dulzaina esq. Palillos",
+            "C/ Castañuelas esq. Carraca",
+            "C/ Armonio esq. Laúd",
+            "C/ Miguel Ruiz de Temiño esq. Pº Juan Carlos I sentido Centro",
+            "C/ Embajadores 71",
+            "C/ Embajadores 57 esq. La Transición",
+            "C/ Embajadores fte. 72 esq. Hornija",
+            "C/ Embajadores fte. 58 Escuela Oficial de Idiomas",
+            "Avda. Segovia Ig. del Carmen",
+            "Avda. Segovia 99 esq. Olmedo",
+            "Avda. Segovia 57 esq. Pº San Vicente",
+            "Pº San Vicente 35 esq. Sevilla",
+            "C/ Cádiz 15",
+            "C/ Málaga esq. Bilbao",
+            "Pza. Circular 7 esq. Industrias",
+            "C/ Nicolás Salmerón 19 esq. Labradores",
+            "Pza. Caño Argales",
+            "Pza. Madrid 2",
+            "C/ Doctrinos 12 esq. María de Molina",
+            "Avda. Miguel Ángel Blanco 2 fte. Pza. del Milenio",
+            "C/ Pío del Río Hortega 9",
+            "Avda. Ramón Pradera fte. Feria de Valladolid",
+            "C/ Bálago esq. Avda. Ramón Pradera",
+            "C/ Sementera esq. Mieses",
+            "Avda. Los Cerros fte. Pza. Cine Castilla",
+            "Avda. Las Contiendas fte. 109",
+            "C/ Enseñanza Centro Ed. Especial",
+            "Avda. Gijón Cristo Rey",
+            "Avda. Gijón 3 fte. Canal",
+            "Avda. Gijón 1 esq. Pza. San Bartolomé",
+            "C/ Fuente El Sol 2 esq. Pza. San Bartolomé",
+            "C/ Fuente El Sol 50 esq. San Sebastián",
+            "Pº Jardín Botánico par. 7 fte. Centro Salud La Victoria",
+            "Pº Jardín Botánico 6",
+            "C/ Jara esq. Hierbabuena",
+            "Pº Obregón esq. Brezo"
+          ]
         },
         {
           "sentido": "Vuelta: La Victoria → Delicias",
-          "paradas": ["Pº Jardín Botánico esq. Brezo", "Pº Jardín Botánico fte. Jara", "Pº Jardín Botánico fte. 6", "Pº Jardín Botánico parc. 8 Centro Salud La Victoria", "C/ Fuente El Sol 31", "C/ Júpiter fte. 12 esq. Comuneros de Castilla", "Avda. Gijón 26 Canal", "Avda. Gijón fte. Cristo Rey", "C/ Enseñanza esq. Avda. Gijón", "Avda. Las Contiendas 97", "Avda. Los Cerros Pza. Cine Castilla", "C/ Bálago esq. Sementera", "Avda. Ramón Pradera fte. 10", "Avda. Ramón Pradera Feria de Valladolid", "Avda. Gloria Fuertes 1 esq. Joaquín Velasco Martín", "Pza. Poniente fte. Jorge Guillén", "Pza. Fuente Dorada", "C/ López Gómez 13 esq. Fray Luis de León", "C/ Panaderos 2 esq. Pza. España", "Pza. Cruz Verde 5", "Pza. Circular 11 Ig. Corazón de María", "C/ Cádiz 4 esq. Bilbao", "Pº San Vicente 16 esq. Álava", "Avda. Segovia fte. 57", "C/ Embajadores 4 esq. Pº Farnesio", "Avda. Segovia fte. Ig. del Carmen", "C/ Embajadores 60 fte. Escuela Oficial de Idiomas", "C/ Embajadores 74 esq. Hornija", "C/ Embajadores 92 esq. La Transición", "C/ Embajadores esq. Padre Benito Menni", "C/ Miguel Ruiz de Temiño esq. Pº Juan Carlos I", "C/ Armonio 26 esq. Castañuelas", "C/ Castañuelas esq. Carraca"]
+          "paradas": [
+            "Pº Jardín Botánico esq. Brezo",
+            "Pº Jardín Botánico fte. Jara",
+            "Pº Jardín Botánico fte. 6",
+            "Pº Jardín Botánico parc. 8 Centro Salud La Victoria",
+            "C/ Fuente El Sol 31",
+            "C/ Júpiter fte. 12 esq. Comuneros de Castilla",
+            "Avda. Gijón 26 Canal",
+            "Avda. Gijón fte. Cristo Rey",
+            "C/ Enseñanza esq. Avda. Gijón",
+            "Avda. Las Contiendas 97",
+            "Avda. Los Cerros Pza. Cine Castilla",
+            "C/ Bálago esq. Sementera",
+            "Avda. Ramón Pradera fte. 10",
+            "Avda. Ramón Pradera Feria de Valladolid",
+            "Avda. Gloria Fuertes 1 esq. Joaquín Velasco Martín",
+            "Pza. Poniente fte. Jorge Guillén",
+            "Pza. Fuente Dorada",
+            "C/ López Gómez 13 esq. Fray Luis de León",
+            "C/ Panaderos 2 esq. Pza. España",
+            "Pza. Cruz Verde 5",
+            "Pza. Circular 11 Ig. Corazón de María",
+            "C/ Cádiz 4 esq. Bilbao",
+            "Pº San Vicente 16 esq. Álava",
+            "Avda. Segovia fte. 57",
+            "C/ Embajadores 4 esq. Pº Farnesio",
+            "Avda. Segovia fte. Ig. del Carmen",
+            "C/ Embajadores 60 fte. Escuela Oficial de Idiomas",
+            "C/ Embajadores 74 esq. Hornija",
+            "C/ Embajadores 92 esq. La Transición",
+            "C/ Embajadores esq. Padre Benito Menni",
+            "C/ Miguel Ruiz de Temiño esq. Pº Juan Carlos I",
+            "C/ Armonio 26 esq. Castañuelas",
+            "C/ Castañuelas esq. Carraca"
+          ]
         }
       ],
-      "letreros": ["B2 LA VICTORIA", "B2 DELICIAS"],
-      "notas": ["EL TRANSBORDO NO es gratuito entre las diferentes líneas búho.", "Las paradas de Plaza Fuente Dorada, Acera de Recoletos fte. 2 y Doctrinos 12 son de HORARIO DE CONTROL INTERMEDIO."],
+      "letreros": [
+        "B2 LA VICTORIA",
+        "B2 DELICIAS"
+      ],
+      "notas": [
+        "EL TRANSBORDO NO es gratuito entre las diferentes líneas búho.",
+        "Las paradas de Plaza Fuente Dorada, Acera de Recoletos fte. 2 y Doctrinos 12 son de HORARIO DE CONTROL INTERMEDIO."
+      ],
       "horarios": [
         {
           "nombre": "2 coches",
@@ -81,12 +289,45 @@
             {
               "nombre": "Horario 1",
               "primeraSalida": "23:25",
-              "retirada": "Se retira de EL PERAL",
+              "retirada": "Se retira de PINAR DE JALÓN",
               "salidas": [
-                {"cabecera": "DELICIAS", "hora": "23:25"},
-                {"cabecera": "DOCTRINOS 12", "hora": "00:00"},
-                {"cabecera": "LA VICTORIA", "hora": "00:30"},
-                {"cabecera": "PZA. FTE. DORADA", "hora": "01:00"}
+                {
+                  "cabecera": "DELICIAS",
+                  "hora": "23:25",
+                  "nota": "Pinar Jalón"
+                },
+                {
+                  "cabecera": "DELICIAS",
+                  "hora": "23:30"
+                },
+                {
+                  "cabecera": "Doctrinos 12",
+                  "hora": "00:00"
+                },
+                {
+                  "cabecera": "LA VICTORIA",
+                  "hora": "00:30"
+                },
+                {
+                  "cabecera": "Pza. Fte. Dorada",
+                  "hora": "01:00"
+                },
+                {
+                  "cabecera": "DELICIAS",
+                  "hora": "01:30"
+                },
+                {
+                  "cabecera": "Doctrinos 12",
+                  "hora": "02:00"
+                },
+                {
+                  "cabecera": "LA VICTORIA",
+                  "hora": "02:30"
+                },
+                {
+                  "cabecera": "Pza. Fte. Dorada",
+                  "hora": "03:00"
+                }
               ]
             },
             {
@@ -94,17 +335,50 @@
               "primeraSalida": "23:15",
               "retirada": "Se retira de FUENTE BERROCAL",
               "salidas": [
-                {"cabecera": "DELICIAS", "hora": "23:15"},
-                {"cabecera": "DOCTRINOS 12", "hora": "00:00"},
-                {"cabecera": "LA VICTORIA", "hora": "00:30"},
-                {"cabecera": "PZA. FTE. DORADA", "hora": "01:00"}
+                {
+                  "cabecera": "Doctrinos 12",
+                  "hora": "23:15"
+                },
+                {
+                  "cabecera": "LA VICTORIA",
+                  "hora": "23:30"
+                },
+                {
+                  "cabecera": "Pza. Fte. Dorada",
+                  "hora": "00:00",
+                  "nota": "Fuente Berrocal"
+                },
+                {
+                  "cabecera": "DELICIAS",
+                  "hora": "00:30"
+                },
+                {
+                  "cabecera": "Doctrinos 12",
+                  "hora": "01:00"
+                },
+                {
+                  "cabecera": "LA VICTORIA",
+                  "hora": "01:30"
+                },
+                {
+                  "cabecera": "Pza. Fte. Dorada",
+                  "hora": "02:00"
+                },
+                {
+                  "cabecera": "DELICIAS",
+                  "hora": "02:30"
+                },
+                {
+                  "cabecera": "Doctrinos 12",
+                  "hora": "03:00"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "B3",
       "nombre": "Parquesol – Las Flores (Búho)",
       "tipo": "buho",
@@ -112,15 +386,98 @@
       "recorridos": [
         {
           "sentido": "Ida: Parquesol → Las Flores",
-          "paradas": ["C/ Eusebio González Suárez fte. F. Landrove Moiño", "C/ José Garrote Tebar 4 esq. Amadeo Arias", "C/ José Garrote Tebar 20 esq. Manuel Silvela", "C/ Manuel Azaña 37", "C/ Manuel Azaña esq. Juan García Hortelano", "C/ Hernando de Acuña esq. Manuel Azaña", "C/ Hernando de Acuña 45 Bis", "C/ Hernando de Acuña 13 esq. Manuel Silvela", "C/ Hernando de Acuña 1 esq. Mateo Seoane Sobral", "C/ Adolfo Miaja de la Muela Hosp. Psiquiátrico", "C/ Adolfo Miaja de la Muela fte. Padre Llanos", "C/ Mº San Lorenzo de El Esc. fte. C.C. Miguel Delibes", "C/ Mº de Yuste fte. 28 esq. Mº San Lor. de El Escorial", "C/ Mº Santo Domingo de Silos 3", "C/ Joaquín Velasco Martín 17 Col. María de Molina", "C/ Joaquín Velasco Martín 9 Polid. Huerta del Rey", "C/ Joaquín Velasco Martín 3 Col. La Inmaculada", "C/ Joaquín Velasco Martín 1 esq. Avda. Gloria Fuertes", "Pza. Poniente fte. Jorge Guillén", "Pza. Fuente Dorada", "C/ Fray Luis de León 14 esq. López Gómez", "Pza. Colegio Santa Cruz 9", "C/ Colón 14", "Pº Prado de La Magdalena 6 fte. Res. Alfonso VIII", "Pº del Cauce fte. Ing. Industriales", "Pº del Cauce fte. Centro Salud Pilarica", "Pza. Vadillos fte. 5", "C/ Cigüeña 40 esq. Villabáñez", "C/ Templarios 3 esq. Puente La Reina", "C/ Puente La Reina 30", "C/ Cometa 4", "C/ Cometa esq. Astrofísica", "C/ Aguanieves fte. Autillo", "C/ Santa María de la Cabeza 39", "C/ Santa María de la Cabeza 9", "C/ Azalea esq. Alhelí", "C/ Azucena 18 esq. Dalia"]
+          "paradas": [
+            "C/ Eusebio González Suárez fte. F. Landrove Moiño",
+            "C/ José Garrote Tebar 4 esq. Amadeo Arias",
+            "C/ José Garrote Tebar 20 esq. Manuel Silvela",
+            "C/ Manuel Azaña 37",
+            "C/ Manuel Azaña esq. Juan García Hortelano",
+            "C/ Hernando de Acuña esq. Manuel Azaña",
+            "C/ Hernando de Acuña 45 Bis",
+            "C/ Hernando de Acuña 13 esq. Manuel Silvela",
+            "C/ Hernando de Acuña 1 esq. Mateo Seoane Sobral",
+            "C/ Adolfo Miaja de la Muela Hosp. Psiquiátrico",
+            "C/ Adolfo Miaja de la Muela fte. Padre Llanos",
+            "C/ Mº San Lorenzo de El Esc. fte. C.C. Miguel Delibes",
+            "C/ Mº de Yuste fte. 28 esq. Mº San Lor. de El Escorial",
+            "C/ Mº Santo Domingo de Silos 3",
+            "C/ Joaquín Velasco Martín 17 Col. María de Molina",
+            "C/ Joaquín Velasco Martín 9 Polid. Huerta del Rey",
+            "C/ Joaquín Velasco Martín 3 Col. La Inmaculada",
+            "C/ Joaquín Velasco Martín 1 esq. Avda. Gloria Fuertes",
+            "Pza. Poniente fte. Jorge Guillén",
+            "Pza. Fuente Dorada",
+            "C/ Fray Luis de León 14 esq. López Gómez",
+            "Pza. Colegio Santa Cruz 9",
+            "C/ Colón 14",
+            "Pº Prado de La Magdalena 6 fte. Res. Alfonso VIII",
+            "Pº del Cauce fte. Ing. Industriales",
+            "Pº del Cauce fte. Centro Salud Pilarica",
+            "Pza. Vadillos fte. 5",
+            "C/ Cigüeña 40 esq. Villabáñez",
+            "C/ Templarios 3 esq. Puente La Reina",
+            "C/ Puente La Reina 30",
+            "C/ Cometa 4",
+            "C/ Cometa esq. Astrofísica",
+            "C/ Aguanieves fte. Autillo",
+            "C/ Santa María de la Cabeza 39",
+            "C/ Santa María de la Cabeza 9",
+            "C/ Azalea esq. Alhelí",
+            "C/ Azucena 18 esq. Dalia"
+          ]
         },
         {
           "sentido": "Vuelta: Las Flores → Parquesol",
-          "paradas": ["C/ Azucena 18 esq. Dalia", "C/ Azalea fte. 6", "C/ Santa María de la Cabeza fte. 9", "C/ Santa María de la Cabeza fte. 39", "C/ Aguanieves esq. Autillo", "C/ Cometa esq. Cosmología", "C/ Cometa esq. Pº Juan Carlos I", "C/ Puente La Reina 67", "C/ Templarios 6 esq. Puente La Reina", "C/ Villabáñez 19 Ig. San Ignacio de Loyola", "Pza. Vadillos 7 esq. Palacio Valdés", "Pº del Cauce Centro Salud Pilarica", "Pº del Cauce Ing. Industriales", "Pº Prado de La Magdalena 18 Filosofía y Letras", "C/ Madre de Dios 15", "C/ Real de Burgos fte. Ig. San Pedro Apóstol", "C/ Alamillos 11", "Pza. San Juan", "C/ Fidel Recio 1 esq. Alonso Pesquera", "C/ Santuario 5 esq. López Gómez", "Pza. España Bola del Mundo", "C/ Doctrinos 12 esq. María de Molina", "Avda. Miguel Ángel Blanco 2 fte. Pza. del Millenio", "C/ Joaquín Velasco Martín 20 esq. Francesco Scrimieri", "C/ Joaquín Velasco Martín 54 fte. Polid. Huerta del Rey", "C/ Joaquín Velasco Martín 108 fte. Col. Mª de Molina", "C/ Mº Santo Domingo de Silos 8", "C/ Mº de Yuste 28 esq. Mº San Lorenzo de El Escorial", "C/ Mº San Lorenzo de El Escorial C.C. Miguel Delibes", "C/ Adolfo Miaja de la Muela esq. Padre Llanos", "C/ Hernando de Acuña parc. 21 esq. Juan de Valladolid", "C/ Hernando de Acuña 18 esq. Manuel Silvela", "C/ Hernando de Acuña 42", "C/ Hernando de Acuña esq. Padre Llanos", "C/ Manuel Azaña 24 fte. Juan García Hortelano", "C/ Manuel Azaña 56", "C/ Federico Landrove Moiño 11", "C/ Eusebio González Suárez fte. F. Landrove Moiño"]
+          "paradas": [
+            "C/ Azucena 18 esq. Dalia",
+            "C/ Azalea fte. 6",
+            "C/ Santa María de la Cabeza fte. 9",
+            "C/ Santa María de la Cabeza fte. 39",
+            "C/ Aguanieves esq. Autillo",
+            "C/ Cometa esq. Cosmología",
+            "C/ Cometa esq. Pº Juan Carlos I",
+            "C/ Puente La Reina 67",
+            "C/ Templarios 6 esq. Puente La Reina",
+            "C/ Villabáñez 19 Ig. San Ignacio de Loyola",
+            "Pza. Vadillos 7 esq. Palacio Valdés",
+            "Pº del Cauce Centro Salud Pilarica",
+            "Pº del Cauce Ing. Industriales",
+            "Pº Prado de La Magdalena 18 Filosofía y Letras",
+            "C/ Madre de Dios 15",
+            "C/ Real de Burgos fte. Ig. San Pedro Apóstol",
+            "C/ Alamillos 11",
+            "Pza. San Juan",
+            "C/ Fidel Recio 1 esq. Alonso Pesquera",
+            "C/ Santuario 5 esq. López Gómez",
+            "Pza. España Bola del Mundo",
+            "C/ Doctrinos 12 esq. María de Molina",
+            "Avda. Miguel Ángel Blanco 2 fte. Pza. del Millenio",
+            "C/ Joaquín Velasco Martín 20 esq. Francesco Scrimieri",
+            "C/ Joaquín Velasco Martín 54 fte. Polid. Huerta del Rey",
+            "C/ Joaquín Velasco Martín 108 fte. Col. Mª de Molina",
+            "C/ Mº Santo Domingo de Silos 8",
+            "C/ Mº de Yuste 28 esq. Mº San Lorenzo de El Escorial",
+            "C/ Mº San Lorenzo de El Escorial C.C. Miguel Delibes",
+            "C/ Adolfo Miaja de la Muela esq. Padre Llanos",
+            "C/ Hernando de Acuña parc. 21 esq. Juan de Valladolid",
+            "C/ Hernando de Acuña 18 esq. Manuel Silvela",
+            "C/ Hernando de Acuña 42",
+            "C/ Hernando de Acuña esq. Padre Llanos",
+            "C/ Manuel Azaña 24 fte. Juan García Hortelano",
+            "C/ Manuel Azaña 56",
+            "C/ Federico Landrove Moiño 11",
+            "C/ Eusebio González Suárez fte. F. Landrove Moiño"
+          ]
         }
       ],
-      "letreros": ["B3 LAS FLORES", "B3 PARQUESOL"],
-      "notas": ["EL TRANSBORDO NO es gratuito entre las diferentes líneas búho.", "Las paradas de Plaza Fuente Dorada, Acera de Recoletos fte. 2 y Doctrinos 12 son de HORARIO DE CONTROL INTERMEDIO."],
+      "letreros": [
+        "B3 LAS FLORES",
+        "B3 PARQUESOL"
+      ],
+      "notas": [
+        "EL TRANSBORDO NO es gratuito entre las diferentes líneas búho.",
+        "Las paradas de Plaza Fuente Dorada, Acera de Recoletos fte. 2 y Doctrinos 12 son de HORARIO DE CONTROL INTERMEDIO."
+      ],
       "horarios": [
         {
           "nombre": "2 coches",
@@ -134,10 +491,38 @@
               "primeraSalida": "23:30",
               "retirada": "Se retira de PARQUESOL",
               "salidas": [
-                {"cabecera": "PARQUESOL", "hora": "23:30"},
-                {"cabecera": "PZA. FUENTE DORADA", "hora": "00:00"},
-                {"cabecera": "LAS FLORES", "hora": "00:00"},
-                {"cabecera": "DOCTRINOS 12", "hora": "01:00"}
+                {
+                  "cabecera": "PARQUESOL",
+                  "hora": "23:30"
+                },
+                {
+                  "cabecera": "Pza. Fuente Dorada",
+                  "hora": "00:00"
+                },
+                {
+                  "cabecera": "LAS FLORES",
+                  "hora": "00:30"
+                },
+                {
+                  "cabecera": "Doctrinos 12",
+                  "hora": "01:00"
+                },
+                {
+                  "cabecera": "PARQUESOL",
+                  "hora": "01:30"
+                },
+                {
+                  "cabecera": "Pza. Fuente Dorada",
+                  "hora": "02:00"
+                },
+                {
+                  "cabecera": "LAS FLORES",
+                  "hora": "02:30"
+                },
+                {
+                  "cabecera": "Doctrinos 12",
+                  "hora": "03:00"
+                }
               ]
             },
             {
@@ -145,17 +530,45 @@
               "primeraSalida": "23:30",
               "retirada": "Se retira de LAS FLORES",
               "salidas": [
-                {"cabecera": "PARQUESOL", "hora": "23:30"},
-                {"cabecera": "PZA. FUENTE DORADA", "hora": "00:00"},
-                {"cabecera": "LAS FLORES", "hora": "01:00"},
-                {"cabecera": "DOCTRINOS 12", "hora": "02:00"}
+                {
+                  "cabecera": "LAS FLORES",
+                  "hora": "23:30"
+                },
+                {
+                  "cabecera": "Doctrinos 12",
+                  "hora": "00:00"
+                },
+                {
+                  "cabecera": "PARQUESOL",
+                  "hora": "00:30"
+                },
+                {
+                  "cabecera": "Pza. Fuente Dorada",
+                  "hora": "01:00"
+                },
+                {
+                  "cabecera": "LAS FLORES",
+                  "hora": "01:30"
+                },
+                {
+                  "cabecera": "Doctrinos 12",
+                  "hora": "02:00"
+                },
+                {
+                  "cabecera": "PARQUESOL",
+                  "hora": "02:30"
+                },
+                {
+                  "cabecera": "Pza. Fuente Dorada",
+                  "hora": "03:00"
+                }
               ]
             }
           ]
         }
       ]
     },
-        {
+    {
       "id": "B4",
       "nombre": "Entrepinos – Fuente Dorada (Búho)",
       "tipo": "buho",
@@ -163,11 +576,60 @@
       "recorridos": [
         {
           "sentido": "Ida: Entrepinos → Fuente Dorada",
-          "paradas": ["Avda. Miguel de Cervantes en aparcamiento", "Avda. Entrepinos 52 esq. Tirso de Molina", "Ctra. Pesqueruela 1 esq. Ctra. a Puente Duero", "Cº Viejo Simancas fte. puente", "Cº Viejo Simancas Urb. Las Aceñas", "Cº Viejo Simancas Las Lagunillas", "Cº Viejo Simancas esq. Encina", "Cº Viejo Simancas fte. Urb. El Pichón", "Cº Viejo Simancas Pago La Bomba", "Cº Viejo Simancas fte. INEA", "Cº Viejo Simancas fte. El Pino", "Cº Viejo Simancas Escuela Superior Imagen y Sonido", "Cº Viejo Simancas esq. Cª del Abrevadero", "Cº Viejo Simancas fte. Urb. Santa Ana", "Cº Viejo Simancas 167 esq. José Velicia", "Cº Viejo Simancas esq. Vega de Valdetronco", "Cº Viejo Simancas B° Las Villas", "Cº Viejo Simancas Centro Comercial", "Cº Viejo Simancas 21 Centro Educativo", "Cº Viejo Simancas 15 esq. Vereda", "Ctra. Rueda 19 esq. Mota", "Pº Zorrilla 101 LAVA", "Pº Zorrilla 65 fte. Centro Comercial", "Pº Zorrilla 39 esq. Puente Colgante", "Pº Zorrilla 1 antiguo Hosp. Militar", "Pº Zorrilla fte. 10 Campo Grande", "C/ Doctrinos 12 esq. María de Molina", "Avda. Miguel Ángel Blanco 2 fte. Pza. del Milenio", "C/ Pío del Río Hortega 9", "Avda. Ramón Pradera fte. Feria de Valladolid", "C/ Bálago esq. Avda. Ramón Pradera", "C/ Sementera esq. Mieses", "C/ Mieses fte. 8", "Avda. Gijón 3 fte. Canal", "Avda. Gijón 1 esq. Pza. San Bartolomé", "C/ Fuente El Sol 2 esq. Pza. San Bartolomé", "C/ Fuente El Sol 50 esq. San Sebastián", "Pº Jardín Botánico parc. 7 fte. Centro Salud La Victoria", "Pº Jardín Botánico 6", "C/ Jara esq. Hierbabuena", "Pº Obregón esq. Brezo"]
+          "paradas": [
+            "Avda. Miguel de Cervantes en aparcamiento",
+            "Avda. Entrepinos 52 esq. Tirso de Molina",
+            "Ctra. Pesqueruela 1 esq. Ctra. a Puente Duero",
+            "Cº Viejo Simancas fte. puente",
+            "Cº Viejo Simancas Urb. Las Aceñas",
+            "Cº Viejo Simancas Las Lagunillas",
+            "Cº Viejo Simancas esq. Encina",
+            "Cº Viejo Simancas fte. Urb. El Pichón",
+            "Cº Viejo Simancas Pago La Bomba",
+            "Cº Viejo Simancas fte. INEA",
+            "Cº Viejo Simancas fte. El Pino",
+            "Cº Viejo Simancas Escuela Superior Imagen y Sonido",
+            "Cº Viejo Simancas esq. Cª del Abrevadero",
+            "Cº Viejo Simancas fte. Urb. Santa Ana",
+            "Cº Viejo Simancas 167 esq. José Velicia",
+            "Cº Viejo Simancas esq. Vega de Valdetronco",
+            "Cº Viejo Simancas B° Las Villas",
+            "Cº Viejo Simancas Centro Comercial",
+            "Cº Viejo Simancas 21 Centro Educativo",
+            "Cº Viejo Simancas 15 esq. Vereda",
+            "Ctra. Rueda 19 esq. Mota",
+            "Pº Zorrilla 101 LAVA",
+            "Pº Zorrilla 65 fte. Centro Comercial",
+            "Pº Zorrilla 39 esq. Puente Colgante",
+            "Pº Zorrilla 1 antiguo Hosp. Militar",
+            "Pº Zorrilla fte. 10 Campo Grande",
+            "C/ Doctrinos 12 esq. María de Molina",
+            "Avda. Miguel Ángel Blanco 2 fte. Pza. del Milenio",
+            "C/ Pío del Río Hortega 9",
+            "Avda. Ramón Pradera fte. Feria de Valladolid",
+            "C/ Bálago esq. Avda. Ramón Pradera",
+            "C/ Sementera esq. Mieses",
+            "C/ Mieses fte. 8",
+            "Avda. Gijón 3 fte. Canal",
+            "Avda. Gijón 1 esq. Pza. San Bartolomé",
+            "C/ Fuente El Sol 2 esq. Pza. San Bartolomé",
+            "C/ Fuente El Sol 50 esq. San Sebastián",
+            "Pº Jardín Botánico parc. 7 fte. Centro Salud La Victoria",
+            "Pº Jardín Botánico 6",
+            "C/ Jara esq. Hierbabuena",
+            "Pº Obregón esq. Brezo"
+          ]
         }
       ],
-      "letreros": ["B4 ENTREPINOS", "B4 FTE. DORADA", "B4 PTE. DUERO"],
-      "notas": ["EL TRANSBORDO NO es gratuito entre las diferentes líneas búho.", "Las paradas de Plaza Fuente Dorada, Acera de Recoletos fte. 2 y Doctrinos 12 son de HORARIO DE CONTROL INTERMEDIO."],
+      "letreros": [
+        "B4 ENTREPINOS",
+        "B4 FTE. DORADA",
+        "B4 PTE. DUERO"
+      ],
+      "notas": [
+        "EL TRANSBORDO NO es gratuito entre las diferentes líneas búho.",
+        "Las paradas de Plaza Fuente Dorada, Acera de Recoletos fte. 2 y Doctrinos 12 son de HORARIO DE CONTROL INTERMEDIO."
+      ],
       "horarios": [
         {
           "nombre": "2 coches",
@@ -177,41 +639,64 @@
           "descanso": "—",
           "cochesDetalle": [
             {
-              "nombre": "Horario 1 (Puente Duero)",
-              "primeraSalida": "23:00",
+              "nombre": "Horario 1",
+              "primeraSalida": "00:00",
               "retirada": "Se retira de PZA. FUENTE DORADA",
               "salidas": [
-                {"cabecera": "PUENTE DUERO", "hora": "23:00"},
-                {"cabecera": "ENTREPINOS", "hora": "23:15"},
-                {"cabecera": "PZA. ZORRILLA", "hora": "00:00"},
-                {"cabecera": "ENTREPINOS", "hora": "00:45"},
-                {"cabecera": "PZA. ZORRILLA", "hora": "01:00"},
-                {"cabecera": "ENTREPINOS", "hora": "01:45"},
-                {"cabecera": "PZA. ZORRILLA", "hora": "02:00"},
-                {"cabecera": "ENTREPINOS", "hora": "02:45"},
-                {"cabecera": "PZA. ZORRILLA", "hora": "03:00"}
+                {
+                  "cabecera": "PZA. ZORRILLA",
+                  "hora": "00:00"
+                },
+                {
+                  "cabecera": "ENTREPINOS",
+                  "hora": "00:45"
+                },
+                {
+                  "cabecera": "PZA. ZORRILLA",
+                  "hora": "02:00"
+                },
+                {
+                  "cabecera": "ENTREPINOS",
+                  "hora": "02:45"
+                }
               ]
             },
             {
-              "nombre": "Horario 2 (Entrepinos)",
-              "primeraSalida": "23:15",
-              "retirada": "Se retira de PZA. FUENTE DORADA",
+              "nombre": "Horario 2",
+              "primeraSalida": "23:00",
+              "retirada": "Se retira de PUENTE DUERO (ver NOTA)",
               "salidas": [
-                {"cabecera": "ENTREPINOS", "hora": "23:15"},
-                {"cabecera": "PZA. ZORRILLA", "hora": "00:00"},
-                {"cabecera": "ENTREPINOS", "hora": "00:45"},
-                {"cabecera": "PZA. ZORRILLA", "hora": "01:00"},
-                {"cabecera": "ENTREPINOS", "hora": "01:45"},
-                {"cabecera": "PZA. ZORRILLA", "hora": "02:00"},
-                {"cabecera": "ENTREPINOS", "hora": "02:45"},
-                {"cabecera": "PZA. ZORRILLA", "hora": "03:00"}
+                {
+                  "cabecera": "ENTREPINOS",
+                  "hora": "23:00",
+                  "nota": "Puente Duero"
+                },
+                {
+                  "cabecera": "ENTREPINOS",
+                  "hora": "23:15"
+                },
+                {
+                  "cabecera": "PZA. ZORRILLA",
+                  "hora": "01:00"
+                },
+                {
+                  "cabecera": "ENTREPINOS",
+                  "hora": "01:45"
+                },
+                {
+                  "cabecera": "PZA. ZORRILLA",
+                  "hora": "03:00"
+                }
               ]
             }
+          ],
+          "notas": [
+            "NOTA: El servicio de las 03:00 de PZA. ZORRILLA, cuando se retira a cocheras desde Puente Duero, si llevara viajeros, efectuará dos paradas: una en El Pinar junto al quiosco y otra en c/ Acacias esq. c/ Colonia."
           ]
         }
       ]
     },
-        {
+    {
       "id": "B5",
       "nombre": "La Cistérniga – Duque de la Victoria (Búho)",
       "tipo": "buho",
@@ -219,15 +704,60 @@
       "recorridos": [
         {
           "sentido": "Ida: La Cistérniga → Duque de la Victoria",
-          "paradas": ["Camino de Las Yeseras Polideportivo Municipal", "C/ Cuesta Redonda piscinas Municipales", "C/ Castillejo fte. 4-6", "Pza. Mayor fte. 29 (La Cistérniga)", "C/ Lucio Zumel esq. Avda. Soria", "Avda. Soria 32 (La Cistérniga)", "Ctra. Soria fte. Polígono San Cristóbal", "C/ Páramo San Isidro esq. Ctra. Soria", "C/ Páramo San Isidro 38", "C/ Páramo San Isidro 15", "C/ Páramo San Isidro 1", "C/ Cigüeña 21", "C/ Cigüeña 1 esq. San Isidro", "Pza. Circular 7 esq. Industrias", "C/ Nicolás Salmerón 19 esq. Labradores", "Pza. Caño Argales", "C/ Duque de La Victoria 23 esq. Pza. España"]
+          "paradas": [
+            "Camino de Las Yeseras Polideportivo Municipal",
+            "C/ Cuesta Redonda piscinas Municipales",
+            "C/ Castillejo fte. 4-6",
+            "Pza. Mayor fte. 29 (La Cistérniga)",
+            "C/ Lucio Zumel esq. Avda. Soria",
+            "Avda. Soria 32 (La Cistérniga)",
+            "Ctra. Soria fte. Polígono San Cristóbal",
+            "C/ Páramo San Isidro esq. Ctra. Soria",
+            "C/ Páramo San Isidro 38",
+            "C/ Páramo San Isidro 15",
+            "C/ Páramo San Isidro 1",
+            "C/ Cigüeña 21",
+            "C/ Cigüeña 1 esq. San Isidro",
+            "Pza. Circular 7 esq. Industrias",
+            "C/ Nicolás Salmerón 19 esq. Labradores",
+            "Pza. Caño Argales",
+            "C/ Duque de La Victoria 23 esq. Pza. España"
+          ]
         },
         {
           "sentido": "Vuelta: Duque de la Victoria → La Cistérniga",
-          "paradas": ["C/ Duque de La Victoria 23 esq. Pza. España", "Pza. Fuente Dorada", "C/ López Gómez 13 esq. Fray Luis de León", "C/ Panaderos 2 esq. Pza. España", "Pza. Cruz Verde 5", "Pza. Circular 11 lg. Corazón de María", "C/ Cigüeña 4 lg. San Isidro", "C/ Cigüeña 14", "C/ Páramo San Isidro fte. 1", "C/ Páramo San Isidro fte. 17", "C/ Páramo San Isidro fte. 38", "Ctra. Soria esq. Carraca", "Ctra. Soria Polígono San Cristóbal", "Avda. Soria fte. 32 (La Cistérniga)", "C/ San Cristóbal 15 esq. Avda. Soria", "Pza. Mayor 29 (La Cistérniga)", "Avda. Soria esq. Diego Velázquez", "Avda. Julián Merino Lápice piscinas Municipales", "C/ Cuesta Redonda 38", "Camino de Las Yeseras Polideportivo Municipal"]
+          "paradas": [
+            "C/ Duque de La Victoria 23 esq. Pza. España",
+            "Pza. Fuente Dorada",
+            "C/ López Gómez 13 esq. Fray Luis de León",
+            "C/ Panaderos 2 esq. Pza. España",
+            "Pza. Cruz Verde 5",
+            "Pza. Circular 11 lg. Corazón de María",
+            "C/ Cigüeña 4 lg. San Isidro",
+            "C/ Cigüeña 14",
+            "C/ Páramo San Isidro fte. 1",
+            "C/ Páramo San Isidro fte. 17",
+            "C/ Páramo San Isidro fte. 38",
+            "Ctra. Soria esq. Carraca",
+            "Ctra. Soria Polígono San Cristóbal",
+            "Avda. Soria fte. 32 (La Cistérniga)",
+            "C/ San Cristóbal 15 esq. Avda. Soria",
+            "Pza. Mayor 29 (La Cistérniga)",
+            "Avda. Soria esq. Diego Velázquez",
+            "Avda. Julián Merino Lápice piscinas Municipales",
+            "C/ Cuesta Redonda 38",
+            "Camino de Las Yeseras Polideportivo Municipal"
+          ]
         }
       ],
-      "letreros": ["B5 DUQ. VICTORIA", "B5 CISTÉRNIGA"],
-      "notas": ["EL TRANSBORDO NO es gratuito entre las diferentes líneas búho.", "Las paradas de Plaza Fuente Dorada, Acera de Recoletos fte. 2 y Doctrinos 12 son de HORARIO DE CONTROL INTERMEDIO."],
+      "letreros": [
+        "B5 DUQ. VICTORIA",
+        "B5 CISTÉRNIGA"
+      ],
+      "notas": [
+        "EL TRANSBORDO NO es gratuito entre las diferentes líneas búho.",
+        "Las paradas de Plaza Fuente Dorada, Acera de Recoletos fte. 2 y Doctrinos 12 son de HORARIO DE CONTROL INTERMEDIO."
+      ],
       "horarios": [
         {
           "nombre": "1 coche",
@@ -241,16 +771,51 @@
               "primeraSalida": "22:30",
               "retirada": "Se retira de LA CISTÉRNIGA",
               "salidas": [
-                {"cabecera": "LA CISTÉRNIGA", "hora": "22:30"},
-                {"cabecera": "C/ DUQUE DE LA VICTORIA 23", "hora": "23:00"},
-                {"cabecera": "LA CISTÉRNIGA", "hora": "23:30"},
-                {"cabecera": "C/ DUQUE DE LA VICTORIA 23", "hora": "00:00"},
-                {"cabecera": "LA CISTÉRNIGA", "hora": "00:30"},
-                {"cabecera": "C/ DUQUE DE LA VICTORIA 23", "hora": "01:00"},
-                {"cabecera": "LA CISTÉRNIGA", "hora": "01:30"},
-                {"cabecera": "C/ DUQUE DE LA VICTORIA 23", "hora": "02:00"},
-                {"cabecera": "LA CISTÉRNIGA", "hora": "02:30"},
-                {"cabecera": "C/ DUQUE DE LA VICTORIA 23", "hora": "03:00"}
-                
-                ]}
-        ]}]}]}
+                {
+                  "cabecera": "LA CISTÉRNIGA",
+                  "hora": "22:30"
+                },
+                {
+                  "cabecera": "C/ DUQUE DE LA VICTORIA 23",
+                  "hora": "23:00"
+                },
+                {
+                  "cabecera": "LA CISTÉRNIGA",
+                  "hora": "23:30"
+                },
+                {
+                  "cabecera": "C/ DUQUE DE LA VICTORIA 23",
+                  "hora": "00:00"
+                },
+                {
+                  "cabecera": "LA CISTÉRNIGA",
+                  "hora": "00:30"
+                },
+                {
+                  "cabecera": "C/ DUQUE DE LA VICTORIA 23",
+                  "hora": "01:00"
+                },
+                {
+                  "cabecera": "LA CISTÉRNIGA",
+                  "hora": "01:30"
+                },
+                {
+                  "cabecera": "C/ DUQUE DE LA VICTORIA 23",
+                  "hora": "02:00"
+                },
+                {
+                  "cabecera": "LA CISTÉRNIGA",
+                  "hora": "02:30"
+                },
+                {
+                  "cabecera": "C/ DUQUE DE LA VICTORIA 23",
+                  "hora": "03:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
