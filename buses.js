@@ -203,12 +203,12 @@ const autoOn = () => localStorage.getItem('auvasa_rt_auto') !== '0';
 const active = () => { const e = document.getElementById('pantalla-buses'); return e && e.classList.contains('activa'); };
 function stat() {
   const R = gx().R, el = $('#bx-st'); if (!el) return;
-  el.textContent = R && R.veh ? `Datos de las ${R.ts ? new Date(R.ts * 1000).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit', second: '2-digit' }) : '–'} · ${R.veh.length} buses${autoOn() && (localStorage.getItem('auvasa_rt_base') || '').trim() ? ' · se actualiza cada 15 s' : ''}` : 'Datos en directo: aún sin cargar';
+  el.textContent = R && R.veh ? `Datos de las ${R.ts ? new Date(R.ts * 1000).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit', second: '2-digit' }) : '–'} · ${R.veh.length} buses${autoOn() && (localStorage.getItem('auvasa_rt_base') || '').trim() ? ' · se actualiza cada 15 s' : ''}${S.fetched ? ' · consultado a las ' + new Date(S.fetched).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit', second: '2-digit' }) : ''}` : 'Datos en directo: aún sin cargar';
 }
 async function live() {
   const b = (localStorage.getItem('auvasa_rt_base') || '').trim(); if (!b) return;
-  const get = n => fetch(b + (b.includes('?') ? '&' : '?') + 'f=' + n, { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.arrayBuffer(); });
-  try { const bs = await Promise.all(['vehicleposition', 'tripupdate'].map(get)); try { bs.push(await get('alert')); } catch (_) {} gx().rt(bs); }
+  const get = n => fetch(b + (b.includes('?') ? '&' : '?') + 'f=' + n + '&t=' + Date.now(), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.arrayBuffer(); });
+  try { const bs = await Promise.all(['vehicleposition', 'tripupdate'].map(get)); try { bs.push(await get('alert')); } catch (_) {} S.fetched = Date.now(); gx().rt(bs); }
   catch (e) { const el = $('#bx-st'); if (el) el.textContent = 'No se pudo actualizar: ' + e.message; }
 }
 function shell() {

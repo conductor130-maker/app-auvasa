@@ -1,4 +1,4 @@
-const CACHE_NAME = 'auvasa-app-v7';
+const CACHE_NAME = 'auvasa-app-v8';
 
 const PRECACHE = ["./", "index.html", "styles.css", "gtfs.css", "main.js", "gtfs.js", "buses.js", "buses.css", "manifest.json", "icon-192.png", "icon-512.png", "./horarios_buho.json?v=4", "./horarios_futbol.json?v=4", "./horarios_lanzaderas.json?v=4", "./horarios_madrugada.json?v=4", "./horarios_manual.json?v=4", "./horarios_ordinarias.json?v=4", "./horarios_personal.json?v=4"];
 
@@ -16,6 +16,9 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
   if (!event.request.url.startsWith('http')) return;
+  // Live data (proxy, map tiles, other sites) must never come from this cache: only our own files and the libraries/fonts we use
+  const u = new URL(event.request.url);
+  if (u.origin !== location.origin && !/(^|\.)(cdnjs\.cloudflare\.com|fonts\.googleapis\.com|fonts\.gstatic\.com)$/.test(u.hostname)) return;
 
   event.respondWith(
     caches.match(event.request).then(response => {
