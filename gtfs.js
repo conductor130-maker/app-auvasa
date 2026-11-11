@@ -180,7 +180,7 @@ $('#file').onchange=async e=>{const f=e.target.files[0];if(!f)return;
  if(await use(buf,f.name,ts)){try{await idb('readwrite',s=>s.put({buf,name:f.name,ts},'zip'))}catch(_){}}
  e.target.value=''};
 const subs=[];const emit=k=>subs.forEach(f=>{try{f(k)}catch(_){}});
-async function rtBuffers(bs){const r={veh:[],tu:[],al:[],ts:0,err:''};for(const b of bs){try{feed(new Uint8Array(b),r)}catch(e){r.err+=e.message+' '}}R=r;emit('rt');if(S.rt)rtRender()}
+async function rtBuffers(bs,keepAl){const prev=R,r={veh:[],tu:[],al:[],ts:0,err:''};for(const b of bs){try{feed(new Uint8Array(b),r)}catch(e){r.err+=e.message+' '}}if(keepAl&&prev&&prev.al)r.al=prev.al;R=r;emit('rt');if(S.rt)rtRender()}
 window.gx={get G(){return G},get R(){return R},badge,esc,sub:f=>subs.push(f),rt:rtBuffers};
 window.gxInit=(()=>{let d=0;return async()=>{if(d)return;d=1;render();try{const z=await idb('readonly',s=>s.get('zip'));if(z)await use(z.buf,z.name,z.ts)}catch(_){}}})();
 

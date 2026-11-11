@@ -203,13 +203,21 @@ const autoOn = () => localStorage.getItem('auvasa_rt_auto') !== '0';
 const active = () => { const e = document.getElementById('pantalla-buses'); return e && e.classList.contains('activa'); };
 function stat() {
   const R = gx().R, el = $('#bx-st'); if (!el) return;
-  el.textContent = R && R.veh ? `Datos de las ${R.ts ? new Date(R.ts * 1000).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit', second: '2-digit' }) : '–'} · ${R.veh.length} buses${autoOn() && (localStorage.getItem('auvasa_rt_base') || '').trim() ? ' · se actualiza cada 15 s' : ''}${S.fetched ? ' · consultado a las ' + new Date(S.fetched).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit', second: '2-digit' }) : ''}` : 'Datos en directo: aún sin cargar';
+  el.textContent = R && R.veh ? `Datos de las ${R.ts ? new Date(R.ts * 1000).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit', second: '2-digit' }) : '–'} · ${R.veh.length} buses${autoOn() && (localStorage.getItem('auvasa_rt_base') || '').trim() ? ' · se actualiza cada ' + secs() + ' s' : ''}${S.fetched ? ' · consultado a las ' + new Date(S.fetched).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit', second: '2-digit' }) : ''}` : 'Datos en directo: aún sin cargar';
 }
+const secs = () => Math.max(2, +(localStorage.getItem('auvasa_rt_secs') || 5));
 async function live() {
-  const b = (localStorage.getItem('auvasa_rt_base') || '').trim(); if (!b) return;
+  const b = (localStorage.getItem('auvasa_rt_base') || '').trim(); if (!b || S.busy) return;
   const get = n => fetch(b + (b.includes('?') ? '&' : '?') + 'f=' + n + '&t=' + Date.now(), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.arrayBuffer(); });
-  try { const bs = await Promise.all(['vehicleposition', 'tripupdate'].map(get)); try { bs.push(await get('alert')); } catch (_) {} S.fetched = Date.now(); gx().rt(bs); }
-  catch (e) { const el = $('#bx-st'); if (el) el.textContent = 'No se pudo actualizar: ' + e.message; }
+  S.busy = 1; S.n = (S.n || 0) + 1;
+  const withAl = S.n % Math.max(1, Math.round(60 / secs())) === 1;     // alerts change rarely: about once a minute
+  try {
+    const bs = await Promise.all([get('vehicleposition'), get('tripupdate')]); let al = null;
+    if (withAl) { try { al = await get('alert'); } catch (_) {} }
+    if (al) bs.push(al);
+    S.fetched = Date.now(); gx().rt(bs, !al);
+  } catch (e) { const el = $('#bx-st'); if (el) el.textContent = 'No se pudo actualizar: ' + e.message; }
+  finally { S.busy = 0; }
 }
 function shell() {
   const el = $('#bx-app'), G = gx() && gx().G;
@@ -220,13 +228,14 @@ function shell() {
     <select id="bx-r" aria-label="Línea"><option value="">Todas las líneas</option>${G.routes.map(r => `<option value="${esc(r.id)}">${esc(r.s || r.l)} · ${esc(r.l)}</option>`).join('')}</select></div>
     <details class="bx-live"><summary id="bx-st">Datos en directo</summary><div>
     <input id="bx-url" type="text" placeholder="Dirección de tu proxy (…/api/rt)" value="${esc(saved)}">
-    <label><input id="bx-auto" type="checkbox" ${autoOn() ? 'checked' : ''}> actualizar solo cada 15 s</label>
+    <label><input id="bx-auto" type="checkbox" ${autoOn() ? 'checked' : ''}> actualizar solo cada <select id="bx-secs">${[5, 10, 15, 30].map(n => `<option value="${n}"${n == secs() ? ' selected' : ''}>${n}</option>`).join('')}</select> s</label>
     <button id="bx-now">Actualizar</button>
     <label class="btn">Cargar archivos<input id="bx-f" type="file" multiple hidden></label></div></details><div id="bx-view"></div>`;
   const tabs = () => el.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.t == S.tab));
   el.querySelectorAll('.tabs button').forEach(b => b.onclick = () => { S.tab = b.dataset.t; if (S.tab == 'l' && !S.route) pickRoute(); tabs(); view(); });
   $('#bx-r').onchange = e => { S.route = e.target.value; if (S.tab == 'm') { if (S.map) { drawLines(); updateMap(); } } else lineal(); };
   $('#bx-url').onchange = e => localStorage.setItem('auvasa_rt_base', e.target.value.trim());
+  $('#bx-secs').onchange = e => { localStorage.setItem('auvasa_rt_secs', e.target.value); stat(); };
   $('#bx-auto').onchange = e => localStorage.setItem('auvasa_rt_auto', e.target.checked ? '1' : '0');
   $('#bx-now').onclick = live;
   $('#bx-f').onchange = async e => { const fs = [...e.target.files]; if (fs.length) gx().rt(await Promise.all(fs.map(f => f.arrayBuffer()))); e.target.value = ''; };
@@ -249,7 +258,8 @@ window.bxInit = () => {
   if (!S.init) {
     S.init = 1;
     gx().sub(k => { if (k == 'static') { S.cache.clear(); S.last.clear(); S.posR = null; S.shellFor = null; S.tg = null; S.map = null; } if (active()) refresh(k); });
-    setInterval(() => { const a = $('#bx-auto'); if (active() && a && a.checked && !document.hidden) live(); }, 15000);
+    const tick = () => { if (active() && autoOn() && !document.hidden) live(); setTimeout(tick, secs() * 1000); };
+    setTimeout(tick, secs() * 1000);
   }
   if (window.gxInit) window.gxInit();
   refresh('open');
