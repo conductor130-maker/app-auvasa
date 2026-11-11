@@ -4,7 +4,7 @@ const xy = (la, lo) => [lo * KX, la * KY];
 const gx = () => window.gx;
 const $ = s => document.querySelector(s);
 const esc = t => String(t == null ? '' : t).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-const S = { tab: 'm', route: '', map: null, mk: new Map(), lines: null, layer: null, cache: new Map(), init: 0, shellFor: null, tg: null, tidx: null };
+const S = { tab: 'm', route: '', map: null, mk: new Map(), lines: null, layer: null, cache: new Map(), last: new Map(), posR: null, pos: null, ns: null, init: 0, shellFor: null, tg: null, tidx: null };
 const OCC = { 0: ['Vacío', 5], 1: ['Muchos asientos libres', 25], 2: ['Pocos asientos libres', 50], 3: ['Solo de pie', 75], 4: ['Muy lleno', 90], 5: ['Completo', 100], 6: ['No admite viajeros', 100] };
 const occ = o => {
   const v = OCC[o]; if (!v) return '<span class="mu">Sin datos</span>';
@@ -60,37 +60,75 @@ function reps(rid) {
 /* ---------- live data: where is each bus ---------- */
 const routeOf = v => v.route || (tripOf(v.trip) || {}).rt || '';
 function nextSeq() { const m = new Map(), R = gx().R; ((R && R.tu) || []).forEach(t => { if (t.sts[0] && t.sts[0].seq != null) m.set(t.trip, t.sts[0].seq); }); return m; }
+// The feed lists predictions for SOME upcoming stops, so its first one is only an upper bound for the bus' progress
 function hint(v, rp, ns) {
   const sq = ns.get(v.trip); if (sq == null) return -1;
   const arr = gx().G.st.get(v.trip) || [], j = arr.findIndex(y => y[3] == sq); if (j < 0) return -1;
-  if (arr.length == rp.st.length && arr[j][0] == rp.st[j].id) return j;   // same stop pattern: use the position directly
+  if (arr.length == rp.st.length && arr[j][0] == rp.st[j].id) return j;
   return rp.st.findIndex(s => s.id == arr[j][0]);
 }
-function place(v, rp, ns) {
-  let mn = -Infinity, mx = Infinity; const k = hint(v, rp, ns);
-  if (k >= 0) { mn = rp.sd[Math.max(0, k - 1)] - 40; mx = rp.sd[k] + 40; }
-  const a = along(rp.sh, v.lat, v.lon, mn, mx, 'near'); let i = 0;
+const dAt = (rp, i) => { const a = Math.max(0, Math.min(rp.sd.length - 2, Math.floor(i))); return rp.sd[a] + (i - a) * (rp.sd[a + 1] - rp.sd[a]); };
+function place(v, rp, ns, prevIdx) {
+  let mn = -Infinity, mx = Infinity;
+  if (prevIdx >= 0) { const d = dAt(rp, prevIdx); mn = d - 80; mx = d + 1500; }   // continuity with the previous update (loops, U-turns)
+  else { const k = hint(v, rp, ns); if (k >= 0) mx = rp.sd[k] + 40; }
+  // use the window only when it agrees with the real position (otherwise stale hints or big jumps would mislead)
+  const g = along(rp.sh, v.lat, v.lon, -Infinity, Infinity, 'near');
+  const w = (mn > -Infinity || mx < Infinity) ? along(rp.sh, v.lat, v.lon, mn, mx, 'near') : g, a = w.off <= g.off + 30 ? w : g; let i = 0;
   while (i < rp.sd.length - 2 && rp.sd[i + 1] <= a.d) i++;
   const sp = Math.max(1, rp.sd[i + 1] - rp.sd[i]);
   return { idx: Math.max(0, Math.min(rp.sd.length - 1, i + (a.d - rp.sd[i]) / sp)), off: a.off };
 }
-function busesOf(rid) {
-  const R = gx().R; if (!R) return [];
-  const rps = reps(rid), ns = nextSeq();
-  return R.veh.filter(v => routeOf(v) == rid && isFinite(v.lat)).map(v => {
+// Position of a bus on its line, computed once per update
+function track(v) {
+  const R = gx().R;
+  if (S.posR !== R) { S.posR = R; S.pos = new Map(); S.ns = nextSeq(); }
+  const key = v.num || v.plate || v.trip; if (S.pos.has(key)) return S.pos.get(key);
+  const rps = reps(routeOf(v)); let res = null;
+  if (rps.length) {
     let cand = rps; const T = tripOf(v.trip);
     if (T) { const k = T.dir !== '' ? T.dir : T.h, m = rps.filter(r => r.k == k); if (m.length) cand = m; }
-    let best = null; cand.forEach(rp => { const p = place(v, rp, ns); if (!best || p.off < best.off) best = { rp, idx: p.idx, off: p.off }; });
-    return best ? { v, k: best.rp.k, idx: best.idx, off: best.off } : null;
-  }).filter(Boolean);
+    const pv = S.last.get(key); let best = null;
+    cand.forEach(rp => {
+      const p = place(v, rp, S.ns, pv && pv.trip == v.trip && pv.k == rp.k ? pv.idx : -1);
+      if (!best || p.off < best.off) best = { rp, idx: p.idx, off: p.off, k: rp.k };
+    });
+    res = best; if (best) S.last.set(key, { trip: v.trip, k: best.k, idx: best.idx });
+  }
+  S.pos.set(key, res); return res;
+}
+function busesOf(rid) {
+  const R = gx().R; if (!R) return [];
+  return R.veh.filter(v => routeOf(v) == rid && isFinite(v.lat)).map(v => { const t = track(v); return t ? { v, k: t.k, idx: t.idx, off: t.off } : null; }).filter(Boolean);
+}
+
+/* ---------- next stop ---------- */
+const hhmm = t => new Date(t * 1000).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit' });
+function nextStop(v) {
+  const G = gx().G, R = gx().R, t = track(v); if (!t) return null;
+  const rp = t.rp, j = Math.min(rp.st.length - 1, Math.floor(t.idx) + 1);
+  const arr = G.st.get(v.trip) || [], tu = ((R && R.tu) || []).find(x => x.trip == v.trip);
+  let eta = 0, prev = null;
+  if (tu) {
+    if (arr.length == rp.st.length && arr[j] && arr[j][0] == rp.st[j].id) { const e = tu.sts.find(s => s.seq == arr[j][3]); if (e) eta = e.t; }
+    const f = tu.sts[0];
+    if (!eta && f && f.t) { const x = arr.find(y => y[3] == f.seq), st = x && G.stops.get(x[0]); prev = { name: (st && st.n) || '', t: f.t }; }
+  }
+  return { name: rp.st[j].n, t: eta, prev };
+}
+function eta(t, v) {
+  if (!t) return '';
+  const m = Math.round((t - Date.now() / 1000) / 60);
+  if (Date.now() / 1000 - (v.ts || 0) > 120) return ` (${hhmm(t)})`;
+  return m <= 0 ? ` (llegando, ${hhmm(t)})` : ` (en ${m} min, ${hhmm(t)})`;
 }
 
 /* ---------- popups ---------- */
 function pop(v) {
   const G = gx().G, r = G.routes.find(x => x.id == routeOf(v)), T = tripOf(v.trip) || {};
-  const s = Math.max(0, Math.round(Date.now() / 1000 - (v.ts || 0)));
+  const ns = nextStop(v), s = Math.max(0, Math.round(Date.now() / 1000 - (v.ts || 0)));
   const ago = !v.ts ? '–' : s < 10 ? 'ahora mismo' : s < 90 ? `hace ${s} s` : s < 5400 ? `hace ${Math.round(s / 60)} min` : `hace ${Math.round(s / 3600)} h`;
-  return `<div class="bx-pi"><div>${r ? gx().badge(r) : ''} <b>${esc(T.h || '')}</b></div><div><b>Bus ${esc(v.num || '?')}</b>: ${esc(v.plate || '')}</div><div><b>Actualizado</b>: ${ago}</div><div><b>Ocupación</b>: ${occ(v.occ)}</div></div>`;
+  return `<div class="bx-pi"><div>${r ? gx().badge(r) : ''} <b>${esc(T.h || '')}</b></div><div><b>Bus ${esc(v.num || '?')}</b>: ${esc(v.plate || '')}</div><div><b>Actualizado</b>: ${ago}</div><div><b>Ocupación</b>: ${occ(v.occ)}</div>${ns ? `<div><b>Próxima parada</b>: ${esc(ns.name)}${eta(ns.t, v)}</div>${ns.prev && !ns.t ? `<div class="mu"><small>Previsión en ${esc(ns.prev.name)}: ${hhmm(ns.prev.t)}</small></div>` : ''}` : ''}</div>`;
 }
 
 /* ---------- map ---------- */
@@ -130,10 +168,10 @@ function updateMap() {
   ((R && R.veh) || []).forEach(v => {
     const rid = routeOf(v); if ((S.route && S.route != rid) || !isFinite(v.lat)) return;
     const r = G.routes.find(x => x.id == rid), key = v.num || v.plate || v.trip; keep.add(key);
-    const icon = L.divIcon({ className: 'bx-ico', iconSize: [0, 0], html: `<div class="bx-b">${r ? gx().badge(r) : '<span class="badge">?</span>'}</div>` });
+    const mkIcon = () => L.divIcon({ className: 'bx-ico', iconSize: [0, 0], html: `<div class="bx-b">${r ? gx().badge(r) : '<span class="badge">?</span>'}</div>` });
     let m = S.mk.get(key);
-    if (m) { m.setLatLng([v.lat, v.lon]); m.setIcon(icon); m.setPopupContent(pop(v)); }
-    else { m = L.marker([v.lat, v.lon], { icon }).bindPopup(pop(v)).addTo(S.layer); S.mk.set(key, m); }
+    if (m) { m.setLatLng([v.lat, v.lon]); if (m._rid !== rid) { m.setIcon(mkIcon()); m._rid = rid; } m.setPopupContent(pop(v)); }
+    else { m = L.marker([v.lat, v.lon], { icon: mkIcon() }).bindPopup(pop(v)).addTo(S.layer); m._rid = rid; S.mk.set(key, m); }
   });
   S.mk.forEach((m, k) => { if (!keep.has(k)) { S.layer.removeLayer(m); S.mk.delete(k); } });
 }
@@ -151,17 +189,21 @@ function lineal() {
     ${rp.st.map((s, i) => `<div class="bx-st" style="top:${i * H}px"><i></i><span>${esc(s.n)}</span></div>`).join('')}
     ${bs.filter(b => b.k == rp.k).map(b => `<button class="bx-bus" data-n="${esc(b.v.num || b.v.plate)}" style="top:${H / 2 + b.idx * H}px" aria-label="Bus ${esc(b.v.num)}">${gx().badge(r)}</button>`).join('')}
     </div></div>`).join('')}</div><div id="bx-pop" class="bx-pop oculto"></div>`;
-  box.querySelectorAll('.bx-bus').forEach(b => b.onclick = () => {
-    const v = bs.map(x => x.v).find(x => (x.num || x.plate) == b.dataset.n), p = $('#bx-pop');
-    p.innerHTML = pop(v) + '<button class="ghost" id="bx-x">Cerrar</button>'; p.classList.remove('oculto'); $('#bx-x').onclick = () => p.classList.add('oculto');
-  });
+  const open = n => {
+    const v = bs.map(x => x.v).find(x => (x.num || x.plate) == n), p = $('#bx-pop'); if (!v) { S.sel = null; return; }
+    S.sel = n; p.innerHTML = pop(v) + '<button class="ghost" id="bx-x">Cerrar</button>'; p.classList.remove('oculto');
+    $('#bx-x').onclick = () => { S.sel = null; p.classList.add('oculto'); };
+  };
+  box.querySelectorAll('.bx-bus').forEach(b => b.onclick = () => open(b.dataset.n));
+  if (S.sel) open(S.sel);
 }
 
 /* ---------- screen ---------- */
+const autoOn = () => localStorage.getItem('auvasa_rt_auto') !== '0';
 const active = () => { const e = document.getElementById('pantalla-buses'); return e && e.classList.contains('activa'); };
 function stat() {
   const R = gx().R, el = $('#bx-st'); if (!el) return;
-  el.textContent = R && R.veh ? `Datos de las ${R.ts ? new Date(R.ts * 1000).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit', second: '2-digit' }) : '–'} · ${R.veh.length} buses` : 'Datos en directo: aún sin cargar';
+  el.textContent = R && R.veh ? `Datos de las ${R.ts ? new Date(R.ts * 1000).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit', second: '2-digit' }) : '–'} · ${R.veh.length} buses${autoOn() && (localStorage.getItem('auvasa_rt_base') || '').trim() ? ' · se actualiza cada 15 s' : ''}` : 'Datos en directo: aún sin cargar';
 }
 async function live() {
   const b = (localStorage.getItem('auvasa_rt_base') || '').trim(); if (!b) return;
@@ -178,13 +220,14 @@ function shell() {
     <select id="bx-r" aria-label="Línea"><option value="">Todas las líneas</option>${G.routes.map(r => `<option value="${esc(r.id)}">${esc(r.s || r.l)} · ${esc(r.l)}</option>`).join('')}</select></div>
     <details class="bx-live"><summary id="bx-st">Datos en directo</summary><div>
     <input id="bx-url" type="text" placeholder="Dirección de tu proxy (…/api/rt)" value="${esc(saved)}">
-    <label><input id="bx-auto" type="checkbox"> cada 15 s</label>
+    <label><input id="bx-auto" type="checkbox" ${autoOn() ? 'checked' : ''}> actualizar solo cada 15 s</label>
     <button id="bx-now">Actualizar</button>
     <label class="btn">Cargar archivos<input id="bx-f" type="file" multiple hidden></label></div></details><div id="bx-view"></div>`;
   const tabs = () => el.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.t == S.tab));
   el.querySelectorAll('.tabs button').forEach(b => b.onclick = () => { S.tab = b.dataset.t; if (S.tab == 'l' && !S.route) pickRoute(); tabs(); view(); });
   $('#bx-r').onchange = e => { S.route = e.target.value; if (S.tab == 'm') { if (S.map) { drawLines(); updateMap(); } } else lineal(); };
   $('#bx-url').onchange = e => localStorage.setItem('auvasa_rt_base', e.target.value.trim());
+  $('#bx-auto').onchange = e => localStorage.setItem('auvasa_rt_auto', e.target.checked ? '1' : '0');
   $('#bx-now').onclick = live;
   $('#bx-f').onchange = async e => { const fs = [...e.target.files]; if (fs.length) gx().rt(await Promise.all(fs.map(f => f.arrayBuffer()))); e.target.value = ''; };
   tabs(); return true;
@@ -205,11 +248,12 @@ window.bxInit = () => {
   if (!window.gx) return;
   if (!S.init) {
     S.init = 1;
-    gx().sub(k => { if (k == 'static') { S.cache.clear(); S.shellFor = null; S.tg = null; S.map = null; } if (active()) refresh(k); });
+    gx().sub(k => { if (k == 'static') { S.cache.clear(); S.last.clear(); S.posR = null; S.shellFor = null; S.tg = null; S.map = null; } if (active()) refresh(k); });
     setInterval(() => { const a = $('#bx-auto'); if (active() && a && a.checked && !document.hidden) live(); }, 15000);
   }
   if (window.gxInit) window.gxInit();
   refresh('open');
+  if (autoOn()) live();
 };
-if (typeof module !== 'undefined') module.exports = { prep, along, reps, busesOf, place };
+if (typeof module !== 'undefined') module.exports = { prep, along, reps, busesOf, place, nextStop };
 })();
