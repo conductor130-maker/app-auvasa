@@ -163,7 +163,7 @@ function rtRender(){
  document.querySelectorAll('#gx-app .it').forEach(b=>b.onclick=()=>{S.rstop=S.ids[+b.dataset.i];rtRender()});
  const i=$('#rq');if(i){i.value=S.rq||'';i.oninput=e=>{S.rq=e.target.value;S.rf=1;rtRender()};if(S.rf){S.rf=0;i.focus();i.setSelectionRange(i.value.length,i.value.length)}}}
 async function rtLoad(fs){const r={veh:[],tu:[],al:[],ts:0,err:''};for(const f of fs){try{feed(new Uint8Array(await f.arrayBuffer()),r)}catch(e){r.err+=f.name+': '+e.message+' '}}R=r;S.rs=S.rs||'v';emit('rt');rtRender()}
-$('#rtb').onclick=()=>{S.rt=!S.rt;$('#rtb').textContent=S.rt?'Horarios':'Tiempo real';render()};
+$('#rtb').onclick=()=>{if(window.navegar)navegar('pantalla-buses')};
 
 /* ---------- Load & persist ---------- */
 const idb=(m,f)=>new Promise((ok,ko)=>{const o=indexedDB.open('gtfs-app',1);
@@ -181,7 +181,7 @@ $('#file').onchange=async e=>{const f=e.target.files[0];if(!f)return;
  e.target.value=''};
 const subs=[];const emit=k=>subs.forEach(f=>{try{f(k)}catch(_){}});
 async function rtBuffers(bs,keepAl){const prev=R,r={veh:[],tu:[],al:[],ts:0,err:''};for(const b of bs){try{feed(new Uint8Array(b),r)}catch(e){r.err+=e.message+' '}}if(keepAl&&prev&&prev.al)r.al=prev.al;R=r;emit('rt');if(S.rt)rtRender()}
-window.gx={get G(){return G},get R(){return R},badge,esc,sub:f=>subs.push(f),rt:rtBuffers};
+window.gx={get G(){return G},get R(){return R},badge,esc,sub:f=>subs.push(f),rt:rtBuffers,loadZip:async(buf,name)=>{const ts=Date.now();if(await use(buf,name,ts)){try{await idb('readwrite',s=>s.put({buf,name,ts},'zip'))}catch(_){}return true}return false}};
 window.gxInit=(()=>{let d=0;return async()=>{if(d)return;d=1;render();try{const z=await idb('readonly',s=>s.get('zip'));if(z)await use(z.buf,z.name,z.ts)}catch(_){}}})();
 
 })();

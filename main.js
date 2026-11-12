@@ -54,7 +54,7 @@ const TIPOS = [
   { id: 'lanzadera', emoji: '🎓', nombre: 'Lanzaderas' },
   { id: 'personal', emoji: '🚐', nombre: 'Personal' },
   { id: 'manual', emoji: '📖', nombre: 'Manual y Normativa' },
-  { id: 'gtfs', emoji: '📡', nombre: 'Red pública y tiempo real' },
+  { id: 'gtfs', emoji: '📅', nombre: 'Horarios públicos (GTFS)' },
   { id: 'buses', emoji: '🚍', nombre: 'Buses en directo' }
 ];
 
@@ -414,6 +414,28 @@ function pintarGruposExistentes() {
 function guardarGrupoDesdeLista(i) {
   grupoActual = listaGruposFiltrada[i];
   guardarGrupoFavorito();
+}
+
+function exportarFavoritos() {
+  const datos = { version: 1, favoritos: favoritos,
+    paradas: JSON.parse(localStorage.getItem('auvasa_stops_fav') || '[]'),
+    ajustes: { base: localStorage.getItem('auvasa_rt_base') || '', segundos: localStorage.getItem('auvasa_rt_secs') || '5' } };
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(datos, null, 1)], { type: 'application/json' }));
+  a.download = 'auvasa-favoritos-' + new Date().toISOString().slice(0, 10) + '.json';
+  document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 3000);
+}
+async function importarFavoritos(archivo) {
+  try {
+    const d = JSON.parse(await archivo.text());
+    if (!d.favoritos || !Array.isArray(d.favoritos.grupos)) throw new Error('el archivo no tiene el formato esperado');
+    if (!confirm('¿Sustituir tus favoritos actuales por los de la copia?')) return;
+    favoritos = d.favoritos; guardarFavs();
+    if (Array.isArray(d.paradas)) localStorage.setItem('auvasa_stops_fav', JSON.stringify(d.paradas));
+    if (d.ajustes && d.ajustes.base) localStorage.setItem('auvasa_rt_base', d.ajustes.base);
+    if (d.ajustes && d.ajustes.segundos) localStorage.setItem('auvasa_rt_secs', d.ajustes.segundos);
+    renderFavoritos(); alert('Copia restaurada.');
+  } catch (e) { alert('No se pudo restaurar la copia: ' + e.message); }
 }
 
 function guardarFavs() { localStorage.setItem('auvasa_favoritos', JSON.stringify(favoritos)); }

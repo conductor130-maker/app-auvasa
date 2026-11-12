@@ -78,14 +78,15 @@
 
   <section id="pantalla-gtfs" class="pantalla">
     <div class="gx">
-      <h2>📡 Red pública y tiempo real</h2>
-      <div class="gx-bar"><span id="meta">Sin datos cargados</span><label class="btn">Cargar GTFS (.zip)<input id="file" type="file" hidden></label><button id="rtb" class="ghost">Tiempo real</button></div>
+      <h2>📅 Horarios públicos (GTFS)</h2>
+      <div class="gx-bar"><span id="meta">Sin datos cargados</span><label class="btn">Cargar GTFS (.zip)<input id="file" type="file" hidden></label><button id="rtb" class="ghost">Ver buses en directo →</button></div>
       <main id="gx-app" class="gx-main"></main>
     </div>
   </section>
 
   <section id="pantalla-favoritos" class="pantalla">
     <h2>⭐ Mis Turnos Favoritos</h2>
+    <div class="fav-backup"><button class="btn-secundario" onclick="exportarFavoritos()">⬇ Guardar copia</button><label class="btn-secundario">⬆ Restaurar copia<input type="file" accept=".json,application/json" hidden onchange="if(this.files[0])importarFavoritos(this.files[0]);this.value=''"></label></div>
     <div id="contenido-favoritos"></div>
   </section>
 </main>
