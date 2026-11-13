@@ -52,15 +52,12 @@ const TIPOS = [
   { id: 'buho', emoji: '🦉', nombre: 'Líneas Búho' },
   { id: 'futbol', emoji: '⚽', nombre: 'Fútbol' },
   { id: 'lanzadera', emoji: '🎓', nombre: 'Lanzaderas' },
-  { id: 'personal', emoji: '🚐', nombre: 'Personal' },
-  { id: 'manual', emoji: '📖', nombre: 'Manual y Normativa' },
-  { id: 'gtfs', emoji: '📅', nombre: 'Horarios públicos (GTFS)' },
-  { id: 'buses', emoji: '🚍', nombre: 'Buses en directo' }
+  { id: 'personal', emoji: '🚐', nombre: 'Personal' }
 ];
 
 function renderTipos() {
   const grid = document.getElementById('grid-tipos');
-  grid.innerHTML = TIPOS.filter(t => ['manual','gtfs','buses'].includes(t.id) || DATOS.lineas.some(l => l && l.tipo === t.id)).map(t =>
+  grid.innerHTML = TIPOS.filter(t => DATOS.lineas.some(l => l && l.tipo === t.id)).map(t =>
     '<button class="boton-tipo tipo-' + t.id + '" onclick="mostrarLineas(\'' + t.id + '\')">' +
       '<span class="emoji">' + t.emoji + '</span><span>' + t.nombre + '</span>' +
     '</button>'
@@ -74,6 +71,9 @@ function irA(id, pushHistory = true) {
   window.scrollTo(0, 0);
   if (id === 'pantalla-gtfs' && window.gxInit) window.gxInit();
   if (id === 'pantalla-buses' && window.bxInit) window.bxInit();
+  if (id === 'pantalla-hoy' && window.hoyInit) window.hoyInit();
+  if (id === 'pantalla-archivos' && window.archInit) window.archInit();
+  if (window.navActivo) window.navActivo(id);
   
   const btnFlotante = document.getElementById('btn-volver-flotante');
   if (id === 'pantalla-tipos') {
@@ -335,6 +335,7 @@ function guardarGrupoFavorito() {
 
 // ---------- LÓGICA DEL MANUAL ----------
 function mostrarManual() {
+  if (window.manualAbrir) { window.manualAbrir(); return; }
   const manual = DATOS.lineas.find(l => l.tipo === 'manual');
   
   if (!manual) {
@@ -418,7 +419,7 @@ function guardarGrupoDesdeLista(i) {
 
 function exportarFavoritos() {
   const datos = { version: 1, favoritos: favoritos,
-    paradas: JSON.parse(localStorage.getItem('auvasa_stops_fav') || '[]'),
+    paradas: window.stopsStore ? window.stopsStore.raw() : [],
     ajustes: { base: localStorage.getItem('auvasa_rt_base') || '', segundos: localStorage.getItem('auvasa_rt_secs') || '5' } };
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob([JSON.stringify(datos, null, 1)], { type: 'application/json' }));
@@ -431,7 +432,7 @@ async function importarFavoritos(archivo) {
     if (!d.favoritos || !Array.isArray(d.favoritos.grupos)) throw new Error('el archivo no tiene el formato esperado');
     if (!confirm('¿Sustituir tus favoritos actuales por los de la copia?')) return;
     favoritos = d.favoritos; guardarFavs();
-    if (Array.isArray(d.paradas)) localStorage.setItem('auvasa_stops_fav', JSON.stringify(d.paradas));
+    if (Array.isArray(d.paradas) && window.stopsStore) window.stopsStore.setRaw(d.paradas);
     if (d.ajustes && d.ajustes.base) localStorage.setItem('auvasa_rt_base', d.ajustes.base);
     if (d.ajustes && d.ajustes.segundos) localStorage.setItem('auvasa_rt_secs', d.ajustes.segundos);
     renderFavoritos(); alert('Copia restaurada.');

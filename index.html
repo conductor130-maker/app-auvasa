@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="gtfs.css">
   <link rel="stylesheet" href="buses.css">
+  <link rel="stylesheet" href="app.css">
 </head>
 <body>
 
@@ -19,7 +20,7 @@
 
 <header class="cabecera">
   <div class="cabecera-top">
-    <h1>🚌 AUVASA Horarios</h1>
+    <h1><img src="icon-192.png" class="logo" alt=""><span>AUVASA</span></h1>
     <div class="acciones">
       <button id="btnBuscar" title="Buscar">🔍</button>
       <button id="btnOscuro" title="Modo oscuro">🌓</button>
@@ -34,7 +35,21 @@
 
 <main id="app">
   <section id="pantalla-tipos" class="pantalla activa">
+    <div class="hero-fecha" id="hero-fecha"></div>
+    <div class="acceso-rapido">
+      <button class="aq aq-hoy" onclick="irA('pantalla-hoy')"><span class="aq-ico">🕘</span><b>Horarios de hoy</b><small>El horario de cada línea</small></button>
+      <button class="aq aq-directo" onclick="irA('pantalla-buses')"><span class="aq-ico">🚍</span><b>Buses en directo</b><small>Mapa y lineales</small></button>
+      <button class="aq aq-paradas" id="btn-misparadas" onclick="togglePanelParadas()"><i class="aq-chev">▾</i><span class="aq-ico">⭐</span><b>Mis paradas</b><small id="mp-count"></small></button>
+    </div>
+    <div id="panel-misparadas" class="panel-paradas oculto"></div>
+    <h3 class="sec-tit">Horarios por servicio</h3>
     <div class="grid-tipos" id="grid-tipos"></div>
+    <h3 class="sec-tit">Información</h3>
+    <div class="lista-info">
+      <button onclick="mostrarLineas('manual')"><span>📖</span>Manuales y normativa</button>
+      <button onclick="irA('pantalla-archivos')"><span>📁</span>Archivos</button>
+      <button onclick="irA('pantalla-gtfs')"><span>📅</span>Horarios públicos (GTFS)</button>
+    </div>
   </section>
 
   <section id="pantalla-lineas" class="pantalla">
@@ -64,9 +79,44 @@
 
   <!-- NUEVA PANTALLA PARA EL MANUAL -->
   <section id="pantalla-manual" class="pantalla">
-    <h2 id="titulo-manual">Manual y Normativa</h2>
-    <div id="lista-manual" class="grid-tipos" style="grid-template-columns: 1fr; gap: 10px;"></div>
-    <div id="contenido-manual" class="bloque-recorrido" style="margin-top: 20px;"></div>
+    <div class="man-cab"><h2 id="titulo-manual">Manuales y normativa</h2><button class="btn-edit" onclick="manualEditar()">✏️ Editar</button></div>
+    <div id="lista-manual" class="lista-manual"></div>
+    <div id="contenido-manual" class="md"></div>
+    <div id="manual-editor" class="oculto">
+      <h3 class="sec-tit">Editor</h3>
+      <div class="me-barra" id="me-barra">
+        <button data-a="h1">Título</button><button data-a="h2">Subtítulo</button><button data-a="h3">Apartado</button>
+        <button data-a="b"><b>N</b></button><button data-a="i"><i>C</i></button><button data-a="u"><u>S</u></button><button data-a="mark">Resaltar</button>
+        <button data-a="c-rojo" class="col rojo">A</button><button data-a="c-azul" class="col azul">A</button><button data-a="c-verde" class="col verde">A</button><button data-a="c-naranja" class="col naranja">A</button><button data-a="c-morado" class="col morado">A</button><button data-a="c-gris" class="col gris">A</button><button data-a="f-amarillo">Fondo</button>
+        <button data-a="ul">• Lista</button><button data-a="ol">1. Lista</button><button data-a="nota">Aviso</button><button data-a="hr">Raya</button><button data-a="tabla">Tabla</button>
+      </div>
+      <textarea id="me-txt" spellcheck="true"></textarea>
+      <div class="me-acc"><button id="me-guardar">💾 Guardar en este dispositivo</button><button id="me-bajar">⬇ Descargar manual.md</button><button id="me-reset">↩ Usar el del repositorio</button><button id="me-cerrar">Cerrar</button></div>
+      <p class="mu">«Guardar» lo deja solo en este móvil. Para que lo vean todos, descarga el archivo y súbelo al repositorio con el nombre <code>manual.md</code>.</p>
+      <h3 class="sec-tit">Vista previa</h3>
+      <div id="me-prev" class="md"></div>
+    </div>
+  </section>
+
+  <section id="pantalla-hoy" class="pantalla">
+    <h2>🕘 Horarios de hoy</h2>
+    <div class="hoy-fecha" id="hoy-fecha"></div>
+    <div id="hoy-lista"></div>
+  </section>
+
+  <section id="pantalla-archivos" class="pantalla">
+    <h2>📁 Archivos</h2>
+    <div class="arch-nota"><b>Qué subir al repositorio y cuándo</b><br>
+      • Cambias horarios: <code>horarios_*.json</code> y <code>libro_horarios.pdf</code><br>
+      • Nuevo GTFS: <code>gtfs.zip</code> (la app lo carga sola)<br>
+      • Texto de manuales: <code>manual.md</code><br>
+      • Cambios de la aplicación: los <code>.js</code>, <code>.css</code> y <code>index.html</code><br>
+      • En el repositorio <code>auvasa-proxy</code>: <code>api/rt.js</code></div>
+    <h3 class="sec-tit">Archivos de la aplicación</h3>
+    <div id="arch-app"></div>
+    <h3 class="sec-tit">Mis archivos en este dispositivo</h3>
+    <label class="arch-add">＋ Añadir archivos<input id="arch-add" type="file" multiple hidden></label>
+    <div id="arch-mis"></div>
   </section>
 
   <section id="pantalla-buses" class="pantalla">
@@ -105,8 +155,17 @@
   </div>
 </div>
 
+<nav id="navbar">
+  <button data-go="pantalla-tipos" class="activo"><span>🏠</span>Inicio</button>
+  <button data-go="pantalla-buses"><span>🚍</span>En directo</button>
+  <button data-go="pantalla-hoy"><span>🕘</span>Hoy</button>
+  <button data-go="mis-paradas"><span>⭐</span>Mis paradas</button>
+  <button data-go="pantalla-favoritos"><span>📌</span>Turnos</button>
+</nav>
+
 <script src="gtfs.js"></script>
 <script src="buses.js"></script>
+<script src="extras.js"></script>
 <script src="main.js"></script>
 </body>
 </html>

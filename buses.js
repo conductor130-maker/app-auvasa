@@ -179,8 +179,9 @@ function arrHTML(stopId, max) {
     return `<li>${r ? gx().badge(r) : ''}<span class="bx-h">${esc(x.T.h || '')}</span><b>${m <= 0 ? 'llegando' : 'en ' + m + ' min'}</b> <small>${hhmm(x.est)}</small> ${x.live ? `<small class="bx-tag" style="--c:${di.c}">en directo${x.d != null ? ' · ' + di.l : ''}</small>` : '<small class="bx-tag" style="--c:#888">horario</small>'}</li>`;
   }).join('') + '</ul>';
 }
-const favStops = () => { try { return JSON.parse(localStorage.getItem('auvasa_stops_fav') || '[]'); } catch (_) { return []; } };
-function toggleFav(id) { const f = favStops(), i = f.indexOf(id); if (i < 0) f.push(id); else f.splice(i, 1); localStorage.setItem('auvasa_stops_fav', JSON.stringify(f)); }
+const favStops = () => (window.stopsStore ? window.stopsStore.list().map(s => s.id) : []);
+const stopLabel = id => (window.stopsStore ? window.stopsStore.label(id) : ((gx().G.stops.get(id) || {}).n || id));
+function toggleFav(id) { if (window.stopsStore) window.stopsStore.toggle(id); }
 const alertsOf = rid => ((gx().R && gx().R.al) || []).filter(a => a.en.some(e => e.r == rid));
 
 /* ---------- popups ---------- */
@@ -316,8 +317,8 @@ function parRender() {
   const G = gx().G, sel = $('#bx-sel'), fv = $('#bx-fav'); if (!sel || !fv) return;
   sel.innerHTML = S.stop ? `<div class="bx-card"><h3>${esc((G.stops.get(S.stop) || {}).n || S.stop)}</h3>${arrHTML(S.stop, 8)}</div>` : '';
   if (S.stop) { const b = document.createElement('button'); b.className = 'ghost'; const set = () => { b.textContent = favStops().includes(S.stop) ? '★ Quitar de mis paradas' : '☆ Guardar parada'; }; set(); const id = S.stop; b.onclick = () => { toggleFav(id); parRender(); }; sel.firstChild.appendChild(b); }
-  const f = favStops();
-  fv.innerHTML = f.length ? f.map(id => `<div class="bx-card"><h3>${esc((G.stops.get(id) || {}).n || id)}</h3>${arrHTML(id, 3)}</div>`).join('') : '<p class="mu">Guarda paradas con ☆ para ver aquí sus llegadas en directo.</p>';
+  const f = favStops().sort((a, c) => stopLabel(a).localeCompare(stopLabel(c), 'es', { sensitivity: 'base' }));
+  fv.innerHTML = f.length ? f.map(id => `<div class="bx-card"><h3>${esc(stopLabel(id))}</h3>${arrHTML(id, 3)}</div>`).join('') : '<p class="mu">Guarda paradas con ☆ para ver aquí sus llegadas en directo.</p>';
 }
 function avisos() {
   const G = gx().G, R = gx().R, box = $('#bx-view'); if (!box) return;
@@ -327,7 +328,8 @@ function avisos() {
 
 /* ---------- screen ---------- */
 const autoOn = () => localStorage.getItem('auvasa_rt_auto') !== '0';
-const base = () => (localStorage.getItem('auvasa_rt_base') || '').trim();
+const DEFAULT_BASE = 'https://auvasa-proxy.vercel.app/api/rt';
+const base = () => (localStorage.getItem('auvasa_rt_base') || '').trim() || DEFAULT_BASE;
 const secs = () => Math.max(2, +(localStorage.getItem('auvasa_rt_secs') || 5));
 const active = () => { const e = document.getElementById('pantalla-buses'); return e && e.classList.contains('activa'); };
 function stat() {
@@ -395,13 +397,18 @@ function refresh(k) {
   if (!shell()) return; stat();
   if (k == 'rt') ({ m: updateMap, l: lineal, p: parRender, a: avisos })[S.tab](); else view();
 }
+const startTick = () => {
+  if (S.tickOn) return; S.tickOn = 1;
+  const tick = () => { if ((active() || S.homeLive) && autoOn() && !document.hidden) live(); setTimeout(tick, secs() * 1000); };
+  setTimeout(tick, secs() * 1000);
+};
+window.bx = { arrHTML, svcToday, live: on => { S.homeLive = !!on; if (on) { startTick(); live(); } } };
 window.bxInit = () => {
   if (!window.gx) return;
   if (!S.init) {
     S.init = 1;
     gx().sub(k => { if (k == 'static') { S.cache.clear(); S.last.clear(); S.posR = null; S.shellFor = null; S.tg = null; S.map = null; S.sg = null; } if (active()) refresh(k); });
-    const tick = () => { if (active() && autoOn() && !document.hidden) live(); setTimeout(tick, secs() * 1000); };
-    setTimeout(tick, secs() * 1000);
+    startTick();
   }
   if (window.gxInit) window.gxInit();
   refresh('open');
