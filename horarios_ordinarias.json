@@ -535,7 +535,7 @@
           "paradas": ["Camino de Las Yeseras Polideportivo Municipal", "C/ Cuesta Redonda piscinas Municipales", "C/ Castillejo fte. 4-6", "Pza. Mayor fte. 29 (La Cistérniga)", "C/ Lucio Zumel esq. Avda. Soria", "Avda. Soria 32", "Ctra. Soria fte. Pgno. San Cristóbal", "C/ Páramo San Isidro esq. Ctra. Soria", "C/ Páramo San Isidro 38", "C/ Páramo San Isidro 15", "C/ Páramo San Isidro 1", "C/ Cigüeña 21", "C/ Cigüeña 1 esq. San Isidro", "Pza. Circular 7 esq. Industrias", "C/ Nicolás Salmerón 19 esq. Labradores", "Pza. Caño Argales", "C/ Dos de Mayo esq. Divina Pastora", "Pza. Zorrilla 3 esq. Santiago", "Pº Zorrilla 52 esq. Pº Hospital Militar", "Pº Zorrilla 88 fte. Pza. de Toros", "Pº Zorrilla 130 Centro Comercial", "Pº Zorrilla 166 fte. LAVA", "Pº Zorrilla 198 Bº La Rubia", "Pº Zorrilla 236 Centro Comercial", "Cañada Real 74 fte. Vinos Ribera de Duero", "Cañada Real 144 esq. Vega de Valdetronco", "C/ Antonio Machado 26 esq. Pío Baroja", "C/ Pío Baroja 14 esq. Miguel Delibes", "C/ Miguel Delibes 40 esq. Unamuno", "Ctra. Rueda fte. Madroño", "Ctra. Rueda fte. 187 fte. Hotel", "Ctra. Rueda 232 Col. Ave María", "Ctra. Rueda Parque Artillería", "Ctra. Rueda piscinas FASA", "El Pinar de Antequera sentido Puente Duero", "Ctra. Rueda fte. Cuartel Teniente Galiana", "C/ Real 24", "C/ Real 106 Pza. Damián Tascón Prieto", "Cañada Valdestillas 21"]
         }
       ],
-      "letreros": ["18011 PUENTE DUERO","18012 CISTERNIGA", , "18021 DOS DE MAYO", "18042 PZA. CIRCULAR", "18051 PINAR", "18061 PINARILLO", "18032 PZA. ESPAÑA"],
+      "letreros": ["18011 PUENTE DUERO", "18012 CISTERNIGA", "18021 DOS DE MAYO", "18042 PZA. CIRCULAR", "18051 PINAR", "18061 PINARILLO", "18032 PZA. ESPAÑA"],
       "notas": ["NOTA: figuran en negrita las paradas de los recorridos de aplicación en festivos (desde Pza. España a La Cistérniga).", "PROLONGACIÓN A *EL PINARILLO*: Todos los sábados y festivos del año. Desde el 1 de julio al 15 de septiembre (ambos incluidos), TODOS los días."],
       "horarios": [
         {"nombre": "6 coches A", "tipoDia": "Lunes a Sábados Laborables", "coches": 6, "paginaPDF": 94, "descanso": "15 min", "cochesDetalle": [
@@ -686,7 +686,7 @@
           "paradas": ["C/ Cigüeña 41 esq. Villabáñez", "C/ Cigüeña 21", "C/ Cigüeña 1 esq. San Isidro", "Pº San Vicente 16 esq. Álava", "Avda. Segovia fte. 57", "C/ Embajadores 4 esq. Pº Farnesio", "Avda. Segovia fte. Ig. del Carmen", "C/ Embajadores 60 fte. Esc. Oficial de Idiomas", "C/ Embajadores 74 esq. Hornija", "C/ La Transición 3", "C/ Arca Real fte. Centro Madrid", "C/ Daniel del Olmo fte. 20 ITV", "Avda. El Norte de Castilla 14", "Avda. El Norte de Castilla 22D esq. Forja", "Avda. El Norte de Castilla 48", "Pº Zorrilla 153 fte. Centro Comercial", "Ctra. Rueda 36 esq. Mota", "Ctra. Rueda fte. 41", "Ctra. Rueda fte. 53 Imserso", "Ctra. Rueda esq. Vega Sicilia", "Ctra. Rueda esq. Vinos de Cigales", "C/ Anselmo Miguel Nieto esq. Ctra. Rueda", "Pº Lorenzo Arrazola esq. Manuel Mucientes", "C/ Santiago Alba 3", "Pza. Castilla y León 1"]
         }
       ],
-      "letreros": ["22011 CIRCULAR 2", "22012 COVARESA],
+      "letreros": ["22011 CIRCULAR 2", "22012 COVARESA"],
       "notas": ["MERCADILLO en Prado de la Magdalena: SÁBADOS NO FESTIVOS se suprimen las paradas de C/ Real de Burgos 3 fte. Iglesia San Pedro y Pº Prado Magdalena 6 fte. Residencia Alfonso VIII."],
       "horarios": [
         {"nombre": "8 coches A", "tipoDia": "Lunes a Viernes Laborables", "coches": 8, "paginaPDF": 119, "descanso": "20 min", "cochesDetalle": [
