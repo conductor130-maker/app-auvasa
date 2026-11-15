@@ -366,7 +366,7 @@
           "paradas": ["C/ Plata 41A gasolinera", "C/ Pirita 67", "C/ Pirita fte. 10 esq. Aluminio", "C/ Pirita 13 fte. Esmeralda", "C/ Dulzaina esq. Palillos", "C/ Castañuelas esq. Carraca", "C/ Armonio 3 esq. Laúd", "C/ Miguel Ruiz de Temiño esq. Pº J. Carlos I sentido centro", "C/ Embajadores 71", "C/ Embajadores 57 esq. Transición", "C/ Embajadores fte. 72 esq. Hornija", "C/ Embajadores fte. 58 Esc. Ofic. Idiomas", "Avda. Segovia Ig. del Carmen", "Avda. Segovia 99 esq. Olmedo", "Avda. Segovia esq. Trabajo", "C/ Labradores 45 esq. Niña Guapa", "Pza. Caño Argales", "Pza. Madrid 2", "C/ Acera Recoletos fte. 2 esq. Pza. Zorrilla", "C/ Estación del Norte esq. Recondo", "C/ Puente Colgante 2 Estación de Autobuses", "C/ Puente Colgante 18 esq. Gabilondo", "Pº Zorrilla 88 fte. Pza. de Toros", "Pza. Juan de Austria fte. Centro Comercial", "C/ Dr. Villacián Mº de Prado", "C/ Dr. Villacián fte. 5 fte. Mariano de los Cobos", "C/ Hernando de Acuña parc. 21 esq. Juan de Valladolid", "C/ Hernando de Acuña 18 esq. Manuel Silvela", "C/ Hernando de Acuña 42", "C/ Hernando de Acuña esq. Padre Llanos", "C/ Manuel Azaña 24 fte. Juan García Hortelano", "C/ Manuel Azaña 56", "C/ Federico Landrove Moiño 11", "C/ Eusebio González Suárez fte. Federico Landrove Moiño"]
         }
       ],
-      "letreros": ["9 9 PGNO S.CRIST", "9 9 PARQUESOL", "9 9 DELICIAS", "9 9 PANADEROS", "9 9 PZA. MADRID"],
+      "letreros": ["9011 PGNO S.CRIST", "9012 PARQUESOL", "9051 DELICIAS", "9021 PANADEROS", "9032 PZA. MADRID", "9062 RECOLETOS"],
       "notas": ["Está prohibido estacionar o parar en la C/ Eusebio González Suárez.", "No estacionar ocupando el estacionamiento de PMR en la parte trasera.", "El primer autobús en la parada de C/ Eusebio González Suárez fte. Federico Landrove Moiño debe avanzar a la parte delantera.", "LOS HORARIOS DE *21:55* Y *22:15* DE POL. SAN CRISTÓBAL TIENEN UN TIEMPO ESTIMADO DE RECORRIDO DE 20 MINUTOS A C/ ACERA DE RECOLETOS."],
       "horarios": [
         {"nombre": "8 coches A", "tipoDia": "Lunes a Viernes Laborables", "coches": 8, "paginaPDF": 73, "descanso": "15 min", "cochesDetalle": [
@@ -416,7 +416,7 @@
           "paradas": ["C/ Mº Sto. Domingo de Silos fte. 5 esq. Montserrat", "Avda. Salamanca esq. puente Juan de Austria", "Pº Zorrilla 130 Centro Comercial", "Pza. Dr. Quemada Ig. Santo Domingo Guzmán", "Avda. Medina del Campo fte. Barlovento", "Avda. Medina del Campo fte. 19 C. Salud A. Eyyres", "Avda. Salamanca fte. puente de la Hispanidad", "Avda. Salamanca esq. Santiago López González", "C/ Francisco Umbral 7", "C/ Felipe Ruiz Martín fte. Manuel Canesí Acevedo", "C/ Felipe Ruiz Martín IES José Jiménez Lozano", "C/ Ciudad de La Habana 17 C. Salud", "C/ Ciudad de La Habana 1 esq. Amadeo Arias", "C/ Hernando de Acuña 42", "C/ Hernando de Acuña esq. Padre Llanos", "C/ Martín Santos Romero Campo José Luis Saso", "C/ Martín Santos Romero 60", "C/ Martín Santos Romero esq. José María Castilviejo"]
         }
       ],
-      "letreros": ["10 10 VILLA PRADO", "10 10 PARQUESOL"],
+      "letreros": ["10011 VILLA PRADO", "10012 PARQUESOL"],
       "notas": ["En sentido PARQUESOL, desde la cabecera de C/ Monasterio de Santo Domingo de Silos fte. 5 esq. Monasterio de Montserrat, se continúa por Monasterio de Santa María de Montserrat, Avda. Real Valladolid, derecha a Avda. Salamanca y recorrido señalado.", "En sentido PARQUESOL, la última parada es la de C/ Martín Santos Romero esq. José María Castilviejo."],
       "horarios": [
         {"nombre": "1 coche A", "tipoDia": "Lunes a Viernes Laborables", "coches": 1, "paginaPDF": 79, "descanso": "15 min", "cochesDetalle": [
@@ -439,7 +439,7 @@
           "paradas": ["Avda. de Los Álamos fte. Hotel", "Pza. del Olivo", "Pª de la Acacia esq. Olmo", "Camino de Las Yeseras Polideportivo Municipal", "C/ Cuesta Redonda piscinas Municipales", "C/ Castillejo fte. 4-6", "Pza. Mayor fte. 29 (La Cistérniga)", "C/ Lucio Zumel esq. Avda. Soria", "Avda. Soria 32", "Ctra. Soria fte. Pgno. San Cristóbal", "C/ Páramo San Isidro esq. Ctra. Soria", "C/ Páramo San Isidro 38", "C/ Páramo San Isidro 15", "C/ Páramo San Isidro 1", "C/ Cigüeña 21", "C/ Cigüeña 1 esq. San Isidro", "Pza. Circular 7 esq. Industrias", "C/ Nicolás Salmerón 19 esq. Labradores", "Pza. Caño Argales", "C/ Duque de La Victoria 23 esq. Pza. España"]
         }
       ],
-      "letreros": ["13 13 CISTERNIGA", "13 13 PZA. ESPAÑA", "13 13 PGNO. LA MORA"],
+      "letreros": ["13041 CISTERNIGA", "13042 PZA. ESPAÑA", "13051 PGNO. LA MORA"],
       "notas": ["Los horarios de las 15:07 y *22:07* de Pol. La Mora tienen la salida de la parada de 'Avda. Los Álamos fte. Hotel'.", "El horario de las *22:07* de Pol. La Mora, desde LA CISTÉRNIGA (22:10 h.) lo realiza línea 19, finalizando en C/ Dos de Mayo."],
       "horarios": [
         {"nombre": "Horarios", "tipoDia": "Lunes a Viernes Laborables (Excepto Agosto)", "coches": null, "paginaPDF": 82, "descanso": "—", "cochesDetalle": [
@@ -463,7 +463,7 @@
           "paradas": ["C/ Helio esq. Nitrógeno", "C/ Helio 15", "C/ Helio 3 esq. Acetileno", "C/ Plomo 2", "C/ Topacio 61 esq. Plomo", "C/ Topacio 39", "C/ Topacio 23", "C/ Plata 43", "C/ Cobalto 42 esq. Galena", "C/ Cobalto fte. 69 esq. Topacio", "C/ Topacio 5", "Ctra. Segovia Col. Hijas de Jesús", "Ctra. Segovia esq. Víctimas del Terrorismo", "Avda. Segovia 161 fte. Hornija", "Avda. Segovia Ig. del Carmen", "Avda. Segovia 99 esq. Olmedo", "Avda. Segovia esq. Trabajo", "C/ Labradores 45 esq. Niña Guapa", "Pza. Caño Argales", "C/ Dos de Mayo esq. Divina Pastora", "C/ Panaderos 4 esq. Divina Pastora"]
         }
       ],
-      "letreros": ["14 14 PGNO.S.CRIST", "14 14 PZA. ESPAÑA", "14 14 DOS DE MAYO"],
+      "letreros": ["14011 PGNO.S.CRIST", "14012 PZA. ESPAÑA", "14032 DOS DE MAYO"],
       "notas": ["Es obligatorio hacer el recorrido por las raquetas de Ctra. Segovia a la altura del Colegio Hijas de Jesús, en ambos sentidos."],
       "horarios": [
         {"nombre": "1 coche A", "tipoDia": "Lunes a Viernes Laborables", "coches": 1, "paginaPDF": 84, "descanso": "15 min", "cochesDetalle": [
@@ -486,7 +486,7 @@
           "paradas": ["Pº Zorrilla 71 esq. Arzobispo García Goldáraz", "Pº Zorrilla 166 fte. LAVA", "Pº Zorrilla 198 Bº La Rubia", "Pº Zorrilla 236 Centro Comercial", "C/ Vázquez de Menchaca 40 esq. Avda. Zamora", "C/ Bronce 3 AUVASA", "Avda. Zamora fte. Bº Las Arcas", "Avda. Zamora Col. San Agustín", "C/ Kilimanjaro 2", "C/ Kilimanjaro fte 39", "C/ Kilimanjaro fte. Pza. Everest"]
         }
       ],
-      "letreros": ["16 16 ZORRILLA 71", "16 16 PINAR JALÓN"],
+      "letreros": ["16012 ZORRILLA 71", "16011 PINAR JALÓN"],
       "notas": [],
       "horarios": [
         {"nombre": "1 coche A", "tipoDia": "Lunes a Viernes Laborables", "coches": 1, "paginaPDF": 86, "descanso": "15 min", "cochesDetalle": [
@@ -512,7 +512,7 @@
           "paradas": ["C/ Helio esq. Nitrógeno", "C/ Helio 15", "C/ Helio 3 esq. Acetileno", "C/ Plomo 2", "C/ Topacio 61 esq. Plomo", "C/ Topacio 39", "C/ Topacio 21", "C/ Cobalto 69 esq. Topacio", "C/ Cobalto 49 esq. Galena", "C/ Cobalto 21 esq. Pirita", "C/ Pirita fte. 10 esq. Aluminio", "C/ Pirita 13 fte. Esmeralda", "C/ Dulzaina fte. 2 fte. Hospital R. Hortega", "Ctra. Soria esq. Páramo San Isidro", "Ctra. Soria raqueta cuartel", "Pº San Isidro 43 entrada túnel", "Pza. Circular 7 esq. Industrias", "Pza. Vadillos 7 esq. Palacio Valdés", "C/ Renedo 29", "C/ Colón 14", "Avda. Ramón y Cajal 3 Hosp. Clínico", "C/ Gondomar 12 esq. Santa Clara", "C/ Card. Torquemada esq. Rond. Santa Teresa", "C/ Card. Torquemada esq. Tirso de Molina"]
         }
       ],
-      "letreros": ["17 17 PGNO S.CRIST", "17 17 RONDILLA"],
+      "letreros": ["8171 PGNO S.CRIST", "8172 RONDILLA"],
       "notas": [],
       "horarios": [
         {"nombre": "Horarios", "tipoDia": "Lunes a Viernes Laborables", "coches": null, "paginaPDF": 90, "descanso": "—", "cochesDetalle": [
@@ -535,7 +535,7 @@
           "paradas": ["Camino de Las Yeseras Polideportivo Municipal", "C/ Cuesta Redonda piscinas Municipales", "C/ Castillejo fte. 4-6", "Pza. Mayor fte. 29 (La Cistérniga)", "C/ Lucio Zumel esq. Avda. Soria", "Avda. Soria 32", "Ctra. Soria fte. Pgno. San Cristóbal", "C/ Páramo San Isidro esq. Ctra. Soria", "C/ Páramo San Isidro 38", "C/ Páramo San Isidro 15", "C/ Páramo San Isidro 1", "C/ Cigüeña 21", "C/ Cigüeña 1 esq. San Isidro", "Pza. Circular 7 esq. Industrias", "C/ Nicolás Salmerón 19 esq. Labradores", "Pza. Caño Argales", "C/ Dos de Mayo esq. Divina Pastora", "Pza. Zorrilla 3 esq. Santiago", "Pº Zorrilla 52 esq. Pº Hospital Militar", "Pº Zorrilla 88 fte. Pza. de Toros", "Pº Zorrilla 130 Centro Comercial", "Pº Zorrilla 166 fte. LAVA", "Pº Zorrilla 198 Bº La Rubia", "Pº Zorrilla 236 Centro Comercial", "Cañada Real 74 fte. Vinos Ribera de Duero", "Cañada Real 144 esq. Vega de Valdetronco", "C/ Antonio Machado 26 esq. Pío Baroja", "C/ Pío Baroja 14 esq. Miguel Delibes", "C/ Miguel Delibes 40 esq. Unamuno", "Ctra. Rueda fte. Madroño", "Ctra. Rueda fte. 187 fte. Hotel", "Ctra. Rueda 232 Col. Ave María", "Ctra. Rueda Parque Artillería", "Ctra. Rueda piscinas FASA", "El Pinar de Antequera sentido Puente Duero", "Ctra. Rueda fte. Cuartel Teniente Galiana", "C/ Real 24", "C/ Real 106 Pza. Damián Tascón Prieto", "Cañada Valdestillas 21"]
         }
       ],
-      "letreros": ["18 18 CISTERNIGA", "18 18 PZA. CIRCULAR", "18 18 PUENTE DUERO", "18 18 PINAR", "18 18 DOS DE MAYO", "18 18 PINARILLO", "18 18 PZA. ESPAÑA"],
+      "letreros": ["18011 PUENTE DUERO","18012 CISTERNIGA", , "18021 DOS DE MAYO", "18042 PZA. CIRCULAR", "18051 PINAR", "18061 PINARILLO", "18032 PZA. ESPAÑA"],
       "notas": ["NOTA: figuran en negrita las paradas de los recorridos de aplicación en festivos (desde Pza. España a La Cistérniga).", "PROLONGACIÓN A *EL PINARILLO*: Todos los sábados y festivos del año. Desde el 1 de julio al 15 de septiembre (ambos incluidos), TODOS los días."],
       "horarios": [
         {"nombre": "6 coches A", "tipoDia": "Lunes a Sábados Laborables", "coches": 6, "paginaPDF": 94, "descanso": "15 min", "cochesDetalle": [
@@ -560,7 +560,7 @@
           "paradas": ["Camino de Las Yeseras Polideportivo Municipal", "C/ Cuesta Redonda piscinas Municipales", "C/ Castillejo fte. 4-6", "Pza. Mayor fte. 29 (La Cistérniga)", "C/ Lucio Zumel esq. Avda. Soria", "Avda. Soria 32", "C/ Oro 4", "C/ Pirita fte. 10 esq. Aluminio", "C/ Pirita 13 fte. Esmeralda", "C/ Arribes del Duero esq. Cañón del Río Lobos", "C/ Parque Picos de Europa esq. Sierra de Gredos", "Ctra. Segovia Colegio Hijas de Jesús", "C/ Víctimas del Terrorismo esq. Ctra. Segovia", "C/ Víctimas del Terrorismo Hospital Río Hortega", "C/ Armonio 3 esq. Laúd", "C/ Miguel Ruiz de Temiño esq. Pº J. Carlos I sentido centro", "Pº Juan Carlos I 20 esq. General Shelly", "Pº Juan Carlos I fte. 29 Col. Pablo Picasso", "C/ San Isidro 43 entrada túnel", "Pza. Circular 7 esq. Industrias", "C/ Nicolás Salmerón 19 esq. Labradores", "Pza. Caño Argales", "C/ Dos de Mayo esq. Divina Pastora", "Pza. Zorrilla 3 esq. Santiago", "Pº Zorrilla 52 esq. Pº Hospital Militar", "Pº Zorrilla 88 fte. Pza. de Toros", "Pº Zorrilla 130 Centro Comercial", "Pº Zorrilla 166 fte. LAVA", "Pº Zorrilla 198 Bº La Rubia", "Pº Zorrilla 236 Centro Comercial", "Cañada Real 74 fte. Vinos Ribera de Duero", "Cañada Real 144 esq. Vega de Valdetronco", "C/ Antonio Machado esq. Pío Baroja", "C/ Pío Baroja 14 esq. Miguel Delibes", "C/ Miguel Delibes 40 esq. Unamuno", "Ctra. Rueda fte. Madroño", "Ctra. Rueda fte. 187 fte. Hotel", "Ctra. Rueda 232 Col. Ave María", "Ctra. Rueda Parque Artillería", "Ctra. Rueda piscinas FASA", "El Pinar de Antequera sentido Puente Duero", "Ctra. Rueda fte. Cuartel Teniente Galiana", "C/ Real 24", "C/ Real 106 Pza. Damián Tascón Prieto", "Cañada Valdestillas 21"]
         }
       ],
-      "letreros": ["19 19 CISTERNIGA", "19 19 PZA. CIRCULAR", "19 19 PUENTE DUERO", "19 19 PGNO. LA MORA", "19 19 DOS DE MAYO", "19 19 PINAR", "19 19 PZA. ESPAÑA", "19 19 PINARILLO"],
+      "letreros": ["19011 CISTERNIGA", "19021 PZA. CIRCULAR", "19012 PUENTE DUERO", "19081 PGNO. LA MORA", "19082 DOS DE MAYO", "19032 PINAR", "19022 PZA. ESPAÑA", "19052 PINARILLO"],
       "notas": ["DE LUNES A SÁBADOS LABORABLES, PRESTE ESPECIAL ATENCIÓN AL RECORRIDO DE LÍNEA QUE LLEVA EN CADA HORARIO, YA QUE, EN CASI TODOS LOS SERVICIOS, LA IDA SE HACE COMO UNA LÍNEA Y EL REGRESO SE HACE COMO LA OTRA.", "PROLONGACIÓN A *EL PINARILLO*: Todos los sábados y festivos del año. Desde el 1 de julio al 15 de septiembre (ambos incluidos), todos los días."],
       "horarios": [
         {"nombre": "6 coches A", "tipoDia": "Lunes a Sábados Laborables", "coches": 6, "paginaPDF": 94, "descanso": "15 min", "cochesDetalle": [
@@ -585,7 +585,7 @@
           "paradas": ["Cañada Real 560", "Cañada Real fte. Vivero", "Cañada Real fte. PRAE", "Cañada Real Hípica", "Cañada Real fte. Col. El Pilar", "C/ Miguel Delibes 14", "C/ Miguel Delibes 40 esq. Unamuno", "C/ Santiago Alba 18", "Pº Lorenzo Arrazola fte. Manuel Mucientes", "C/ Anselmo Miguel Nieto esq. Puertas de Vall.", "Ctra. Rueda fte. Vinos de Cigales", "Ctra. Rueda 81 esq. Tierra de Sepúlveda", "Ctra. Rueda 47 fte. Inserso", "Ctra. Rueda 37 esq. Corta", "Ctra. Rueda 19 esq. Mota", "Pº Zorrilla 101 LAVA", "Pº Zorrilla 71 esq. Arzobispo García Goldáraz"]
         }
       ],
-      "letreros": ["23 23 CAÑ-COVARESA", "23 23 ZORRILLA, 71", "23 23 ZORRILLA, 130", "23 23 COVARESA-CAÑ"],
+      "letreros": ["2051 ZORRILLA, 71", "2052 COVARESA-CAÑ"],
       "notas": [],
       "horarios": [
         {"nombre": "Horarios", "tipoDia": "Lunes a Sábados Laborables", "coches": null, "paginaPDF": 98, "descanso": "—", "cochesDetalle": [
@@ -608,7 +608,7 @@
           "paradas": ["Pº Isabel La Católica Pza. Poniente", "Pza. Fuente Dorada", "C/ Bajada de La Libertad 10 fte. Teatro Calderón", "Avda. Ramón y Cajal 3 Hospital Clínico", "C/ Gondomar 12 esq. Santa Clara", "C/ Rondilla Sta. Teresa fte. ant. Hosp. Río Hortega", "Pza. San Nicolás 13", "Avda. Burgos 14 esq. Pisuerga", "Avda. Burgos 38 fte. Policía Municipal", "Avda. Burgos 54", "Avda. Burgos 72", "C/ Peseta esq. Avda. Burgos", "Avda. Euro Mercaloid", "C/ Títulos esq. Los Traductores", "C/ Títulos fte. puente de hierro", "C/ Títulos esq. Guindal", "C/ Arrabal 12", "Pza. Alfonso X"]
         }
       ],
-      "letreros": ["24 24 LA OVERUELA", "24 24 PZA. PONIENTE", "24 24 FERIA VALL", "24 24 PANADEROS"],
+      "letreros": ["24012 LA OVERUELA", "24011 PZA. PONIENTE", "24031 FERIA VALL", "24021 PANADEROS"],
       "notas": ["Servicios especiales días Laborables (lunes a viernes excepto mes de agosto): *08:00 h. de La Overuela a Pza. Poniente fte. Jorge Guillén y continúa a Pza. Fuente Dorada, C/ López Gómez 13 esq. Fray Luis de León y C/ Panaderos 2. *14:30 h. de C/ Dos de Mayo esq. Divina Pastora, C/ Doctrinos 12, Pº Isabel La Católica, Pza. Poniente y recorrido habitual sentido La Overuela."],
       "horarios": [
         {"nombre": "1 coche A", "tipoDia": "Lunes a Domingos", "coches": 1, "paginaPDF": 100, "descanso": "—", "cochesDetalle": [
@@ -631,7 +631,7 @@
           "paradas": ["Ctra. Madrid Centro San Juan de Dios", "Pº Zorrilla 153 frente Centro Comercial", "Pº Zorrilla 101 LAVA", "Pº Zorrilla 65 fte. Centro Comercial", "Pº Zorrilla 1 antiguo Hosp. Militar", "Pza. España 13 fte. Bola del Mundo"]
         }
       ],
-      "letreros": ["26 26 COL.S.J.DIOS", "26 26 PZA.ESPAÑA"],
+      "letreros": ["16021 COL.S.J.DIOS", "16022 PZA.ESPAÑA"],
       "notas": ["El recorrido de la línea será por: * Sentido San Juan de Dios: desde Pº Zorrilla se continúa por Avda. Zamora y Ctra. Madrid hasta San Juan de Dios. * Sentido Pza. España: desde Ctra. Madrid se continúa por Avda. Zamora, Pº Zorrilla (con las paradas indicadas), Pº Filipinos, Pza. Colón y Gamazo hasta Pza. España."],
       "horarios": [
         {"nombre": "Horarios", "tipoDia": "Lunes a Viernes Laborables", "coches": null, "paginaPDF": 102, "descanso": "—", "cochesDetalle": [
@@ -651,7 +651,7 @@
           "paradas": ["C/ Adolfo Miaja de la Muela fte. Núñez de Guzmán", "C/ José Garrote Tebar 20 esq. Manuel Silvela", "C/ Ciudad de La Habana 1 esq. Amadeo Arias", "C/ Hernando de Acuña 13 esq. Manuel Silvela", "C/ Hernando de Acuña 1 esq. Mateo Seoane S.", "C/ Dr. Villacián 5 esq. Mariano de los Cobos", "C/ Dr. Villacián 3 fte. Monasterio de Prado", "Pº Zorrilla 130 Centro Comercial", "Pº Zorrilla 166 fte. LAVA", "Pº Zorrilla 198 Bº La Rubia", "Pº Zorrilla 238 Centro Comercial", "Avda. El Norte de Castilla 47", "Avda. El Norte de Castilla 23", "C/ Daniel del Olmo 18 fte. ITV", "C/ Arca Real Centro Madrid", "C/ Padre Benito Menni esq. Caamaño", "C/ Embajadores 57 esq. La Transición", "C/ Embajadores fte. 72 esq. Hornija", "C/ Embajadores fte. 58 Esc. Oficial de Idiomas", "Avda. Segovia Ig. del Carmen", "Avda. Segovia 99 esq. Olmedo", "Avda. Segovia 57 esq. Pº San Vicente", "Pº San Vicente 35 esq. Sevilla", "C/ Cádiz 15", "C/ Cigüeña 4 Ig. San Isidro", "C/ Cigüeña 14", "C/ Villabáñez 19 Ig. San Ignacio de Loyola", "Pza. Vadillos 7 esq. Palacio Valdés", "Pº del Caue Centro Salud Pilarica", "Pº del Caue Ing. Industriales", "Pº Prado de La Magdalena 18 Filosofía y Letras", "Pza. Dr. Jiménez Díaz esq. Penitencia", "C/ Soto 4 esq. Avda. Palencia", "C/ Moradas 31 esq. Nebrija", "C/ Moradas 21 esq. Card. Cisneros", "C/ Cardenal Torquemada fte. 16", "C/ Rondilla de Santa Teresa fte. antiguo Hosp. Río Hortega", "Pza. San Nicolás 13", "C/ Fuente El Sol 2 esq. Pza. San Bartolomé", "C/ Júpiter fte. 12 esq. Comuneros de Castilla", "Avda. Gijón 26 Canal", "Avda. Gijón fte. Cristo Rey", "C/ Enseñanza esq. Avda. Gijón", "Avda. Las Contiendas 97", "Avda. Los Cerros Pza. Cine Castilla", "C/ Mieses 40", "C/ Mieses esq. Monast. Santa María Retuerta", "C/ Monast. S. L. de El Escorial esq. S. E. Gormaz", "C/ Monast. S. L. de El Escorial C.C. Miguel Delibes", "C/ Adolfo Miaja de la Muela esq. Jorge Vidal (pintor)", "C/ Adolfo Miaja de la Muela 6 esq. H. de Acuña"]
         }
       ],
-      "letreros": ["C1 CIRCULAR 1"],
+      "letreros": ["21011 C1 CIRCULAR 1"],
       "notas": ["Los tiempos de paso indicados en las paradas de 'Pº Zorrilla 166 fte. LAVA', 'Avda. Segovia Ig. del Carmen' y 'Fuente El Sol 2' son obligados.", "En el último servicio de cada horario añadir el letrero intercambiable para indicar el destino final ('Finaliza en Parquesol' - 'Finaliza en La Victoria').", "El transbordo no es gratuito entre la línea C1 y la línea C2."],
       "horarios": [
         {"nombre": "9 coches A", "tipoDia": "Lunes a Viernes Laborables", "coches": 9, "paginaPDF": 105, "descanso": "20 min", "cochesDetalle": [
@@ -686,7 +686,7 @@
           "paradas": ["C/ Cigüeña 41 esq. Villabáñez", "C/ Cigüeña 21", "C/ Cigüeña 1 esq. San Isidro", "Pº San Vicente 16 esq. Álava", "Avda. Segovia fte. 57", "C/ Embajadores 4 esq. Pº Farnesio", "Avda. Segovia fte. Ig. del Carmen", "C/ Embajadores 60 fte. Esc. Oficial de Idiomas", "C/ Embajadores 74 esq. Hornija", "C/ La Transición 3", "C/ Arca Real fte. Centro Madrid", "C/ Daniel del Olmo fte. 20 ITV", "Avda. El Norte de Castilla 14", "Avda. El Norte de Castilla 22D esq. Forja", "Avda. El Norte de Castilla 48", "Pº Zorrilla 153 fte. Centro Comercial", "Ctra. Rueda 36 esq. Mota", "Ctra. Rueda fte. 41", "Ctra. Rueda fte. 53 Imserso", "Ctra. Rueda esq. Vega Sicilia", "Ctra. Rueda esq. Vinos de Cigales", "C/ Anselmo Miguel Nieto esq. Ctra. Rueda", "Pº Lorenzo Arrazola esq. Manuel Mucientes", "C/ Santiago Alba 3", "Pza. Castilla y León 1"]
         }
       ],
-      "letreros": ["C2 CIRCULAR 2"],
+      "letreros": ["22011 CIRCULAR 2", "22012 COVARESA],
       "notas": ["MERCADILLO en Prado de la Magdalena: SÁBADOS NO FESTIVOS se suprimen las paradas de C/ Real de Burgos 3 fte. Iglesia San Pedro y Pº Prado Magdalena 6 fte. Residencia Alfonso VIII."],
       "horarios": [
         {"nombre": "8 coches A", "tipoDia": "Lunes a Viernes Laborables", "coches": 8, "paginaPDF": 119, "descanso": "20 min", "cochesDetalle": [
@@ -716,7 +716,7 @@
           "paradas": ["C/ Víctimas del Terrorismo Hospital Río Hortega", "Ctra. Segovia esq. Víctimas del Terrorismo", "C/ Padre Benito Menni fte. 6 esq. Caamaño", "C/ Arca Real fte. Centro Madrid", "C/ Arca Real fte. 163", "Pº Zorrilla 153 frente Centro Comercial", "Pº Zorrilla 133 Bº La Rubia", "Pº Zorrilla 101 LAVA", "Pº Zorrilla 71 esq. Arzobispo García Goldáraz"]
         }
       ],
-      "letreros": ["H H RIO HORTEGA", "H H ZORRILLA 71"],
+      "letreros": ["35011 RIO HORTEGA", "35012 ZORRILLA 71"],
       "notas": ["El servicio de las 7:20 de Pº Zorrilla 71, debe esperar en la parada de Pº Zorrilla 166 fte. LAVA a los viajeros de línea C1 de 7:10 de Parquesol.", "Además de los horarios reflejados en la hoja de 3 coches A, existe un servicio adicional a las 22:12 desde Hospital Río Hortega.", "Sábados y festivos, esta línea no presta servicio."],
       "horarios": [
         {"nombre": "3 coches A", "tipoDia": "Lunes a Viernes Laborables", "coches": 3, "paginaPDF": 132, "descanso": "15 min", "cochesDetalle": [
