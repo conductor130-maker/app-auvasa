@@ -1,55 +1,11 @@
-# Cómo escribir en este manual
+#MANUAL DEL CONDUCTOR
+### 1 Servicio
 
-Este manual se escribe en un archivo de texto, `manual.md`. Cada **título de sección** (una línea que empieza por `# `) se convierte en un botón de la pantalla «Manuales y normativa».
-
-## Títulos y subtítulos
-
-Usa `## ` para un subtítulo y `### ` para un apartado más pequeño. Así se ven:
-
-## Subtítulo de ejemplo
-### Apartado de ejemplo
-
-## Negritas, cursivas y subrayado
-
-- `**negrita**` se ve así: **negrita**
-- `*cursiva*` se ve así: *cursiva*
-- `__subrayado__` se ve así: __subrayado__
-- `==resaltado==` se ve así: ==resaltado==
-
-## Colores
-
-Pon el color entre llaves y ciérralo con `{/}`: `{rojo}texto{/}`.
-
-- {rojo}Rojo{/}, {azul}azul{/}, {verde}verde{/}, {naranja}naranja{/}, {morado}morado{/} y {gris}gris{/}.
-- Con fondo: {fondo-amarillo}fondo amarillo{/}, {fondo-rojo}fondo rojo{/} o {fondo-verde}fondo verde{/}.
-- Se pueden combinar: **{rojo}negrita roja{/}**.
-
-## Listas y notas
-
-1. Primer paso
-2. Segundo paso
-3. Tercer paso
-
-> Una línea que empieza por `> ` sale como un aviso destacado.
-
-## Tablas
-
-| Falta | Qué hacer |
-|---|---|
-| Retraso en la salida | Avisar a {azul}Central{/} |
-| Avería | Llamar al {rojo}servicio de averías{/} |
-
----
-
-Una línea con `---` dibuja una raya separadora. Para ver cómo escribirlo en el móvil, pulsa **✏️ Editar** en la pantalla del manual: tiene botones para cada formato y una vista previa.
-
-# 1 Servicio
-
-## 1.1 INICIO DEL SERVICIO:
+#### 1.1 INICIO DEL SERVICIO:
 
 Los conductores que se vayan a incorporar a las líneas deben esperar en lugares donde se moleste lo menos posible a los vecinos. Los motores se mantendrán apagados hasta 4 minutos antes del inicio del servicio.
 
-## 1.2 SERVICIOS CON TRAYECTOS PARCIALES:
+#### 1.2 SERVICIOS CON TRAYECTOS PARCIALES:
 
 Cuando se empiece en un punto intermedio del trayecto (bien porque esté determinado en el horario o bien porque se trate de un refuerzo), se deberá programar el recorrido adecuado de acuerdo con la tabla de DATOS que aparece en la hoja de recorridos de cada línea.
 
@@ -266,3 +222,52 @@ Primero se pulsa el interruptor para dar contacto, está ubicado en el lado izqu
 ### 8.2.13 IRIZAR E-TRAM (601 al 611)
 
 Primero poner contacto, pulsador con símbolo de batería. Esperar al inicio del sistema y cuando el autobús en pantalla aparece en color gris y el botón de arranque parpadea pisar el freno, verificar que el cambio está en neutro y proceder al arranque. Debe pulsar el botón de arranque hasta que el autobús en pantalla pase a verde.
+
+
+
+
+# Cómo escribir en este manual
+
+Este manual se escribe en un archivo de texto, `manual.md`. Cada **título de sección** (una línea que empieza por `# `) se convierte en un botón de la pantalla «Manuales y normativa».
+
+## Títulos y subtítulos
+
+Usa `## ` para un subtítulo y `### ` para un apartado más pequeño. Así se ven:
+
+## Subtítulo de ejemplo
+### Apartado de ejemplo
+
+## Negritas, cursivas y subrayado
+
+- `**negrita**` se ve así: **negrita**
+- `*cursiva*` se ve así: *cursiva*
+- `__subrayado__` se ve así: __subrayado__
+- `==resaltado==` se ve así: ==resaltado==
+
+## Colores
+
+Pon el color entre llaves y ciérralo con `{/}`: `{rojo}texto{/}`.
+
+- {rojo}Rojo{/}, {azul}azul{/}, {verde}verde{/}, {naranja}naranja{/}, {morado}morado{/} y {gris}gris{/}.
+- Con fondo: {fondo-amarillo}fondo amarillo{/}, {fondo-rojo}fondo rojo{/} o {fondo-verde}fondo verde{/}.
+- Se pueden combinar: **{rojo}negrita roja{/}**.
+
+## Listas y notas
+
+1. Primer paso
+2. Segundo paso
+3. Tercer paso
+
+> Una línea que empieza por `> ` sale como un aviso destacado.
+
+## Tablas
+
+| Falta | Qué hacer |
+|---|---|
+| Retraso en la salida | Avisar a {azul}Central{/} |
+| Avería | Llamar al {rojo}servicio de averías{/} |
+
+---
+
+Una línea con `---` dibuja una raya separadora. Para ver cómo escribirlo en el móvil, pulsa **✏️ Editar** en la pantalla del manual: tiene botones para cada formato y una vista previa.
+
