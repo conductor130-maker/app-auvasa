@@ -75,12 +75,8 @@ function irA(id, pushHistory = true) {
   if (id === 'pantalla-archivos' && window.archInit) window.archInit();
   if (window.navActivo) window.navActivo(id);
   
-  const btnFlotante = document.getElementById('btn-volver-flotante');
-  if (id === 'pantalla-tipos') {
-    btnFlotante.classList.add('oculto');
-  } else {
-    btnFlotante.classList.remove('oculto');
-  }
+  const btnAtras = document.getElementById('btn-atras');
+  if (btnAtras) btnAtras.classList.toggle('oculto', id === 'pantalla-tipos');
 
   if (pushHistory) {
     history.pushState({ pantalla: id }, '', '#' + id);

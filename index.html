@@ -20,7 +20,7 @@
 
 <header class="cabecera">
   <div class="cabecera-top">
-    <h1><img src="icon-192.png" class="logo" alt=""><span>AUVASA</span></h1>
+    <button id="btn-atras" class="btn-atras oculto" onclick="volverAtras()" aria-label="Atrás">‹</button><h1><img src="icon-192.png" class="logo" alt=""><span>AUVASA</span></h1>
     <div class="acciones">
       <button id="btnBuscar" title="Buscar">🔍</button>
       <button id="btnOscuro" title="Modo oscuro">🌓</button>
@@ -80,12 +80,13 @@
   <!-- NUEVA PANTALLA PARA EL MANUAL -->
   <section id="pantalla-manual" class="pantalla">
     <div class="man-cab"><h2 id="titulo-manual">Manuales y normativa</h2><button class="btn-edit" onclick="manualEditar()">✏️ Editar</button></div>
+    <div class="man-tools"><input id="man-q" type="search" placeholder="Buscar en el manual"><button id="man-open">Abrir todo</button><button id="man-close">Cerrar todo</button></div>
     <div id="lista-manual" class="lista-manual"></div>
     <div id="contenido-manual" class="md"></div>
     <div id="manual-editor" class="oculto">
       <h3 class="sec-tit">Editor</h3>
       <div class="me-barra" id="me-barra">
-        <button data-a="h1">Título</button><button data-a="h2">Subtítulo</button><button data-a="h3">Apartado</button>
+        <button data-a="h1">Título</button><button data-a="h2">Subtítulo</button><button data-a="h3">Apartado</button><button data-a="h4">Nivel 4</button>
         <button data-a="b"><b>N</b></button><button data-a="i"><i>C</i></button><button data-a="u"><u>S</u></button><button data-a="mark">Resaltar</button>
         <button data-a="c-rojo" class="col rojo">A</button><button data-a="c-azul" class="col azul">A</button><button data-a="c-verde" class="col verde">A</button><button data-a="c-naranja" class="col naranja">A</button><button data-a="c-morado" class="col morado">A</button><button data-a="c-gris" class="col gris">A</button><button data-a="f-amarillo">Fondo</button>
         <button data-a="ul">• Lista</button><button data-a="ol">1. Lista</button><button data-a="nota">Aviso</button><button data-a="hr">Raya</button><button data-a="tabla">Tabla</button>

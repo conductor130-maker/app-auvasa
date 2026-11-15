@@ -109,11 +109,19 @@ function renderHoy() {
   const rg = gtfsRange(G()), p = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Madrid' }).format(new Date()).replace(/-/g, '');
   if (rg && (p < rg[0] || p > rg[1])) { box.innerHTML = `<p class="arch-nota">El GTFS cargado solo cubre del <b>${fmtD(rg[0])}</b> al <b>${fmtD(rg[1])}</b>, así que no puedo saber qué horario toca hoy. Sube un GTFS nuevo (<code>gtfs.zip</code>) al repositorio.</p>`; return; }
   const { res, sin } = hoyCompute(DATOS.lineas, G(), window.bx.svcToday, todayInfo());
-  box.innerHTML = (res.map(x => `<div class="hoy-linea"><span class="hoy-num">${esc(x.l.id)}</span><div class="hoy-det"><div class="hoy-nom">${esc(x.l.nombre)}</div><div class="hoy-chips">${x.groups.map(g => g.idx >= 0 ? `<button class="hoy-chip" data-l="${esc(x.l.id)}" data-i="${g.idx}">${esc(g.name)}<small>${esc(g.tipoDia)}</small></button>` : `<span class="hoy-chip off">${esc(g.name)}<small>no está en el libro</small></span>`).join('')}</div></div></div>`).join('') || '<p class="mu">Hoy no hay líneas con servicio según el GTFS cargado.</p>')
+  box.innerHTML = (res.map(x => { const ok = x.groups.filter(g => g.idx >= 0); return `<div class="hoy-linea"${ok.length == 1 ? ` data-l="${esc(x.l.id)}" data-i="${ok[0].idx}" data-n="${esc(ok[0].name)}" data-t="${esc(ok[0].tipoDia)}"` : ''}><span class="hoy-num">${esc(x.l.id)}</span><div class="hoy-det"><div class="hoy-nom">${esc(x.l.nombre)}</div><div class="hoy-chips">${x.groups.map(g => g.idx >= 0 ? `<button class="hoy-chip" data-l="${esc(x.l.id)}" data-i="${g.idx}" data-n="${esc(g.name)}" data-t="${esc(g.tipoDia)}">${esc(g.name)}<small>${esc(g.tipoDia)}</small></button>` : `<span class="hoy-chip off">${esc(g.name)}<small>no está en el libro</small></span>`).join('')}</div></div></div>`; }).join('') || '<p class="mu">Hoy no hay líneas con servicio según el GTFS cargado.</p>')
     + (sin.length ? `<p class="mu hoy-sin">Sin servicio hoy: ${sin.map(esc).join(', ')}</p>` : '');
 }
 window.hoyInit = () => { if (window.gxInit) window.gxInit(); renderHoy(); };
-window.abrirHoy = (lid, i) => { const l = DATOS.lineas.find(x => x.id === lid); if (!l) return; lineaActual = l; listaGruposFiltrada = l.horarios; abrirGrupo(+i); };
+window.abrirHoy = (lid, i, nombre, tipo) => {
+  try {
+    const l = DATOS.lineas.find(z => z.id === lid); if (!l) throw new Error('no encuentro la línea ' + lid);
+    const hs = l.horarios || []; let k = hs.findIndex(h => h.nombre === nombre && (!tipo || (h.tipoDia || '') === tipo));   // by name: does not depend on the position
+    if (k < 0) k = +i;
+    if (!hs[k]) throw new Error('no encuentro el horario «' + (nombre || i) + '» de la línea ' + lid);
+    lineaActual = l; listaGruposFiltrada = hs; abrirGrupo(k);
+  } catch (e) { alert('No se pudo abrir el horario: ' + e.message); }
+};
 
 /* ============ Archivos ============ */
 const FILES = [
@@ -166,7 +174,7 @@ function md2html(md) {
     const t = L[i++].trim(); let m;
     if (!t) { flush(); endList(); continue; }
     if (/^\|.*\|$/.test(t)) { flush(); endList(); const rows = [t]; while (i < L.length && /^\|.*\|$/.test(L[i].trim())) rows.push(L[i++].trim()); h += mdTable(rows); continue; }
-    if ((m = /^(#{1,4})\s+(.*)$/.exec(t))) { flush(); endList(); h += `<h${m[1].length} class="md-h${m[1].length}">${inline(m[2])}</h${m[1].length}>`; continue; }
+    if ((m = /^(#{1,6})\s+(.*)$/.exec(t))) { flush(); endList(); h += `<h${m[1].length} class="md-h${m[1].length}">${inline(m[2])}</h${m[1].length}>`; continue; }
     if (/^-{3,}$/.test(t)) { flush(); endList(); h += '<hr>'; continue; }
     if ((m = /^>\s?(.*)$/.exec(t))) { if (para.length) flush(); endList(); quote.push(m[1]); continue; }
     if ((m = /^[-*•]\s+(.*)$/.exec(t))) { flush(); if (list !== 'ul') { endList(); h += '<ul>'; list = 'ul'; } h += '<li>' + inline(m[1]) + '</li>'; continue; }
@@ -174,6 +182,34 @@ function md2html(md) {
     if (quote.length) flush(); endList(); para.push(t);
   }
   flush(); endList(); return h;
+}
+// Tree of headings: # opens ## which opens ### ... (up to 6 levels); each node keeps its own text and its children
+function mdTree(md) {
+  const root = { level: 0, title: '', lines: [], kids: [] }, stack = [root];
+  String(md).replace(/\r/g, '').split('\n').forEach(l => {
+    const m = /^(#{1,6})\s+(.*)$/.exec(l);
+    if (m) {
+      const n = { level: m[1].length, title: m[2].trim(), lines: [], kids: [] };
+      while (stack.length > 1 && stack[stack.length - 1].level >= n.level) stack.pop();
+      stack[stack.length - 1].kids.push(n); stack.push(n);
+    } else stack[stack.length - 1].lines.push(l);
+  });
+  return root;
+}
+function nodeHTML(n, openAll) {
+  return `<details class="md-n md-n${Math.min(n.level, 6)}"${openAll ? ' open' : ''}><summary>${inline(n.title)}</summary><div class="md-body">${md2html(n.lines.join('\n'))}${n.kids.map(k => nodeHTML(k, openAll)).join('')}</div></details>`;
+}
+function treeHTML(md, openAll) {
+  const t = mdTree(md), intro = md2html(t.lines.join('\n'));
+  return (intro.trim() ? `<div class="md md-intro">${intro}</div>` : '') + t.kids.map(k => nodeHTML(k, openAll)).join('');
+}
+// Search: show (and open) only the branches that contain the text
+function filtrarManual(q, root) {
+  q = String(q || '').trim().toLowerCase();
+  root.querySelectorAll('details').forEach(d => { d.hidden = false; d.open = false; });
+  root.querySelectorAll('.md-intro').forEach(e => { e.hidden = !!q; });
+  if (!q) return;
+  root.querySelectorAll('details').forEach(d => { const hit = d.textContent.toLowerCase().includes(q); d.hidden = !hit; if (hit) d.open = true; });
 }
 function sections(md) {
   const out = []; let cur = { title: 'Introducción', lines: [], intro: true };
@@ -188,15 +224,16 @@ async function manualText() {
 }
 window.manualAbrir = async function () {
   irA('pantalla-manual'); $('#manual-editor').classList.add('oculto');
-  manualSecs = sections(await manualText());
-  $('#lista-manual').innerHTML = manualSecs.map((s, i) => `<button class="btn-manual" data-i="${i}">📄 ${esc(s.title)}</button>`).join('') || '<p class="mu">El manual está vacío.</p>';
-  $('#contenido-manual').innerHTML = '<p class="mu">Selecciona una sección.</p>';
+  const md = await manualText();
+  $('#lista-manual').innerHTML = '';
+  $('#contenido-manual').innerHTML = treeHTML(md, false) || '<p class="mu">El manual está vacío.</p>';
+  const q = $('#man-q'); if (q) q.value = '';
 };
 const ACT = {   // toolbar: text before / after the selection, or a prefix for the line
   b: ['**', '**'], i: ['*', '*'], u: ['__', '__'], mark: ['==', '=='], 'c-rojo': ['{rojo}', '{/}'], 'c-azul': ['{azul}', '{/}'], 'c-verde': ['{verde}', '{/}'],
   'c-naranja': ['{naranja}', '{/}'], 'c-morado': ['{morado}', '{/}'], 'c-gris': ['{gris}', '{/}'], 'f-amarillo': ['{fondo-amarillo}', '{/}']
 };
-const PREFIX = { h1: '# ', h2: '## ', h3: '### ', ul: '- ', ol: '1. ', nota: '> ' };
+const PREFIX = { h1: '# ', h2: '## ', h3: '### ', h4: '#### ', ul: '- ', ol: '1. ', nota: '> ' };
 function toolbar(a) {
   const t = $('#me-txt'), s = t.selectionStart, e = t.selectionEnd, v = t.value, sel = v.slice(s, e);
   let ins, ns, ne;
@@ -207,11 +244,11 @@ function toolbar(a) {
   else return;
   t.value = v.slice(0, s) + ins + v.slice(e); t.selectionStart = ns; t.selectionEnd = ne; t.focus(); prev();
 }
-const prev = () => { $('#me-prev').innerHTML = md2html($('#me-txt').value); };
+const prev = () => { $('#me-prev').innerHTML = treeHTML($('#me-txt').value, true); };
 window.manualEditar = async function () {
   const ed = $('#manual-editor'); ed.classList.remove('oculto'); $('#me-txt').value = await manualText(); prev(); ed.scrollIntoView({ behavior: 'smooth' });
 };
-window.__md = { md2html, sections, inline };
+window.__md = { md2html, sections, inline, mdTree, treeHTML, filtrarManual };
 
 /* ============ Navegación inferior y pantalla de inicio ============ */
 window.navActivo = id => {
@@ -233,18 +270,17 @@ function init() {
     if (go === 'mis-paradas') { irA('pantalla-tipos'); if (!panelOpen) window.togglePanelParadas(); const bt = $('#btn-misparadas'); if (bt) bt.scrollIntoView({ block: 'start' }); }
     else if (go === 'pantalla-favoritos') { renderFavoritos(); irA(go); } else irA(go);
   });
-  const hl = $('#hoy-lista'); if (hl) hl.addEventListener('click', e => { const c = e.target.closest('.hoy-chip[data-l]'); if (c) window.abrirHoy(c.dataset.l, c.dataset.i); });
+  const hl = $('#hoy-lista'); if (hl) hl.addEventListener('click', e => { const c = e.target.closest('.hoy-chip[data-l]') || e.target.closest('.hoy-linea[data-l]'); if (c) window.abrirHoy(c.dataset.l, c.dataset.i, c.dataset.n, c.dataset.t); });
   const am = $('#arch-mis'); if (am) am.addEventListener('click', async e => {
     const dl = e.target.closest('[data-dl]'), rm = e.target.closest('[data-rm]');
     if (dl) { const f = await tx('readonly', s => s.get(dl.dataset.dl)); if (f) { const a = document.createElement('a'); a.href = URL.createObjectURL(f.blob); a.download = f.name; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000); } }
     if (rm && confirm('¿Eliminar «' + rm.dataset.rm + '» de este dispositivo?')) { await tx('readwrite', s => s.delete(rm.dataset.rm)); renderMis(); }
   });
   const af = $('#arch-add'); if (af) af.onchange = async e => { for (const f of e.target.files) await tx('readwrite', s => s.put({ name: f.name, type: f.type, size: f.size, date: Date.now(), blob: f })); e.target.value = ''; renderMis(); };
-  const lm = $('#lista-manual'); if (lm) lm.addEventListener('click', e => {
-    const b = e.target.closest('.btn-manual'); if (!b) return; const s = manualSecs[+b.dataset.i]; if (!s) return;
-    lm.querySelectorAll('.btn-manual').forEach(x => x.classList.toggle('sel', x === b));
-    const c = $('#contenido-manual'); c.innerHTML = `<h2 class="md-h1">${inline(s.title)}</h2>` + md2html(s.lines.join('\n')); c.scrollIntoView({ behavior: 'smooth' });
-  });
+  const mq = $('#man-q'); if (mq) mq.addEventListener('input', () => filtrarManual(mq.value, $('#contenido-manual')));
+  const setAll = v => $('#contenido-manual').querySelectorAll('details').forEach(d => { d.hidden = false; d.open = v; });
+  const mo = $('#man-open'); if (mo) mo.onclick = () => { if (mq) mq.value = ''; setAll(true); };
+  const mc = $('#man-close'); if (mc) mc.onclick = () => { if (mq) mq.value = ''; filtrarManual('', $('#contenido-manual')); };
   const bar = $('#me-barra'); if (bar) bar.addEventListener('click', e => { const b = e.target.closest('button[data-a]'); if (b) toolbar(b.dataset.a); });
   const tx2 = $('#me-txt'); if (tx2) tx2.addEventListener('input', prev);
   const q = (id, fn) => { const el = $(id); if (el) el.onclick = fn; };
