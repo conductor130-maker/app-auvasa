@@ -4,11 +4,13 @@
 1. Añadir recorridos y CUBE eventos especiales ( ferias, Conciertos, etc)
 1. Añadir convenio nuevo
 1. Añadir normativa prestación del servicio
-1. 1. En el manual, que la búsqueda la realice también en la tabla de las paradas.
+---
+1. Añadir en el buscador la posibilidad de encontrar paradas por número o nombre
+
 
 
 # Actualizaciones
-{naranja}Sin actualizaciones{/}
+El buscador ya busca las paradas {naranja}**16/11/26.**{/}
 
 # MANUAL DEL CONDUCTOR
 ## 1 Servicio
@@ -236,596 +238,273 @@ Primero se pulsa el interruptor para dar contacto, está ubicado en el lado izqu
 Primero poner contacto, pulsador con símbolo de batería. Esperar al inicio del sistema y cuando el autobús en pantalla aparece en color gris y el botón de arranque parpadea pisar el freno, verificar que el cambio está en neutro y proceder al arranque. Debe pulsar el botón de arranque hasta que el autobús en pantalla pase a verde.
 
 
-# Listado de paradas
-
-| Número de Parada | Denominación | Líneas |
-|---|---|
- | 550 | Calle Hernando de Acuña 1 esquina Mateo Seoane Sobral | 8; 9; B3; C1; M5; PSC1; U8 |
- | 551 | Calle Hernando de Acuña 13 esquina Manuel Silvela | 8; 9; B3; C1; M5; PSC1 |
- | 552 | Calle Hernando de Acuña 18 esquina Manuel Silvela | 8; 9; B3; C2; PSC3 |
- | 553 | Calle Hernando de Acuña Parcela 21 esquina Juan de Valladolid | 8; 9; B3; C2; PSC3 |
- | 554 | Calle Padre Benito Menni esquina Caamaño | 4; C1; H; PSC1 |
- | 555 | Calle Aluminio frente 5 | 13 |
- | 556 | Calle Aluminio 7 esquina Turquesa | 13; P13; PSC1 |
- | 558 | Calle Angustias 5 Teatro Calderón | 1; 2; B1; F5; M2; P1; P2 |
- | 560 | Calle Arca Real frente Centro Madrid | C2; H; P6; PSC3 |
- | 561 | Calle Arca Real Centro Madrid | C1; H; PSC1 |
- | 564 | Calle Argales frente 21 Inst. Arca Real | 9 |
- | 565 | Calle Argales 4 | 9 |
- | 566 | Calle Arrabal 12 | 24 |
- | 567 | Calle Arrabal 13 | 24 |
- | 568 | Avenida Miguel Ángel Blanco 2 frente Plaza del Milenio | 3; 5; 6; 8; B2; B3; F3; F4; F5 |
- | 569 | Avenida Miguel Ángel Blanco frente 23 esquina Pío del Río Hortega | 3 |
- | 570 | Avenida Miguel Ángel Blanco Plaza del Milenio | 5 |
- | 572 | Avenida Miguel Ángel Blanco 5 esquina Avenida Salamanca | 3; 5; F6; P3 |
- | 573 | Calle Azalea esquina Flor de Acebo | 3; B3; F3; M6; PSC3 |
- | 574 | Calle Azalea esquina Alhelí | 3; B3; F3 |
- | 575 | Calle Azucena 18 esquina Dalia | 3; B3; F3; M6; PSC3 |
- | 576 | Calle Bálago esquina Ramón Pradera | 5; 6; B2; F6 |
- | 577 | Calle Bálago esquina Sementera | 5; 6; B2; M4; P6 |
- | 580 | Calle Barbecho frente 31 | 3 |
- | 581 | Calle Barbecho 31 | 3; P3 |
- | 583 | Calle Pío Baroja 14 esquina Miguel Delibes | 18; 19 |
- | 586 | Calle Pío Baroja 9 Iglesia San Simón de Rojas | 18; 19 |
- | 587 | Paseo Jardín Botánico frente 6 | 5; 6; B2; M4; P3; P6 |
- | 588 | Paseo Jardín Botánico frente Jara | 5; 6; B2; M4; P3; P6 |
- | 589 | Paseo Jardín Botánico 6 | 5; 6; B2 |
- | 590 | Paseo Jardín Botánico Parcela 7 frente Centro Salud La Victoria | 5; 6; B2 |
- | 591 | Paseo Jardín Botánico Parcela 8 Centro Salud La Victoria | 5; 6; B2; M4; P3; P6 |
- | 593 | Calle Bronce 3 AUVASA | 16; P1; P2; P6; P7; PSC1; PSC3 |
- | 596 | Avenida Burgos Policía Municipal | 24 |
- | 597 | Avenida Burgos 14 esquina Pisuerga | 24 |
- | 598 | Avenida Burgos 27 | 24 |
- | 599 | Avenida Burgos 9 esquina La Victoria | 24 |
- | 600 | Avenida Burgos 38 frente Policía Municipal | 24 |
- | 601 | Avenida Burgos 39 | 24 |
- | 603 | Avenida Burgos 54 | 24 |
- | 604 | Avenida Burgos 72 | 24 |
- | 607 | Cañada Real frente Colegio El Pilar | 2; 23; B1; F1; M1 |
- | 608 | Cañada Real frente Hípica | 23 |
- | 610 | Cañada Real 220 Colegio El Pilar | 23; P2 |
- | 611 | Cañada Real Hípica | 23 |
- | 617 | Cañada Real 560 | 23 |
- | 618 | Avenida Soria esquina Diego Velázquez | 13; 18; 19; B5 |
- | 619 | Calle Castillejo frente 4-6 | 13; 18; 19; B5; M7 |
- | 621 | Paseo Isabel La Católica Plaza Poniente | 4; 24 |
- | 622 | Paseo Isabel La Católica Instituto Núñez de Arce | U8 |
- | 623 | Paseo Isabel La Católica 27 esquina Conde Benavente | 4 |
- | 624 | Paseo del Cauce frente Industriales | B3; C2; PSC2 |
- | 625 | Paseo del Cauce frente Centro Salud Pilarica | 7; B3; C2; F4; P7; PSC2 |
- | 627 | Paseo del Cauce Industriales | B3; C1; M6; U1 |
- | 628 | Paseo del Cauce Centro Salud Pilarica | 7; B3; C1; F4; M6 |
- | 629 | Calle Cerrada 1 esquina Santa Clara | 17; B1; C2; F6; M2; PSC2 |
- | 630 | Avenida Los Cerros esquina Oriental | 3; B2; C2 |
- | 631 | Avenida Los Cerros esquina Tajahierro | 3; B2; C1; M4; P3 |
- | 632 | Avenida Los Cerros 1 esquina Transformador | 3; B2; C1; M4; P3 |
- | 633 | Avenida Los Cerros 46 esquina Hogar | 3; B2; C2 |
- | 634 | Calle Cigüeña 21 | 3; 18; B5; C2; F3; PSC2; PSC3 |
- | 635 | Calle Cigüeña 14 | 3; 18; B5; C1; F3 |
- | 636 | Calle Cigüeña 1 esquina Paseo San Isidro | 3; 18; B5; C2; F3; PSC2; PSC3 |
- | 639 | Calle Cigüeña 40 esquina Villabáñez | 3; 33; F3 |
- | 640 | Calle Cigüeña 41 esquina Villabáñez | 3; B3; C2; F3; PSC2; PSC3 |
- | 641 | Calle Cigüeña 4 Iglesia San Isidro | 3; 18; B5; C1; F3 |
- | 642 | Calle Cardenal Cisneros esquina San Juan de Ávila | 17; B1; C2; F6; PSC2 |
- | 643 | Calle Cobalto 69 esquina Topacio | 13; 14; 17; P13; PSC1 |
- | 644 | Calle Cobalto 28 esquina Pirita | 13; 17; P3; PSC2 |
- | 645 | Calle Cobalto 49 esquina Galena | 13; 14; 17; P13; PSC1 |
- | 646 | Calle Cobalto frente 69 esquina Topacio | 13; 14; 17; P3; PSC2 |
- | 647 | Calle Cobalto 21 esquina Pirita | 13; 17; P13; PSC1 |
- | 648 | Calle Cobalto 42 esquina Galena | 13; 14; 17; P3; PSC2 |
- | 649 | Calle Puente Colgante 1 frente Est. de Autobuses | 2; 9; B1; F2; M1; P13; U1 |
- | 651 | Calle Puente Colgante 2 Estación de Autobuses | 2; 9; B1; F2; P2 |
- | 653 | Calle Puente Colgante 18 esquina Gabilondo | 2; 9; B1; F2; P2 |
- | 657 | Avenida Las Contiendas frente 109 | 3; B2; C2 |
- | 658 | Calle Chancillería 4 Biblioteca Reina Sofía | 8; F5 |
- | 661 | Calle Chile Instituto Antonio Tovar | 7 |
- | 663 | Calle Miguel Delibes 19B esquina Unamuno | 2; 18; 19; 23 |
- | 664 | Calle Miguel Delibes 40 esquina Unamuno | 2; 18; 19; 23; B1; F1; M1 |
- | 665 | Calle Don Sancho 7 | 17 |
- | 666 | Calle Duque de La Victoria 23 esquina Plaza España | 2; B1; B5; M1 |
- | 667 | Calle Ecuador esquina Venezuela | 7 |
- | 668 | Calle Embajadores 60 frente Escuela Oficial de Idiomas | 6; B2; C2; F2; P6; PSC3 |
- | 669 | Calle Embajadores frente 72 esquina Hornija | 6; 9; B2; C1; F2; M3 |
- | 670 | Calle Embajadores frente 58 escuela Oficial de Idiomas | 6; 9; B2; C1; F2; M3 |
- | 671 | Calle Embajadores 4 esquina Paseo Farnesio | 6; 13; 14; B2; C2; F2; P13; P6; PSC3 |
- | 672 | Calle Embajadores 57 esquina Transición | 6; 9; B2; C1; F2; M3 |
- | 673 | Calle Embajadores 74 esquina Hornija | 6; B2; C2; F2; P6; PSC3 |
- | 674 | Calle Embajadores 92 esquina Transición | 6; B2; F2 |
- | 675 | Calle Enseñanza esquina Avenida Gijón | 3; B2; C1; M4; P3 |
- | 677 | Avenida Valle Esgueva 87 esquina Paseo Belén | 8; F5 |
- | 678 | Avenida Valle Esgueva 6 Económicas | 8; F5; U1; U8 |
- | 679 | Avenida Valle Esgueva 41 frente Económicas | 8; F5 |
- | 680 | Paseo Farnesio frente 19 frente Arca Real | 9 |
- | 682 | Calle Fray Luis de León 14 esquina López Gómez | 8; B3 |
- | 683 | Calle Fuente El Sol 2 esquina Plaza San Bartolomé | 5; 6; B2; C1; F6 |
- | 684 | Calle Fuente El Sol 21 | 5; 6; B2; M4; P3; P6 |
- | 686 | Calle Gamazo 17 esquina Bailén | 2; 9; B1; M1; P13 |
- | 687 | Avenida Gijón frente Cristo Rey | B2; C1; M4; P3 |
- | 688 | Avenida Gijón 82 frente Chopos | 3 |
- | 690 | Avenida Gijón frente Júpiter | 5; 6; B2; C2; F6 |
- | 691 | Avenida Gijón 71 Cementerio Las Contiendas | 3 |
- | 692 | Avenida Gijón 29 esquina Chopos | 3 |
- | 694 | Avenida Gijón Cristo Rey | B2; C2 |
- | 695 | Avenida Gijón 26 Canal | 4; 5; 6; B2; C1; F6; M4; P3; P6 |
- | 696 | Avenida Gijón 3 frente Canal | 4; 5; 6; B2; C2; F6 |
- | 697 | Avenida Gijón 6 Plaza San Bartolomé | 4; F6 |
- | 698 | Calle Gondomar 12 esquina Santa Clara | 1; 2; 17; 24; B1 |
- | 699 | Calle Ciudad de La Habana 1 esquina Amadeo Arias | 8; 10; C1 |
- | 700 | Calle Ciudad de La Habana frente 3 esquina Juan G. Hortelano | 8; C2 |
- | 703 | Paseo Juan Carlos I 109 | 3; F3 |
- | 706 | Calle Labradores 1 esquina Plaza Cruz Verde | 7; 33; F4 |
- | 707 | Calle Labradores 38 túnel | 6; 9; 13; 14; P13; P6 |
- | 708 | Calle Labradores 45 esquina Niña Guapa | 6; 9; 13; 14 |
- | 709 | Calle José María Lacort 6 esquina Plaza España | 3; F3; P3 |
- | 711 | Paseo Arco Ladrillo 31 esquina Paseo Farnesio | 4 |
- | 715 | Avenida Julián Merino Lápice Piscinas Municipales | 13; 18; 19; B5 |
- | 716 | Calle Bajada de La Libertad 10 frente Teatro Calderón | 1; 2; 24; B1; F5 |
- | 717 | Calle López Gómez 13 esquina Fray Luis de León | 3; 4; 6; B2; B5; F3; F4; M4; M5; P3; P6 |
- | 719 | Calle Antonio Machado esquina Pío Baroja | 18; 19 |
- | 720 | Calle Antonio Machado esquina José María Pemán | 18; 19 |
- | 722 | Calle Madre de Dios 15 | 8; B3; F5; M6 |
- | 723 | Calle Madre de Dios 20 Facultad de Comercio | 8; F5; U8 |
- | 724 | Calle Madre de Dios 29 frente Facultad de Comercio | 8; F5 |
- | 726 | Carretera Madrid Centro San Juan de Dios | 26 |
- | 729 | Avenida Medina del Campo 15 frente Centro Salud Arturo Eyríes | 10; B4; F1 |
- | 730 | Avenida Medina del Campo frente Barlovento | 7; 10; B4; F1 |
- | 731 | Avenida Medina del Campo esquina Barlovento | 7; 10; B4; F1 |
- | 732 | Avenida Medina del Campo frente 19 Centro Salud Arturo Eyríes | 10; B4; F1 |
- | 733 | Calle Vázquez de Menchaca 21 esquina Avenida Zamora | 16 |
- | 734 | Calle Vázquez de Menchaca 33 | 16 |
- | 735 | Calle Vázquez de Menchaca 40 esquina Avenida Zamora | 16; P1; P2; P6; P7; PSC1; PSC3 |
- | 736 | Calle Vázquez de Menchaca 19 | P1; P2; P6; P7; PSC1; PSC3 |
- | 737 | Calle Vázquez de Menchaca 5 | P1; P2; P6; P7; PSC1; PSC3 |
- | 738 | Calle Vázquez de Menchaca 9 | P1; P2; P6; P7; PSC1; PSC3 |
- | 742 | Calle Adolfo Miaja de la Muela esquina Remigio Cabello Toral | C2 |
- | 743 | Calle Adolfo Miaja de la Muela 6 esquina Hernando de Acuña | C1 |
- | 744 | Calle Mieses frente 40 | 3; C2 |
- | 747 | Calle Mieses frente 16 | 5; 6; F6 |
- | 749 | Calle Mieses 40 | 3; C1; P3 |
- | 751 | Calle Moradas 21 esquina Cardenal Cisneros | 1; C1; F6; P2 |
- | 752 | Calle Moradas 31 esquina Nebrija | 1; B1; C1; F6; M2; P2 |
- | 754 | Calle La Morena edificio Antares | 5; 6; P6 |
- | 755 | Calle La Morena 3 Bloque 2 | 5; 6; P6 |
- | 757 | Avenida Gloria Fuertes 1 esquina Joaquín Velasco Martín | 4; 6; 24; B2; M4; P6 |
- | 759 | Avenida Gloria Fuertes 4 esquina Avenida Salamanca | 6 |
- | 761 | Avenida Mundial 82 Estadio José Zorrilla | F1; F2; F3; F4; F5; F6 |
- | 766 | Calle Daniel del Olmo 18 frente ITV | C1 |
- | 767 | Calle Daniel del Olmo esquina Paseo Zorrilla | 16; 26; C1; P1; P2; P7; PSC1 |
- | 768 | Calle Daniel del Olmo 6 | 16; C1; P1; P2; P7; PSC1 |
- | 769 | Calle Daniel del Olmo frente 20 ITV | C2; P6; PSC3 |
- | 770 | Calle Daniel del Olmo 9 | 16; C2; PSC3 |
- | 771 | Calle Títulos esquina Guindal | 24 |
- | 772 | Calle Títulos frente Guindal | 24 |
- | 773 | Calle Títulos frente Los Traductores | 24 |
- | 774 | Calle Títulos puente de hierro | 24 |
- | 775 | Calle Títulos esquina Los Traductores | 24 |
- | 776 | Calle Títulos frente puente de hierro | 24 |
- | 778 | Avenida Palencia 2 | 2; B1 |
- | 779 | Avenida Palencia 41 Policía Municipal | 2; B1; F6; M2; P1 |
- | 780 | Avenida Palencia frente 41 esquina Amor de Dios | 2; B1; F6 |
- | 781 | Calle Panaderos 2 esquina Plaza España | 6; 9; B2; B5; F4; P6 |
- | 782 | Calle Alonso Pesquera 5 esquina Fidel Recio | 7; 33; F4 |
- | 784 | El Pinar de Antequera | 18; 19 |
- | 785 | Calle Pirita frente 10 esquina Aluminio | 9; 13; 17; 19; P13; PSC1 |
- | 786 | Calle Pirita 10 | 9; 13; 17; 19; P3; PSC2 |
- | 787 | Páramo San Isidro frente 1 | 18; B5 |
- | 788 | Páramo San Isidro frente 17 | 18; B5 |
- | 789 | Páramo San Isidro frente 38 | 18; B5 |
- | 790 | Páramo San Isidro esquina Avenida Soria | 18; B5 |
- | 791 | Páramo San Isidro 1 | 18; B5 |
- | 792 | Páramo San Isidro 15 | 18; B5 |
- | 793 | Páramo San Isidro 38 | 18; B5 |
- | 794 | Avenida Ramón Pradera frente Feria de Valladolid | 5; 6; B2; F6 |
- | 795 | Avenida Ramón Pradera frente Hotel | 4; 5; 6; 24; B2; F6; M4; P6 |
- | 796 | Avenida Ramón Pradera Feria de Valladolid | 4; 5; 6; 24; B2; F6; M4; P6 |
- | 797 | Avenida Ramón Pradera 15-17 | 4; 24; F6 |
- | 798 | Paseo Prado de La Magdalena 18 Filosofía y Letras | B3; C1; M6 |
- | 799 | Paseo Prado de La Magdalena 6 frente Residencia Alfonso VIII | B3; C2; PSC2 |
- | 800 | C/ San Isidro 30 esquina Cádiz | 17; 19; P3 |
- | 801 | C/ San Isidro 43 entrada Túnel | 17; 19; M7 |
- | 802 | Calle Puente La Reina 67 | 3; 33; F3; PSC3 |
- | 803 | Plaza Juan de Austria frente Centro Comercial | 9; 10; B4; C2; F2; PSC3 |
- | 804 | Plaza Juan de Austria Centro Comercial | 9; B4; F2 |
- | 805 | Avenida Gijón 1 esquina Plaza San Bartolomé | 4; C2 |
- | 807 | Plaza Caño Argales | 3; 6; 9; 13; 14; 18; 19; B2; B5; F3; M3; M7 |
- | 808 | Plaza Circular 11 Iglesia Corazón de María | 3; 17; 18; 19; B2; B5; F2; F3; P3 |
- | 809 | Plaza Circular 7 esquina Industrias | 3; 17; 18; 19; B2; B5; F2; F3; M3; M7; U1 |
- | 811 | Plaza Cruz Verde 5 | 3; 18; 19; B2; B5; F2; F3; P3 |
- | 812 | Plaza Fuente Dorada | 1; 2; 3; 4; 6; 8; 24; B1; B2; B3; B4; B5; F3; F4; F5; M1; M2; M3; M4; M5; M6; M7; P3; P6 |
- | 813 | Plaza España Bola del Mundo | 1; 2; 4; 7; 8; B1; B3; F4; F5; M2; M4; M5; M6; P1; P2; P7 |
- | 814 | Plaza España 12 Iglesia Capuchinos | 7; 13; P13 |
- | 815 | Plaza España 13 frente Bola del Mundo | 18; 19; 26 |
- | 816 | Plaza Carmen Ferreiro | 2; B1; F6; M2; P1 |
- | 817 | Plaza Doctor Jiménez Díaz esquina Penitencia | C1 |
- | 818 | Plaza Madrid 2 | 3; 6; 9; B2; F3; M3; M7 |
- | 819 | Plaza Mayor frente 29 (La Cistérniga) | 13; 18; 19; B5; M7 |
- | 820 | Plaza Mayor 29 (La Cistérniga) | 13; 18; 19; B5 |
- | 823 | Plaza Doctor Quemada Iglesia Santo Domingo Guzmán | 7; 10; B4; F1 |
- | 824 | Plaza San Juan | 7; 8; 17; 33; B3; F4; M6; P7 |
- | 825 | Plaza San Nicolás 13 | 24; C1; F6 |
- | 826 | Plaza Colegio Santa Cruz 9 | 7; 8; 33; B3; F4 |
- | 827 | Plaza Alfonso X | 24 |
- | 828 | Plaza Universidad esquina López Gómez | 1; 2; B1; F5; M2; P1; P2 |
- | 829 | Plaza Uruguay esquina Honduras | 7 |
- | 830 | Plaza Vadillos 7 esquina Palacio Valdés | 17; 33; B3; C1; M6 |
- | 831 | Plaza Zorrilla Campo Grande | 5; 7; 18; 19 |
- | 832 | Plaza Zorrilla 3 esquina Santiago | 1; 4; 7; 18; 19; B4; P1; P7 |
- | 833 | Avenida Ramón y Cajal 3 Hospital Clínico | 1; 2; 8; 17; 24; B1; F5 |
- | 834 | Calle Rastrojo 7 frente Colegio Giner de los Ríos | 3 |
- | 835 | Calle Rastrojo 6 Colegio Giner de los Ríos | 3; P3 |
- | 836 | Calle Real 7 | 18; 19; B4 |
- | 837 | Calle Real 106 Plaza Damián Tascón Prieto | 18; 19; B4 |
- | 838 | Calle Real frente 7 | 18; 19; B4 |
- | 839 | Calle Real 85 frente Plaza Damián Tascón Prieto | 18; 19; B4 |
- | 840 | Calle Real de Burgos frente Iglesia San Pedro Apóstol | 8; 17; B3; C2; M6; PSC2 |
- | 842 | Calle Fidel Recio 1 esquina Alonso Pesquera | 7; 8; 33; B3; F4; M6; P7 |
- | 844 | Calle Estación del Norte esquina Recondo | 2; 9; B1; P2 |
- | 846 | Calle Renedo 29 | 7; 17; 33; F4; P7 |
- | 847 | Calle Pío del Río Hortega 9 | 5; B2; F6 |
- | 848 | Carretera Rueda frente Parque Artillería | 18; 19 |
- | 849 | Carretera Rueda frente Cuartel Teniente Galiana | 18; 19 |
- | 850 | Carretera Rueda frente 232 frente Colegio Ave María | 18; 19 |
- | 851 | Carretera Rueda esquina Madroño | 18; 19 |
- | 852 | Carretera Rueda frente Vinos de Cigales | 2; 23; B1; M1 |
- | 853 | Carretera Rueda 187 Hotel | 18; 19 |
- | 854 | Carretera Rueda frente 41 | 2; 23; B1; P2 |
- | 855 | Carretera Rueda 131 Centro Deportivo | 1; B1; F1; M1; P13 |
- | 856 | Carretera Rueda Parque Artillería | 18; 19 |
- | 857 | Carretera Rueda Cuartel Teniente Galiana | 18; 19 |
- | 858 | Plaza Castilla y León 1 | 1; B1; F1; M1; P13; U1 |
- | 859 | Carretera Rueda 232 Colegio Ave María | 18; 19 |
- | 860 | Carretera Rueda frente Madroño | 18; 19 |
- | 861 | Carretera Rueda esquina Vinos de Cigales | 2; 23; B1; P2 |
- | 862 | Carretera Rueda frente 187 frente Hotel | 18; 19 |
- | 863 | Carretera Rueda Piscinas FASA | 18; 19 |
- | 864 | Carretera Rueda 19 esquina Mota | 2; 5; 23; B1; M1 |
- | 865 | Carretera Rueda 36 esquina Mota | 2; 23; B1; P2 |
- | 866 | Carretera Rueda 37 esquina Corta | 2; 23; B1; M1 |
- | 867 | Carretera Rueda 47 frente Inserso | 2; 23; B1; M1 |
- | 868 | Carretera Rueda esquina Vega Sicilia | 2; 23; B1; P2 |
- | 869 | Plaza Vadillos frente 5 | 33; B3; C2; PSC2 |
- | 870 | Calle Francisco Mendizábal 5 | 10 |
- | 871 | Calle Nicolás Salmerón 19 esquina Labradores | 3; 18; 19; B2; B5; F2; F3; M3; M7 |
- | 872 | Calle San Cristóbal 15 esquina Avenida Soria | 13; 18; 19; B5 |
- | 875 | Calle Santa Lucía 62 esquina Plaza Luis Braille | 7; F4 |
- | 876 | Avenida Santander Endasa | 2; B1; F6; M2; P1 |
- | 877 | Avenida Santander frente Endasa | 2; B1; F6 |
- | 878 | Avenida Santander Centro Comercial | 2; B1; F6; M2; P1 |
- | 879 | Avenida Santander 49 Barrio España | 2; B1; F6; M2; P1 |
- | 880 | Avenida Santander 8 frente Barrio España | 2; B1; F6 |
- | 881 | Calle Santuario 5 esquina López Gómez | 7; 8; 33; B3; F4; M6; P7 |
- | 882 | Calle Transición 3 | C2; P6; PSC3 |
- | 883 | Avenida Segovia frente Iglesia del Carmen | 6; 13; 14; B2; C2; F2; P13; P6; PSC3 |
- | 884 | Carretera Segovia frente Colegio Hijas de Jesús | 4; 13; 14; P13; PSC1 |
- | 885 | Avenida Segovia frente 57 | 6; 9; 13; 14; B2; C2; F2; P13; P6; PSC3 |
- | 886 | Avenida Segovia Iglesia del Carmen | 6; 9; 13; 14; B2; C1; F2; M3 |
- | 887 | Avenida Segovia esquina Trabajo | 6; 9; 13; 14 |
- | 888 | Carretera Segovia Colegio Hijas de Jesús | 4; 13; 14 |
- | 889 | Avenida Segovia 161 frente Hornija | 13; 14 |
- | 890 | Avenida Segovia 57 esquina Paseo San Vicente | B2; C1; F2; M3 |
- | 891 | Avenida Segovia 88 esquina Hornija | 13; 14; P13 |
- | 892 | Avenida Segovia 99 esquina Olmedo | 6; 9; 13; 14; B2; C1; F2; M3 |
- | 895 | Camino Viejo Simancas Las Aceñas | 5; B4 |
- | 896 | Camino Viejo Simancas El Barrio | 5; B4 |
- | 897 | Camino Viejo Simancas Las Lagunillas | 5; B4 |
- | 898 | Camino Viejo Simancas esquina Encinas | 5; B4 |
- | 900 | Camino Viejo Simancas Pago La Bomba | 5; B4 |
- | 901 | Camino Viejo Simancas El Pichón | 5; B4 |
- | 902 | Camino Viejo Simancas El Pino | 5; B4 |
- | 903 | Camino Viejo Simancas 44 frente Centro Comercial | 5; B4 |
- | 904 | Camino Viejo Simancas Barrio Las Villas | 5 |
- | 905 | Camino Viejo Simancas frente Las Aceñas | 5; B4 |
- | 906 | Camino Viejo Simancas frente El Barrio | 5; B4 |
- | 907 | Camino Viejo Simancas frente Las Lagunillas | 5; B4 |
- | 908 | Camino Viejo Simancas frente Encinas | 5; B4 |
- | 910 | Camino Viejo Simancas frente Pago La Bomba | 5; B4 |
- | 911 | Camino Viejo Simancas frente El Pichón | 5 |
- | 912 | Camino Viejo Simancas frente El Pino | 5; B4 |
- | 913 | Camino Viejo Simancas 45 Centro Comercial | 5; B4 |
- | 914 | Camino Viejo Simancas frente Las Villas | 5 |
- | 915 | Camino Viejo Simancas frente INEA | 5; B4 |
- | 916 | Camino Viejo Simancas 21 Centro Educativo | 5; B4 |
- | 917 | Camino Viejo Simancas frente Vega de Valdetronco | 5; B4 |
- | 918 | Camino Viejo Simancas frente Fábrica Mirapinos | 5; B4 |
- | 919 | Camino Viejo Simancas INEA | 5; B4 |
- | 920 | Camino Viejo Simancas Barrio La Rubia | 5; B4 |
- | 921 | Camino Viejo Simancas 34 Barrio San Adrián | 5; B4 |
- | 922 | Camino Viejo Simancas esquina Vega de Valdetronco | 5; B4 |
- | 923 | Camino Viejo Simancas Fábrica Mirapinos | 5; B4 |
- | 924 | Camino Viejo Simancas puente | 5; B4 |
- | 926 | Avenida Zamora frente Colegio San Agustín | 16 |
- | 927 | Avenida El Norte de Castilla 47 | 16 |
- | 928 | Avenida El Norte de Castilla 19 esquina Forja | 16 |
- | 930 | Avenida El Norte de Castilla 14 | 16; P1; P2; P6; P7; PSC1; PSC3 |
- | 931 | Avenida El Norte de Castilla 48 | 16; P1; P2; P6; P7; PSC1; PSC3 |
- | 932 | Avenida El Norte de Castilla frente 19 | 16; P1; P2; P6; P7; PSC1; PSC3 |
- | 933 | Carretera Soria frente San Cristóbal | 18; B5; M7 |
- | 934 | Carretera Soria esquina Paseo Juan Carlos I | 17; P3; PSC2 |
- | 935 | Carretera Soria esquina San Isidro | 17; M7 |
- | 936 | Carretera Soria raqueta Cuartel | 17; M7 |
- | 937 | Carretera Soria San Cristóbal | 18; B5 |
- | 938 | Carretera Soria Iveco | 17; P3; PSC2 |
- | 939 | Carretera Soria esquina Carraca | 18; B5 |
- | 940 | Calle Sotavento esquina Avenida Medina del Campo | 7 |
- | 941 | Calle Soto 4 esquina Avenida Palencia | C1 |
- | 945 | Calle Templarios 3 esquina Puente La Reina | 3; 33; F3 |
- | 946 | Calle Templarios 6 esquina Puente La Reina | 3; 33; F3; PSC3 |
- | 947 | Calle Rondilla de Santa Teresa frente antiguo Hospital Río Hortega | 24; C1; F6 |
- | 949 | Calle José Garrote Tebar 20 esquina Manuel Silvela | 8; 9; B3; C1; M5; PSC1; U8 |
- | 950 | Calle José Garrote Tebar 21 | C2 |
- | 951 | Calle José Garrote Tebar 4 esquina Amadeo Arias | 8; 9; B3; C1; M5; PSC1 |
- | 952 | Calle Topacio esquina Aluminio | 13; 14; P13; PSC1 |
- | 953 | Calle Topacio 5 | 13; 14 |
- | 954 | Calle Topacio 21 | 14; 17 |
- | 955 | Calle Cardenal Torquemada frente antiguo Hospital Río Hortega | PSC2 |
- | 956 | Calle Cardenal Torquemada esquina Rondilla Santa Teresa | 1; 17; B1 |
- | 957 | Calle Cardenal Torquemada frente 16 | 1; C1; F6; P2 |
- | 959 | Calle Cardenal Torquemada 54 Centro Salud Rondilla | 1 |
- | 960 | Calle Cardenal Torquemada esquina Tirso de Molina | 1; 17; B1; C2; F6; PSC2 |
- | 961 | Calle Cardenal Torquemada 50 esquina Soto | 1 |
- | 962 | Cañada Valdestillas 21 | 18; 19; B4 |
- | 964 | Calle Joaquín Velasco Martín 54 frente Polideportivo Huerta del Rey | 8; B3; F3; F5 |
- | 965 | Calle Joaquín Velasco Martín 9 Polidortivo Huerta del Rey | 8; B3; F3; F5; M5 |
- | 966 | Calle Joaquín Velasco Martín 17 Colegio María de Molina | 8; B3; M5 |
- | 967 | Calle Joaquín Velasco Martín 1 esquina Gloria Fuertes | 3; 8; B3; F3; F4; F5; M5; P3 |
- | 968 | Calle Joaquín Velasco Martín 20 esquina Francesco Scrimieri | 8; B3; F3; F5 |
- | 969 | Calle Joaquín Velasco Martín 3 Colegio La Inmaculada | 3; 6; 8; B3; F3; F4; F5; M5; P3; U8 |
- | 970 | Calle Venezuela Instituto Antonio Tovar | 7 |
- | 971 | Paseo San Vicente 16 esquina Álava | B2; C2; F2; PSC3 |
- | 972 | Paseo San Vicente 35 esquina Sevilla | B2; C1; F2; M3 |
- | 973 | Calle La Victoria frente 31 esquina San Sebastián | C2; F6 |
- | 976 | Calle Villabáñez 131 esquina Camino Viejo del Polvorín | 3; F3; PSC3 |
- | 978 | Calle Villabáñez 19 Iglesia San Ignacio de Loyola | 33; B3; C1; M6 |
- | 982 | Calle Villabáñez 55 esquina Golondrina | 3; F3; PSC3 |
- | 984 | Calle Doctor Villacián frente 5 frente Mariano de los Cobos | 9; C2; PSC3 |
- | 985 | Calle Doctor Villacián Monasterio de Prado | 9; C2; PSC3 |
- | 986 | Calle Doctor Villacián 3 frente Monasterio de Prado | 9; C1; PSC1 |
- | 987 | Calle Doctor Villacián 5 esquina Mariano de los Cobos | 9; C1; PSC1 |
- | 990 | Paseo Zorrilla 166 frente LAVA | 1; 2; 5; 16; 18; 19; 23; 26; B1; B4; C1; F1; H; P1; P2; P7; PSC1 |
- | 991 | Paseo Zorrilla 88 frente Plaza de Toros | 1; 2; 5; 7; 9; 18; 19; B1; B4; F2; P1; P2; P7 |
- | 992 | Paseo Zorrilla 65 frente Centro Comercial | 1; 2; 5; 7; 10; 18; 19; 26; B1; C2; M1; P13; PSC3; U1 |
- | 993 | Paseo Zorrilla 153 frente  Centro Comercial | 1; 18; 19; F1; P13 |
- | 995 | Paseo Zorrilla 101 LAVA | 1; 2; 16; 18; 19; 23; 26; B1; C2; F1; H; M1; P13; PSC3 |
- | 997 | Paseo Zorrilla 1 antiguo Hospital Militar | 1; 5; 7; 18; 19; 26; B4 |
- | 998 | Paseo Zorrilla 130 Centro Comercial | 1; 2; 5; 7; 10; 18; 19; 23; 26; B1; C1; P1; P2; P7; PSC1 |
- | 999 | Paseo Zorrilla 133 La Rubia | 1; 18; 19; F1; P13; U1 |
- | 1000 | Paseo Zorrilla 198 La Rubia | 1; 18; 19; F1; P1 |
- | 1001 | Paseo Zorrilla 236 Centro Comercial | 1; 18; 19; F1 |
- | 1002 | Paseo Zorrilla 39 esquina Puente Colgante | 1; 5; 7; 18; 19; B4 |
- | 1003 | Paseo Zorrilla 52 esquina Paseo Hospital Militar | 1; 5; 7; 18; 19; 26; B4; P1; P7 |
- | 1004 | Paseo Zorrilla 89 esquina Goya | 5; 7; 10 |
- | 1006 | Calle Lucio Zumel esquina Avenida Soria | 13; 18; 19; B5; M7 |
- | 1007 | Calle Doctrinos 12 esquina María de Molina | 3; 4; 5; 6; 8; B2; B3; F3; F4; F5 |
- | 1025 | Plaza Poniente frente San Lorenzo |  |
- | 1038 | Paseo Zorrilla 187 esquina Vinos Vega Sicilia | 1; B4; F1; P13; U1 |
- | 1039 | Paseo Zorrilla 346 esquina Vinos Ribera de Duero | 1; B4; F1 |
- | 1043 | Paseo Zorrilla 203 esquina Vinos de Cigales | 1; B4; F1; P13 |
- | 1044 | Paseo Zorrilla 364 esquina Vinos de Rueda | 1; B4; F1 |
- | 1055 | Calle Santiago Alba 3 | 2; 23 |
- | 1065 | Cañada Real 74 frente Vinos Ribera de Duero | 18; 19 |
- | 1066 | Cañada Real 144 esquina Vega de Valdetronco | 18; 19; B4 |
- | 1067 | Cañada Real 67 esquina Vinos Ribera de Duero | 18; 19 |
- | 1068 | Cañada Real 131 esquina Vinos de Rueda | 18; 19 |
- | 1073 | Calle Portillo Balboa frente 60 esquina Amor de Dios | 1; P2 |
- | 1080 | Camino Viejo Simancas frente Santa Ana | 5; B4 |
- | 1081 | Camino Viejo Simancas Santa Ana | 5; B4 |
- | 1082 | Calle Anselmo Miguel Nieto esquina Carretera Rueda | 2; 23 |
- | 1084 | Calle Santiago Alba esquina Plaza Castilla y León |  |
- | 1085 | Calle Santiago Alba 18 | 2; 23 |
- | 1086 | Paseo Lorenzo Arrazola frente Manuel Mucientes | 2; 23 |
- | 1087 | Paseo Lorenzo Arrazola esquina Manuel Mucientes | 2; 23 |
- | 1088 | Calle Anselmo Miguel Nieto esquina Puertas de Valladolid | 2; 23 |
- | 1089 | Carretera Viana junto a Pinarillo. |  |
- | 1090 | Calle Peseta esquina Avenida Burgos | 24 |
- | 1091 | Calle Peseta Punto Limpio | 24 |
- | 1092 | Avenida Euro frente Mercaolid | 24 |
- | 1093 | Avenida Euro Mercaolid | 24 |
- | 1094 | Carretera Viana esquina Cañada Valdestillas |  |
- | 1102 | Paseo Juan Carlos I frente Bomberos Delicias | 9; 19 |
- | 1105 | Calle General Shelly 18 esquina Avenida Segovia | 9 |
- | 1109 | Calle Eusebio González Suárez frente Federico Landrove Moiño | 8; 9; B3; M5; PSC1; PSC3 |
- | 1110 | Calle Manuel Azaña 37 | 9; B3; M5; PSC1 |
- | 1113 | Calle Manuel Azaña esquina Juan García Hortelano | 9; B3; M5; PSC1 |
- | 1114 | Calle Hernando de Acuña  esquina Manuel Azaña | 9; B3; M5; PSC1 |
- | 1115 | Calle Hernando de Acuña 45 Bis | 9; B3; M5; PSC1 |
- | 1116 | Calle Hernando de Acuña 42 | 9; 10; B3; PSC3 |
- | 1117 | Calle Hernando de Acuña esquina Padre Llanos | 9; 10; B3; PSC3 |
- | 1118 | Calle Manuel Azaña 24 frente Juan García Hortelano | 9; 10; B3; PSC3 |
- | 1119 | Calle Manuel Azaña 56 | 9; 10; B3; PSC3 |
- | 1120 | Calle Federico Landrove Moiño 11 | 8; 9; B3; PSC3 |
- | 1127 | Paseo Isabel La Católica 1 esquina 20 de Febrero | 1; B4 |
- | 1128 | Carretera Fuensaldaña frente Subida Fuente el Sol | 4 |
- | 1129 | Calle Fuente del Berrocal Gasolinera | 4 |
- | 1130 | Calle El Barbero de Sevilla esquina Plaza de la Ópera | 4 |
- | 1141 | Calle Tirso de Molina frente Seminario | C2; F6 |
- | 1144 | Calle Tórtola esquina Cigüeña | B3 |
- | 1150 | Carretera Rueda frente 53 Inserso | 2; 23; B1; P2 |
- | 1151 | Carretera Rueda 81 esquina Tierra de Sepúlveda | 2; 23; B1; M1 |
- | 1153 | Calle Sotavento esquina Colombia | 7 |
- | 1155 | Calle Santa Clara 34 esquina Real de Burgos | 2; P1 |
- | 1156 | Calle Acera Recoletos frente 2 esquina Pza Zorrilla | 2; 9; B1; P2 |
- | 1158 | Calle Chancillería 5 | 2; B1; F5; M2; P1 |
- | 1159 | Calle Colón 14 | 8; 17; B3 |
- | 1161 | Calle Arca Real frente 201 |  |
- | 1163 | Calle Estación del Norte RENFE | 2; 9; B1; F2; M1; P13 |
- | 1164 | Paseo Jardín Botánico esquina Brezo | 5; 6; B2; M4; P3; P6 |
- | 1165 | Calle Jara esquina Hierbabuena | 5; 6; B2 |
- | 1166 | Avenida Salamanca esquina Doctor Villacián | B4 |
- | 1167 | Calle Vinos de Rueda esquina Cañada Real | B4 |
- | 1168 | Camino Viejo Simancas 15 esquina Vereda | 5; B4 |
- | 1169 | Avenida Salamanca esquina Puente Juan de Austria | 10; B4 |
- | 1170 | Calle Santa María de la Cabeza frente 39 | 3; B3; F3; PSC3 |
- | 1171 | Calle Santa María de la Cabeza 37 | 3; B3; F3; M6 |
- | 1172 | Calle Santa María de la Cabeza 9 | 3; B3; F3; M6 |
- | 1173 | Calle Santa María de la Cabeza frente 9 | 3; B3; F3; PSC3 |
- | 1175 | Calle Cádiz 4 esquina Bilbao | B2; F2 |
- | 1176 | Paseo Juan Carlos I esquina Abejaruco | 3; F3; PSC3 |
- | 1177 | Camino Viejo del Polvorín 12 | 3; F3 |
- | 1178 | Camino Viejo del Polvorín esquina Villabañez | 3; F3 |
- | 1181 | Plaza Poniente frente Jorge Guillén | 1; 3; 4; 6; 8; B2; B3; B4; F3; F4; F5; M4; M5; P3; P6 |
- | 1185 | Paseo Filipinos esquina Paseo Zorrilla | 4 |
- | 1187 | Calle Cádiz 21 | B2; C1; F2; M3 |
- | 1189 | Carretera Fuensaldaña esquina Subida Fuente el Sol | 4 |
- | 1190 | Calle Fuente del Berrocal frente Gasolinera | 4 |
- | 1191 | Avenida Valle Esgueva frente 81 esquina Incienso | 8; F5 |
- | 1192 | Calle Málaga esquina Bilbao | B2; F2; M3; PSC2 |
- | 1193 | Calle Sementera esquina Mieses | 5; 6; B2; F6 |
- | 1194 | Calle Topacio frente 33 | 14; 17; P3; PSC2 |
- | 1195 | Calle Topacio 2 | 14; 17; P3; PSC2 |
- | 1196 | Calle Topacio 39 | 14; 17 |
- | 1201 | Calle Cardenal Torquemada frente Polideportivo Rondilla | 1 |
- | 1202 | Calle Valle de Arán 48 | 1 |
- | 1203 | Calle Valle de Arán 76 esquina Costa Brava | 1 |
- | 1204 | Calle Costa Brava Centro Comercial | 1; P2 |
- | 1205 | Calle Costa Brava 1 esquina Costa Dorada | 1; P2 |
- | 1206 | Calle Valle de Arán frente 40 | 1; P2 |
- | 1207 | Calle Miguel Ruiz de Temiño esquina Juan Carlos I sentido Centro | 9; 19; B2; F2; M3 |
- | 1208 | Calle Miguel Ruiz de Temiño esquina Juan Carlos I | 9; 19; B2; F2 |
- | 1209 | Calle Armonio esquina Laúd | 9; 19; B2; F2; M3 |
- | 1215 | Calle La Flauta Mágica esquina Electra | 4 |
- | 1216 | Calle Príncipe Ígor esquina La Flauta Mágica | 4 |
- | 1217 | Calle Fuente del Berrocal esquina El Barbero de Sevilla |  |
- | 1218 | Carretera Pesqueruela frente 1 esquina Carretera a Puente Duero | 5; B4 |
- | 1219 | Avenida Entrepinos 57 | 5; B4 |
- | 1220 | Avenida Miguel de Cervantes en Aparcamiento | 5; B4 |
- | 1222 | Carretera Pesqueruela 1 esquina Carretera a Puente Duero | 5; B4 |
- | 1227 | Avenida Entrepinos 52 esquina Tirso de Molina | 5; B4 |
- | 1228 | Paseo Zorrilla 10 | 5 |
- | 1233 | Camino Viejo Simancas 167 esquina José Velicia | 5; B4 |
- | 1234 | Camino Viejo Simancas frente 167 esquina Barcelona | 5; B4 |
- | 1235 | Calle Alamillos 11 | 8; 17; B3; M6 |
- | 1237 | Calle Adolfo Miaja de la Muela frente Padre Llanos | 8; B3; C2; M5; PSC3 |
- | 1238 | Calle Adolfo Miaja de la Muela esquina Padre Llanos | 8; B3; C1 |
- | 1239 | Calle Adolfo Miaja de la Muela Hospital Psiquiátrico | 8; B3; C2; M5 |
- | 1247 | Calle Mieses esquina Barbecho | C2 |
- | 1248 | Calle Mieses esquina Monasterio Santa María Retuerta | C1 |
- | 1249 | Calle Monasterio San Lorenzo de El Escorial esquina Monasterio de Yuste | C2 |
- | 1250 | Calle Monasterio San Lorenzo de El Escorial esquina San Estaben Gormaz | C1 |
- | 1254 | Calle Monasterio Santo Domingo de Silos frente 5 esquina Montserrat | 10 |
- | 1255 | Calle Monasterio de Yuste frente 28 esquina Mon. San Lorenzo de El Escorial | 8; B3; M5 |
- | 1256 | Calle Monasterio de Yuste 28 frente Monasterio San Lorenzo de El Escorial | 8; B3 |
- | 1257 | Calle Monasterio San Lorenzo de El Escorial Centro Cultural Miguel Delibes | 8; B3; C1 |
- | 1258 | Calle Monasterio San Lorenzo de El Escorial frente Centro Cultural Miguel Delibes | 8; B3; C2; M5 |
- | 1259 | Calle Joaquín Velasco Martín 108 frente Colegio María de Molina | 8; B3 |
- | 1261 | Calle Martín Santos Romero 60 | 10 |
- | 1262 | Calle Martín Santos Romero 140 | 10 |
- | 1263 | Calle Martín Santos Romero frente Siervas de Jesús |  |
- | 1264 | Calle Felipe Ruiz Martín 6 | 10 |
- | 1265 | Calle Felipe Ruiz Martín esquina Manuel Canesí Acevedo | 10 |
- | 1266 | Avenida Salamanca Puente de La Hispanidad | 10 |
- | 1268 | Calle Felipe Ruiz Martín frente Manuel Canesí Acevedo | 10 |
- | 1269 | Calle Felipe Ruiz Martín frente 6 | 10 |
- | 1270 | Calle Martín Santos Romero esquina Siervas de Jesús |  |
- | 1271 | Calle Martín Santos Romero frente 140 |  |
- | 1273 | Puente Juan de Austria esquina Avenida Salamanca | 10 |
- | 1276 | Calle Martín Santos Romero frente 60 | 10 |
- | 1277 | Calle Martín Santos Romero Campo José Luis Saso | 10 |
- | 1278 | Calle Martín Santos Romero frente Campo José Luis Saso | 10 |
- | 1279 | Paseo Zorrilla frente 10 Campo Grande | 1; B4 |
- | 1281 | Paseo Arco Ladrillo 50 esquina Adolfo Suárez | 4 |
- | 1282 | Paseo Arco Ladrillo 68 | 4 |
- | 1283 | Paseo Arco Ladrillo frente Transición | 4 |
- | 1287 | Calle Padre Benito Menni frente 6 esquina Caamaño | 4; H |
- | 1288 | Paseo Arco Ladrillo esquina Transición | 4 |
- | 1289 | Paseo Arco Ladrillo 49 esquina General Shelly | 4 |
- | 1290 | Calle Kilimanjaro 1 esquina Peñalara | 4; 16 |
- | 1296 | Calle Topacio 61 esquina Plomo | 14; 17 |
- | 1309 | Calle Oro frente 4 | 19 |
- | 1310 | Calle Oro 4 | 19 |
- | 1311 | Calle Pirita 67 | 9; 19 |
- | 1312 | Calle Pirita frente 67 | 9; 19 |
- | 1314 | Calle Víctimas del Terrorismo Hospital Río Hortega | 6; H |
- | 1315 | Calle Pirita 13 frente Esmeralda | 9; 17; 19 |
- | 1316 | Calle Pirita esquina Esmeralda | 9; 17; 19; P3; PSC2 |
- | 1317 | Calle Dulzaina frente 2  frente Hospital Río Hortega | 17 |
- | 1318 | Calle Dulzaina 2 Hospital Río Hortega | 9; 17; 19; P3; PSC2 |
- | 1319 | Carretera Segovia esquina Víctimas del Terrorismo | 4; 6; 14; H |
- | 1320 | Calle Víctimas del Terrorismo esquina Carretera Segovia | 6; H |
- | 1321 | Calle Carraca frente 41 esquina Avenida Soria | 17; P3; PSC2 |
- | 1322 | Calle Embajadores 71 | 6; 9; B2; F2; M3 |
- | 1323 | Avenida Salamanca frente Puente de La Hispanidad | 10 |
- | 1324 | Avenida Salamanca esquina Santiago López González | 10 |
- | 1325 | Avenida Salamanca esquina Fray Antonio de Córdoba | 10 |
- | 1326 | Calle Topacio 42 frente Plomo | 14; 17; P3; PSC2 |
- | 1327 | Calle Plomo 1 | 14; 17; P3; PSC2 |
- | 1328 | Calle Plomo 2 | 14; 17 |
- | 1329 | Calle Helio 4 esquina Acetileno | 14; 17; P3; PSC2 |
- | 1330 | Calle Helio 20 esquina Oxígeno | 14; 17; P3; PSC2 |
- | 1331 | Calle Helio 3 esquina Acetileno | 14; 17 |
- | 1332 | Calle Helio 15 | 14; 17 |
- | 1333 | Calle Helio esquina Nitrógeno | 14; 17; P3; PSC2 |
- | 1334 | Calle Castañuelas esquina Carraca | 9; 19; B2; F2; M3 |
- | 1335 | Calle Armonio 22 esquina Castañuelas | 9; 19; B2; F2 |
- | 1336 | Paseo Juan Carlos I 19 esquina Delicias | 19 |
- | 1337 | Paseo Juan Carlos I frente 29 Colegio Pablo Picasso | 19 |
- | 1338 | Paseo Juan Carlos I 20 esquina General Shelly | 19 |
- | 1340 | Calle Plata 43 | 14 |
- | 1341 | Calle Plata 58 esquina Galena | 14 |
- | 1344 | Calle Panaderos 4 esquina Divina Pastora | 14; 33 |
- | 1346 | Paseo Zorrilla 71 esquina Arzobispo García Goldáraz | 16; 23; H |
- | 1347 | Calle Puente Colgante 47 | 2; 9; B1; F2; M1; P13 |
- | 1348 | Calle Embajadores esquina Padre Benito Menni | 6; B2; F2 |
- | 1350 | Camino Viejo Simancas frente Puente | 5; B4 |
- | 1351 | Carretera Segovia frente Víctimas del Terrorismo | 4; 14 |
- | 1352 | Calle Universo glorieta Cometa | 33 |
- | 1353 | Calle Nebulosa esquina Cosmología | 33 |
- | 1354 | Paseo Juan Carlos I esquina Andrómeda | 33 |
- | 1355 | Paseo Juan Carlos I esquina Carlos Sánchez Magro | 33 |
- | 1356 | Paseo Juan Carlos I glorieta Cometa | 33 |
- | 1357 | Calle Nebulosa esquina Universo | 33 |
- | 1358 | Paseo Belén Campus Miguel Delibes | 8; U1; U8 |
- | 1360 | Calle Kilimanjaro 2 | 4; 16 |
- | 1361 | Calle Kilimanjaro frente 39 | 4; 16 |
- | 1362 | Calle Dulzaina esquina Arribes del Duero | 9; 19 |
- | 1363 | Calle Dulzaina esquina Palillos | 9; 19 |
- | 1364 | Calle Plata 41A gasolinera | 9 |
- | 1365 | Calle Francisco Umbral 7 | 10 |
- | 1366 | Calle Francisco Umbral 8 | 10 |
- | 1367 | Calle Gondomar 2 esquina Relatores |  |
- | 1368 | Calle Verbena esquina Nicasio Pérez | 7; 33; F4 |
- | 1369 | Calle Júpiter frente 12  esquina Comuneros de Castilla | 5; 6; B2; C1; F6; M4; P3; P6 |
- | 1370 | Plaza Castilla y León 4, esquina Miguel Delibes | 1; B1; F1; P2 |
- | 1371 | Plaza San Pablo 2 esquina San Quirce | 1; P2 |
- | 1372 | Calle Miguel Delibes 14 | 2; 23; B1; F1; M1 |
- | 1373 | Calle Miguel Delibes 1 | 2; 23; B1; F1; P2 |
- | 1374 | Avenida Las Contiendas 97 | 3; B2; C1; M4; P3 |
- | 1375 | Calle Fuente El Sol 50 esquina San Sebastián | 5; 6; B2 |
- | 1378 | Paseo Arco Ladrillo 3 esquina Aragón | 4 |
- | 1379 | Paseo Arco Ladrillo 8 esquina Paseo Hosp. Militar | 4 |
- | 1380 | Calle El Barbero de Sevilla esquina Flauta Mágica | 4 |
- | 1381 | Calle Flauta Mágica esquina Parsifal | 4 |
- | 1382 | Plaza Madrid fuente | 4 |
- | 1383 | Avenida Zamora Barrio Las Arcas | 16 |
- | 1384 | Avenida Zamora frente Las Arcas | 16 |
- | 1385 | Avenida Zamora Colegio San Agustín | 16 |
- | 1387 | Calle Dos de Mayo esquina Divina Pastora | 14; 18; 19 |
- | 1388 | Calle Doce de Octubre 24 | 7; F4; P7 |
- | 1389 | Carretera Rueda 204 frente Centro Deportivo | 1; B1; F1; P2 |
- | 1390 | Calle Enseñanaza Centro Educación Especial | 3; B2; C2 |
- | 1391 | Calle Monasterio Santo Domingo de Silos 3 | 8; B3; M5; U8 |
- | 1392 | Calle Monasterio Santo Domingo de Silos 8 | 8; B3 |
- | 1393 | Cañada Real PRAE | 23 |
- | 1394 | Cañada Real frente PRAE | 23 |
- | 1395 | Cañada Real Vivero | 23 |
- | 1396 | Cañada Real frente Vivero | 23 |
- | 1397 | Calle Kilimanjaro fte. Plaza Everest | 4; 16 |
- | 1398 | Calle Recondo 23 esq. Acera Recoletos | F2 |
- | 1399 | Calle General Ruiz 4 | F2 |
- | 1400 | Calle C/ Ciudad de La Habana 17 | 10 |
- | 1401 | Calle Cuesta Redonda esq. Azuela | 18; 19; B5 |
- | 1402 | Camino Yeseras Polideportivo | 18; 19; B5; M7 |
- | 1403 | Calle Cuesta Redonda Piscinas Municipales | 19; B5; M7 |
 
 
 
 
 
 
-## Cómo escribir en este manual
+
+
+# **LISTADO DE PARADAS**
+## 550 - Calle Hernando de Acuña 1 esquina Mateo Seoane Sobral
+> 8, 9, B3, C1, M5, PSC1, U8
+## 551 - Calle Hernando de Acuña 13 esquina Manuel Silvela
+> 8, 9, B3, C1, M5, PSC1
+## 552 - Calle Hernando de Acuña 18 esquina Manuel Silvela
+> 8, 9, B3, C2, PSC3
+## 553 - Calle Hernando de Acuña Parcela 21 esquina Juan de Valladolid
+> 8, 9, B3, C2, PSC3
+## 554 - Calle Padre Benito Menni esquina Caamaño
+> 4, C1, H, PSC1
+## 555 - Calle Aluminio frente 5
+> 13
+## 556 - Calle Aluminio 7 esquina Turquesa
+> 13, P13, PSC1
+## 558 - Calle Angustias 5 Teatro Calderón
+> 1, 2, B1, F5, M2, P1, P2
+## 560 - Calle Arca Real frente Centro Madrid
+> C2, H, P6, PSC3
+## 561 - Calle Arca Real Centro Madrid
+> C1, H, PSC1
+## 564 - Calle Argales frente 21 Inst. Arca Real
+> 9
+## 565 - Calle Argales 4
+> 9
+## 566 - Calle Arrabal 12
+> 24
+## 567 - Calle Arrabal 13
+> 24
+## 568 - Avenida Miguel Ángel Blanco 2 frente Plaza del Milenio
+> 3, 5, 6, 8, B2, B3, F3, F4, F5
+## 569 - Avenida Miguel Ángel Blanco frente 23 esquina Pío del Río Hortega
+> 3
+## 570 - Avenida Miguel Ángel Blanco Plaza del Milenio
+> 5
+## 572 - Avenida Miguel Ángel Blanco 5 esquina Avenida Salamanca
+> 3, 5, F6, P3
+## 573 - Calle Azalea esquina Flor de Acebo
+> 3, B3, F3, M6, PSC3
+## 574 - Calle Azalea esquina Alhelí
+> 3, B3, F3
+## 575 - Calle Azucena 18 esquina Dalia
+> 3, B3, F3, M6, PSC3
+## 576 - Calle Bálago esquina Ramón Pradera
+> 5, 6, B2, F6
+## 577 - Calle Bálago esquina Sementera
+> 5, 6, B2, M4, P6
+## 580 - Calle Barbecho frente 31
+> 3
+## 581 - Calle Barbecho 31
+> 3, P3
+## 583 - Calle Pío Baroja 14 esquina Miguel Delibes
+> 18, 19
+## 586 - Calle Pío Baroja 9 Iglesia San Simón de Rojas
+> 18, 19
+## 587 - Paseo Jardín Botánico frente 6
+> 5, 6, B2, M4, P3, P6
+## 588 - Paseo Jardín Botánico frente Jara
+> 5, 6, B2, M4, P3, P6
+## 589 - Paseo Jardín Botánico 6
+> 5, 6, B2
+## 590 - Paseo Jardín Botánico Parcela 7 frente Centro Salud La Victoria
+> 5, 6, B2
+## 591 - Paseo Jardín Botánico Parcela 8 Centro Salud La Victoria
+> 5, 6, B2, M4, P3, P6
+## 593 - Calle Bronce 3 AUVASA
+> 16, P1, P2, P6, P7, PSC1, PSC3
+## 596 - Avenida Burgos Policía Municipal
+> 24
+## 597 - Avenida Burgos 14 esquina Pisuerga
+> 24
+## 598 - Avenida Burgos 27
+> 24
+## 599 - Avenida Burgos 9 esquina La Victoria
+> 24
+## 600 - Avenida Burgos 38 frente Policía Municipal
+> 24
+## 601 - Avenida Burgos 39
+> 24
+## 603 - Avenida Burgos 54
+> 24
+## 604 - Avenida Burgos 72
+> 24
+## 607 - Cañada Real frente Colegio El Pilar
+> 2, 23, B1, F1, M1
+## 608 - Cañada Real frente Hípica
+> 23
+## 610 - Cañada Real 220 Colegio El Pilar
+> 23, P2
+## 611 - Cañada Real Hípica
+> 23
+## 617 - Cañada Real 560
+> 23
+## 618 - Avenida Soria esquina Diego Velázquez
+> 13, 18, 19, B5
+## 619 - Calle Castillejo frente 4-6
+> 13, 18, 19, B5, M7
+## 621 - Paseo Isabel La Católica Plaza Poniente
+> 4, 24
+## 622 - Paseo Isabel La Católica Instituto Núñez de Arce
+> U8
+## 623 - Paseo Isabel La Católica 27 esquina Conde Benavente
+> 4
+## 624 - Paseo del Cauce frente Industriales
+> B3, C2, PSC2
+## 625 - Paseo del Cauce frente Centro Salud Pilarica
+> 7, B3, C2, F4, P7, PSC2
+## 627 - Paseo del Cauce Industriales
+> B3, C1, M6, U1
+## 628 - Paseo del Cauce Centro Salud Pilarica
+> 7, B3, C1, F4, M6
+## 629 - Calle Cerrada 1 esquina Santa Clara
+> 17, B1, C2, F6, M2, PSC2
+## 630 - Avenida Los Cerros esquina Oriental
+> 3, B2, C2
+## 631 - Avenida Los Cerros esquina Tajahierro
+> 3, B2, C1, M4, P3
+## 632 - Avenida Los Cerros 1 esquina Transformador
+> 3, B2, C1, M4, P3
+## 633 - Avenida Los Cerros 46 esquina Hogar
+> 3, B2, C2
+## 634 - Calle Cigüeña 21
+> 3, 18, B5, C2, F3, PSC2, PSC3
+## 635 - Calle Cigüeña 14
+> 3, 18, B5, C1, F3
+## 636 - Calle Cigüeña 1 esquina Paseo San Isidro
+> 3, 18, B5, C2, F3, PSC2, PSC3
+## 639 - Calle Cigüeña 40 esquina Villabáñez
+> 3, 33, F3
+## 640 - Calle Cigüeña 41 esquina Villabáñez
+> 3, B3, C2, F3, PSC2, PSC3
+## 641 - Calle Cigüeña 4 Iglesia San Isidro
+> 3, 18, B5, C1, F3
+## 642 - Calle Cardenal Cisneros esquina San Juan de Ávila
+> 17, B1, C2, F6, PSC2
+## 643 - Calle Cobalto 69 esquina Topacio
+> 13, 14, 17, P13, PSC1
+## 644 - Calle Cobalto 28 esquina Pirita
+> 13, 17, P3, PSC2
+## 645 - Calle Cobalto 49 esquina Galena
+> 13, 14, 17, P13, PSC1
+## 646 - Calle Cobalto frente 69 esquina Topacio
+> 13, 14, 17, P3, PSC2
+## 647 - Calle Cobalto 21 esquina Pirita
+> 13, 17, P13, PSC1
+## 648 - Calle Cobalto 42 esquina Galena
+> 13, 14, 17, P3, PSC2
+## 649 - Calle Puente Colgante 1 frente Est. de Autobuses
+> 2, 9, B1, F2, M1, P13, U1
+## 651 - Calle Puente Colgante 2 Estación de Autobuses
+> 2, 9, B1, F2, P2
+## 653 - Calle Puente Colgante 18 esquina Gabilondo
+> 2, 9, B1, F2, P2
+## 657 - Avenida Las Contiendas frente 109
+> 3, B2, C2
+## 658 - Calle Chancillería 4 Biblioteca Reina Sofía
+> 8, F5
+## 661 - Calle Chile Instituto Antonio Tovar
+> 7
+## 663 - Calle Miguel Delibes 19B esquina Unamuno
+> 2, 18, 19, 23
+## 664 - Calle Miguel Delibes 40 esquina Unamuno
+> 2, 18, 19, 23, B1, F1, M1
+## 665 - Calle Don Sancho 7
+> 17
+## 666 - Calle Duque de La Victoria 23 esquina Plaza España
+> 2, B1, B5, M1
+## 667 - Calle Ecuador esquina Venezuela
+> 7
+## 668 - Calle Embajadores 60 frente Escuela Oficial de Idiomas
+> 6, B2, C2, F2, P6, PSC3
+## 669 - Calle Embajadores frente 72 esquina Hornija
+> 6, 9, B2, C1, F2, M3
+## 670 - Calle Embajadores frente 58 escuela Oficial de Idiomas
+> 6, 9, B2, C1, F2, M3
+## 671 - Calle Embajadores 4 esquina Paseo Farnesio
+> 6, 13, 14, B2, C2, F2, P13, P6, PSC3
+## 672 - Calle Embajadores 57 esquina Transición
+> 6, 9, B2, C1, F2, M3
+## 673 - Calle Embajadores 74 esquina Hornija
+> 6, B2, C2, F2, P6, PSC3
+## 674 - Calle Embajadores 92 esquina Transición
+> 6, B2, F2
+## 675 - Calle Enseñanza esquina Avenida Gijón
+> 3, B2, C1, M4, P3
+## 677 - Avenida Valle Esgueva 87 esquina Paseo Belén
+> 8, F5
+## 678 - Avenida Valle Esgueva 6 Económicas
+> 8, F5, U1, U8
+## 679 - Avenida Valle Esgueva 41 frente Económicas
+> 8, F5
+## 680 - Paseo Farnesio frente 19 frente Arca Real
+> 9
+## 682 - Calle Fray Luis de León 14 esquina López Gómez
+> 8, B3
+## 683 - Calle Fuente El Sol 2 esquina Plaza San Bartolomé
+> 5, 6, B2, C1, F6
+## 684 - Calle Fuente El Sol 21
+> 5, 6, B2, M4, P3, P6
+## 686 - Calle Gamazo 17 esquina Bailén
+> 2, 9, B1, M1, P13
+## 687 - Avenida Gijón frente Cristo Rey
+> B2, C1, M4, P3
+## 688 - Avenida Gijón 82 frente Chopos
+> 3
+## 690 - Avenida Gijón frente Júpiter
+> 5, 6, B2, C2, F6
+## 691 - Avenida Gijón 71 Cementerio Las Contiendas
+> 3
+## 692 - Avenida Gijón 29 esquina Chopos
+> 3
+## 694 - Avenida Gijón Cristo Rey
+> B2, C2
+## 695 - Avenida Gijón 26 Canal
+> 4, 5, 6, B2, C1, F6, M4, P3, P6
+## 696 - Avenida Gijón 3 frente Canal
+> 4, 5, 6, B2, C2, F6
+## 697 - Avenida Gijón 6 Plaza San Bartolomé
+> 4, F6
+## 698 - Calle Gondomar 12 esquina Santa Clara
+> 1, 2, 17, 24, B1
+## 699 - Calle Ciudad de La Habana 1 esquina Amadeo Arias
+> 8, 10, C1
+## 700 - Calle Ciudad de La Habana frente 3 esquina Juan G. Hortelano
+> 8, C2
+## 703 - Paseo Juan Carlos I 109
+> 3, F3
+## 706 - Calle Labradores 1 esquina Plaza Cruz Verde
+> 7, 33, F4
+## 707 - Calle Labradores 38 túnel
+> 6, 9, 13, 14, P13, P6
+## 708 - Calle Labradores 45 esquina Niña Guapa
+> 6, 9, 13, 14
+## 709 - Calle José María Lacort 6 esquina Plaza España
+> 3, F3, P3
+## 711 - Paseo Arco Ladrillo 31 esquina Paseo Farnesio
+> 4
+## 715 - Avenida Julián Merino Lápice Piscinas Municipales
+> 13, 18, 19, B5
+## 716 - Calle Bajada de La Libertad 10 frente Teatro Calderón
+> 1, 2, 24, B1, F5
+## 717 - Calle López Gómez 13 esquina Fray Luis de León
+> 3, 4, 6, B2, B5, F3, F4, M4, M5, P3, P6
+## 719 - Calle Antonio Machado esquina Pío Baroja
+> 18, 19
+## 720 - Calle Antonio Machado esquina José María Pemán
+> 18, 19
+## 722 - Calle Madre de Dios 15
+> 8, B3, F5, M6
+## 723 - Calle Madre de Dios 20 Facultad de Comercio
+> 8, F5, U8
+
+
+
+# Cómo escribir en este manual
 
 Este manual se escribe en un archivo de texto, `manual.md`. Cada **título de sección** (una línea que empieza por `# `) se convierte en un botón de la pantalla «Manuales y normativa».
 
-### Títulos y subtítulos
+## Títulos y subtítulos
 
 Usa `## ` para un subtítulo y `### ` para un apartado más pequeño. Así se ven:
 
@@ -865,4 +544,910 @@ Pon el color entre llaves y ciérralo con `{/}`: `{rojo}texto{/}`.
 ---
 
 Una línea con `---` dibuja una raya separadora. Para ver cómo escribirlo en el móvil, pulsa **✏️ Editar** en la pantalla del manual: tiene botones para cada formato y una vista previa.
+
+## 724 - Calle Madre de Dios 29 frente Facultad de Comercio
+> 8, F5
+## 726 - Carretera Madrid Centro San Juan de Dios
+> 26
+## 729 - Avenida Medina del Campo 15 frente Centro Salud Arturo Eyríes
+> 10, B4, F1
+## 730 - Avenida Medina del Campo frente Barlovento
+> 7, 10, B4, F1
+## 731 - Avenida Medina del Campo esquina Barlovento
+> 7, 10, B4, F1
+## 732 - Avenida Medina del Campo frente 19 Centro Salud Arturo Eyríes
+> 10, B4, F1
+## 733 - Calle Vázquez de Menchaca 21 esquina Avenida Zamora
+> 16
+## 734 - Calle Vázquez de Menchaca 33
+> 16
+## 735 - Calle Vázquez de Menchaca 40 esquina Avenida Zamora
+> 16, P1, P2, P6, P7, PSC1, PSC3
+## 736 - Calle Vázquez de Menchaca 19
+> P1, P2, P6, P7, PSC1, PSC3
+## 737 - Calle Vázquez de Menchaca 5
+> P1, P2, P6, P7, PSC1, PSC3
+## 738 - Calle Vázquez de Menchaca 9
+> P1, P2, P6, P7, PSC1, PSC3
+## 742 - Calle Adolfo Miaja de la Muela esquina Remigio Cabello Toral
+> C2
+## 743 - Calle Adolfo Miaja de la Muela 6 esquina Hernando de Acuña
+> C1
+## 744 - Calle Mieses frente 40
+> 3, C2
+## 747 - Calle Mieses frente 16
+> 5, 6, F6
+## 749 - Calle Mieses 40
+> 3, C1, P3
+## 751 - Calle Moradas 21 esquina Cardenal Cisneros
+> 1, C1, F6, P2
+## 752 - Calle Moradas 31 esquina Nebrija
+> 1, B1, C1, F6, M2, P2
+## 754 - Calle La Morena edificio Antares
+> 5, 6, P6
+## 755 - Calle La Morena 3 Bloque 2
+> 5, 6, P6
+## 757 - Avenida Gloria Fuertes 1 esquina Joaquín Velasco Martín
+> 4, 6, 24, B2, M4, P6
+## 759 - Avenida Gloria Fuertes 4 esquina Avenida Salamanca
+> 6
+## 761 - Avenida Mundial 82 Estadio José Zorrilla
+> F1, F2, F3, F4, F5, F6
+## 766 - Calle Daniel del Olmo 18 frente ITV
+> C1
+## 767 - Calle Daniel del Olmo esquina Paseo Zorrilla
+> 16, 26, C1, P1, P2, P7, PSC1
+## 768 - Calle Daniel del Olmo 6
+> 16, C1, P1, P2, P7, PSC1
+## 769 - Calle Daniel del Olmo frente 20 ITV
+> C2, P6, PSC3
+## 770 - Calle Daniel del Olmo 9
+> 16, C2, PSC3
+## 771 - Calle Títulos esquina Guindal
+> 24
+## 772 - Calle Títulos frente Guindal
+> 24
+## 773 - Calle Títulos frente Los Traductores
+> 24
+## 774 - Calle Títulos puente de hierro
+> 24
+## 775 - Calle Títulos esquina Los Traductores
+> 24
+## 776 - Calle Títulos frente puente de hierro
+> 24
+## 778 - Avenida Palencia 2
+> 2, B1
+## 779 - Avenida Palencia 41 Policía Municipal
+> 2, B1, F6, M2, P1
+## 780 - Avenida Palencia frente 41 esquina Amor de Dios
+> 2, B1, F6
+## 781 - Calle Panaderos 2 esquina Plaza España
+> 6, 9, B2, B5, F4, P6
+## 782 - Calle Alonso Pesquera 5 esquina Fidel Recio
+> 7, 33, F4
+## 784 - El Pinar de Antequera
+> 18, 19
+## 785 - Calle Pirita frente 10 esquina Aluminio
+> 9, 13, 17, 19, P13, PSC1
+## 786 - Calle Pirita 10
+> 9, 13, 17, 19, P3, PSC2
+## 787 - Páramo San Isidro frente 1
+> 18, B5
+## 788 - Páramo San Isidro frente 17
+> 18, B5
+## 789 - Páramo San Isidro frente 38
+> 18, B5
+## 790 - Páramo San Isidro esquina Avenida Soria
+> 18, B5
+## 791 - Páramo San Isidro 1
+> 18, B5
+## 792 - Páramo San Isidro 15
+> 18, B5
+## 793 - Páramo San Isidro 38
+> 18, B5
+## 794 - Avenida Ramón Pradera frente Feria de Valladolid
+> 5, 6, B2, F6
+## 795 - Avenida Ramón Pradera frente Hotel
+> 4, 5, 6, 24, B2, F6, M4, P6
+## 796 - Avenida Ramón Pradera Feria de Valladolid
+> 4, 5, 6, 24, B2, F6, M4, P6
+## 797 - Avenida Ramón Pradera 15-17
+> 4, 24, F6
+## 798 - Paseo Prado de La Magdalena 18 Filosofía y Letras
+> B3, C1, M6
+## 799 - Paseo Prado de La Magdalena 6 frente Residencia Alfonso VIII
+> B3, C2, PSC2
+## 800 - C/ San Isidro 30 esquina Cádiz
+> 17, 19, P3
+## 801 - C/ San Isidro 43 entrada Túnel
+> 17, 19, M7
+## 802 - Calle Puente La Reina 67
+> 3, 33, F3, PSC3
+## 803 - Plaza Juan de Austria frente Centro Comercial
+> 9, 10, B4, C2, F2, PSC3
+## 804 - Plaza Juan de Austria Centro Comercial
+> 9, B4, F2
+## 805 - Avenida Gijón 1 esquina Plaza San Bartolomé
+> 4, C2
+## 807 - Plaza Caño Argales
+> 3, 6, 9, 13, 14, 18, 19, B2, B5, F3, M3, M7
+## 808 - Plaza Circular 11 Iglesia Corazón de María
+> 3, 17, 18, 19, B2, B5, F2, F3, P3
+## 809 - Plaza Circular 7 esquina Industrias
+> 3, 17, 18, 19, B2, B5, F2, F3, M3, M7, U1
+## 811 - Plaza Cruz Verde 5
+> 3, 18, 19, B2, B5, F2, F3, P3
+## 812 - Plaza Fuente Dorada
+> 1, 2, 3, 4, 6, 8, 24, B1, B2, B3, B4, B5, F3, F4, F5, M1, M2, M3, M4, M5, M6, M7, P3, P6
+## 813 - Plaza España Bola del Mundo
+> 1, 2, 4, 7, 8, B1, B3, F4, F5, M2, M4, M5, M6, P1, P2, P7
+## 814 - Plaza España 12 Iglesia Capuchinos
+> 7, 13, P13
+## 815 - Plaza España 13 frente Bola del Mundo
+> 18, 19, 26
+## 816 - Plaza Carmen Ferreiro
+> 2, B1, F6, M2, P1
+## 817 - Plaza Doctor Jiménez Díaz esquina Penitencia
+> C1
+## 818 - Plaza Madrid 2
+> 3, 6, 9, B2, F3, M3, M7
+## 819 - Plaza Mayor frente 29 (La Cistérniga)
+> 13, 18, 19, B5, M7
+## 820 - Plaza Mayor 29 (La Cistérniga)
+> 13, 18, 19, B5
+## 823 - Plaza Doctor Quemada Iglesia Santo Domingo Guzmán
+> 7, 10, B4, F1
+## 824 - Plaza San Juan
+> 7, 8, 17, 33, B3, F4, M6, P7
+## 825 - Plaza San Nicolás 13
+> 24, C1, F6
+## 826 - Plaza Colegio Santa Cruz 9
+> 7, 8, 33, B3, F4
+## 827 - Plaza Alfonso X
+> 24
+## 828 - Plaza Universidad esquina López Gómez
+> 1, 2, B1, F5, M2, P1, P2
+## 829 - Plaza Uruguay esquina Honduras
+> 7
+## 830 - Plaza Vadillos 7 esquina Palacio Valdés
+> 17, 33, B3, C1, M6
+## 831 - Plaza Zorrilla Campo Grande
+> 5, 7, 18, 19
+## 832 - Plaza Zorrilla 3 esquina Santiago
+> 1, 4, 7, 18, 19, B4, P1, P7
+## 833 - Avenida Ramón y Cajal 3 Hospital Clínico
+> 1, 2, 8, 17, 24, B1, F5
+## 834 - Calle Rastrojo 7 frente Colegio Giner de los Ríos
+> 3
+## 835 - Calle Rastrojo 6 Colegio Giner de los Ríos
+> 3, P3
+## 836 - Calle Real 7
+> 18, 19, B4
+## 837 - Calle Real 106 Plaza Damián Tascón Prieto
+> 18, 19, B4
+## 838 - Calle Real frente 7
+> 18, 19, B4
+## 839 - Calle Real 85 frente Plaza Damián Tascón Prieto
+> 18, 19, B4
+## 840 - Calle Real de Burgos frente Iglesia San Pedro Apóstol
+> 8, 17, B3, C2, M6, PSC2
+## 842 - Calle Fidel Recio 1 esquina Alonso Pesquera
+> 7, 8, 33, B3, F4, M6, P7
+## 844 - Calle Estación del Norte esquina Recondo
+> 2, 9, B1, P2
+## 846 - Calle Renedo 29
+> 7, 17, 33, F4, P7
+## 847 - Calle Pío del Río Hortega 9
+> 5, B2, F6
+## 848 - Carretera Rueda frente Parque Artillería
+> 18, 19
+## 849 - Carretera Rueda frente Cuartel Teniente Galiana
+> 18, 19
+## 850 - Carretera Rueda frente 232 frente Colegio Ave María
+> 18, 19
+## 851 - Carretera Rueda esquina Madroño
+> 18, 19
+## 852 - Carretera Rueda frente Vinos de Cigales
+> 2, 23, B1, M1
+## 853 - Carretera Rueda 187 Hotel
+> 18, 19
+## 854 - Carretera Rueda frente 41
+> 2, 23, B1, P2
+## 855 - Carretera Rueda 131 Centro Deportivo
+> 1, B1, F1, M1, P13
+## 856 - Carretera Rueda Parque Artillería
+> 18, 19
+## 857 - Carretera Rueda Cuartel Teniente Galiana
+> 18, 19
+## 858 - Plaza Castilla y León 1
+> 1, B1, F1, M1, P13, U1
+## 859 - Carretera Rueda 232 Colegio Ave María
+> 18, 19
+## 860 - Carretera Rueda frente Madroño
+> 18, 19
+## 861 - Carretera Rueda esquina Vinos de Cigales
+> 2, 23, B1, P2
+## 862 - Carretera Rueda frente 187 frente Hotel
+> 18, 19
+## 863 - Carretera Rueda Piscinas FASA
+> 18, 19
+## 864 - Carretera Rueda 19 esquina Mota
+> 2, 5, 23, B1, M1
+## 865 - Carretera Rueda 36 esquina Mota
+> 2, 23, B1, P2
+## 866 - Carretera Rueda 37 esquina Corta
+> 2, 23, B1, M1
+## 867 - Carretera Rueda 47 frente Inserso
+> 2, 23, B1, M1
+## 868 - Carretera Rueda esquina Vega Sicilia
+> 2, 23, B1, P2
+## 869 - Plaza Vadillos frente 5
+> 33, B3, C2, PSC2
+## 870 - Calle Francisco Mendizábal 5
+> 10
+## 871 - Calle Nicolás Salmerón 19 esquina Labradores
+> 3, 18, 19, B2, B5, F2, F3, M3, M7
+## 872 - Calle San Cristóbal 15 esquina Avenida Soria
+> 13, 18, 19, B5
+## 875 - Calle Santa Lucía 62 esquina Plaza Luis Braille
+> 7, F4
+## 876 - Avenida Santander Endasa
+> 2, B1, F6, M2, P1
+## 877 - Avenida Santander frente Endasa
+> 2, B1, F6
+## 878 - Avenida Santander Centro Comercial
+> 2, B1, F6, M2, P1
+## 879 - Avenida Santander 49 Barrio España
+> 2, B1, F6, M2, P1
+## 880 - Avenida Santander 8 frente Barrio España
+> 2, B1, F6
+## 881 - Calle Santuario 5 esquina López Gómez
+> 7, 8, 33, B3, F4, M6, P7
+## 882 - Calle Transición 3
+> C2, P6, PSC3
+## 883 - Avenida Segovia frente Iglesia del Carmen
+> 6, 13, 14, B2, C2, F2, P13, P6, PSC3
+## 884 - Carretera Segovia frente Colegio Hijas de Jesús
+> 4, 13, 14, P13, PSC1
+## 885 - Avenida Segovia frente 57
+> 6, 9, 13, 14, B2, C2, F2, P13, P6, PSC3
+## 886 - Avenida Segovia Iglesia del Carmen
+> 6, 9, 13, 14, B2, C1, F2, M3
+## 887 - Avenida Segovia esquina Trabajo
+> 6, 9, 13, 14
+## 888 - Carretera Segovia Colegio Hijas de Jesús
+> 4, 13, 14
+## 889 - Avenida Segovia 161 frente Hornija
+> 13, 14
+## 890 - Avenida Segovia 57 esquina Paseo San Vicente
+> B2, C1, F2, M3
+## 891 - Avenida Segovia 88 esquina Hornija
+> 13, 14, P13
+## 892 - Avenida Segovia 99 esquina Olmedo
+> 6, 9, 13, 14, B2, C1, F2, M3
+## 895 - Camino Viejo Simancas Las Aceñas
+> 5, B4
+## 896 - Camino Viejo Simancas El Barrio
+> 5, B4
+## 897 - Camino Viejo Simancas Las Lagunillas
+> 5, B4
+## 898 - Camino Viejo Simancas esquina Encinas
+> 5, B4
+## 900 - Camino Viejo Simancas Pago La Bomba
+> 5, B4
+## 901 - Camino Viejo Simancas El Pichón
+> 5, B4
+## 902 - Camino Viejo Simancas El Pino
+> 5, B4
+## 903 - Camino Viejo Simancas 44 frente Centro Comercial
+> 5, B4
+## 904 - Camino Viejo Simancas Barrio Las Villas
+> 5
+## 905 - Camino Viejo Simancas frente Las Aceñas
+> 5, B4
+## 906 - Camino Viejo Simancas frente El Barrio
+> 5, B4
+## 907 - Camino Viejo Simancas frente Las Lagunillas
+> 5, B4
+## 908 - Camino Viejo Simancas frente Encinas
+> 5, B4
+## 910 - Camino Viejo Simancas frente Pago La Bomba
+> 5, B4
+## 911 - Camino Viejo Simancas frente El Pichón
+> 5
+## 912 - Camino Viejo Simancas frente El Pino
+> 5, B4
+## 913 - Camino Viejo Simancas 45 Centro Comercial
+> 5, B4
+## 914 - Camino Viejo Simancas frente Las Villas
+> 5
+## 915 - Camino Viejo Simancas frente INEA
+> 5, B4
+## 916 - Camino Viejo Simancas 21 Centro Educativo
+> 5, B4
+## 917 - Camino Viejo Simancas frente Vega de Valdetronco
+> 5, B4
+## 918 - Camino Viejo Simancas frente Fábrica Mirapinos
+> 5, B4
+## 919 - Camino Viejo Simancas INEA
+> 5, B4
+## 920 - Camino Viejo Simancas Barrio La Rubia
+> 5, B4
+## 921 - Camino Viejo Simancas 34 Barrio San Adrián
+> 5, B4
+## 922 - Camino Viejo Simancas esquina Vega de Valdetronco
+> 5, B4
+## 923 - Camino Viejo Simancas Fábrica Mirapinos
+> 5, B4
+## 924 - Camino Viejo Simancas puente
+> 5, B4
+## 926 - Avenida Zamora frente Colegio San Agustín
+> 16
+## 927 - Avenida El Norte de Castilla 47
+> 16
+## 928 - Avenida El Norte de Castilla 19 esquina Forja
+> 16
+## 930 - Avenida El Norte de Castilla 14
+> 16, P1, P2, P6, P7, PSC1, PSC3
+## 931 - Avenida El Norte de Castilla 48
+> 16, P1, P2, P6, P7, PSC1, PSC3
+## 932 - Avenida El Norte de Castilla frente 19
+> 16, P1, P2, P6, P7, PSC1, PSC3
+## 933 - Carretera Soria frente San Cristóbal
+> 18, B5, M7
+## 934 - Carretera Soria esquina Paseo Juan Carlos I
+> 17, P3, PSC2
+## 935 - Carretera Soria esquina San Isidro
+> 17, M7
+## 936 - Carretera Soria raqueta Cuartel
+> 17, M7
+## 937 - Carretera Soria San Cristóbal
+> 18, B5
+## 938 - Carretera Soria Iveco
+> 17, P3, PSC2
+## 939 - Carretera Soria esquina Carraca
+> 18, B5
+## 940 - Calle Sotavento esquina Avenida Medina del Campo
+> 7
+## 941 - Calle Soto 4 esquina Avenida Palencia
+> C1
+## 945 - Calle Templarios 3 esquina Puente La Reina
+> 3, 33, F3
+## 946 - Calle Templarios 6 esquina Puente La Reina
+> 3, 33, F3, PSC3
+## 947 - Calle Rondilla de Santa Teresa frente antiguo Hospital Río Hortega
+> 24, C1, F6
+## 949 - Calle José Garrote Tebar 20 esquina Manuel Silvela
+> 8, 9, B3, C1, M5, PSC1, U8
+## 950 - Calle José Garrote Tebar 21
+> C2
+## 951 - Calle José Garrote Tebar 4 esquina Amadeo Arias
+> 8, 9, B3, C1, M5, PSC1
+## 952 - Calle Topacio esquina Aluminio
+> 13, 14, P13, PSC1
+## 953 - Calle Topacio 5
+> 13, 14
+## 954 - Calle Topacio 21
+> 14, 17
+## 955 - Calle Cardenal Torquemada frente antiguo Hospital Río Hortega
+> PSC2
+## 956 - Calle Cardenal Torquemada esquina Rondilla Santa Teresa
+> 1, 17, B1
+## 957 - Calle Cardenal Torquemada frente 16
+> 1, C1, F6, P2
+## 959 - Calle Cardenal Torquemada 54 Centro Salud Rondilla
+> 1
+## 960 - Calle Cardenal Torquemada esquina Tirso de Molina
+> 1, 17, B1, C2, F6, PSC2
+## 961 - Calle Cardenal Torquemada 50 esquina Soto
+> 1
+## 962 - Cañada Valdestillas 21
+> 18, 19, B4
+## 964 - Calle Joaquín Velasco Martín 54 frente Polideportivo Huerta del Rey
+> 8, B3, F3, F5
+## 965 - Calle Joaquín Velasco Martín 9 Polidortivo Huerta del Rey
+> 8, B3, F3, F5, M5
+## 966 - Calle Joaquín Velasco Martín 17 Colegio María de Molina
+> 8, B3, M5
+## 967 - Calle Joaquín Velasco Martín 1 esquina Gloria Fuertes
+> 3, 8, B3, F3, F4, F5, M5, P3
+## 968 - Calle Joaquín Velasco Martín 20 esquina Francesco Scrimieri
+> 8, B3, F3, F5
+## 969 - Calle Joaquín Velasco Martín 3 Colegio La Inmaculada
+> 3, 6, 8, B3, F3, F4, F5, M5, P3, U8
+## 970 - Calle Venezuela Instituto Antonio Tovar
+> 7
+## 971 - Paseo San Vicente 16 esquina Álava
+> B2, C2, F2, PSC3
+## 972 - Paseo San Vicente 35 esquina Sevilla
+> B2, C1, F2, M3
+## 973 - Calle La Victoria frente 31 esquina San Sebastián
+> C2, F6
+## 976 - Calle Villabáñez 131 esquina Camino Viejo del Polvorín
+> 3, F3, PSC3
+## 978 - Calle Villabáñez 19 Iglesia San Ignacio de Loyola
+> 33, B3, C1, M6
+## 982 - Calle Villabáñez 55 esquina Golondrina
+> 3, F3, PSC3
+## 984 - Calle Doctor Villacián frente 5 frente Mariano de los Cobos
+> 9, C2, PSC3
+## 985 - Calle Doctor Villacián Monasterio de Prado
+> 9, C2, PSC3
+## 986 - Calle Doctor Villacián 3 frente Monasterio de Prado
+> 9, C1, PSC1
+## 987 - Calle Doctor Villacián 5 esquina Mariano de los Cobos
+> 9, C1, PSC1
+## 990 - Paseo Zorrilla 166 frente LAVA
+> 1, 2, 5, 16, 18, 19, 23, 26, B1, B4, C1, F1, H, P1, P2, P7, PSC1
+## 991 - Paseo Zorrilla 88 frente Plaza de Toros
+> 1, 2, 5, 7, 9, 18, 19, B1, B4, F2, P1, P2, P7
+## 992 - Paseo Zorrilla 65 frente Centro Comercial
+> 1, 2, 5, 7, 10, 18, 19, 26, B1, C2, M1, P13, PSC3, U1
+## 993 - Paseo Zorrilla 153 frente  Centro Comercial
+> 1, 18, 19, F1, P13
+## 995 - Paseo Zorrilla 101 LAVA
+> 1, 2, 16, 18, 19, 23, 26, B1, C2, F1, H, M1, P13, PSC3
+## 997 - Paseo Zorrilla 1 antiguo Hospital Militar
+> 1, 5, 7, 18, 19, 26, B4
+## 998 - Paseo Zorrilla 130 Centro Comercial
+> 1, 2, 5, 7, 10, 18, 19, 23, 26, B1, C1, P1, P2, P7, PSC1
+## 999 - Paseo Zorrilla 133 La Rubia
+> 1, 18, 19, F1, P13, U1
+## 1000 - Paseo Zorrilla 198 La Rubia
+> 1, 18, 19, F1, P1
+## 1001 - Paseo Zorrilla 236 Centro Comercial
+> 1, 18, 19, F1
+## 1002 - Paseo Zorrilla 39 esquina Puente Colgante
+> 1, 5, 7, 18, 19, B4
+## 1003 - Paseo Zorrilla 52 esquina Paseo Hospital Militar
+> 1, 5, 7, 18, 19, 26, B4, P1, P7
+## 1004 - Paseo Zorrilla 89 esquina Goya
+> 5, 7, 10
+## 1006 - Calle Lucio Zumel esquina Avenida Soria
+> 13, 18, 19, B5, M7
+## 1007 - Calle Doctrinos 12 esquina María de Molina
+> 3, 4, 5, 6, 8, B2, B3, F3, F4, F5
+## 1025 - Plaza Poniente frente San Lorenzo
+> 
+## 1038 - Paseo Zorrilla 187 esquina Vinos Vega Sicilia
+> 1, B4, F1, P13, U1
+## 1039 - Paseo Zorrilla 346 esquina Vinos Ribera de Duero
+> 1, B4, F1
+## 1043 - Paseo Zorrilla 203 esquina Vinos de Cigales
+> 1, B4, F1, P13
+## 1044 - Paseo Zorrilla 364 esquina Vinos de Rueda
+> 1, B4, F1
+## 1055 - Calle Santiago Alba 3
+> 2, 23
+## 1065 - Cañada Real 74 frente Vinos Ribera de Duero
+> 18, 19
+## 1066 - Cañada Real 144 esquina Vega de Valdetronco
+> 18, 19, B4
+## 1067 - Cañada Real 67 esquina Vinos Ribera de Duero
+> 18, 19
+## 1068 - Cañada Real 131 esquina Vinos de Rueda
+> 18, 19
+## 1073 - Calle Portillo Balboa frente 60 esquina Amor de Dios
+> 1, P2
+## 1080 - Camino Viejo Simancas frente Santa Ana
+> 5, B4
+## 1081 - Camino Viejo Simancas Santa Ana
+> 5, B4
+## 1082 - Calle Anselmo Miguel Nieto esquina Carretera Rueda
+> 2, 23
+## 1084 - Calle Santiago Alba esquina Plaza Castilla y León
+> 
+## 1085 - Calle Santiago Alba 18
+> 2, 23
+## 1086 - Paseo Lorenzo Arrazola frente Manuel Mucientes
+> 2, 23
+## 1087 - Paseo Lorenzo Arrazola esquina Manuel Mucientes
+> 2, 23
+## 1088 - Calle Anselmo Miguel Nieto esquina Puertas de Valladolid
+> 2, 23
+## 1089 - Carretera Viana junto a Pinarillo.
+> 
+## 1090 - Calle Peseta esquina Avenida Burgos
+> 24
+## 1091 - Calle Peseta Punto Limpio
+> 24
+## 1092 - Avenida Euro frente Mercaolid
+> 24
+## 1093 - Avenida Euro Mercaolid
+> 24
+## 1094 - Carretera Viana esquina Cañada Valdestillas
+> 
+## 1102 - Paseo Juan Carlos I frente Bomberos Delicias
+> 9, 19
+## 1105 - Calle General Shelly 18 esquina Avenida Segovia
+> 9
+## 1109 - Calle Eusebio González Suárez frente Federico Landrove Moiño
+> 8, 9, B3, M5, PSC1, PSC3
+## 1110 - Calle Manuel Azaña 37
+> 9, B3, M5, PSC1
+## 1113 - Calle Manuel Azaña esquina Juan García Hortelano
+> 9, B3, M5, PSC1
+## 1114 - Calle Hernando de Acuña  esquina Manuel Azaña
+> 9, B3, M5, PSC1
+## 1115 - Calle Hernando de Acuña 45 Bis
+> 9, B3, M5, PSC1
+## 1116 - Calle Hernando de Acuña 42
+> 9, 10, B3, PSC3
+## 1117 - Calle Hernando de Acuña esquina Padre Llanos
+> 9, 10, B3, PSC3
+## 1118 - Calle Manuel Azaña 24 frente Juan García Hortelano
+> 9, 10, B3, PSC3
+## 1119 - Calle Manuel Azaña 56
+> 9, 10, B3, PSC3
+## 1120 - Calle Federico Landrove Moiño 11
+> 8, 9, B3, PSC3
+## 1127 - Paseo Isabel La Católica 1 esquina 20 de Febrero
+> 1, B4
+## 1128 - Carretera Fuensaldaña frente Subida Fuente el Sol
+> 4
+## 1129 - Calle Fuente del Berrocal Gasolinera
+> 4
+## 1130 - Calle El Barbero de Sevilla esquina Plaza de la Ópera
+> 4
+## 1141 - Calle Tirso de Molina frente Seminario
+> C2, F6
+## 1144 - Calle Tórtola esquina Cigüeña
+> B3
+## 1150 - Carretera Rueda frente 53 Inserso
+> 2, 23, B1, P2
+## 1151 - Carretera Rueda 81 esquina Tierra de Sepúlveda
+> 2, 23, B1, M1
+## 1153 - Calle Sotavento esquina Colombia
+> 7
+## 1155 - Calle Santa Clara 34 esquina Real de Burgos
+> 2, P1
+## 1156 - Calle Acera Recoletos frente 2 esquina Pza Zorrilla
+> 2, 9, B1, P2
+## 1158 - Calle Chancillería 5
+> 2, B1, F5, M2, P1
+## 1159 - Calle Colón 14
+> 8, 17, B3
+## 1161 - Calle Arca Real frente 201
+> 
+## 1163 - Calle Estación del Norte RENFE
+> 2, 9, B1, F2, M1, P13
+## 1164 - Paseo Jardín Botánico esquina Brezo
+> 5, 6, B2, M4, P3, P6
+## 1165 - Calle Jara esquina Hierbabuena
+> 5, 6, B2
+## 1166 - Avenida Salamanca esquina Doctor Villacián
+> B4
+## 1167 - Calle Vinos de Rueda esquina Cañada Real
+> B4
+## 1168 - Camino Viejo Simancas 15 esquina Vereda
+> 5, B4
+## 1169 - Avenida Salamanca esquina Puente Juan de Austria
+> 10, B4
+## 1170 - Calle Santa María de la Cabeza frente 39
+> 3, B3, F3, PSC3
+## 1171 - Calle Santa María de la Cabeza 37
+> 3, B3, F3, M6
+## 1172 - Calle Santa María de la Cabeza 9
+> 3, B3, F3, M6
+## 1173 - Calle Santa María de la Cabeza frente 9
+> 3, B3, F3, PSC3
+## 1175 - Calle Cádiz 4 esquina Bilbao
+> B2, F2
+## 1176 - Paseo Juan Carlos I esquina Abejaruco
+> 3, F3, PSC3
+## 1177 - Camino Viejo del Polvorín 12
+> 3, F3
+## 1178 - Camino Viejo del Polvorín esquina Villabañez
+> 3, F3
+## 1181 - Plaza Poniente frente Jorge Guillén
+> 1, 3, 4, 6, 8, B2, B3, B4, F3, F4, F5, M4, M5, P3, P6
+## 1185 - Paseo Filipinos esquina Paseo Zorrilla
+> 4
+## 1187 - Calle Cádiz 21
+> B2, C1, F2, M3
+## 1189 - Carretera Fuensaldaña esquina Subida Fuente el Sol
+> 4
+## 1190 - Calle Fuente del Berrocal frente Gasolinera
+> 4
+## 1191 - Avenida Valle Esgueva frente 81 esquina Incienso
+> 8, F5
+## 1192 - Calle Málaga esquina Bilbao
+> B2, F2, M3, PSC2
+## 1193 - Calle Sementera esquina Mieses
+> 5, 6, B2, F6
+## 1194 - Calle Topacio frente 33
+> 14, 17, P3, PSC2
+## 1195 - Calle Topacio 2
+> 14, 17, P3, PSC2
+## 1196 - Calle Topacio 39
+> 14, 17
+## 1201 - Calle Cardenal Torquemada frente Polideportivo Rondilla
+> 1
+## 1202 - Calle Valle de Arán 48
+> 1
+## 1203 - Calle Valle de Arán 76 esquina Costa Brava
+> 1
+## 1204 - Calle Costa Brava Centro Comercial
+> 1, P2
+## 1205 - Calle Costa Brava 1 esquina Costa Dorada
+> 1, P2
+## 1206 - Calle Valle de Arán frente 40
+> 1, P2
+## 1207 - Calle Miguel Ruiz de Temiño esquina Juan Carlos I sentido Centro
+> 9, 19, B2, F2, M3
+## 1208 - Calle Miguel Ruiz de Temiño esquina Juan Carlos I
+> 9, 19, B2, F2
+## 1209 - Calle Armonio esquina Laúd
+> 9, 19, B2, F2, M3
+## 1215 - Calle La Flauta Mágica esquina Electra
+> 4
+## 1216 - Calle Príncipe Ígor esquina La Flauta Mágica
+> 4
+## 1217 - Calle Fuente del Berrocal esquina El Barbero de Sevilla
+> 
+## 1218 - Carretera Pesqueruela frente 1 esquina Carretera a Puente Duero
+> 5, B4
+## 1219 - Avenida Entrepinos 57
+> 5, B4
+## 1220 - Avenida Miguel de Cervantes en Aparcamiento
+> 5, B4
+## 1222 - Carretera Pesqueruela 1 esquina Carretera a Puente Duero
+> 5, B4
+## 1227 - Avenida Entrepinos 52 esquina Tirso de Molina
+> 5, B4
+## 1228 - Paseo Zorrilla 10
+> 5
+## 1233 - Camino Viejo Simancas 167 esquina José Velicia
+> 5, B4
+## 1234 - Camino Viejo Simancas frente 167 esquina Barcelona
+> 5, B4
+## 1235 - Calle Alamillos 11
+> 8, 17, B3, M6
+## 1237 - Calle Adolfo Miaja de la Muela frente Padre Llanos
+> 8, B3, C2, M5, PSC3
+## 1238 - Calle Adolfo Miaja de la Muela esquina Padre Llanos
+> 8, B3, C1
+## 1239 - Calle Adolfo Miaja de la Muela Hospital Psiquiátrico
+> 8, B3, C2, M5
+## 1247 - Calle Mieses esquina Barbecho
+> C2
+## 1248 - Calle Mieses esquina Monasterio Santa María Retuerta
+> C1
+## 1249 - Calle Monasterio San Lorenzo de El Escorial esquina Monasterio de Yuste
+> C2
+## 1250 - Calle Monasterio San Lorenzo de El Escorial esquina San Estaben Gormaz
+> C1
+## 1254 - Calle Monasterio Santo Domingo de Silos frente 5 esquina Montserrat
+> 10
+## 1255 - Calle Monasterio de Yuste frente 28 esquina Mon. San Lorenzo de El Escorial
+> 8, B3, M5
+## 1256 - Calle Monasterio de Yuste 28 frente Monasterio San Lorenzo de El Escorial
+> 8, B3
+## 1257 - Calle Monasterio San Lorenzo de El Escorial Centro Cultural Miguel Delibes
+> 8, B3, C1
+## 1258 - Calle Monasterio San Lorenzo de El Escorial frente Centro Cultural Miguel Delibes
+> 8, B3, C2, M5
+## 1259 - Calle Joaquín Velasco Martín 108 frente Colegio María de Molina
+> 8, B3
+## 1261 - Calle Martín Santos Romero 60
+> 10
+## 1262 - Calle Martín Santos Romero 140
+> 10
+## 1263 - Calle Martín Santos Romero frente Siervas de Jesús
+> 
+## 1264 - Calle Felipe Ruiz Martín 6
+> 10
+## 1265 - Calle Felipe Ruiz Martín esquina Manuel Canesí Acevedo
+> 10
+## 1266 - Avenida Salamanca Puente de La Hispanidad
+> 10
+## 1268 - Calle Felipe Ruiz Martín frente Manuel Canesí Acevedo
+> 10
+## 1269 - Calle Felipe Ruiz Martín frente 6
+> 10
+## 1270 - Calle Martín Santos Romero esquina Siervas de Jesús
+> 
+## 1271 - Calle Martín Santos Romero frente 140
+> 
+## 1273 - Puente Juan de Austria esquina Avenida Salamanca
+> 10
+## 1276 - Calle Martín Santos Romero frente 60
+> 10
+## 1277 - Calle Martín Santos Romero Campo José Luis Saso
+> 10
+## 1278 - Calle Martín Santos Romero frente Campo José Luis Saso
+> 10
+## 1279 - Paseo Zorrilla frente 10 Campo Grande
+> 1, B4
+## 1281 - Paseo Arco Ladrillo 50 esquina Adolfo Suárez
+> 4
+## 1282 - Paseo Arco Ladrillo 68
+> 4
+## 1283 - Paseo Arco Ladrillo frente Transición
+> 4
+## 1287 - Calle Padre Benito Menni frente 6 esquina Caamaño
+> 4, H
+## 1288 - Paseo Arco Ladrillo esquina Transición
+> 4
+## 1289 - Paseo Arco Ladrillo 49 esquina General Shelly
+> 4
+## 1290 - Calle Kilimanjaro 1 esquina Peñalara
+> 4, 16
+## 1296 - Calle Topacio 61 esquina Plomo
+> 14, 17
+## 1309 - Calle Oro frente 4
+> 19
+## 1310 - Calle Oro 4
+> 19
+## 1311 - Calle Pirita 67
+> 9, 19
+## 1312 - Calle Pirita frente 67
+> 9, 19
+## 1314 - Calle Víctimas del Terrorismo Hospital Río Hortega
+> 6, H
+## 1315 - Calle Pirita 13 frente Esmeralda
+> 9, 17, 19
+## 1316 - Calle Pirita esquina Esmeralda
+> 9, 17, 19, P3, PSC2
+## 1317 - Calle Dulzaina frente 2  frente Hospital Río Hortega
+> 17
+## 1318 - Calle Dulzaina 2 Hospital Río Hortega
+> 9, 17, 19, P3, PSC2
+## 1319 - Carretera Segovia esquina Víctimas del Terrorismo
+> 4, 6, 14, H
+## 1320 - Calle Víctimas del Terrorismo esquina Carretera Segovia
+> 6, H
+## 1321 - Calle Carraca frente 41 esquina Avenida Soria
+> 17, P3, PSC2
+## 1322 - Calle Embajadores 71
+> 6, 9, B2, F2, M3
+## 1323 - Avenida Salamanca frente Puente de La Hispanidad
+> 10
+## 1324 - Avenida Salamanca esquina Santiago López González
+> 10
+## 1325 - Avenida Salamanca esquina Fray Antonio de Córdoba
+> 10
+## 1326 - Calle Topacio 42 frente Plomo
+> 14, 17, P3, PSC2
+## 1327 - Calle Plomo 1
+> 14, 17, P3, PSC2
+## 1328 - Calle Plomo 2
+> 14, 17
+## 1329 - Calle Helio 4 esquina Acetileno
+> 14, 17, P3, PSC2
+## 1330 - Calle Helio 20 esquina Oxígeno
+> 14, 17, P3, PSC2
+## 1331 - Calle Helio 3 esquina Acetileno
+> 14, 17
+## 1332 - Calle Helio 15
+> 14, 17
+## 1333 - Calle Helio esquina Nitrógeno
+> 14, 17, P3, PSC2
+## 1334 - Calle Castañuelas esquina Carraca
+> 9, 19, B2, F2, M3
+## 1335 - Calle Armonio 22 esquina Castañuelas
+> 9, 19, B2, F2
+## 1336 - Paseo Juan Carlos I 19 esquina Delicias
+> 19
+## 1337 - Paseo Juan Carlos I frente 29 Colegio Pablo Picasso
+> 19
+## 1338 - Paseo Juan Carlos I 20 esquina General Shelly
+> 19
+## 1340 - Calle Plata 43
+> 14
+## 1341 - Calle Plata 58 esquina Galena
+> 14
+## 1344 - Calle Panaderos 4 esquina Divina Pastora
+> 14, 33
+## 1346 - Paseo Zorrilla 71 esquina Arzobispo García Goldáraz
+> 16, 23, H
+## 1347 - Calle Puente Colgante 47
+> 2, 9, B1, F2, M1, P13
+## 1348 - Calle Embajadores esquina Padre Benito Menni
+> 6, B2, F2
+## 1350 - Camino Viejo Simancas frente Puente
+> 5, B4
+## 1351 - Carretera Segovia frente Víctimas del Terrorismo
+> 4, 14
+## 1352 - Calle Universo glorieta Cometa
+> 33
+## 1353 - Calle Nebulosa esquina Cosmología
+> 33
+## 1354 - Paseo Juan Carlos I esquina Andrómeda
+> 33
+## 1355 - Paseo Juan Carlos I esquina Carlos Sánchez Magro
+> 33
+## 1356 - Paseo Juan Carlos I glorieta Cometa
+> 33
+## 1357 - Calle Nebulosa esquina Universo
+> 33
+## 1358 - Paseo Belén Campus Miguel Delibes
+> 8, U1, U8
+## 1360 - Calle Kilimanjaro 2
+> 4, 16
+## 1361 - Calle Kilimanjaro frente 39
+> 4, 16
+## 1362 - Calle Dulzaina esquina Arribes del Duero
+> 9, 19
+## 1363 - Calle Dulzaina esquina Palillos
+> 9, 19
+## 1364 - Calle Plata 41A gasolinera
+> 9
+## 1365 - Calle Francisco Umbral 7
+> 10
+## 1366 - Calle Francisco Umbral 8
+> 10
+## 1367 - Calle Gondomar 2 esquina Relatores
+> 
+## 1368 - Calle Verbena esquina Nicasio Pérez
+> 7, 33, F4
+## 1369 - Calle Júpiter frente 12  esquina Comuneros de Castilla
+> 5, 6, B2, C1, F6, M4, P3, P6
+## 1370 - Plaza Castilla y León 4, esquina Miguel Delibes
+> 1, B1, F1, P2
+## 1371 - Plaza San Pablo 2 esquina San Quirce
+> 1, P2
+## 1372 - Calle Miguel Delibes 14
+> 2, 23, B1, F1, M1
+## 1373 - Calle Miguel Delibes 1
+> 2, 23, B1, F1, P2
+## 1374 - Avenida Las Contiendas 97
+> 3, B2, C1, M4, P3
+## 1375 - Calle Fuente El Sol 50 esquina San Sebastián
+> 5, 6, B2
+## 1378 - Paseo Arco Ladrillo 3 esquina Aragón
+> 4
+## 1379 - Paseo Arco Ladrillo 8 esquina Paseo Hosp. Militar
+> 4
+## 1380 - Calle El Barbero de Sevilla esquina Flauta Mágica
+> 4
+## 1381 - Calle Flauta Mágica esquina Parsifal
+> 4
+## 1382 - Plaza Madrid fuente
+> 4
+## 1383 - Avenida Zamora Barrio Las Arcas
+> 16
+## 1384 - Avenida Zamora frente Las Arcas
+> 16
+## 1385 - Avenida Zamora Colegio San Agustín
+> 16
+## 1387 - Calle Dos de Mayo esquina Divina Pastora
+> 14, 18, 19
+## 1388 - Calle Doce de Octubre 24
+> 7, F4, P7
+## 1389 - Carretera Rueda 204 frente Centro Deportivo
+> 1, B1, F1, P2
+## 1390 - Calle Enseñanaza Centro Educación Especial
+> 3, B2, C2
+## 1391 - Calle Monasterio Santo Domingo de Silos 3
+> 8, B3, M5, U8
+## 1392 - Calle Monasterio Santo Domingo de Silos 8
+> 8, B3
+## 1393 - Cañada Real PRAE
+> 23
+## 1394 - Cañada Real frente PRAE
+> 23
+## 1395 - Cañada Real Vivero
+> 23
+## 1396 - Cañada Real frente Vivero
+> 23
+## 1397 - Calle Kilimanjaro fte. Plaza Everest
+> 4, 16
+## 1398 - Calle Recondo 23 esq. Acera Recoletos
+> F2
+## 1399 - Calle General Ruiz 4
+> F2
+## 1400 - Calle C/ Ciudad de La Habana 17
+> 10
+## 1401 - Calle Cuesta Redonda esq. Azuela
+> 18, 19, B5
+## 1402 - Camino Yeseras Polideportivo
+> 18, 19, B5, M7
+## 1403 - Calle Cuesta Redonda Piscinas Municipales
+> 19, B5, M7
+
+
+
+
+
 
