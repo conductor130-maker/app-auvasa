@@ -4,7 +4,7 @@
 1. Añadir recorridos y CUBE eventos especiales ( ferias, Conciertos, etc)
 1. Añadir convenio nuevo
 1. Añadir normativa prestación del servicio
-1. 
+1. 1. En el manual, que la búsqueda la realice también en la tabla de las paradas.
 
 
 # Actualizaciones
