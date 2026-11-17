@@ -32,11 +32,11 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:10"}, {"cabecera": "ESPAÑA", "hora": "7:59"},
                 {"cabecera": "COVAR.", "hora": "8:47"}, {"cabecera": "ESPAÑA", "hora": "9:36"},
-                {"cabecera": "COVAR.", "hora": "10:23"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:30</u>**"},
+                {"cabecera": "COVAR.", "hora": "10:23"}, {"cabecera": "ESPAÑA", "hora": "11:30 Des"},
                 {"cabecera": "COVAR.", "hora": "12:19"}, {"cabecera": "ESPAÑA", "hora": "13:24"},
                 {"cabecera": "COVAR.", "hora": "14:14"}, {"cabecera": "ESPAÑA", "hora": "15:06"},
                 {"cabecera": "COVAR.", "hora": "15:57"}, {"cabecera": "ESPAÑA", "hora": "17:00"},
-                {"cabecera": "COVAR.", "hora": "17:49"}, {"cabecera": "ESPAÑA", "hora": "**<u>18:59</u>**"},
+                {"cabecera": "COVAR.", "hora": "17:49"}, {"cabecera": "ESPAÑA", "hora": "18:59 Des"},
                 {"cabecera": "COVAR.", "hora": "19:49"}, {"cabecera": "ESPAÑA", "hora": "20:40"},
                 {"cabecera": "COVAR.", "hora": "21:28"}, {"cabecera": "ESPAÑA", "hora": "22:15"}
               ]
@@ -48,11 +48,11 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:18"}, {"cabecera": "ESPAÑA", "hora": "8:07"},
                 {"cabecera": "COVAR.", "hora": "8:55"}, {"cabecera": "ESPAÑA", "hora": "9:44"},
-                {"cabecera": "COVAR.", "hora": "10:31"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:38</u>**"},
+                {"cabecera": "COVAR.", "hora": "10:31"}, {"cabecera": "ESPAÑA", "hora": "11:38 Des"},
                 {"cabecera": "COVAR.", "hora": "12:28"}, {"cabecera": "ESPAÑA", "hora": "13:32"},
                 {"cabecera": "COVAR.", "hora": "14:22"}, {"cabecera": "ESPAÑA", "hora": "15:14"},
                 {"cabecera": "COVAR.", "hora": "16:05"}, {"cabecera": "ESPAÑA", "hora": "17:11"},
-                {"cabecera": "COVAR.", "hora": "18:00"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:10</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:00"}, {"cabecera": "ESPAÑA", "hora": "19:10 Des"},
                 {"cabecera": "COVAR.", "hora": "19:58"}, {"cabecera": "ESPAÑA", "hora": "20:48"},
                 {"cabecera": "COVAR.", "hora": "21:38"}
               ]
@@ -64,10 +64,10 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:26"}, {"cabecera": "ESPAÑA", "hora": "8:15"},
                 {"cabecera": "COVAR.", "hora": "9:03"}, {"cabecera": "ESPAÑA", "hora": "9:54"},
-                {"cabecera": "COVAR.", "hora": "10:39"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:47</u>**"},
+                {"cabecera": "COVAR.", "hora": "10:39"}, {"cabecera": "ESPAÑA", "hora": "11:47 Des"},
                 {"cabecera": "COVAR.", "hora": "12:37"}, {"cabecera": "ESPAÑA", "hora": "13:40"},
                 {"cabecera": "COVAR.", "hora": "14:30"}, {"cabecera": "ESPAÑA", "hora": "15:22"},
-                {"cabecera": "COVAR.", "hora": "16:13"}, {"cabecera": "ESPAÑA", "hora": "**<u>17:20</u>**"},
+                {"cabecera": "COVAR.", "hora": "16:13"}, {"cabecera": "ESPAÑA", "hora": "17:20 Des"},
                 {"cabecera": "COVAR.", "hora": "18:09"}, {"cabecera": "ESPAÑA", "hora": "19:17"},
                 {"cabecera": "COVAR.", "hora": "20:06"}, {"cabecera": "ESPAÑA", "hora": "20:56"}
               ]
@@ -79,10 +79,10 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:34"}, {"cabecera": "ESPAÑA", "hora": "8:23"},
                 {"cabecera": "COVAR.", "hora": "9:11"}, {"cabecera": "ESPAÑA", "hora": "10:04"},
-                {"cabecera": "COVAR.", "hora": "10:50"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:58</u>**"},
+                {"cabecera": "COVAR.", "hora": "10:50"}, {"cabecera": "ESPAÑA", "hora": "11:58 Des"},
                 {"cabecera": "COVAR.", "hora": "12:47"}, {"cabecera": "ESPAÑA", "hora": "13:48"},
                 {"cabecera": "COVAR.", "hora": "14:39"}, {"cabecera": "ESPAÑA", "hora": "15:30"},
-                {"cabecera": "COVAR.", "hora": "16:21"}, {"cabecera": "ESPAÑA", "hora": "**<u>17:28</u>**"},
+                {"cabecera": "COVAR.", "hora": "16:21"}, {"cabecera": "ESPAÑA", "hora": "17:28 Des"},
                 {"cabecera": "COVAR.", "hora": "18:18"}, {"cabecera": "ESPAÑA", "hora": "19:24"},
                 {"cabecera": "COVAR.", "hora": "20:14"}, {"cabecera": "ESPAÑA", "hora": "21:04"},
                 {"cabecera": "COVAR.", "hora": "21:48"}, {"cabecera": "ESPAÑA", "hora": "22:35"}
@@ -95,10 +95,10 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:42"}, {"cabecera": "ESPAÑA", "hora": "8:31"},
                 {"cabecera": "COVAR.", "hora": "9:19"}, {"cabecera": "ESPAÑA", "hora": "10:14"},
-                {"cabecera": "COVAR.", "hora": "11:00"}, {"cabecera": "ESPAÑA", "hora": "**<u>12:09</u>**"},
+                {"cabecera": "COVAR.", "hora": "11:00"}, {"cabecera": "ESPAÑA", "hora": "12:09 Des"},
                 {"cabecera": "COVAR.", "hora": "12:57"}, {"cabecera": "ESPAÑA", "hora": "13:57"},
                 {"cabecera": "COVAR.", "hora": "14:48"}, {"cabecera": "ESPAÑA", "hora": "15:38"},
-                {"cabecera": "COVAR.", "hora": "16:29"}, {"cabecera": "ESPAÑA", "hora": "**<u>17:36</u>**"},
+                {"cabecera": "COVAR.", "hora": "16:29"}, {"cabecera": "ESPAÑA", "hora": "17:36 Des"},
                 {"cabecera": "COVAR.", "hora": "18:27"}, {"cabecera": "ESPAÑA", "hora": "19:31"},
                 {"cabecera": "COVAR.", "hora": "20:22"}, {"cabecera": "ESPAÑA", "hora": "21:12"},
                 {"cabecera": "COVAR.", "hora": "21:58"}
@@ -114,13 +114,13 @@
                 {"cabecera": "COVAR.", "hora": "9:01"},
                 {"cabecera": "ESPAÑA", "hora": "10:12"},
                 {"cabecera": "COVAR.", "hora": "11:10"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>12:19</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "12:19 Des"},
                 {"cabecera": "COVAR.", "hora": "13:07"},
                 {"cabecera": "ESPAÑA", "hora": "14:06"},
                 {"cabecera": "COVAR.", "hora": "14:57"},
                 {"cabecera": "ESPAÑA", "hora": "15:47"},
                 {"cabecera": "COVAR.", "hora": "16:37"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>17:44</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "17:44 Des"},
                 {"cabecera": "COVAR.", "hora": "18:36"},
                 {"cabecera": "ESPAÑA", "hora": "19:39"},
                 {"cabecera": "COVAR.", "hora": "20:30"},
@@ -145,7 +145,7 @@
                 {"cabecera": "COVAR.", "hora": "15:06"},
                 {"cabecera": "ESPAÑA", "hora": "15:56"},
                 {"cabecera": "COVAR.", "hora": "16:46"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>17:53</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "17:53 Des"},
                 {"cabecera": "COVAR.", "hora": "18:45"},
                 {"cabecera": "ESPAÑA", "hora": "19:47"},
                 {"cabecera": "COVAR.", "hora": "20:38"},
@@ -165,7 +165,7 @@
                 {"cabecera": "COVAR.", "hora": "12:39"}, {"cabecera": "ESPAÑA", "hora": "13:28"},
                 {"cabecera": "COVAR.", "hora": "14:24"}, {"cabecera": "ESPAÑA", "hora": "15:15"},
                 {"cabecera": "COVAR.", "hora": "16:06"}, {"cabecera": "ESPAÑA", "hora": "16:55"},
-                {"cabecera": "COVAR.", "hora": "**<u>18:04</u>**"}, {"cabecera": "ESPAÑA", "hora": "18:55"},
+                {"cabecera": "COVAR.", "hora": "18:04 Des"}, {"cabecera": "ESPAÑA", "hora": "18:55"},
                 {"cabecera": "COVAR.", "hora": "19:56"}, {"cabecera": "ESPAÑA", "hora": "20:46"},
                 {"cabecera": "COVAR.", "hora": "21:36"}
               ]
@@ -180,7 +180,7 @@
                 {"cabecera": "COVAR.", "hora": "11:40"}, {"cabecera": "ESPAÑA", "hora": "12:49"},
                 {"cabecera": "COVAR.", "hora": "13:39"}, {"cabecera": "ESPAÑA", "hora": "14:33"},
                 {"cabecera": "COVAR.", "hora": "15:24"}, {"cabecera": "ESPAÑA", "hora": "16:16"},
-                {"cabecera": "COVAR.", "hora": "17:05"}, {"cabecera": "ESPAÑA", "hora": "**<u>18:15</u>**"},
+                {"cabecera": "COVAR.", "hora": "17:05"}, {"cabecera": "ESPAÑA", "hora": "18:15 Des"},
                 {"cabecera": "COVAR.", "hora": "19:05"}, {"cabecera": "ESPAÑA", "hora": "20:05"},
                 {"cabecera": "COVAR.", "hora": "20:54"}, {"cabecera": "ESPAÑA", "hora": "21:44"},
                 {"cabecera": "COVAR.", "hora": "22:30"}
@@ -197,7 +197,7 @@
                 {"cabecera": "COVAR.", "hora": "13:00"}, {"cabecera": "ESPAÑA", "hora": "13:50"},
                 {"cabecera": "COVAR.", "hora": "14:42"}, {"cabecera": "ESPAÑA", "hora": "15:33"},
                 {"cabecera": "COVAR.", "hora": "16:27"}, {"cabecera": "ESPAÑA", "hora": "17:16"},
-                {"cabecera": "COVAR.", "hora": "**<u>18:26</u>**"}, {"cabecera": "ESPAÑA", "hora": "19:16"},
+                {"cabecera": "COVAR.", "hora": "18:26 Des"}, {"cabecera": "ESPAÑA", "hora": "19:16"},
                 {"cabecera": "COVAR.", "hora": "20:14"}, {"cabecera": "ESPAÑA", "hora": "21:02"},
                 {"cabecera": "COVAR.", "hora": "21:52"}
               ]
@@ -213,7 +213,7 @@
                 {"cabecera": "COVAR.", "hora": "13:08"}, {"cabecera": "ESPAÑA", "hora": "13:58"},
                 {"cabecera": "COVAR.", "hora": "14:50"}, {"cabecera": "ESPAÑA", "hora": "15:41"},
                 {"cabecera": "COVAR.", "hora": "16:38"}, {"cabecera": "ESPAÑA", "hora": "17:27"},
-                {"cabecera": "COVAR.", "hora": "**<u>18:37</u>**"}, {"cabecera": "ESPAÑA", "hora": "19:27"},
+                {"cabecera": "COVAR.", "hora": "18:37 Des"}, {"cabecera": "ESPAÑA", "hora": "19:27"},
                 {"cabecera": "COVAR.", "hora": "20:23"}, {"cabecera": "ESPAÑA", "hora": "21:10"},
                 {"cabecera": "COVAR.", "hora": "22:00"}
               ]
@@ -236,7 +236,7 @@
                 {"cabecera": "COVAR.", "hora": "15:49"},
                 {"cabecera": "ESPAÑA", "hora": "16:49"},
                 {"cabecera": "COVAR.", "hora": "17:38"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>18:48</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "18:48 Des"},
                 {"cabecera": "COVAR.", "hora": "19:38"},
                 {"cabecera": "ESPAÑA", "hora": "20:32"},
                 {"cabecera": "COVAR.", "hora": "21:18"}
@@ -258,11 +258,11 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:10"}, {"cabecera": "ESPAÑA", "hora": "7:59"},
                 {"cabecera": "COVAR.", "hora": "8:49"}, {"cabecera": "ESPAÑA", "hora": "9:38"},
-                {"cabecera": "COVAR.", "hora": "10:28"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:35</u>**"},
+                {"cabecera": "COVAR.", "hora": "10:28"}, {"cabecera": "ESPAÑA", "hora": "11:35 Des"},
                 {"cabecera": "COVAR.", "hora": "12:24"}, {"cabecera": "ESPAÑA", "hora": "13:29"},
                 {"cabecera": "COVAR.", "hora": "14:19"}, {"cabecera": "ESPAÑA", "hora": "15:14"},
                 {"cabecera": "COVAR.", "hora": "16:05"}, {"cabecera": "ESPAÑA", "hora": "17:09"},
-                {"cabecera": "COVAR.", "hora": "17:58"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:07</u>**"},
+                {"cabecera": "COVAR.", "hora": "17:58"}, {"cabecera": "ESPAÑA", "hora": "19:07 Des"},
                 {"cabecera": "COVAR.", "hora": "19:56"}, {"cabecera": "ESPAÑA", "hora": "20:47"}
               ]
             },
@@ -273,10 +273,10 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:19"}, {"cabecera": "ESPAÑA", "hora": "8:08"},
                 {"cabecera": "COVAR.", "hora": "8:58"}, {"cabecera": "ESPAÑA", "hora": "9:49"},
-                {"cabecera": "COVAR.", "hora": "10:38"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:45</u>**"},
+                {"cabecera": "COVAR.", "hora": "10:38"}, {"cabecera": "ESPAÑA", "hora": "11:45 Des"},
                 {"cabecera": "COVAR.", "hora": "12:35"}, {"cabecera": "ESPAÑA", "hora": "13:38"},
                 {"cabecera": "COVAR.", "hora": "14:28"}, {"cabecera": "ESPAÑA", "hora": "15:24"},
-                {"cabecera": "COVAR.", "hora": "16:14"}, {"cabecera": "ESPAÑA", "hora": "**<u>17:21</u>**"},
+                {"cabecera": "COVAR.", "hora": "16:14"}, {"cabecera": "ESPAÑA", "hora": "17:21 Des"},
                 {"cabecera": "COVAR.", "hora": "18:10"}, {"cabecera": "ESPAÑA", "hora": "19:17"},
                 {"cabecera": "COVAR.", "hora": "20:06"}, {"cabecera": "ESPAÑA", "hora": "20:57"},
                 {"cabecera": "COVAR.", "hora": "21:40"}, {"cabecera": "ESPAÑA", "hora": "22:35"}
@@ -289,10 +289,10 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:28"}, {"cabecera": "ESPAÑA", "hora": "8:17"},
                 {"cabecera": "COVAR.", "hora": "9:07"}, {"cabecera": "ESPAÑA", "hora": "10:00"},
-                {"cabecera": "COVAR.", "hora": "10:48"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:56</u>**"},
+                {"cabecera": "COVAR.", "hora": "10:48"}, {"cabecera": "ESPAÑA", "hora": "11:56 Des"},
                 {"cabecera": "COVAR.", "hora": "12:46"}, {"cabecera": "ESPAÑA", "hora": "13:47"},
                 {"cabecera": "COVAR.", "hora": "14:37"}, {"cabecera": "ESPAÑA", "hora": "15:34"},
-                {"cabecera": "COVAR.", "hora": "16:23"}, {"cabecera": "ESPAÑA", "hora": "**<u>17:32</u>**"},
+                {"cabecera": "COVAR.", "hora": "16:23"}, {"cabecera": "ESPAÑA", "hora": "17:32 Des"},
                 {"cabecera": "COVAR.", "hora": "18:22"}, {"cabecera": "ESPAÑA", "hora": "19:27"},
                 {"cabecera": "COVAR.", "hora": "20:16"}, {"cabecera": "ESPAÑA", "hora": "21:07"},
                 {"cabecera": "COVAR.", "hora": "21:52"}
@@ -305,10 +305,10 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:37"}, {"cabecera": "ESPAÑA", "hora": "8:26"},
                 {"cabecera": "COVAR.", "hora": "9:16"}, {"cabecera": "ESPAÑA", "hora": "10:11"},
-                {"cabecera": "COVAR.", "hora": "10:58"}, {"cabecera": "ESPAÑA", "hora": "**<u>12:07</u>**"},
+                {"cabecera": "COVAR.", "hora": "10:58"}, {"cabecera": "ESPAÑA", "hora": "12:07 Des"},
                 {"cabecera": "COVAR.", "hora": "12:57"}, {"cabecera": "ESPAÑA", "hora": "13:56"},
                 {"cabecera": "COVAR.", "hora": "14:46"}, {"cabecera": "ESPAÑA", "hora": "15:44"},
-                {"cabecera": "COVAR.", "hora": "16:33"}, {"cabecera": "ESPAÑA", "hora": "**<u>17:40</u>**"},
+                {"cabecera": "COVAR.", "hora": "16:33"}, {"cabecera": "ESPAÑA", "hora": "17:40 Des"},
                 {"cabecera": "COVAR.", "hora": "18:32"}, {"cabecera": "ESPAÑA", "hora": "19:35"},
                 {"cabecera": "COVAR.", "hora": "20:24"}, {"cabecera": "ESPAÑA", "hora": "21:14"},
                 {"cabecera": "COVAR.", "hora": "22:05"}
@@ -321,10 +321,10 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:46"}, {"cabecera": "ESPAÑA", "hora": "8:35"},
                 {"cabecera": "COVAR.", "hora": "9:25"}, {"cabecera": "ESPAÑA", "hora": "10:22"},
-                {"cabecera": "COVAR.", "hora": "11:09"}, {"cabecera": "ESPAÑA", "hora": "**<u>12:18</u>**"},
+                {"cabecera": "COVAR.", "hora": "11:09"}, {"cabecera": "ESPAÑA", "hora": "12:18 Des"},
                 {"cabecera": "COVAR.", "hora": "13:08"}, {"cabecera": "ESPAÑA", "hora": "14:05"},
                 {"cabecera": "COVAR.", "hora": "14:56"}, {"cabecera": "ESPAÑA", "hora": "15:54"},
-                {"cabecera": "COVAR.", "hora": "16:42"}, {"cabecera": "ESPAÑA", "hora": "**<u>17:51</u>**"},
+                {"cabecera": "COVAR.", "hora": "16:42"}, {"cabecera": "ESPAÑA", "hora": "17:51 Des"},
                 {"cabecera": "COVAR.", "hora": "18:42"}, {"cabecera": "ESPAÑA", "hora": "19:44"},
                 {"cabecera": "COVAR.", "hora": "20:33"}, {"cabecera": "ESPAÑA", "hora": "21:23"}
               ]
@@ -339,13 +339,13 @@
                 {"cabecera": "COVAR.", "hora": "9:34"},
                 {"cabecera": "ESPAÑA", "hora": "10:33"},
                 {"cabecera": "COVAR.", "hora": "11:20"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>12:29</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "12:29 Des"},
                 {"cabecera": "COVAR.", "hora": "13:19"},
                 {"cabecera": "ESPAÑA", "hora": "14:14"},
                 {"cabecera": "COVAR.", "hora": "15:06"},
                 {"cabecera": "ESPAÑA", "hora": "16:04"},
                 {"cabecera": "COVAR.", "hora": "16:53"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>18:02</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "18:02 Des"},
                 {"cabecera": "COVAR.", "hora": "18:52"},
                 {"cabecera": "ESPAÑA", "hora": "19:53"},
                 {"cabecera": "COVAR.", "hora": "20:42"},
@@ -365,13 +365,13 @@
                 {"cabecera": "COVAR.", "hora": "9:43"},
                 {"cabecera": "ESPAÑA", "hora": "10:44"},
                 {"cabecera": "COVAR.", "hora": "11:31"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>12:40</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "12:40 Des"},
                 {"cabecera": "COVAR.", "hora": "13:30"},
                 {"cabecera": "ESPAÑA", "hora": "14:24"},
                 {"cabecera": "COVAR.", "hora": "15:16"},
                 {"cabecera": "ESPAÑA", "hora": "16:15"},
                 {"cabecera": "COVAR.", "hora": "17:04"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>18:13</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "18:13 Des"},
                 {"cabecera": "COVAR.", "hora": "19:03"},
                 {"cabecera": "ESPAÑA", "hora": "20:02"},
                 {"cabecera": "COVAR.", "hora": "20:51"},
@@ -390,7 +390,7 @@
                 {"cabecera": "COVAR.", "hora": "12:51"}, {"cabecera": "ESPAÑA", "hora": "13:41"},
                 {"cabecera": "COVAR.", "hora": "14:34"}, {"cabecera": "ESPAÑA", "hora": "15:26"},
                 {"cabecera": "COVAR.", "hora": "16:26"}, {"cabecera": "ESPAÑA", "hora": "17:15"},
-                {"cabecera": "COVAR.", "hora": "18:24"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:14</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:24"}, {"cabecera": "ESPAÑA", "hora": "19:14 Des"},
                 {"cabecera": "COVAR.", "hora": "20:11"}, {"cabecera": "ESPAÑA", "hora": "21:00"},
                 {"cabecera": "COVAR.", "hora": "21:50"}
               ]
@@ -406,7 +406,7 @@
                 {"cabecera": "COVAR.", "hora": "13:02"}, {"cabecera": "ESPAÑA", "hora": "13:52"},
                 {"cabecera": "COVAR.", "hora": "14:44"}, {"cabecera": "ESPAÑA", "hora": "15:36"},
                 {"cabecera": "COVAR.", "hora": "16:37"}, {"cabecera": "ESPAÑA", "hora": "17:26"},
-                {"cabecera": "COVAR.", "hora": "18:35"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:25</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:35"}, {"cabecera": "ESPAÑA", "hora": "19:25 Des"},
                 {"cabecera": "COVAR.", "hora": "20:20"}, {"cabecera": "ESPAÑA", "hora": "21:09"},
                 {"cabecera": "COVAR.", "hora": "22:00"}
               ]
@@ -418,11 +418,11 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:40"}, {"cabecera": "ESPAÑA", "hora": "8:31"},
                 {"cabecera": "COVAR.", "hora": "9:20"}, {"cabecera": "ESPAÑA", "hora": "10:10"},
-                {"cabecera": "COVAR.", "hora": "**<u>11:17</u>**"}, {"cabecera": "ESPAÑA", "hora": "12:04"},
+                {"cabecera": "COVAR.", "hora": "11:17 Des"}, {"cabecera": "ESPAÑA", "hora": "12:04"},
                 {"cabecera": "COVAR.", "hora": "13:11"}, {"cabecera": "ESPAÑA", "hora": "14:01"},
                 {"cabecera": "COVAR.", "hora": "14:54"}, {"cabecera": "ESPAÑA", "hora": "15:46"},
                 {"cabecera": "COVAR.", "hora": "16:48"}, {"cabecera": "ESPAÑA", "hora": "17:37"},
-                {"cabecera": "COVAR.", "hora": "18:46"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:36</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:46"}, {"cabecera": "ESPAÑA", "hora": "19:36 Des"},
                 {"cabecera": "COVAR.", "hora": "20:29"}, {"cabecera": "ESPAÑA", "hora": "21:17"}
               ]
             },
@@ -436,7 +436,7 @@
                 {"cabecera": "COVAR.", "hora": "8:40"},
                 {"cabecera": "ESPAÑA", "hora": "9:29"},
                 {"cabecera": "COVAR.", "hora": "10:19"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>11:26</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "11:26 Des"},
                 {"cabecera": "COVAR.", "hora": "12:14"},
                 {"cabecera": "ESPAÑA", "hora": "13:20"},
                 {"cabecera": "COVAR.", "hora": "14:10"},
@@ -444,7 +444,7 @@
                 {"cabecera": "COVAR.", "hora": "15:56"},
                 {"cabecera": "ESPAÑA", "hora": "16:58"},
                 {"cabecera": "COVAR.", "hora": "17:47"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>18:56</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "18:56 Des"},
                 {"cabecera": "COVAR.", "hora": "19:46"},
                 {"cabecera": "ESPAÑA", "hora": "20:37"},
                 {"cabecera": "COVAR.", "hora": "21:28"},
@@ -466,12 +466,12 @@
               "retirada": "Se retira de Bº ESPAÑA",
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:15"}, {"cabecera": "ESPAÑA", "hora": "8:04"},
-                {"cabecera": "COVAR.", "hora": "8:52"}, {"cabecera": "ESPAÑA", "hora": "**<u>9:53</u>**"},
+                {"cabecera": "COVAR.", "hora": "8:52"}, {"cabecera": "ESPAÑA", "hora": "9:53 Des"},
                 {"cabecera": "COVAR.", "hora": "10:37"}, {"cabecera": "ESPAÑA", "hora": "11:35"},
                 {"cabecera": "COVAR.", "hora": "12:21"}, {"cabecera": "ESPAÑA", "hora": "13:11"},
                 {"cabecera": "COVAR.", "hora": "14:00"}, {"cabecera": "ESPAÑA", "hora": "14:54"},
                 {"cabecera": "COVAR.", "hora": "15:44"}, {"cabecera": "ESPAÑA", "hora": "16:44"},
-                {"cabecera": "COVAR.", "hora": "17:30"}, {"cabecera": "ESPAÑA", "hora": "**<u>18:35</u>**"},
+                {"cabecera": "COVAR.", "hora": "17:30"}, {"cabecera": "ESPAÑA", "hora": "18:35 Des"},
                 {"cabecera": "COVAR.", "hora": "19:23"}, {"cabecera": "ESPAÑA", "hora": "20:21"},
                 {"cabecera": "COVAR.", "hora": "21:10"}
               ]
@@ -482,12 +482,12 @@
               "retirada": "Se retira de COVARESA",
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:27"}, {"cabecera": "ESPAÑA", "hora": "8:16"},
-                {"cabecera": "COVAR.", "hora": "9:05"}, {"cabecera": "ESPAÑA", "hora": "**<u>10:07</u>**"},
+                {"cabecera": "COVAR.", "hora": "9:05"}, {"cabecera": "ESPAÑA", "hora": "10:07 Des"},
                 {"cabecera": "COVAR.", "hora": "10:51"}, {"cabecera": "ESPAÑA", "hora": "11:47"},
                 {"cabecera": "COVAR.", "hora": "12:33"}, {"cabecera": "ESPAÑA", "hora": "13:23"},
                 {"cabecera": "COVAR.", "hora": "14:13"}, {"cabecera": "ESPAÑA", "hora": "15:07"},
                 {"cabecera": "COVAR.", "hora": "15:57"}, {"cabecera": "ESPAÑA", "hora": "16:58"},
-                {"cabecera": "COVAR.", "hora": "17:44"}, {"cabecera": "ESPAÑA", "hora": "**<u>18:49</u>**"},
+                {"cabecera": "COVAR.", "hora": "17:44"}, {"cabecera": "ESPAÑA", "hora": "18:49 Des"},
                 {"cabecera": "COVAR.", "hora": "19:37"}, {"cabecera": "ESPAÑA", "hora": "20:34"},
                 {"cabecera": "COVAR.", "hora": "21:25"}, {"cabecera": "ESPAÑA", "hora": "22:15"}
               ]
@@ -498,12 +498,12 @@
               "retirada": "Se retira de COVARESA",
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:39"}, {"cabecera": "ESPAÑA", "hora": "8:30"},
-                {"cabecera": "COVAR.", "hora": "9:18"}, {"cabecera": "ESPAÑA", "hora": "**<u>10:20</u>**"},
+                {"cabecera": "COVAR.", "hora": "9:18"}, {"cabecera": "ESPAÑA", "hora": "10:20 Des"},
                 {"cabecera": "COVAR.", "hora": "11:04"}, {"cabecera": "ESPAÑA", "hora": "11:59"},
                 {"cabecera": "COVAR.", "hora": "12:46"}, {"cabecera": "ESPAÑA", "hora": "13:36"},
                 {"cabecera": "COVAR.", "hora": "14:26"}, {"cabecera": "ESPAÑA", "hora": "15:20"},
                 {"cabecera": "COVAR.", "hora": "16:10"}, {"cabecera": "ESPAÑA", "hora": "17:12"},
-                {"cabecera": "COVAR.", "hora": "17:58"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:03</u>**"},
+                {"cabecera": "COVAR.", "hora": "17:58"}, {"cabecera": "ESPAÑA", "hora": "19:03 Des"},
                 {"cabecera": "COVAR.", "hora": "19:51"}, {"cabecera": "ESPAÑA", "hora": "20:47"},
                 {"cabecera": "COVAR.", "hora": "21:40"}, {"cabecera": "ESPAÑA", "hora": "22:35"}
               ]
@@ -516,7 +516,7 @@
                 {"cabecera": "Angustias 5", "hora": "7:20"},
                 {"cabecera": "ESPAÑA", "hora": "8:44"},
                 {"cabecera": "COVAR.", "hora": "9:31"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>10:33</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "10:33 Des"},
                 {"cabecera": "COVAR.", "hora": "11:17"},
                 {"cabecera": "ESPAÑA", "hora": "12:11"},
                 {"cabecera": "COVAR.", "hora": "12:59"},
@@ -524,7 +524,7 @@
                 {"cabecera": "COVAR.", "hora": "14:39"},
                 {"cabecera": "ESPAÑA", "hora": "15:34"},
                 {"cabecera": "COVAR.", "hora": "16:23"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>17:26</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "17:26 Des"},
                 {"cabecera": "COVAR.", "hora": "18:12"},
                 {"cabecera": "ESPAÑA", "hora": "19:16"},
                 {"cabecera": "COVAR.", "hora": "20:05"},
@@ -538,11 +538,11 @@
               "retirada": "Se retira de COVARESA",
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:20"}, {"cabecera": "ESPAÑA", "hora": "8:03"},
-                {"cabecera": "COVAR.", "hora": "8:58"}, {"cabecera": "ESPAÑA", "hora": "**<u>10:46</u>**"},
+                {"cabecera": "COVAR.", "hora": "8:58"}, {"cabecera": "ESPAÑA", "hora": "10:46 Des"},
                 {"cabecera": "COVAR.", "hora": "11:30"}, {"cabecera": "ESPAÑA", "hora": "12:23"},
                 {"cabecera": "COVAR.", "hora": "13:11"}, {"cabecera": "ESPAÑA", "hora": "14:02"},
                 {"cabecera": "COVAR.", "hora": "14:52"}, {"cabecera": "ESPAÑA", "hora": "15:48"},
-                {"cabecera": "COVAR.", "hora": "16:36"}, {"cabecera": "ESPAÑA", "hora": "**<u>17:39</u>**"},
+                {"cabecera": "COVAR.", "hora": "16:36"}, {"cabecera": "ESPAÑA", "hora": "17:39 Des"},
                 {"cabecera": "COVAR.", "hora": "18:26"}, {"cabecera": "ESPAÑA", "hora": "19:29"},
                 {"cabecera": "COVAR.", "hora": "20:18"}, {"cabecera": "ESPAÑA", "hora": "21:13"},
                 {"cabecera": "COVAR.", "hora": "22:10"}, {"cabecera": "ESPAÑA", "hora": "23:00"}
@@ -554,11 +554,11 @@
               "retirada": "Se retira de COVARESA",
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:30"}, {"cabecera": "ESPAÑA", "hora": "8:15"},
-                {"cabecera": "COVAR.", "hora": "9:12"}, {"cabecera": "ESPAÑA", "hora": "**<u>10:59</u>**"},
+                {"cabecera": "COVAR.", "hora": "9:12"}, {"cabecera": "ESPAÑA", "hora": "10:59 Des"},
                 {"cabecera": "COVAR.", "hora": "11:43"}, {"cabecera": "ESPAÑA", "hora": "12:35"},
                 {"cabecera": "COVAR.", "hora": "13:23"}, {"cabecera": "ESPAÑA", "hora": "14:15"},
                 {"cabecera": "COVAR.", "hora": "15:05"}, {"cabecera": "ESPAÑA", "hora": "16:02"},
-                {"cabecera": "COVAR.", "hora": "16:49"}, {"cabecera": "ESPAÑA", "hora": "**<u>17:53</u>**"},
+                {"cabecera": "COVAR.", "hora": "16:49"}, {"cabecera": "ESPAÑA", "hora": "17:53 Des"},
                 {"cabecera": "COVAR.", "hora": "18:40"}, {"cabecera": "ESPAÑA", "hora": "19:42"},
                 {"cabecera": "COVAR.", "hora": "20:31"}, {"cabecera": "ESPAÑA", "hora": "21:26"}
               ]
@@ -569,11 +569,11 @@
               "retirada": "Se retira de Bº ESPAÑA",
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:40"}, {"cabecera": "ESPAÑA", "hora": "8:27"},
-                {"cabecera": "COVAR.", "hora": "9:26"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:11</u>**"},
+                {"cabecera": "COVAR.", "hora": "9:26"}, {"cabecera": "ESPAÑA", "hora": "11:11 Des"},
                 {"cabecera": "COVAR.", "hora": "11:56"}, {"cabecera": "ESPAÑA", "hora": "12:47"},
                 {"cabecera": "COVAR.", "hora": "13:35"}, {"cabecera": "ESPAÑA", "hora": "14:28"},
                 {"cabecera": "COVAR.", "hora": "15:18"}, {"cabecera": "ESPAÑA", "hora": "16:16"},
-                {"cabecera": "COVAR.", "hora": "17:02"}, {"cabecera": "ESPAÑA", "hora": "**<u>18:07</u>**"},
+                {"cabecera": "COVAR.", "hora": "17:02"}, {"cabecera": "ESPAÑA", "hora": "18:07 Des"},
                 {"cabecera": "COVAR.", "hora": "18:55"}, {"cabecera": "ESPAÑA", "hora": "19:55"},
                 {"cabecera": "COVAR.", "hora": "20:44"}, {"cabecera": "ESPAÑA", "hora": "21:40"},
                 {"cabecera": "COVAR.", "hora": "22:30"}
@@ -587,7 +587,7 @@
                 {"cabecera": "fte.Vallsur", "hora": "7:10"},
                 {"cabecera": "ESPAÑA", "hora": "7:52"},
                 {"cabecera": "COVAR.", "hora": "8:39"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>9:39</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "9:39 Des"},
                 {"cabecera": "COVAR.", "hora": "10:23"},
                 {"cabecera": "ESPAÑA", "hora": "11:23"},
                 {"cabecera": "COVAR.", "hora": "12:09"},
@@ -597,7 +597,7 @@
                 {"cabecera": "COVAR.", "hora": "15:31"},
                 {"cabecera": "ESPAÑA", "hora": "16:30"},
                 {"cabecera": "COVAR.", "hora": "17:16"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>18:21</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "18:21 Des"},
                 {"cabecera": "COVAR.", "hora": "19:09"},
                 {"cabecera": "ESPAÑA", "hora": "20:08"},
                 {"cabecera": "COVAR.", "hora": "20:57"},
@@ -620,11 +620,11 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:20"}, {"cabecera": "ESPAÑA", "hora": "8:10"},
                 {"cabecera": "COVAR.", "hora": "9:05"}, {"cabecera": "ESPAÑA", "hora": "9:59"},
-                {"cabecera": "COVAR.", "hora": "10:50"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:52</u>**"},
+                {"cabecera": "COVAR.", "hora": "10:50"}, {"cabecera": "ESPAÑA", "hora": "11:52 Des"},
                 {"cabecera": "COVAR.", "hora": "12:36"}, {"cabecera": "ESPAÑA", "hora": "13:33"},
                 {"cabecera": "COVAR.", "hora": "14:20"}, {"cabecera": "ESPAÑA", "hora": "15:12"},
                 {"cabecera": "COVAR.", "hora": "15:59"}, {"cabecera": "ESPAÑA", "hora": "16:58"},
-                {"cabecera": "COVAR.", "hora": "17:44"}, {"cabecera": "ESPAÑA", "hora": "**<u>18:48</u>**"},
+                {"cabecera": "COVAR.", "hora": "17:44"}, {"cabecera": "ESPAÑA", "hora": "18:48 Des"},
                 {"cabecera": "COVAR.", "hora": "19:33"}, {"cabecera": "ESPAÑA", "hora": "20:27"},
                 {"cabecera": "COVAR.", "hora": "21:12"}, {"cabecera": "ESPAÑA", "hora": "22:00"}
               ]
@@ -636,11 +636,11 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:35"}, {"cabecera": "ESPAÑA", "hora": "8:25"},
                 {"cabecera": "COVAR.", "hora": "9:20"}, {"cabecera": "ESPAÑA", "hora": "10:16"},
-                {"cabecera": "COVAR.", "hora": "11:05"}, {"cabecera": "ESPAÑA", "hora": "**<u>12:08</u>**"},
+                {"cabecera": "COVAR.", "hora": "11:05"}, {"cabecera": "ESPAÑA", "hora": "12:08 Des"},
                 {"cabecera": "COVAR.", "hora": "12:52"}, {"cabecera": "ESPAÑA", "hora": "13:47"},
                 {"cabecera": "COVAR.", "hora": "14:34"}, {"cabecera": "ESPAÑA", "hora": "15:27"},
                 {"cabecera": "COVAR.", "hora": "16:14"}, {"cabecera": "ESPAÑA", "hora": "17:14"},
-                {"cabecera": "COVAR.", "hora": "17:59"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:03</u>**"},
+                {"cabecera": "COVAR.", "hora": "17:59"}, {"cabecera": "ESPAÑA", "hora": "19:03 Des"},
                 {"cabecera": "COVAR.", "hora": "19:48"}, {"cabecera": "ESPAÑA", "hora": "20:41"},
                 {"cabecera": "COVAR.", "hora": "21:30"}, {"cabecera": "ESPAÑA", "hora": "22:15"}
               ]
@@ -656,7 +656,7 @@
                 {"cabecera": "COVAR.", "hora": "9:35"},
                 {"cabecera": "ESPAÑA", "hora": "10:33"},
                 {"cabecera": "COVAR.", "hora": "11:20"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>12:23</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "12:23 Des"},
                 {"cabecera": "COVAR.", "hora": "13:07"},
                 {"cabecera": "ESPAÑA", "hora": "14:01"},
                 {"cabecera": "COVAR.", "hora": "14:48"},
@@ -664,7 +664,7 @@
                 {"cabecera": "COVAR.", "hora": "16:29"},
                 {"cabecera": "ESPAÑA", "hora": "17:30"},
                 {"cabecera": "COVAR.", "hora": "18:14"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>19:17</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "19:17 Des"},
                 {"cabecera": "COVAR.", "hora": "20:02"},
                 {"cabecera": "ESPAÑA", "hora": "20:55"}
               ]
@@ -676,11 +676,11 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:30"}, {"cabecera": "ESPAÑA", "hora": "8:55"},
                 {"cabecera": "COVAR.", "hora": "9:50"}, {"cabecera": "ESPAÑA", "hora": "10:50"},
-                {"cabecera": "COVAR.", "hora": "11:35"}, {"cabecera": "ESPAÑA", "hora": "**<u>12:37</u>**"},
+                {"cabecera": "COVAR.", "hora": "11:35"}, {"cabecera": "ESPAÑA", "hora": "12:37 Des"},
                 {"cabecera": "COVAR.", "hora": "13:22"}, {"cabecera": "ESPAÑA", "hora": "14:15"},
                 {"cabecera": "COVAR.", "hora": "15:02"}, {"cabecera": "ESPAÑA", "hora": "15:57"},
                 {"cabecera": "COVAR.", "hora": "16:44"}, {"cabecera": "ESPAÑA", "hora": "17:46"},
-                {"cabecera": "COVAR.", "hora": "18:30"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:31</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:30"}, {"cabecera": "ESPAÑA", "hora": "19:31 Des"},
                 {"cabecera": "COVAR.", "hora": "20:16"}, {"cabecera": "ESPAÑA", "hora": "21:09"},
                 {"cabecera": "COVAR.", "hora": "21:50"}, {"cabecera": "ESPAÑA", "hora": "22:35"}
               ]
@@ -692,11 +692,11 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "8:20"}, {"cabecera": "ESPAÑA", "hora": "9:11"},
                 {"cabecera": "COVAR.", "hora": "10:05"}, {"cabecera": "ESPAÑA", "hora": "11:07"},
-                {"cabecera": "COVAR.", "hora": "11:50"}, {"cabecera": "ESPAÑA", "hora": "**<u>12:51</u>**"},
+                {"cabecera": "COVAR.", "hora": "11:50"}, {"cabecera": "ESPAÑA", "hora": "12:51 Des"},
                 {"cabecera": "COVAR.", "hora": "13:37"}, {"cabecera": "ESPAÑA", "hora": "14:29"},
                 {"cabecera": "COVAR.", "hora": "15:16"}, {"cabecera": "ESPAÑA", "hora": "16:12"},
                 {"cabecera": "COVAR.", "hora": "16:59"}, {"cabecera": "ESPAÑA", "hora": "18:02"},
-                {"cabecera": "COVAR.", "hora": "18:46"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:45</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:46"}, {"cabecera": "ESPAÑA", "hora": "19:45 Des"},
                 {"cabecera": "COVAR.", "hora": "20:30"}, {"cabecera": "ESPAÑA", "hora": "21:23"},
                 {"cabecera": "COVAR.", "hora": "22:10"}, {"cabecera": "ESPAÑA", "hora": "23:00"}
               ]
@@ -711,7 +711,7 @@
                 {"cabecera": "COVAR.", "hora": "8:35"},
                 {"cabecera": "ESPAÑA", "hora": "9:27"},
                 {"cabecera": "COVAR.", "hora": "10:20"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>11:22</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "11:22 Des"},
                 {"cabecera": "COVAR.", "hora": "12:05"},
                 {"cabecera": "ESPAÑA", "hora": "13:05"},
                 {"cabecera": "COVAR.", "hora": "13:52"},
@@ -719,7 +719,7 @@
                 {"cabecera": "COVAR.", "hora": "15:30"},
                 {"cabecera": "ESPAÑA", "hora": "16:27"},
                 {"cabecera": "COVAR.", "hora": "17:14"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>18:18</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "18:18 Des"},
                 {"cabecera": "COVAR.", "hora": "19:02"},
                 {"cabecera": "ESPAÑA", "hora": "19:59"},
                 {"cabecera": "COVAR.", "hora": "20:44"},
@@ -734,11 +734,11 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:55"}, {"cabecera": "ESPAÑA", "hora": "8:50"},
                 {"cabecera": "COVAR.", "hora": "9:43"}, {"cabecera": "ESPAÑA", "hora": "10:35"},
-                {"cabecera": "COVAR.", "hora": "11:37"}, {"cabecera": "ESPAÑA", "hora": "**<u>12:51</u>**"},
+                {"cabecera": "COVAR.", "hora": "11:37"}, {"cabecera": "ESPAÑA", "hora": "12:51 Des"},
                 {"cabecera": "COVAR.", "hora": "13:59"}, {"cabecera": "ESPAÑA", "hora": "14:57"},
                 {"cabecera": "COVAR.", "hora": "15:44"}, {"cabecera": "ESPAÑA", "hora": "16:42"},
                 {"cabecera": "COVAR.", "hora": "17:29"}, {"cabecera": "ESPAÑA", "hora": "18:33"},
-                {"cabecera": "COVAR.", "hora": "19:18"}, {"cabecera": "ESPAÑA", "hora": "**<u>20:13</u>**"},
+                {"cabecera": "COVAR.", "hora": "19:18"}, {"cabecera": "ESPAÑA", "hora": "20:13 Des"},
                 {"cabecera": "COVAR.", "hora": "20:58"}, {"cabecera": "ESPAÑA", "hora": "21:48"}
               ]
             }
@@ -758,11 +758,11 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:10"}, {"cabecera": "ESPAÑA", "hora": "7:59"},
                 {"cabecera": "COVAR.", "hora": "8:49"}, {"cabecera": "ESPAÑA", "hora": "9:38"},
-                {"cabecera": "COVAR.", "hora": "10:28"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:35</u>**"},
+                {"cabecera": "COVAR.", "hora": "10:28"}, {"cabecera": "ESPAÑA", "hora": "11:35 Des"},
                 {"cabecera": "COVAR.", "hora": "12:24"}, {"cabecera": "ESPAÑA", "hora": "13:29"},
                 {"cabecera": "COVAR.", "hora": "14:19"}, {"cabecera": "ESPAÑA", "hora": "15:14"},
                 {"cabecera": "COVAR.", "hora": "16:05"}, {"cabecera": "ESPAÑA", "hora": "17:10"},
-                {"cabecera": "COVAR.", "hora": "17:59"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:08</u>**"},
+                {"cabecera": "COVAR.", "hora": "17:59"}, {"cabecera": "ESPAÑA", "hora": "19:08 Des"},
                 {"cabecera": "COVAR.", "hora": "19:57"}, {"cabecera": "ESPAÑA", "hora": "20:47"},
                 {"cabecera": "COVAR.", "hora": "21:35"}
               ]
@@ -774,11 +774,11 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:19"}, {"cabecera": "ESPAÑA", "hora": "8:08"},
                 {"cabecera": "COVAR.", "hora": "8:58"}, {"cabecera": "ESPAÑA", "hora": "9:49"},
-                {"cabecera": "COVAR.", "hora": "10:38"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:45</u>**"},
+                {"cabecera": "COVAR.", "hora": "10:38"}, {"cabecera": "ESPAÑA", "hora": "11:45 Des"},
                 {"cabecera": "COVAR.", "hora": "12:35"}, {"cabecera": "ESPAÑA", "hora": "13:38"},
                 {"cabecera": "COVAR.", "hora": "14:28"}, {"cabecera": "ESPAÑA", "hora": "15:24"},
                 {"cabecera": "COVAR.", "hora": "16:14"}, {"cabecera": "ESPAÑA", "hora": "17:21"},
-                {"cabecera": "COVAR.", "hora": "18:10"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:17</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:10"}, {"cabecera": "ESPAÑA", "hora": "19:17 Des"},
                 {"cabecera": "COVAR.", "hora": "20:06"}, {"cabecera": "ESPAÑA", "hora": "20:56"},
                 {"cabecera": "COVAR.", "hora": "21:45"}, {"cabecera": "ESPAÑA", "hora": "22:35"}
               ]
@@ -790,11 +790,11 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:28"}, {"cabecera": "ESPAÑA", "hora": "8:17"},
                 {"cabecera": "COVAR.", "hora": "9:07"}, {"cabecera": "ESPAÑA", "hora": "10:00"},
-                {"cabecera": "COVAR.", "hora": "10:48"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:56</u>**"},
+                {"cabecera": "COVAR.", "hora": "10:48"}, {"cabecera": "ESPAÑA", "hora": "11:56 Des"},
                 {"cabecera": "COVAR.", "hora": "12:46"}, {"cabecera": "ESPAÑA", "hora": "13:47"},
                 {"cabecera": "COVAR.", "hora": "14:37"}, {"cabecera": "ESPAÑA", "hora": "15:34"},
                 {"cabecera": "COVAR.", "hora": "16:23"}, {"cabecera": "ESPAÑA", "hora": "17:30"},
-                {"cabecera": "COVAR.", "hora": "18:21"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:26</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:21"}, {"cabecera": "ESPAÑA", "hora": "19:26 Des"},
                 {"cabecera": "COVAR.", "hora": "20:15"}, {"cabecera": "ESPAÑA", "hora": "21:05"},
                 {"cabecera": "COVAR.", "hora": "21:55"}
               ]
@@ -806,11 +806,11 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:37"}, {"cabecera": "ESPAÑA", "hora": "8:26"},
                 {"cabecera": "COVAR.", "hora": "9:16"}, {"cabecera": "ESPAÑA", "hora": "10:11"},
-                {"cabecera": "COVAR.", "hora": "10:58"}, {"cabecera": "ESPAÑA", "hora": "**<u>12:07</u>**"},
+                {"cabecera": "COVAR.", "hora": "10:58"}, {"cabecera": "ESPAÑA", "hora": "12:07 Des"},
                 {"cabecera": "COVAR.", "hora": "12:57"}, {"cabecera": "ESPAÑA", "hora": "13:56"},
                 {"cabecera": "COVAR.", "hora": "14:46"}, {"cabecera": "ESPAÑA", "hora": "15:44"},
                 {"cabecera": "COVAR.", "hora": "16:32"}, {"cabecera": "ESPAÑA", "hora": "17:40"},
-                {"cabecera": "COVAR.", "hora": "18:32"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:35</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:32"}, {"cabecera": "ESPAÑA", "hora": "19:35 Des"},
                 {"cabecera": "COVAR.", "hora": "20:24"}, {"cabecera": "ESPAÑA", "hora": "21:14"},
                 {"cabecera": "COVAR.", "hora": "22:05"}
               ]
@@ -822,10 +822,10 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:46"}, {"cabecera": "ESPAÑA", "hora": "8:35"},
                 {"cabecera": "COVAR.", "hora": "9:25"}, {"cabecera": "ESPAÑA", "hora": "10:22"},
-                {"cabecera": "COVAR.", "hora": "11:09"}, {"cabecera": "ESPAÑA", "hora": "**<u>12:18</u>**"},
+                {"cabecera": "COVAR.", "hora": "11:09"}, {"cabecera": "ESPAÑA", "hora": "12:18 Des"},
                 {"cabecera": "COVAR.", "hora": "13:08"}, {"cabecera": "ESPAÑA", "hora": "14:05"},
                 {"cabecera": "COVAR.", "hora": "14:56"}, {"cabecera": "ESPAÑA", "hora": "15:54"},
-                {"cabecera": "COVAR.", "hora": "16:42"}, {"cabecera": "ESPAÑA", "hora": "**<u>17:51</u>**"},
+                {"cabecera": "COVAR.", "hora": "16:42"}, {"cabecera": "ESPAÑA", "hora": "17:51 Des"},
                 {"cabecera": "COVAR.", "hora": "18:42"}, {"cabecera": "ESPAÑA", "hora": "19:44"},
                 {"cabecera": "COVAR.", "hora": "20:33"}, {"cabecera": "ESPAÑA", "hora": "21:23"}
               ]
@@ -840,13 +840,13 @@
                 {"cabecera": "COVAR.", "hora": "9:34"},
                 {"cabecera": "ESPAÑA", "hora": "10:33"},
                 {"cabecera": "COVAR.", "hora": "11:20"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>12:29</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "12:29 Des"},
                 {"cabecera": "COVAR.", "hora": "13:19"},
                 {"cabecera": "ESPAÑA", "hora": "14:14"},
                 {"cabecera": "COVAR.", "hora": "15:06"},
                 {"cabecera": "ESPAÑA", "hora": "16:04"},
                 {"cabecera": "COVAR.", "hora": "16:53"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>18:02</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "18:02 Des"},
                 {"cabecera": "COVAR.", "hora": "18:52"},
                 {"cabecera": "ESPAÑA", "hora": "19:53"},
                 {"cabecera": "COVAR.", "hora": "20:42"},
@@ -873,7 +873,7 @@
                 {"cabecera": "ESPAÑA", "hora": "16:15"},
                 {"cabecera": "COVAR.", "hora": "17:04"},
                 {"cabecera": "ESPAÑA", "hora": "18:13"},
-                {"cabecera": "COVAR.", "hora": "**<u>19:03</u>**"},
+                {"cabecera": "COVAR.", "hora": "19:03 Des"},
                 {"cabecera": "ESPAÑA", "hora": "20:02"},
                 {"cabecera": "COVAR.", "hora": "20:51"},
                 {"cabecera": "ESPAÑA", "hora": "21:41"},
@@ -891,7 +891,7 @@
                 {"cabecera": "COVAR.", "hora": "12:51"}, {"cabecera": "ESPAÑA", "hora": "13:41"},
                 {"cabecera": "COVAR.", "hora": "14:34"}, {"cabecera": "ESPAÑA", "hora": "15:26"},
                 {"cabecera": "COVAR.", "hora": "16:26"}, {"cabecera": "ESPAÑA", "hora": "17:15"},
-                {"cabecera": "COVAR.", "hora": "18:24"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:14</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:24"}, {"cabecera": "ESPAÑA", "hora": "19:14 Des"},
                 {"cabecera": "COVAR.", "hora": "20:11"}, {"cabecera": "ESPAÑA", "hora": "21:00"},
                 {"cabecera": "COVAR.", "hora": "21:50"}
               ]
@@ -907,7 +907,7 @@
                 {"cabecera": "COVAR.", "hora": "13:02"}, {"cabecera": "ESPAÑA", "hora": "13:52"},
                 {"cabecera": "COVAR.", "hora": "14:44"}, {"cabecera": "ESPAÑA", "hora": "15:36"},
                 {"cabecera": "COVAR.", "hora": "16:37"}, {"cabecera": "ESPAÑA", "hora": "17:26"},
-                {"cabecera": "COVAR.", "hora": "18:35"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:25</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:35"}, {"cabecera": "ESPAÑA", "hora": "19:25 Des"},
                 {"cabecera": "COVAR.", "hora": "20:20"}, {"cabecera": "ESPAÑA", "hora": "21:09"},
                 {"cabecera": "COVAR.", "hora": "22:00"}
               ]
@@ -919,11 +919,11 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:40"}, {"cabecera": "ESPAÑA", "hora": "8:31"},
                 {"cabecera": "COVAR.", "hora": "9:20"}, {"cabecera": "ESPAÑA", "hora": "10:10"},
-                {"cabecera": "COVAR.", "hora": "**<u>11:17</u>**"}, {"cabecera": "ESPAÑA", "hora": "12:04"},
+                {"cabecera": "COVAR.", "hora": "11:17 Des"}, {"cabecera": "ESPAÑA", "hora": "12:04"},
                 {"cabecera": "COVAR.", "hora": "13:11"}, {"cabecera": "ESPAÑA", "hora": "14:01"},
                 {"cabecera": "COVAR.", "hora": "14:54"}, {"cabecera": "ESPAÑA", "hora": "15:46"},
                 {"cabecera": "COVAR.", "hora": "16:48"}, {"cabecera": "ESPAÑA", "hora": "17:37"},
-                {"cabecera": "COVAR.", "hora": "18:46"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:36</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:46"}, {"cabecera": "ESPAÑA", "hora": "19:36 Des"},
                 {"cabecera": "COVAR.", "hora": "20:29"}, {"cabecera": "ESPAÑA", "hora": "21:17"}
               ]
             },
@@ -937,7 +937,7 @@
                 {"cabecera": "COVAR.", "hora": "8:40"},
                 {"cabecera": "ESPAÑA", "hora": "9:29"},
                 {"cabecera": "COVAR.", "hora": "10:19"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>11:26</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "11:26 Des"},
                 {"cabecera": "COVAR.", "hora": "12:14"},
                 {"cabecera": "ESPAÑA", "hora": "13:20"},
                 {"cabecera": "COVAR.", "hora": "14:10"},
@@ -945,7 +945,7 @@
                 {"cabecera": "COVAR.", "hora": "15:56"},
                 {"cabecera": "ESPAÑA", "hora": "16:59"},
                 {"cabecera": "COVAR.", "hora": "17:48"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>18:57</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "18:57 Des"},
                 {"cabecera": "COVAR.", "hora": "19:47"},
                 {"cabecera": "ESPAÑA", "hora": "20:38"},
                 {"cabecera": "COVAR.", "hora": "21:25"},
@@ -968,11 +968,11 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:10"}, {"cabecera": "ESPAÑA", "hora": "8:00"},
                 {"cabecera": "COVAR.", "hora": "8:48"}, {"cabecera": "ESPAÑA", "hora": "9:48"},
-                {"cabecera": "COVAR.", "hora": "10:34"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:41</u>**"},
+                {"cabecera": "COVAR.", "hora": "10:34"}, {"cabecera": "ESPAÑA", "hora": "11:41 Des"},
                 {"cabecera": "COVAR.", "hora": "12:29"}, {"cabecera": "ESPAÑA", "hora": "13:25"},
                 {"cabecera": "COVAR.", "hora": "14:16"}, {"cabecera": "ESPAÑA", "hora": "15:07"},
                 {"cabecera": "COVAR.", "hora": "15:58"}, {"cabecera": "ESPAÑA", "hora": "16:59"},
-                {"cabecera": "COVAR.", "hora": "17:49"}, {"cabecera": "ESPAÑA", "hora": "**<u>18:59</u>**"},
+                {"cabecera": "COVAR.", "hora": "17:49"}, {"cabecera": "ESPAÑA", "hora": "18:59 Des"},
                 {"cabecera": "COVAR.", "hora": "19:49"}, {"cabecera": "ESPAÑA", "hora": "20:43"}
               ]
             },
@@ -983,11 +983,11 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:19"}, {"cabecera": "ESPAÑA", "hora": "8:10"},
                 {"cabecera": "COVAR.", "hora": "8:58"}, {"cabecera": "ESPAÑA", "hora": "10:00"},
-                {"cabecera": "COVAR.", "hora": "10:46"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:53</u>**"},
+                {"cabecera": "COVAR.", "hora": "10:46"}, {"cabecera": "ESPAÑA", "hora": "11:53 Des"},
                 {"cabecera": "COVAR.", "hora": "12:41"}, {"cabecera": "ESPAÑA", "hora": "13:35"},
                 {"cabecera": "COVAR.", "hora": "14:26"}, {"cabecera": "ESPAÑA", "hora": "15:17"},
                 {"cabecera": "COVAR.", "hora": "16:08"}, {"cabecera": "ESPAÑA", "hora": "17:11"},
-                {"cabecera": "COVAR.", "hora": "18:01"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:11</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:01"}, {"cabecera": "ESPAÑA", "hora": "19:11 Des"},
                 {"cabecera": "COVAR.", "hora": "20:00"}, {"cabecera": "ESPAÑA", "hora": "20:53"},
                 {"cabecera": "COVAR.", "hora": "21:40"}, {"cabecera": "ESPAÑA", "hora": "22:35"}
               ]
@@ -999,11 +999,11 @@
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:28"}, {"cabecera": "ESPAÑA", "hora": "8:20"},
                 {"cabecera": "COVAR.", "hora": "9:08"}, {"cabecera": "ESPAÑA", "hora": "10:12"},
-                {"cabecera": "COVAR.", "hora": "10:58"}, {"cabecera": "ESPAÑA", "hora": "**<u>12:05</u>**"},
+                {"cabecera": "COVAR.", "hora": "10:58"}, {"cabecera": "ESPAÑA", "hora": "12:05 Des"},
                 {"cabecera": "COVAR.", "hora": "12:53"}, {"cabecera": "ESPAÑA", "hora": "13:45"},
                 {"cabecera": "COVAR.", "hora": "14:36"}, {"cabecera": "ESPAÑA", "hora": "15:28"},
                 {"cabecera": "COVAR.", "hora": "16:18"}, {"cabecera": "ESPAÑA", "hora": "17:23"},
-                {"cabecera": "COVAR.", "hora": "18:13"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:23</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:13"}, {"cabecera": "ESPAÑA", "hora": "19:23 Des"},
                 {"cabecera": "COVAR.", "hora": "20:11"}, {"cabecera": "ESPAÑA", "hora": "21:03"},
                 {"cabecera": "COVAR.", "hora": "21:52"}
               ]
@@ -1014,11 +1014,11 @@
               "retirada": "Se retira de COVARESA",
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:38"}, {"cabecera": "ESPAÑA", "hora": "8:30"},
-                {"cabecera": "COVAR.", "hora": "9:18"}, {"cabecera": "ESPAÑA", "hora": "**<u>10:24</u>**"},
+                {"cabecera": "COVAR.", "hora": "9:18"}, {"cabecera": "ESPAÑA", "hora": "10:24 Des"},
                 {"cabecera": "COVAR.", "hora": "11:10"}, {"cabecera": "ESPAÑA", "hora": "12:15"},
                 {"cabecera": "COVAR.", "hora": "13:03"}, {"cabecera": "ESPAÑA", "hora": "13:55"},
                 {"cabecera": "COVAR.", "hora": "14:46"}, {"cabecera": "ESPAÑA", "hora": "15:39"},
-                {"cabecera": "COVAR.", "hora": "16:28"}, {"cabecera": "ESPAÑA", "hora": "**<u>17:35</u>**"},
+                {"cabecera": "COVAR.", "hora": "16:28"}, {"cabecera": "ESPAÑA", "hora": "17:35 Des"},
                 {"cabecera": "COVAR.", "hora": "18:25"}, {"cabecera": "ESPAÑA", "hora": "19:33"},
                 {"cabecera": "COVAR.", "hora": "20:21"}, {"cabecera": "ESPAÑA", "hora": "21:13"},
                 {"cabecera": "COVAR.", "hora": "22:05"}
@@ -1032,7 +1032,7 @@
                 {"cabecera": "Angust. 5", "hora": "7:20"},
                 {"cabecera": "ESPAÑA", "hora": "8:41"},
                 {"cabecera": "COVAR.", "hora": "9:28"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>10:35</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "10:35 Des"},
                 {"cabecera": "COVAR.", "hora": "11:21"},
                 {"cabecera": "ESPAÑA", "hora": "12:25"},
                 {"cabecera": "COVAR.", "hora": "13:13"},
@@ -1040,7 +1040,7 @@
                 {"cabecera": "COVAR.", "hora": "14:56"},
                 {"cabecera": "ESPAÑA", "hora": "15:50"},
                 {"cabecera": "COVAR.", "hora": "16:39"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>17:47</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "17:47 Des"},
                 {"cabecera": "COVAR.", "hora": "18:37"},
                 {"cabecera": "ESPAÑA", "hora": "19:43"},
                 {"cabecera": "COVAR.", "hora": "20:31"},
@@ -1056,7 +1056,7 @@
                 {"cabecera": "COVAR.", "hora": "7:59"},
                 {"cabecera": "ESPAÑA", "hora": "8:52"},
                 {"cabecera": "COVAR.", "hora": "9:39"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>10:46</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "10:46 Des"},
                 {"cabecera": "COVAR.", "hora": "11:32"},
                 {"cabecera": "ESPAÑA", "hora": "12:35"},
                 {"cabecera": "COVAR.", "hora": "13:23"},
@@ -1064,7 +1064,7 @@
                 {"cabecera": "COVAR.", "hora": "15:06"},
                 {"cabecera": "ESPAÑA", "hora": "16:01"},
                 {"cabecera": "COVAR.", "hora": "16:50"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>17:59</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "17:59 Des"},
                 {"cabecera": "COVAR.", "hora": "18:49"},
                 {"cabecera": "ESPAÑA", "hora": "19:53"},
                 {"cabecera": "COVAR.", "hora": "20:41"},
@@ -1082,7 +1082,7 @@
                 {"cabecera": "COVAR.", "hora": "8:08"},
                 {"cabecera": "ESPAÑA", "hora": "9:03"},
                 {"cabecera": "COVAR.", "hora": "9:50"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>10:57</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "10:57 Des"},
                 {"cabecera": "COVAR.", "hora": "11:43"},
                 {"cabecera": "ESPAÑA", "hora": "12:45"},
                 {"cabecera": "COVAR.", "hora": "13:33"},
@@ -1090,7 +1090,7 @@
                 {"cabecera": "COVAR.", "hora": "15:16"},
                 {"cabecera": "ESPAÑA", "hora": "16:12"},
                 {"cabecera": "COVAR.", "hora": "17:01"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>18:11</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "18:11 Des"},
                 {"cabecera": "COVAR.", "hora": "19:01"},
                 {"cabecera": "ESPAÑA", "hora": "20:03"},
                 {"cabecera": "COVAR.", "hora": "20:51"},
@@ -1104,12 +1104,12 @@
               "retirada": "Se retira de COVARESA",
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:30"}, {"cabecera": "ESPAÑA", "hora": "8:18"},
-                {"cabecera": "COVAR.", "hora": "9:14"}, {"cabecera": "ESPAÑA", "hora": "**<u>10:01</u>**"},
+                {"cabecera": "COVAR.", "hora": "9:14"}, {"cabecera": "ESPAÑA", "hora": "10:01 Des"},
                 {"cabecera": "COVAR.", "hora": "11:08"}, {"cabecera": "ESPAÑA", "hora": "11:55"},
                 {"cabecera": "COVAR.", "hora": "12:55"}, {"cabecera": "ESPAÑA", "hora": "13:44"},
                 {"cabecera": "COVAR.", "hora": "14:36"}, {"cabecera": "ESPAÑA", "hora": "15:27"},
                 {"cabecera": "COVAR.", "hora": "16:23"}, {"cabecera": "ESPAÑA", "hora": "17:13"},
-                {"cabecera": "COVAR.", "hora": "18:23"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:13</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:23"}, {"cabecera": "ESPAÑA", "hora": "19:13 Des"},
                 {"cabecera": "COVAR.", "hora": "20:13"}, {"cabecera": "ESPAÑA", "hora": "21:02"},
                 {"cabecera": "COVAR.", "hora": "21:58"}
               ]
@@ -1120,12 +1120,12 @@
               "retirada": "Se retira de Bº ESPAÑA",
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:40"}, {"cabecera": "ESPAÑA", "hora": "8:28"},
-                {"cabecera": "COVAR.", "hora": "9:25"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:19</u>**"},
+                {"cabecera": "COVAR.", "hora": "9:25"}, {"cabecera": "ESPAÑA", "hora": "11:19 Des"},
                 {"cabecera": "COVAR.", "hora": "12:06"}, {"cabecera": "ESPAÑA", "hora": "13:05"},
                 {"cabecera": "COVAR.", "hora": "13:55"}, {"cabecera": "ESPAÑA", "hora": "14:47"},
                 {"cabecera": "COVAR.", "hora": "15:38"}, {"cabecera": "ESPAÑA", "hora": "16:35"},
                 {"cabecera": "COVAR.", "hora": "17:25"}, {"cabecera": "ESPAÑA", "hora": "18:35"},
-                {"cabecera": "COVAR.", "hora": "**<u>19:25</u>**"}, {"cabecera": "ESPAÑA", "hora": "20:23"},
+                {"cabecera": "COVAR.", "hora": "19:25 Des"}, {"cabecera": "ESPAÑA", "hora": "20:23"},
                 {"cabecera": "COVAR.", "hora": "21:15"}
               ]
             },
@@ -1137,7 +1137,7 @@
                 {"cabecera": "fte.Vallsur", "hora": "7:10"},
                 {"cabecera": "ESPAÑA", "hora": "7:50"},
                 {"cabecera": "COVAR.", "hora": "8:38"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>9:36</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "9:36 Des"},
                 {"cabecera": "COVAR.", "hora": "10:23"},
                 {"cabecera": "ESPAÑA", "hora": "11:30"},
                 {"cabecera": "COVAR.", "hora": "12:17"},
@@ -1148,7 +1148,7 @@
                 {"cabecera": "ESPAÑA", "hora": "16:47"},
                 {"cabecera": "COVAR.", "hora": "17:37"},
                 {"cabecera": "ESPAÑA", "hora": "18:47"},
-                {"cabecera": "COVAR.", "hora": "**<u>19:37</u>**"},
+                {"cabecera": "COVAR.", "hora": "19:37 Des"},
                 {"cabecera": "ESPAÑA", "hora": "20:33"},
                 {"cabecera": "COVAR.", "hora": "21:28"},
                 {"cabecera": "ESPAÑA", "hora": "22:15"}
@@ -1169,12 +1169,12 @@
               "retirada": "Se retira de COVARESA",
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:20"}, {"cabecera": "ESPAÑA", "hora": "8:06"},
-                {"cabecera": "COVAR.", "hora": "8:55"}, {"cabecera": "ESPAÑA", "hora": "**<u>10:10</u>**"},
-                {"cabecera": "COVAR.", "hora": "10:51"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:41</u>**"},
+                {"cabecera": "COVAR.", "hora": "8:55"}, {"cabecera": "ESPAÑA", "hora": "10:10 Des"},
+                {"cabecera": "COVAR.", "hora": "10:51"}, {"cabecera": "ESPAÑA", "hora": "11:41 Des"},
                 {"cabecera": "COVAR.", "hora": "12:46"}, {"cabecera": "ESPAÑA", "hora": "13:37"},
                 {"cabecera": "COVAR.", "hora": "14:25"}, {"cabecera": "ESPAÑA", "hora": "15:16"},
                 {"cabecera": "COVAR.", "hora": "16:04"}, {"cabecera": "ESPAÑA", "hora": "17:07"},
-                {"cabecera": "COVAR.", "hora": "17:53"}, {"cabecera": "ESPAÑA", "hora": "**<u>18:59</u>**"},
+                {"cabecera": "COVAR.", "hora": "17:53"}, {"cabecera": "ESPAÑA", "hora": "18:59 Des"},
                 {"cabecera": "COVAR.", "hora": "19:45"}, {"cabecera": "ESPAÑA", "hora": "20:38"},
                 {"cabecera": "COVAR.", "hora": "21:28"}, {"cabecera": "ESPAÑA", "hora": "22:15"}
               ]
@@ -1185,11 +1185,11 @@
               "retirada": "Se retira de COVARESA",
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:30"}, {"cabecera": "ESPAÑA", "hora": "8:17"},
-                {"cabecera": "COVAR.", "hora": "9:07"}, {"cabecera": "ESPAÑA", "hora": "**<u>9:58</u>**"},
-                {"cabecera": "COVAR.", "hora": "11:04"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:55</u>**"},
+                {"cabecera": "COVAR.", "hora": "9:07"}, {"cabecera": "ESPAÑA", "hora": "9:58 Des"},
+                {"cabecera": "COVAR.", "hora": "11:04"}, {"cabecera": "ESPAÑA", "hora": "11:55 Des"},
                 {"cabecera": "COVAR.", "hora": "12:57"}, {"cabecera": "ESPAÑA", "hora": "13:48"},
                 {"cabecera": "COVAR.", "hora": "14:36"}, {"cabecera": "ESPAÑA", "hora": "15:27"},
-                {"cabecera": "COVAR.", "hora": "16:15"}, {"cabecera": "ESPAÑA", "hora": "**<u>17:19</u>**"},
+                {"cabecera": "COVAR.", "hora": "16:15"}, {"cabecera": "ESPAÑA", "hora": "17:19 Des"},
                 {"cabecera": "COVAR.", "hora": "18:05"}, {"cabecera": "ESPAÑA", "hora": "19:10"},
                 {"cabecera": "COVAR.", "hora": "19:56"}, {"cabecera": "ESPAÑA", "hora": "20:49"},
                 {"cabecera": "COVAR.", "hora": "21:40"}, {"cabecera": "ESPAÑA", "hora": "22:35"}
@@ -1201,11 +1201,11 @@
               "retirada": "Se retira de COVARESA",
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:40"}, {"cabecera": "ESPAÑA", "hora": "8:28"},
-                {"cabecera": "COVAR.", "hora": "9:19"}, {"cabecera": "ESPAÑA", "hora": "**<u>10:10</u>**"},
-                {"cabecera": "COVAR.", "hora": "11:17"}, {"cabecera": "ESPAÑA", "hora": "**<u>12:08</u>**"},
+                {"cabecera": "COVAR.", "hora": "9:19"}, {"cabecera": "ESPAÑA", "hora": "10:10 Des"},
+                {"cabecera": "COVAR.", "hora": "11:17"}, {"cabecera": "ESPAÑA", "hora": "12:08 Des"},
                 {"cabecera": "COVAR.", "hora": "13:08"}, {"cabecera": "ESPAÑA", "hora": "13:59"},
                 {"cabecera": "COVAR.", "hora": "14:47"}, {"cabecera": "ESPAÑA", "hora": "15:39"},
-                {"cabecera": "COVAR.", "hora": "16:27"}, {"cabecera": "ESPAÑA", "hora": "**<u>17:31</u>**"},
+                {"cabecera": "COVAR.", "hora": "16:27"}, {"cabecera": "ESPAÑA", "hora": "17:31 Des"},
                 {"cabecera": "COVAR.", "hora": "18:17"}, {"cabecera": "ESPAÑA", "hora": "19:21"},
                 {"cabecera": "COVAR.", "hora": "20:07"}, {"cabecera": "ESPAÑA", "hora": "21:00"}
               ]
@@ -1218,15 +1218,15 @@
                 {"cabecera": "Angust. 5", "hora": "7:20"},
                 {"cabecera": "ESPAÑA", "hora": "8:39"},
                 {"cabecera": "COVAR.", "hora": "9:32"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>10:22</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "10:22 Des"},
                 {"cabecera": "COVAR.", "hora": "11:30"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>12:21</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "12:21 Des"},
                 {"cabecera": "COVAR.", "hora": "13:19"},
                 {"cabecera": "ESPAÑA", "hora": "14:10"},
                 {"cabecera": "COVAR.", "hora": "14:58"},
                 {"cabecera": "ESPAÑA", "hora": "15:51"},
                 {"cabecera": "COVAR.", "hora": "16:39"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>17:43</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "17:43 Des"},
                 {"cabecera": "COVAR.", "hora": "18:29"},
                 {"cabecera": "ESPAÑA", "hora": "19:32"},
                 {"cabecera": "COVAR.", "hora": "20:18"},
@@ -1243,15 +1243,15 @@
                 {"cabecera": "COVAR.", "hora": "8:00"},
                 {"cabecera": "ESPAÑA", "hora": "8:50"},
                 {"cabecera": "COVAR.", "hora": "9:45"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>10:35</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "10:35 Des"},
                 {"cabecera": "COVAR.", "hora": "11:43"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>12:34</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "12:34 Des"},
                 {"cabecera": "COVAR.", "hora": "13:30"},
                 {"cabecera": "ESPAÑA", "hora": "14:21"},
                 {"cabecera": "COVAR.", "hora": "15:09"},
                 {"cabecera": "ESPAÑA", "hora": "16:03"},
                 {"cabecera": "COVAR.", "hora": "16:51"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>17:56</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "17:56 Des"},
                 {"cabecera": "COVAR.", "hora": "18:42"},
                 {"cabecera": "ESPAÑA", "hora": "19:43"},
                 {"cabecera": "COVAR.", "hora": "20:29"},
@@ -1268,15 +1268,15 @@
                 {"cabecera": "COVAR.", "hora": "8:11"},
                 {"cabecera": "ESPAÑA", "hora": "9:01"},
                 {"cabecera": "COVAR.", "hora": "9:58"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>10:48</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "10:48 Des"},
                 {"cabecera": "COVAR.", "hora": "11:56"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>12:47</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "12:47 Des"},
                 {"cabecera": "COVAR.", "hora": "13:41"},
                 {"cabecera": "ESPAÑA", "hora": "14:32"},
                 {"cabecera": "COVAR.", "hora": "15:20"},
                 {"cabecera": "ESPAÑA", "hora": "16:16"},
                 {"cabecera": "COVAR.", "hora": "17:03"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>18:09</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "18:09 Des"},
                 {"cabecera": "COVAR.", "hora": "18:55"},
                 {"cabecera": "ESPAÑA", "hora": "19:54"},
                 {"cabecera": "COVAR.", "hora": "20:40"},
@@ -1294,15 +1294,15 @@
                 {"cabecera": "COVAR.", "hora": "8:22"},
                 {"cabecera": "ESPAÑA", "hora": "9:12"},
                 {"cabecera": "COVAR.", "hora": "10:11"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>11:01</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "11:01 Des"},
                 {"cabecera": "COVAR.", "hora": "12:09"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>13:00</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "13:00 Des"},
                 {"cabecera": "COVAR.", "hora": "13:52"},
                 {"cabecera": "ESPAÑA", "hora": "14:43"},
                 {"cabecera": "COVAR.", "hora": "15:31"},
                 {"cabecera": "ESPAÑA", "hora": "16:29"},
                 {"cabecera": "COVAR.", "hora": "17:15"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>18:21</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "18:21 Des"},
                 {"cabecera": "COVAR.", "hora": "19:07"},
                 {"cabecera": "ESPAÑA", "hora": "20:05"},
                 {"cabecera": "COVAR.", "hora": "20:51"},
@@ -1318,15 +1318,15 @@
                 {"cabecera": "fte.Vallsur", "hora": "7:10"},
                 {"cabecera": "ESPAÑA", "hora": "7:44"},
                 {"cabecera": "COVAR.", "hora": "8:33"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>9:23</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "9:23 Des"},
                 {"cabecera": "COVAR.", "hora": "10:24"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>11:14</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "11:14 Des"},
                 {"cabecera": "COVAR.", "hora": "12:22"},
                 {"cabecera": "ESPAÑA", "hora": "13:13"},
                 {"cabecera": "COVAR.", "hora": "14:03"},
                 {"cabecera": "ESPAÑA", "hora": "14:54"},
                 {"cabecera": "COVAR.", "hora": "15:42"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>16:42</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "16:42 Des"},
                 {"cabecera": "COVAR.", "hora": "17:28"},
                 {"cabecera": "ESPAÑA", "hora": "18:34"},
                 {"cabecera": "COVAR.", "hora": "19:20"},
@@ -1341,11 +1341,11 @@
               "retirada": "Se retira de Bº ESPAÑA",
               "salidas": [
                 {"cabecera": "COVAR.", "hora": "7:10"}, {"cabecera": "ESPAÑA", "hora": "7:55"},
-                {"cabecera": "COVAR.", "hora": "8:44"}, {"cabecera": "ESPAÑA", "hora": "**<u>9:34</u>**"},
-                {"cabecera": "COVAR.", "hora": "10:37"}, {"cabecera": "ESPAÑA", "hora": "**<u>11:27</u>**"},
+                {"cabecera": "COVAR.", "hora": "8:44"}, {"cabecera": "ESPAÑA", "hora": "9:34 Des"},
+                {"cabecera": "COVAR.", "hora": "10:37"}, {"cabecera": "ESPAÑA", "hora": "11:27 Des"},
                 {"cabecera": "COVAR.", "hora": "12:35"}, {"cabecera": "ESPAÑA", "hora": "13:26"},
                 {"cabecera": "COVAR.", "hora": "14:14"}, {"cabecera": "ESPAÑA", "hora": "15:05"},
-                {"cabecera": "COVAR.", "hora": "15:53"}, {"cabecera": "ESPAÑA", "hora": "**<u>16:55</u>**"},
+                {"cabecera": "COVAR.", "hora": "15:53"}, {"cabecera": "ESPAÑA", "hora": "16:55 Des"},
                 {"cabecera": "COVAR.", "hora": "17:41"}, {"cabecera": "ESPAÑA", "hora": "18:47"},
                 {"cabecera": "COVAR.", "hora": "19:33"}, {"cabecera": "ESPAÑA", "hora": "20:27"},
                 {"cabecera": "COVAR.", "hora": "21:15"}
@@ -1371,7 +1371,7 @@
                 {"cabecera": "COVAR.", "hora": "12:41"}, {"cabecera": "ESPAÑA", "hora": "13:29"},
                 {"cabecera": "COVAR.", "hora": "14:18"}, {"cabecera": "ESPAÑA", "hora": "15:06"},
                 {"cabecera": "COVAR.", "hora": "15:55"}, {"cabecera": "ESPAÑA", "hora": "16:42"},
-                {"cabecera": "COVAR.", "hora": "17:47"}, {"cabecera": "ESPAÑA", "hora": "**<u>18:37</u>**"},
+                {"cabecera": "COVAR.", "hora": "17:47"}, {"cabecera": "ESPAÑA", "hora": "18:37 Des"},
                 {"cabecera": "COVAR.", "hora": "19:37"}, {"cabecera": "ESPAÑA", "hora": "20:25"},
                 {"cabecera": "COVAR.", "hora": "21:15"}, {"cabecera": "ESPAÑA", "hora": "22:00"}
               ]
@@ -1387,7 +1387,7 @@
                 {"cabecera": "COVAR.", "hora": "12:53"}, {"cabecera": "ESPAÑA", "hora": "13:42"},
                 {"cabecera": "COVAR.", "hora": "14:31"}, {"cabecera": "ESPAÑA", "hora": "15:18"},
                 {"cabecera": "COVAR.", "hora": "16:07"}, {"cabecera": "ESPAÑA", "hora": "16:55"},
-                {"cabecera": "COVAR.", "hora": "18:00"}, {"cabecera": "ESPAÑA", "hora": "**<u>18:51</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:00"}, {"cabecera": "ESPAÑA", "hora": "18:51 Des"},
                 {"cabecera": "COVAR.", "hora": "19:49"}, {"cabecera": "ESPAÑA", "hora": "20:37"},
                 {"cabecera": "COVAR.", "hora": "21:30"}, {"cabecera": "ESPAÑA", "hora": "22:15"}
               ]
@@ -1403,7 +1403,7 @@
                 {"cabecera": "COVAR.", "hora": "13:05"}, {"cabecera": "ESPAÑA", "hora": "13:54"},
                 {"cabecera": "COVAR.", "hora": "14:43"}, {"cabecera": "ESPAÑA", "hora": "15:30"},
                 {"cabecera": "COVAR.", "hora": "16:21"}, {"cabecera": "ESPAÑA", "hora": "17:08"},
-                {"cabecera": "COVAR.", "hora": "18:13"}, {"cabecera": "ESPAÑA", "hora": "**<u>19:05</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:13"}, {"cabecera": "ESPAÑA", "hora": "19:05 Des"},
                 {"cabecera": "COVAR.", "hora": "20:01"}, {"cabecera": "ESPAÑA", "hora": "20:49"},
                 {"cabecera": "COVAR.", "hora": "21:45"}, {"cabecera": "ESPAÑA", "hora": "22:35"}
               ]
@@ -1426,7 +1426,7 @@
                 {"cabecera": "COVAR.", "hora": "16:35"},
                 {"cabecera": "ESPAÑA", "hora": "17:22"},
                 {"cabecera": "COVAR.", "hora": "18:28"},
-                {"cabecera": "ESPAÑA", "hora": "**<u>19:19</u>**"},
+                {"cabecera": "ESPAÑA", "hora": "19:19 Des"},
                 {"cabecera": "COVAR.", "hora": "20:13"},
                 {"cabecera": "ESPAÑA", "hora": "21:01"}
               ]
@@ -1449,7 +1449,7 @@
                 {"cabecera": "ESPAÑA", "hora": "15:54"},
                 {"cabecera": "COVAR.", "hora": "16:50"},
                 {"cabecera": "ESPAÑA", "hora": "17:37"},
-                {"cabecera": "COVAR.", "hora": "**<u>18:43</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:43 Des"},
                 {"cabecera": "ESPAÑA", "hora": "19:33"},
                 {"cabecera": "COVAR.", "hora": "20:25"},
                 {"cabecera": "ESPAÑA", "hora": "21:13"},
@@ -1474,7 +1474,7 @@
                 {"cabecera": "ESPAÑA", "hora": "16:06"},
                 {"cabecera": "COVAR.", "hora": "17:05"},
                 {"cabecera": "ESPAÑA", "hora": "17:52"},
-                {"cabecera": "COVAR.", "hora": "**<u>18:58</u>**"},
+                {"cabecera": "COVAR.", "hora": "18:58 Des"},
                 {"cabecera": "ESPAÑA", "hora": "19:47"},
                 {"cabecera": "COVAR.", "hora": "20:37"},
                 {"cabecera": "ESPAÑA", "hora": "21:25"},
@@ -1500,7 +1500,7 @@
                 {"cabecera": "ESPAÑA", "hora": "16:18"},
                 {"cabecera": "COVAR.", "hora": "17:20"},
                 {"cabecera": "ESPAÑA", "hora": "18:07"},
-                {"cabecera": "COVAR.", "hora": "**<u>19:13</u>**"},
+                {"cabecera": "COVAR.", "hora": "19:13 Des"},
                 {"cabecera": "ESPAÑA", "hora": "20:01"},
                 {"cabecera": "COVAR.", "hora": "20:49"},
                 {"cabecera": "ESPAÑA", "hora": "21:37"},
@@ -1524,7 +1524,7 @@
                 {"cabecera": "ESPAÑA", "hora": "14:54"},
                 {"cabecera": "COVAR.", "hora": "15:43"},
                 {"cabecera": "ESPAÑA", "hora": "16:30"},
-                {"cabecera": "COVAR.", "hora": "**<u>17:34</u>**"},
+                {"cabecera": "COVAR.", "hora": "17:34 Des"},
                 {"cabecera": "ESPAÑA", "hora": "18:22"},
                 {"cabecera": "COVAR.", "hora": "19:25"},
                 {"cabecera": "ESPAÑA", "hora": "20:13"},
